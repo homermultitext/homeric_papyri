@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" "tei-epidoc.dtd" [
+<!ENTITY % TEI.prose 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE' >
+<!ENTITY % TEI.linking 'INCLUDE' >
+<!ENTITY % TEI.certainty 'INCLUDE' >
+<!ENTITY % TEI.figures 'INCLUDE' >
+<!ENTITY % TEI.names.dates 'INCLUDE' >
+<!ENTITY % TEI.transcr 'INCLUDE' >
+<!ENTITY % TEI.textcrit 'INCLUDE' >
+<!ENTITY % TEI.XML 'INCLUDE'>
+<!ENTITY % ISOlat1 SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-lat1.ent'>
+%ISOlat1;
+<!ENTITY % ISOlat2 SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-lat2.ent'>
+%ISOlat2;
+<!ENTITY % ISOnum SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-num.ent'>
+%ISOnum;
+<!ENTITY % ISOpub SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-pub.ent'>
+%ISOpub;
+]>
+<TEI.2>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>P. Rylands 539</title>
+            <editor><name id="al">Alexander Loney</name> and <name id="jm">Joseph Miller</name></editor>
+         </titleStmt>
+         <editionStmt>
+            <edition>A new edition, with semantic markup, punctuation, accentuation, emendation, and notes.</edition>
+            <respStmt>
+               <name>Alexander Loney and Joseph Miller, eds.</name>
+               <resp>after the edition of</resp>
+               <name id="swest">West, S.  1967. <title>The Ptolemaic Papyri of Homer.</title> 29-32.   </name>        
+            </respStmt>
+ 
+         </editionStmt>
+            <extent>under 1Mb</extent>
+            <publicationStmt>
+                <publisher>
+                    The Center for Hellenic Studies of Harvard University
+                </publisher>
+                <authority>
+                    <name>Casey Dué and Mary Ebbott, edd.</name>
+                </authority>
+            </publicationStmt>
+            <sourceDesc>
+                <p>File created electronically.</p>
+            </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language id="eng">English</language>
+            <language id="lat">Latin</language>
+            <language id="grc">Greek</language>
+            <language id="xgrc">Transliterated Greek</language>
+            <language id="deu">German</language>
+            <language id="fra">French</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>May 18, 2007</date>
+            <respStmt>
+               <name>Alexander Loney and Joseph Miller</name>
+               <resp>markup</resp>
+            </respStmt>
+            <item>Initial XML markup.</item>
+         </change>
+         <change>
+            <date>June 4, 2007</date>
+            <respStmt>
+               <name>Alexander Loney</name>
+               <resp>markup</resp>
+            </respStmt>
+            <item>modifying system for editorial sign on l. 116</item>
+         </change>
+         <change>
+            <date>June 22, 2007</date>
+            <respStmt>
+               <name>Alexander Loney</name>
+               <resp>markup</resp>
+            </respStmt>
+            <item>general proof reading and fixing of conventions</item>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+         <text lang="grc">
+               <body>
+                 
+               <div type="description" n="date" lang="eng">
+                  <head>Date</head>
+                  <p>Later half of the second century B.C. (<bibl>West 1967: 29</bibl>; <bibl>Roberts 1938: 181</bibl>)</p>
+               </div>
+               <div type="description" n="provenance" lang="eng">
+                  <head>Provenance</head>
+                  <p>Unknown</p>
+               </div>
+               <div type="description" n="bibliography" lang="eng">
+                  <head>Bibliography</head>
+                  <list >
+                  <item><bibl>West, S. 1967. <title>The Ptolemaic Papyri of Homer, Papyrologica Coloniensia III</title> (Köln; 
+                     Opladen).</bibl></item>
+                     <item><bibl>Roberts, C. H. 1938. <title>Catalogue of the Greek and Latin Papyri in the John Rylands Library, Manchester</title> Manchester: Manchester University Press.</bibl>
+                     </item>                 
+                  </list>
+                  </div>
+                  <div type="description" n="catalogues" lang="eng">
+                     <head>Catalogue entries</head>
+                     <list>
+                        <item>Mertens-Pack 575</item>
+                        <item>LDAB 2349 </item>
+                        <item>Allen-Sutton-West p354</item>
+                        <item></item>
+                        </list>
+               </div>
+                  <div type="edition" n="text">
+                     
+            
+                                        
+                  <head lang="eng">P. Rylands 539</head>
+                     <div n="1" type="book">
+                        <div n="a and b" type="frag">
+                            <div n="1" type="col">
+                                 <l n="91"><gap reason="lost"/></l>
+                                 <l n="92"><supplied reason="lost">kai\ to/te dh\ qa/rshse kai\ hu)/da ma/ntis a)m</supplied><unclear>u/</unclear>mwn:</l>
+                                 <l n="93"><supplied reason="lost">"ou)/t' a)/r' o(/ g' eu)xwlh=s e)pime/mfetai ou)/q' e(kat</supplied><unclear>o/</unclear>mbhs,</l>
+                                 <l n="94"><supplied reason="lost">a)ll' e(/nek' a)rhth=ros o(\n h)ti/mhs' *)agame/</supplied>mnwn</l>
+                                 <l n="95"><supplied reason="lost">ou)d' a)pe/luse qu/gatra kai\ ou)k a)pede/c</supplied>at' a)/poina,</l>
+                                 <l n="96"><supplied reason="lost">tou)/nek' a)/r' a)/lge' e)/dwken e(khbo/los h)d'</supplied> e)/ti dw/sei:</l>
+                                 <l n="97"><supplied reason="lost">ou)d' o(/ ge pri/n *danaioi=sin a)eike/a loigo\n a)pw/s</supplied>ei,</l>
+                                 <l n="98"><supplied reason="lost">pri/n g' a)po\ patri\ fi/lw| do/menai e(likw/</supplied><unclear>p</unclear>ida kou/rhn</l>
+                                 <l n="99"><supplied reason="lost">a)pria/thn a)na/poinon a)/gein q' i(erh\n e(ka</supplied>to/mbhn</l>
+                                <l n="100"><gap reason="lost"/>e)qe/lh<sic corr ="|"/>s<unclear>in.</unclear>" <note resp="al" lang="eng">Since <foreign lang="grc">e)qe/lh|sin</foreign> is not  an attested reading for the end of this line, it remains uncertain how to supplement the rest of the line. See <bibl>West 1967: 31</bibl>.</note> </l>
+                                 <l n="101"><supplied reason="lost">h)/toi o(/ g' w(\s ei)pw\n kat' a)/r' e(/zeto: toi=si d'</supplied><unclear> a)</unclear>ne/sth</l>
+                                 <l n="102"><supplied reason="lost">h(/rws *)atrei/+dhs eu)ru\ krei/wn *)agame/</supplied><unclear>m</unclear>nwn</l>
+                                 <l n="103"><unclear>a)</unclear>x<unclear>n</unclear><supplied reason="lost">u/menos: me/n</supplied><unclear>eo</unclear>s<supplied reason="lost"> de\ me/ga fre/nes a)m</supplied>fi\ m<unclear>e/la</unclear><supplied reason="lost">inai</supplied></l>
+                                 <l n="104">pi/mplanto, o)/sse de\ oi( <unclear>p</unclear><supplied reason="lost">uri\ lampeto/wnti</supplied><unclear> e)</unclear>i/+kth<supplied reason="lost">n:</supplied></l>
+                                 <l n="105">*ka/lxanta prw/tis<supplied reason="lost">ta ka/k' o)sso/menos pr</supplied>ose/eipe<supplied reason="lost">: </supplied></l>
+                           <l n="106">"ma/nti k<supplied reason="lost">a</supplied>kw=n, ou)/ <unclear>p</unclear>w/ pote/ moi to\ krh/gu<unclear>on</unclear> ei)=pas: </l>
+                           <l n="107"><note resp="al" lang="eng">There is some trace of a marginal mark to the left of this line, though its form is unclear. </note>a<sic corr="i"/>)ei/ <note resp="al" lang="eng">The form present in this manuscript must represent a long "<foreign lang="grc">a</foreign>" since it is in initial position in the line, however the only three securely attested instances of "<foreign lang="grc">a)ei/</foreign>" in Homer show a short "<foreign lang="grc">a</foreign>". Therefore, this form is very likely an Atticism because in Attic the "<foreign lang="grc">a</foreign>" in this word can be either long or short.</note> <unclear>toi f</unclear><supplied reason="lost">i/l</supplied><unclear>on</unclear> e)sti kak<supplied reason="lost">a fresi\ manteu/es</supplied>qai, </l>
+                           <l n="108"><supplied reason="lost">e)sqlo\n d' ou)/t'</supplied><note resp="al" lang="eng">This is S. West's conjecture, but it is not completely certain. </note> a)/r pw <unclear>e</unclear><supplied reason="lost">i)=pas e)/pos ou)/t' e)</supplied>te/lessas: </l>
+                           <l n="109">kai\ <unclear>n</unclear><supplied reason="lost">u=n e)n *da</supplied><unclear>n</unclear>aoi=si q<supplied reason="lost">eoprope/wn a)gore</supplied>u/eis </l>
+                           <l n="110">eid<gap reason="lost" unit="character" extent="8"/><gap reason="illegible" unit="character" extent="1"/><unclear>ed</unclear>wk<unclear>e</unclear><gap reason="lost"/></l>
+
+
+                           </div>
+                           </div>
+                     
+                        
+           <div n="c and d" type="frag">
+            <div n="2" type="col">
+                <l n="111"><unclear>o</unclear>u(/<unclear>n</unclear><supplied reason="lost">ek' e)gw\ kou/rhs *xrushi/+dos</supplied> a)gla/' a)/poina </l>
+               <l n="112">ou)k <unclear>e)/</unclear><supplied reason="lost">qelon de/casqai, e)pei\ polu\ b</supplied>ou/lomai au)<unclear>t</unclear><supplied reason="lost">h\n </supplied></l>
+               <l n="113">oi)/koi <supplied reason="lost">e)/xein: kai\ ga/r r(a *klutaimh/s</supplied>tras <note resp="al" lang="eng">Note that this ending of -<foreign lang="grc">tras</foreign> replaces the ending in most manuscripts of -<foreign lang="grc">trhs</foreign>, likely an Atticism. The supplied reading here for the beginning of the word as <foreign lang="grc">*klutaimh/s</foreign>- was suggested by S. West becasue a few mss. have this form of the name lacking the internal nu with this ending we read here.</note> probe/b<unclear>ou</unclear><supplied reason="lost">la </supplied></l>
+               <l n="114">kourid<unclear>i/</unclear>hs <supplied reason="lost">a)lo/xou, e)pei\ ou)/ e(qe/n e)s</supplied>ti xerei/wn, </l>
+               <l n="115">ou) de/mas o<unclear>u)</unclear><supplied reason="lost">de\ fuh/n, ou)/t' a)\r fre/nas ou)/t</supplied>e/ ti e)/rg<supplied reason="lost">a. </supplied></l>
+               <l n="116"><note resp="al" lang="eng">There is a sign in the left margin next to this line, which appears like a paragraphos with a preceding diple and a following reverse diple.</note> <add place="left"  n="editorial sign">#8#18</add>a)lla\ k<supplied reason="lost">ai\ w(=s e)qe/lw do/menai pa/lin ei) to/ g' a)/meinon: </supplied></l>
+               <l n="117">bou/lom' e)<supplied reason="lost">gw\ lao\n sw=n e)/mmenai h)\ a)pole/sqai: </supplied></l>
+               <l n="118">au)ta\r <supplied reason="lost">e)moi\ ge/ras au)ti/x' e(toima/sat' o)/fra mh\ oi)=os </supplied></l>
+               <l n="119"><gap reason="lost"/></l>
+               
+            </div>
+            </div>
+                        <div n="e and f" type="frag">
+                           <l n="243"><gap reason="lost"/></l>
+                           <l n="244"><supplied reason="lost">x</supplied><unclear>w</unclear>o/men<supplied reason="lost">os o(/ t' a)/riston *)axaiw=n ou)de\n e)/tisas."</supplied></l>
+                           <l n="245"><supplied reason="lost"> w(\s</supplied> fa/to *p<supplied reason="lost">hlei/+dhs, poti\ de\ skh=ptron ba/le yai/h|</supplied></l>
+                           <l n="246"><supplied reason="lost">xr</supplied>usei/ois h)/<supplied reason="lost">loisi peparme/non, e(/zeto d' au)to/s:</supplied></l>
+                           <l n="247"><supplied reason="lost">*)at</supplied>rei/+dhs d' e(t<supplied reason="lost">e/rwqen e)mh/nie: toi=si de\ *ne/stwr</supplied></l>
+                           <l n="248"><supplied reason="lost">h(d</supplied><unclear>u</unclear>eph\s a)no/r<supplied reason="lost">ouse, ligu\s *puli/wn a)gorhth/s,</supplied></l>
+                           <l n="249"><supplied reason="lost">tou=</supplied> kai\ a)po\ gl<supplied reason="lost">w/sshs me/litos gluki/wn r(e/en au)dh/:</supplied></l>
+                           <l n="250"><supplied reason="lost">tw=</supplied>| d' h)<supplied reason="lost">dh du/o me\n geneai\ mero/pwn a)nqrw/pwn</supplied></l>
+                           <l n="251"><supplied reason="lost">e)f</supplied><unclear>q</unclear><supplied reason="lost">i/aq', oi(/ oi( pro/sqen a(/ma tra/fen h)d' e)ge/nonto</supplied></l>
+                           <l n="252"><supplied reason="lost">e)n *pu/lw| h)gaqe/h|, meta\ de\</supplied> <unclear>trit</unclear><supplied reason="lost">a/toisin a)/nassen:</supplied></l>
+                           <l n="253"><supplied reason="lost">o(/ sfin e)u+frone/wn</supplied> a)gorh/sato ka<unclear>i\</unclear><supplied reason="lost"> mete/eipen:</supplied></l>
+                           <l n="254"><supplied reason="lost">"w)= po/poi, h)= me/ga pe/</supplied>nqos *)axai/+<unclear>da g</unclear><supplied reason="lost">ai=an i(ka/nei:</supplied></l>
+                           <l n="255"><supplied reason="lost">h)= ken ghqh/sai *pri/</supplied><unclear>a</unclear>mos *pria/moio/ <supplied reason="lost">te pai=des</supplied></l>
+                           <l n="256"><supplied reason="lost">a)/lloi te *trw=es m</supplied>e/ga ken kexa<supplied reason="lost">roi/ato qumw=|,</supplied></l>
+                           <l n="257"><supplied reason="lost">ei) sfw=i+n ta/de pa/n</supplied>ta puqoi/at<supplied reason="lost">o marname/noii+n,</supplied></l>
+                           <l n="258"><supplied reason="lost">oi(\ peri\ me\n *danaw=</supplied>n boulh=|, per<unclear>i\</unclear><supplied reason="lost"> d' e)/ste ma/xesqai.</supplied></l>
+                           <l n="259"><supplied reason="lost">a)lla\ pi/qesq': a)/m</supplied>fw| <supplied reason="lost">d</supplied>e\ newte/<supplied reason="lost">rw e)sto\n e)mei=o:</supplied></l>
+                           <l n="260"><supplied reason="lost">h)/dh ga/r pot' e)gw\</supplied><unclear> k</unclear>ai\ a)rei/osin <supplied reason="lost">h)e/ per u(mi=n</supplied></l>
+                           <l n="261"><supplied reason="lost">a)ndra/sin w(mi/lhsa,</supplied> kai\ ou)/ pw/ m' o<supplied reason="lost">i(/ g' aqe/rizon.</supplied></l>
+                           </div>
+                        
+                     </div>
+                     </div>
+      </body>
+   </text>
+</TEI.2>

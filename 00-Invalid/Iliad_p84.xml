@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" "tei-epidoc.dtd" [
+<!ENTITY % TEI.prose 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE' >
+<!ENTITY % TEI.linking 'INCLUDE' >
+<!ENTITY % TEI.certainty 'INCLUDE' >
+<!ENTITY % TEI.figures 'INCLUDE' >
+<!ENTITY % TEI.names.dates 'INCLUDE' >
+<!ENTITY % TEI.transcr 'INCLUDE' >
+<!ENTITY % TEI.textcrit 'INCLUDE' >
+<!ENTITY % TEI.XML 'INCLUDE'>
+<!ENTITY % ISOlat1 SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-lat1.ent'>
+%ISOlat1;
+<!ENTITY % ISOlat2 SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-lat2.ent'>
+%ISOlat2;
+<!ENTITY % ISOnum SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-num.ent'>
+%ISOnum;
+<!ENTITY % ISOpub SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-pub.ent'>
+%ISOpub;
+]>
+<TEI.2>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Iliad Allen-Sutton-West P84</title>
+                <editor id="bh">Bart Huelsenbeck</editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>A new edition, with semantic markup, punctuation, accentuation, emendation, and notes.</edition>
+                <respStmt>
+                    <name>Bart Huelsenbeck, ed.</name>
+                    <resp>after the edition of</resp>
+                    <name id="Hunt">Arthur S. Hunt<title>Catalogue of the Greek Papyri in the John Rylands Library</title> pp. 88-90</name>         
+                </respStmt>
+            </editionStmt>
+
+            <extent>under 1Mb</extent>
+            <publicationStmt>
+                <publisher>
+                    The Center for Hellenic Studies of Harvard University
+                </publisher>
+                <authority>
+                    <name>Casey Dué and Mary Ebbott, edd.</name>
+                </authority>
+            </publicationStmt>
+            <sourceDesc>
+                <p>File created electronically.</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language id="eng">English</language>
+                <language id="lat">Latin</language>
+                <language id="grc">Greek</language>
+                <language id="xgrc">Transliterated Greek</language>
+                <language id="deu">German</language>
+                <language id="fra">French</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change>
+                <date>14 Nov 2007</date>
+                <respStmt>
+                    <name>Bart Huelsenbeck</name>
+                    <resp>markup</resp>
+                </respStmt>
+                <item>Initial XML markup.</item>
+            </change>
+            <change>
+                <date>22 Nov 2007</date>
+                <respStmt>
+                    <name>Bart Huelsenbeck</name>
+                    <resp>markup</resp>
+                </respStmt>
+                <item>change made to place description of editorial signs</item>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text lang="grc">
+        <body>
+            <div type="description" n="date" lang="eng">
+                <head>Date</head>
+                <p>First century B.C. (<bibl>Hunt, 81, 88</bibl>)</p>
+            </div>
+            <div type="description" n="provenance" lang="eng">
+                <head>Provenance</head>
+                <p>Egypt (<bibl>Hunt, 81, 88</bibl>)</p>
+            </div>
+
+            <div type="description" n="bibliography" lang="eng">
+                <head>Bibliography</head>
+                <list >
+                    <item><bibl>van Thiel, H. 1996. <title>Homeri Ilias</title> Hildesheim: Olms.</bibl></item>
+                    <item><bibl>Hunt, Arthur S.<title>Catalogue of the Greek Papyri in the John Rylands Library</title> vol. I pp. 88-90</bibl></item>
+                </list>
+            </div>
+            <div type="description" n="catalogues" lang="eng">
+                <head>Catalogue entries</head>
+                <list>
+                    <item>Mertens-Pack 1016 </item>
+                    <item>Allen-Sutton-West  P 84</item>
+                    <item>P. Ryl. Gr. 1.51 </item>
+                </list>
+            </div>
+
+
+            <div type="edition" n="text">
+                <head lang="eng">Iliad P84</head>
+                <div n="24" type="book">                               
+                  <div n="1" type="column">
+                        <gap reason="lost" extent="?"/>
+                      <l n="336"><supplied reason="lost">ba/sk' i)/qi kai\ *pri/amon koi/l</supplied><unclear>a</unclear><supplied reason="lost">s e)pi\ nh=as *)axaiw=n</supplied> </l>
+                      <l n="337"><supplied reason="lost">w(\s a)/gag', w(s mh/t' a)/r tis</supplied> i)/dh| mh/t' <unclear>a)/r</unclear> <supplied reason="lost">t</supplied><unclear>e</unclear> <supplied reason="lost">noh/sh|</supplied></l>
+                      <l n="338"><supplied reason="lost">tw=n a)/llwn *danaw=n,</supplied> pri\n *phlei/+wn<supplied reason="lost">ad' i(ke/sqai."</supplied> </l>
+                      <l n="339"><supplied reason="lost">w(\s e)/fat', ou)d' a)pi/q</supplied>hse dia/ktoros *)arge<supplied reason="lost">if</supplied>o/n<supplied reason="lost">ths.</supplied> </l>
+                      <l n="340"><supplied reason="lost">au)ti/k' e)/peiq' u(po\ p</supplied>ossi\n e)dh/sato kal<supplied reason="lost">a\</supplied> pe/dila, </l>
+                      <l n="341"><supplied reason="lost">a)mbro/sia xru/seia, t</supplied><unclear>a/ m</unclear>in f<supplied reason="lost">e/ro</supplied>n h)me\n <supplied reason="lost">e)f'</supplied> <unclear>u(</unclear><supplied reason="lost">gr</supplied>h\n </l>
+                      <l n="342"><supplied reason="lost">h)d' e)p' a)pei/rona gai=an a(/ma p</supplied>noih=|s <supplied reason="lost">a)ne/moio:</supplied> </l>
+                      <l n="343"><supplied reason="lost">ei(/leto de\ r(a/bdon, th=| t' a)ndrw=n o)/mma</supplied>ta qe/lgei </l>             
+                      <gap reason="lost" extent="?"/>
+                  </div>
+
+                    <div n="2" type="column">
+                        <gap reason="lost" extent="?"/>
+                        <l n="366"><supplied reason="lost">tw=n</supplied> <unclear>e</unclear><supplied reason="lost">i)/ ti/s se i)/doito qoh\n dia\ nu/kta me/lainan</supplied> </l>
+                        <l n="367"><add place="left" n="editorial sign">#15</add>tossa/d' <supplied reason="lost">o)nei/at' a)/gonta, ti/s a)\n dh/ toi</supplied> no/<supplied reason="lost">o</supplied>s e<supplied reason="lost">i)/h;</supplied> </l>
+                        <l n="368">ou)/t' au)to\<supplied reason="lost">s ne/os e)ssi/, ge/rwn de/ t</supplied>oi ou(=t<supplied reason="lost">o</supplied>s o)phdei=, </l>
+                        <l n="369"><supplied reason="lost">a)/nd</supplied><unclear>r' a)pa</unclear><supplied reason="lost">mu/nasqai, o(/te tis pro/te</supplied>ros xaleph/nh|. </l>
+                        <l n="370"><supplied reason="lost">a)ll' e)gw\ ou)de/n se r(e/cw kaka/, kai\ de/ k</supplied>en a)/llon </l>
+                        <l n="371"><supplied reason="lost">seu= a)palech/saimi: fi/lw| de/ se patri\ e)i/s</supplied>kw." </l>
+                        <l n="372"><supplied reason="lost">to\n d' h)mei/bet' e)/peita ge/rwn *pri/amos qeoei</supplied>dh/s: </l>
+                        <l n="373"><supplied reason="lost">"ou(/tw ph| ta/de g' e)sti\, fi/lon te/kos, w(s a)gor</supplied>eu/eis. </l>
+                        <l n="374"><supplied reason="lost">a)ll' e)/ti tis kai\ e)mei=o qew=n u(pere/sxeqe xe</supplied>i=<supplied reason="lost">ra,</supplied> </l>
+                        <gap reason="lost" unit="line" extent="2"/>
+                    </div>
+
+                    <div n="3" type="column">
+                        <gap reason="lost" extent="?"/>
+                        <l n="377">pe/pnusai/ te no/w|, m<supplied reason="lost">aka/rwn d' e)/cessi tokh/wn."</supplied> </l>
+                        <l n="378">to\n d' au)=te prose/eipe d<supplied reason="lost">ia/ktoros *)argeifo/nths:</supplied></l>
+                        <l n="379">"nai\ dh\ tau=ta/ ge pa/nta, <supplied reason="lost">ge/ron, kata\ moi=ran e)/eipes.</supplied> </l>
+                        <l n="380"><supplied reason="lost">a)ll'</supplied> a)/ge moi to/de ei)pe\ ka<supplied reason="lost">i\ a)treke/ws kata/lecon,</supplied> </l>
+                        <l n="381">h)e/ ph<supplied reason="lost">i</supplied> e)kpe/mpeis keim<supplied reason="lost">h/lia polla\ kai\ e)sqla\</supplied> </l>
+                        <l n="382">a)/ndras e)s a)llodapou\s, i(/n<supplied reason="lost">a per ta/de toi so/a mi/mnh|,</supplied> </l>
+                        <l n="383"><add place="left" n="editorial sign">#15</add>h)= h)/dh pa/ntes katalei/p<supplied reason="lost">ete *)/ilion i(rh\n</supplied> </l>
+                        <l n="384">deidio/tes: toi=os ga\r a)nh\<supplied reason="lost">r w)/ristos o)/lwle</supplied> </l>
+                        <l n="385"><supplied reason="lost">s</supplied>o\s pa/is: ou) me\n <supplied reason="lost">g</supplied>a/r ti ma/<supplied reason="lost">xhs e)pideu/et' *)axaiw=n."</supplied> </l>
+                        <l n="386">to\n d' h)mei/bet' e)/peita g<supplied reason="lost">e/rwn *pri/amos qeoeidh/s:</supplied> </l>
+                        <l n="387"><supplied reason="lost">"ti/s</supplied> de\ su/ e)ssi, fe/riste, t<supplied reason="lost">e/wn d' e)/cessi tokh/wn; </supplied></l>
+                        <l n="388"><unclear>w(/</unclear>s moi kala\ to\n oi)=t<supplied reason="lost">on a)po/tmou paido\s e)/nispes."</supplied> </l>
+                        <l n="389">to\n <supplied reason="lost">d'</supplied> au)=te prose/eip<supplied reason="lost">e dia/ktoros *)argeifo/nths:</supplied> </l>
+                        <l n="390">"peira=| e)m<supplied reason="lost">ei=o, gera</supplied><unclear>ie\, ka</unclear><supplied reason="lost">i\</supplied> <unclear>e</unclear><supplied reason="lost">i)/reai *(/ektora di=on.</supplied> </l>
+                        <l n="391"><add place="left">#459</add><note lang="eng">A dot in front of this line may be meaningless. (<bibl>Hunt, 90</bibl>)</note>to\n me\n <supplied reason="lost">e)g</supplied>w\ m<supplied reason="lost">a/</supplied>la p<unclear>o</unclear><supplied reason="lost">lla\ ma/xh| e)ni\ kudianei/rh| </supplied></l>
+                        <l n="392">o)fqalmoi=sin <supplied reason="lost">o)/pwpa, kai\ eu)=t' e)pi\ nhusi\n e)la/ssas</supplied> </l>
+                        <l n="393">*)argei/ous kte<unclear>i/n</unclear>eske, dai/+<supplied reason="lost">zwn o)ce/i+ xalkw=|:</supplied> </l>
+                        <l n="394"><add place="left" n="editorial sign">#15</add>h(mei=s d' e(stao/tes qauma/<supplied reason="lost">zomen: ou) ga\r *)axilleu\s</supplied> </l>
+                        <l n="395">ei)/a ma/rnasq<supplied reason="lost">a</supplied>i, kexolw<supplied reason="lost">me/nos *)atrei/wni.</supplied> </l>
+                        <l n="396">tou= ga\r e)gw\ qera/pwn, <supplied reason="lost">mi/a d' h)/gage nhu=s eu)ergh/s:</supplied> </l>
+                        <l n="397"><supplied reason="lost">*mu</supplied>rmido/nwn d' e)/ce<supplied reason="lost">imi, path\r de/ moi/ e)sti *polu/ktwr.</supplied> </l>
+                        <l n="398">a)fneio\s me\n o(/d' e)sti/, ge/r<supplied reason="lost">wn de\ dh\ w(s su/ per w(=de,</supplied> </l>
+                        <l n="399">e(\c de/ oi( ui(=es e)/asin, e)gw\ de/ <supplied reason="lost">oi( e(/bdomo/s ei)mi:</supplied> </l>
+                        <l n="400"><supplied reason="lost">t</supplied><unclear>w=</unclear><supplied reason="lost">n me/</supplied>ta pallo/meno<supplied reason="lost">s klh/rw| la/xon e)nqa/d' e(/pesqai.</supplied> </l>
+                        <l n="401">n<supplied reason="lost">u=n d' h)=lqo</supplied>n pedi/on d' <unclear>a)p</unclear>o\ nhw=n: h)w=qen ga\r </l>
+                        <gap reason="lost" extent="?"/>
+                    </div>
+
+                    <div type="fragment">
+                        <note lang="eng">An unplaced fragment.</note>
+                        <gap reason="lost" extent="?"/>
+                        <l n="?"><gap reason="lost" unit="character" extent="?"/><unclear>t</unclear>on<gap reason="lost" unit="character" extent="?"/></l>
+                        <gap reason="lost" extent="?"/>
+                    </div>
+
+            </div>
+
+
+
+</div>
+        </body>
+
+    </text>
+</TEI.2>
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" "tei-epidoc.dtd" [
+<!ENTITY % TEI.prose 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE' >
+<!ENTITY % TEI.linking 'INCLUDE' >
+<!ENTITY % TEI.certainty 'INCLUDE' >
+<!ENTITY % TEI.figures 'INCLUDE' >
+<!ENTITY % TEI.names.dates 'INCLUDE' >
+<!ENTITY % TEI.transcr 'INCLUDE' >
+<!ENTITY % TEI.textcrit 'INCLUDE' >
+<!ENTITY % TEI.XML 'INCLUDE'>
+<!ENTITY % ISOlat1 SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-lat1.ent'>
+%ISOlat1;
+<!ENTITY % ISOlat2 SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-lat2.ent'>
+%ISOlat2;
+<!ENTITY % ISOnum SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-num.ent'>
+%ISOnum;
+<!ENTITY % ISOpub SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-pub.ent'>
+%ISOpub;
+]>
+<TEI.2>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Iliad P 480a (P. Sorb. 2.302)</title>
+                <editor><name id="al">Alexander Loney</name></editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>A new edition, with semantic markup, punctuation, accentuation, emendation, and notes.</edition>
+                <respStmt>
+                    <name>Alexander Loney, ed.</name>
+                    <resp>after the edition of</resp>
+                    <name id="boy">Boyaval, B. <title>"Deux Papyrus de L'Iliade," BIFAO</title> 65 (1967), 57-69.</name> 
+                        
+                </respStmt>
+                
+            </editionStmt>
+            <extent>under 1Mb</extent>
+            <publicationStmt>
+                <publisher>
+                    The Center for Hellenic Studies of Harvard University
+                </publisher>
+                <authority>
+                    <name>Casey Dué and Mary Ebbott, edd.</name>
+                </authority>
+            </publicationStmt>
+            <sourceDesc>
+                <p>File created electronically.</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language id="eng">English</language>
+                <language id="lat">Latin</language>
+                <language id="grc">Greek</language>
+                <language id="xgrc">Transliterated Greek</language>
+                <language id="deu">German</language>
+                <language id="fra">French</language>
+            </langUsage>
+           </profileDesc>
+        <revisionDesc>
+            <change>
+                <date>October 17, 2007</date>
+                <respStmt>
+                    <name>Alexander Loney</name>
+                    <resp>markup</resp>
+                </respStmt>
+                <item>Initial XML markup.</item>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text lang="grc">
+        <body>
+            
+            <div type="description" n="date" lang="eng">
+                <head>Date</head>
+                <p>3rd century BC, likely second half of the century (<bibl>Boyaval, 57-61</bibl>)</p>
+            </div>
+            <div type="description" n="provenance" lang="eng">
+                <head>Provenance</head>
+                <p>Ghoran</p>
+            </div>
+            <div type="description" n="bibliography" lang="eng">
+                <head>Bibliography</head>
+                <list >
+                    <item><bibl>van Thiel, H. 1996. <title>Homeri Ilias.</title> Hildesheim: Olms.</bibl></item>
+                    <item><bibl>Boyaval, B. 1967. <title>"Deux Papyrus de L'Iliade," BIFAO 65,</title> 57-69.</bibl></item>
+                    </list>
+            </div>
+            <div type="description" n="catalogues" lang="eng">
+                <head>Catalogue entries</head>
+                <list>
+                    <item>Mertens-Pack 786.1</item>
+                    <item>LDAB 2380</item>
+                    <item>Allen-Sutton-West p480a</item>
+                </list>
+            </div>
+            <div type="edition" n="text">
+                
+                
+                
+                <head lang="eng">Iliad P 480a</head>
+                
+                <div n="6" type="book">
+                      <div n="1" type="frag">
+                          <note lang="eng" resp="al">Line 280 begins the top of the margin.</note>
+                          <l n="280"><supplied reason="lost">e)/rxeu: e)gw\</supplied> de\ *pa/rin me<unclear>tel</unclear><supplied reason="lost">eu/</supplied><unclear>s</unclear>omai o)/fra kale/ss<supplied reason="lost">w, </supplied></l>
+                          <l n="280a"><gap reason="lost"/><gap reason="illegible" unit="character" extent="1"/>on stono/enta m<gap reason="lost" unit="character" extent="4"/><unclear>rwa</unclear><gap reason="illegible" unit="character" extent="2"/><unclear>a</unclear><gap reason="illegible" unit="character" extent="1"/><unclear>t</unclear><gap reason="illegible" unit="character" extent="2"/>w<gap reason="illegible" extent="1" unit="character"/><unclear>ou</unclear> </l>
+                          <l n="281"><gap reason="lost"/><note resp="al" lang="eng">The certain reading of "<foreign lang="grc">i</foreign>" preceding "<foreign lang="grc">ei)po/ntos</foreign>" cannot be reconciled wih the known ms. tradition.</note>i ei)po/ntos a)k<unclear>oue/men. w(/s ke/ oi( au)=qi </unclear></l>
+                          <l n="282"><supplied reason="lost">gai=a xa/n</supplied><unclear>o</unclear>i: me/ga ga/r min *)olu/mpios e)/trafe ph=ma </l>
+                          <l n="283"><supplied reason="lost">*trwsi/ te</supplied><unclear> k</unclear>ai\ *pria/mw<sic corr="|"/> meg<unclear>alh/tori toi=o/ te p</unclear>aisi/n. </l>
+                          <l n="284"><supplied reason="lost">ei) kei=no/n</supplied> ge i)/doimi katelqo/n<unclear>t' *)a/idos ei)/sw, </unclear></l>
+                          <l n="285"><supplied reason="lost">fai/hn ke</supplied> fre/n' a)te/rpou o)izu/os e)<unclear>klelaqe/</unclear>sqai." </l>
+                          <l n="286"><supplied reason="lost">w(/s e)/faq', o</supplied>u)d' a)pi/<unclear>qh</unclear>s' *(eka/bh, taxu\ <unclear>d' a)</unclear><supplied reason="lost">m</supplied><unclear>f</unclear>ipo/loisi </l>
+                          <l n="287"><supplied reason="lost">ke/kleto: tai\ d' a)/</supplied>r' a)o/llissa<sic corr="n">g</sic> kata\ a)/st<supplied reason="lost">u</supplied> g<unclear>e</unclear>raia/s. </l>
+                          <l n="288"><supplied reason="lost">au)th\ d' e)s</supplied> qa/<unclear>la</unclear>mo<sic corr="n">g</sic> katebh/seto kh<unclear>w/</unclear><sic corr="">|</sic>enta, </l>
+                          <l n="288a"><gap reason="lost"/>u(yerefh= o(\s glh/nh poll' e)kekeu/qei </l>
+                          <l n="288b"><gap reason="lost"/>fwriamoi=si pari/<supplied reason="lost">st</supplied>ato di=a guna<supplied reason="lost">ikw=n </supplied></l>                         
+                          <l n="289"><supplied reason="lost">e)/nq' e)/sa/n oi(</supplied><unclear> p</unclear>e/ploi pamp<unclear>o</unclear><supplied reason="lost">i/ki</supplied>loi, e)/rga gu<unclear>n</unclear><supplied reason="lost">aikw=n </supplied></l>
+                          <l n="290"><supplied reason="lost">*sidoni/wn, ta\s a</supplied><unclear>u)</unclear>to\s *)ale/can<unclear>d</unclear><supplied reason="lost">ros qeoeidh\s </supplied></l>
+                          <l n="291"><supplied reason="lost">h)/gage *sidoni/h</supplied>qen, e)pipl<supplied reason="lost">w\s eu)re/a po/nton, </supplied></l>
+                          <l n="292"><supplied reason="lost">th\n o(do\n h(\n *(ele/</supplied><unclear>nh</unclear><supplied reason="lost">n per a)nh/gagen eu)pate/reian. </supplied></l>
+                          <note resp="al" lang="eng">There is small, additional, unplaced fragment.</note>
+                      </div>
+                  
+                </div>
+                </div>
+       
+                
+            </body>
+              
+        
+    </text>
+</TEI.2>
+    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                   

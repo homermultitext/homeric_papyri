@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" "tei-epidoc.dtd" [
+<!ENTITY % TEI.prose 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE' >
+<!ENTITY % TEI.linking 'INCLUDE' >
+<!ENTITY % TEI.certainty 'INCLUDE' >
+<!ENTITY % TEI.figures 'INCLUDE' >
+<!ENTITY % TEI.names.dates 'INCLUDE' >
+<!ENTITY % TEI.transcr 'INCLUDE' >
+<!ENTITY % TEI.textcrit 'INCLUDE' >
+<!ENTITY % TEI.XML 'INCLUDE'>
+<!ENTITY % ISOlat1 SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-lat1.ent'>
+%ISOlat1;
+<!ENTITY % ISOlat2 SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-lat2.ent'>
+%ISOlat2;
+<!ENTITY % ISOnum SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-num.ent'>
+%ISOnum;
+<!ENTITY % ISOpub SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-pub.ent'>
+%ISOpub;
+]>
+<TEI.2>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Iliad X 1 (P. Fouad inv. 253)</title>
+                <editor><name id="al">Alexander Loney</name></editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>A new edition, with semantic markup, punctuation, accentuation, emendation, and notes.</edition>
+                <respStmt>
+                    <name>Alexander Loney, ed.</name>
+                    <resp>after the edition of</resp>
+                    <name id="boy">Boyaval, B. <title>"Note sure quelques papyrus Fouad inédits," CRIPEL 2 </title> (1971), 269.</name> 
+                        
+                </respStmt>
+                
+            </editionStmt>
+            <extent>under 1Mb</extent>
+            <publicationStmt>
+                <publisher>
+                    The Center for Hellenic Studies of Harvard University
+                </publisher>
+                <authority>
+                    <name>Casey Dué and Mary Ebbott, edd.</name>
+                </authority>
+            </publicationStmt>
+            <sourceDesc>
+                <p>File created electronically.</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language id="eng">English</language>
+                <language id="lat">Latin</language>
+                <language id="grc">Greek</language>
+                <language id="xgrc">Transliterated Greek</language>
+                <language id="deu">German</language>
+                <language id="fra">French</language>
+            </langUsage>
+            </profileDesc>
+        <revisionDesc>
+            <change>
+                <date>July 13, 2009</date>
+                <respStmt>
+                    <name>Alexander Loney</name>
+                    <resp>markup</resp>
+                </respStmt>
+                <item>Initial XML markup.</item>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text lang="grc">
+        <body>
+            
+            <div type="description" n="date" lang="eng">
+                <head>Date</head>
+                <p>2rd cent. A.D. (<bibl>Boyaval 1971, 269</bibl>)</p>
+            </div>
+            <div type="description" n="provenance" lang="eng">
+                <head>Provenance</head>
+                <p>Egypt</p> 
+            </div>
+            <div type="description" n="bibliography" lang="eng">
+                <head>Bibliography</head>
+                <list >
+                    <item><bibl>van Thiel, H. 1996. <title>Homeri Ilias.</title> Hildesheim: Olms.</bibl></item>
+                    <item><bibl>Boyaval, B. 1971.<title>"Note sure quelques papyrus Fouad inédits," CRIPEL 2:</title> 267-270.</bibl></item>
+                    <item><bibl>Brashear, Wm. 1984.<title>"Trifles," ZPE 56:</title> 61-68.</bibl></item>
+                        
+                    
+               </list>
+            </div>
+            <div type="description" n="catalogues" lang="eng">
+                <head>Catalogue entries</head>
+                <list>
+                    <item>Mertens-Pack 556.1</item>
+                    <item>LDAB none</item>
+                    <item>Allen-Sutton-West none (provisionally X1)</item>
+                </list>
+            </div>
+            <div type="edition" n="text">
+                
+                
+                
+                <head lang="eng">Iliad X 1</head>
+                 
+              
+                <div n="1" type="book">
+             
+                    
+                <l n="1"><note resp="al" lang="eng">Editors of this papyrus before Brashear did not identify this papyrus with the opening of the Iliad. <bibl>Brashear 1984, 67-68</bibl>, made this identification, despite the oddities of orthography, calling it a "transmogrified version of the first verse of the Iliad."</note>( *m<unclear>h=</unclear>nin <sic corr="a)/ei">a)/</sic>de, <unclear>q</unclear>ea/, <unclear>*p</unclear><sic corr="h"><unclear>e</unclear></sic><supplied reason="lost">l</supplied><unclear>h</unclear>ia/de<supplied reason="lost">w</supplied> *)axil<supplied reason="lost">h=os</supplied> </l>
+                <l n="2"><note resp="al" lang="eng"><bibl>Boyaval 1971, 269</bibl>, recorded a second line beneath the first with traces of 9 letters. However, since he did not identify the first line as Il. 1.1, he did not remark on whether these traces might correspond to Il. 1.2. <bibl>Brashear 1984, 68</bibl>, did not comment on these traces either.</note><gap reason="illegible" extent="9" unit="character"/><gap reason="lost" extent="?" unit="character"/></l>
+                    
+                </div>
+            </div>
+            
+        </body>
+        
+        
+    </text>
+</TEI.2>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

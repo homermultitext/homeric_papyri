@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" "tei-epidoc.dtd" [
+<!ENTITY % TEI.prose 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE' >
+<!ENTITY % TEI.linking 'INCLUDE' >
+<!ENTITY % TEI.certainty 'INCLUDE' >
+<!ENTITY % TEI.figures 'INCLUDE' >
+<!ENTITY % TEI.names.dates 'INCLUDE' >
+<!ENTITY % TEI.transcr 'INCLUDE' >
+<!ENTITY % TEI.textcrit 'INCLUDE' >
+<!ENTITY % TEI.XML 'INCLUDE'>
+<!ENTITY % ISOlat1 SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-lat1.ent'>
+%ISOlat1;
+<!ENTITY % ISOlat2 SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-lat2.ent'>
+%ISOlat2;
+<!ENTITY % ISOnum SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-num.ent'>
+%ISOnum;
+<!ENTITY % ISOpub SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-pub.ent'>
+%ISOpub;
+]>
+<TEI.2>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Iliad h125 (P.Hamb. 2.136 (inv. 665))</title>
+                <editor id="bh">Bart Huelsenbeck</editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>A new edition, with semantic markup, punctuation, accentuation, emendation, and notes.</edition>
+                <respStmt>
+                    <name>Bart Huelsenbeck, ed.</name>
+                    <resp>after the editions of</resp>
+                    <name id="swest">West, S.<title>The Ptolemaic Papyri of Homer, Papyrologica Coloniensia III</title> pp. 38-9;</name>
+                    <name id="bsnell"><title>Griechische Papyri der Hamburger Staats- und Universitäts-Bibliothek mit einigen Stüchen aus der Sammlung Hugo Ibscher (=P.Hamburg 2.136), pp.85-6</title></name>
+                </respStmt>
+                
+           </editionStmt>
+            <extent>under 1Mb</extent>
+            <publicationStmt>
+                <publisher>
+                    The Center for Hellenic Studies of Harvard University
+                </publisher>
+                <authority>
+                    <name>Casey Dué and Mary Ebbott, edd.</name>
+                </authority>
+            </publicationStmt>
+            <sourceDesc>
+                <p>File created electronically.</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language id="eng">English</language>
+                <language id="lat">Latin</language>
+                <language id="grc">Greek</language>
+                <language id="xgrc">Transliterated Greek</language>
+                <language id="deu">German</language>
+                <language id="fra">French</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change>
+                <date>July 7, 2007</date>
+                <respStmt>
+                    <name>Bart Huelsenbeck</name>
+                    <resp>markup</resp>
+                </respStmt>
+                <item>Initial XML markup.</item>
+            </change>
+            <change>
+                <date>July 11, 2007</date>
+                <respStmt>
+                    <name>Alexander Loney</name>
+                    <resp>markup</resp>
+                </respStmt>
+                <item>revision and error-check</item>
+            </change>
+        </revisionDesc>
+        
+               
+    </teiHeader>
+    <text lang="grc">
+        <body>
+            <div type="description" n="date" lang="eng">
+                <head>Date</head>
+                <p>First half of third century B.C. (<bibl>West, 38</bibl>)</p>
+            </div>
+            <div type="description" n="provenance" lang="eng">
+                <head>Provenance</head>
+                <p>unknown (<bibl>West, 38</bibl>)</p>
+            </div>
+            <div type="description" n="bibliography" lang="eng">
+                <head>Bibliography</head>
+                <list >
+                    <item><bibl>Snell, B. 1954<title>Griechische Papyri der Hamburger Staats- und Universitäts-Bibliothek mit einigen Stüchen aus der Sammlung Hugo Ibscher</title> Hamburg: J.J. Augustin</bibl></item>
+                    <item><bibl>van Thiel, H. 1996. <title>Homeri Ilias</title> Hildesheim: Olms.</bibl></item>
+                    <item><bibl>West, S. 1967. <title>The Ptolemaic Papyri of Homer, Papyrologica Coloniensia III</title> Köln and Opladen: Westdeutscher Verlag.</bibl></item>
+                </list>
+            </div>
+            <div type="description" n="catalogues" lang="eng">
+                <head>Catalogue entries</head>
+                <list>
+                    <item>Mertens-Pack 1170.3 (=Pack2 633) </item>
+                    <item>LDAB 2368 </item>
+                    <item>Allen-Sutton p459; reclassified as West h125</item>
+                    <item>Mistakenly identified as P 457 by S.West (<bibl>West, 38-9</bibl>)</item>
+                </list>
+            </div>
+
+           
+            
+            <div type="edition" n="text">    
+                <head lang="eng">Iliad h125</head>
+                <div n="2" type="book">
+                    <gap reason="lost" unit="line" extent="?"/>
+                    <note lang="eng">The lines are quoted in a prose text, written by a subliterary hand; the Hamburg editors suggest that it formed part of a commentary.</note>
+                    <l n="101"><supplied reason="lost">e)/sth skh=ptron e)/x</supplied><unclear>wn,</unclear> <supplied reason="lost">to\ me\n *(/hfaistos ka/me teu/xwn:</supplied></l>
+                    <l n="102"><supplied reason="lost">*(/hfaistos me\n d</supplied><unclear>w=</unclear>ke *dii\ *k<unclear>r</unclear><supplied reason="lost">oni/wni a)/nakti,</supplied></l>
+                    <l n="103"><supplied reason="lost">au)ta\r a)/ra *zeu\</supplied><unclear>s</unclear> dw=ke dia<unclear>k</unclear><supplied reason="lost">to/rw| a)rgei+fo/nth|: </supplied></l>
+                    <l n="104"><supplied reason="lost">*(ermei/as d' au)= dw=</supplied>ke a)/n<supplied reason="lost">ac *p</supplied><unclear>e/l</unclear><supplied reason="lost">opi plhci/ppw|,</supplied></l>
+                    <l n="105"><supplied reason="lost">au)ta\r o(\ au)=te *p</supplied><unclear>e/</unclear>loy <unclear>dw=</unclear>k' *)atre/i+ p<supplied reason="lost">oime/ni law=n: </supplied></l>
+                    <l n="106"><supplied reason="lost">*)atreu\s de\ qnh/s</supplied><unclear>k</unclear>wn e)/lipen polu/a<supplied reason="lost">rni *que/sth|,</supplied></l>
+                    <l n="107"><supplied reason="lost">au)ta\r o(\ au)=te *qu</supplied><unclear>e/</unclear>sta *)agame/mnoni d<unclear>w=</unclear><supplied reason="lost">ke</supplied> forh=nai, <note lang="eng">The reading <foreign lang="grc">dw=ke forh=nai</foreign> seems to have been widely diffused (so, Julian 51b, Priscian 17.208; Sch. AB).</note></l>
+                    <l n="108"><supplied reason="lost">pollh=|sin nh/so</supplied>isi kai\ *)a/rgei+ panti\ <unclear>a)</unclear><supplied reason="lost">na/ssein.</supplied></l>      
+                    <l n="109"><supplied reason="lost">tw=| o(/ g' e)reisa/me</supplied>nos e)/pe' *)argei/ois a)g<unclear>o/reu</unclear><supplied reason="lost">en:</supplied><note lang="eng">The Hamburg editors interpret the traces after <foreign lang="grc">*)argei/ois</foreign> as <foreign lang="grc"><unclear>a)pos</unclear></foreign> and suggested <foreign lang="grc">a)pefw/nei</foreign> or <foreign lang="grc">*)agame/mnwn</foreign>.</note></l>       
+                    
+                    <div type="prose commentary">
+                        <p>
+                    estin <unclear>or</unclear>an tom <unclear>ba</unclear><supplied reason="lost">silea</supplied>
+                    <supplied reason="lost">p</supplied>rotetagmenon <unclear>e</unclear><supplied reason="lost">stin</supplied>
+                    <unclear>ei</unclear> toutois euris<unclear>k</unclear>om<unclear>e</unclear><supplied reason="lost">n</supplied>
+                    <supplied reason="lost">*od</supplied>ush<unclear>a</unclear> epi<add place="supralinear">e</add> ouk <unclear>*o</unclear>dus<unclear>se</unclear><supplied reason="lost">us</supplied>
+                    nos <unclear>sug</unclear>klhsig kal<gap reason="lost" unit="character" extent="?"/>
+                    <supplied reason="lost">m</supplied><unclear>e</unclear>n a<unclear>u</unclear><supplied reason="lost">t</supplied><unclear>o</unclear> kata thn <unclear>*od</unclear><supplied reason="lost">usseian</supplied>  
+                   <unclear>d</unclear>iaforan <unclear>d es</unclear>xen a<gap reason="lost" unit="character" extent="?"/>
+                    <unclear>touto</unclear>nhtonzw<gap reason="lost" unit="character" extent="?"/>
+                    <unclear>menh</unclear> <gap reason="lost" unit="character" extent="?"/>nem<unclear>p</unclear><gap reason="lost" unit="character" extent="?"/>
+                    <unclear>u</unclear>par<unclear>a</unclear><gap reason="lost" unit="character" extent="?"/>
+                    <gap reason="lost" unit="line" extent="?"/>
+                            </p>
+                </div>
+
+                
+                </div>
+
+            
+            
+            </div>
+        </body>
+        
+    </text>
+</TEI.2>
+

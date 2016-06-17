@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" "tei-epidoc.dtd" [
+<!ENTITY % TEI.prose 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE' >
+<!ENTITY % TEI.linking 'INCLUDE' >
+<!ENTITY % TEI.certainty 'INCLUDE' >
+<!ENTITY % TEI.figures 'INCLUDE' >
+<!ENTITY % TEI.names.dates 'INCLUDE' >
+<!ENTITY % TEI.transcr 'INCLUDE' >
+<!ENTITY % TEI.textcrit 'INCLUDE' >
+<!ENTITY % TEI.XML 'INCLUDE'>
+<!ENTITY % ISOlat1 SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-lat1.ent'>
+%ISOlat1;
+<!ENTITY % ISOlat2 SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-lat2.ent'>
+%ISOlat2;
+<!ENTITY % ISOnum SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-num.ent'>
+%ISOnum;
+<!ENTITY % ISOpub SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-pub.ent'>
+%ISOpub;
+]>
+<TEI.2>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Iliad P 1546</title>
+                <editor><name id="al">Alexander Loney</name></editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>A new edition, with semantic markup, punctuation, accentuation, emendation, and notes.</edition>
+                <respStmt>
+                    <name>Alexander Loney, ed.</name>
+                    <resp>after the edition of</resp>
+                    <name id="manf">Manfredi, M. <title>Papiri dell'Iliade, 1.</title> pp. 1-2.</name> 
+                  
+                        
+                </respStmt>
+                
+            </editionStmt>
+            <extent>under 1Mb</extent>
+            <publicationStmt>
+                <publisher>
+                    The Center for Hellenic Studies of Harvard University
+                </publisher>
+                <authority>
+                    <name>Casey Dué and Mary Ebbott, edd.</name>
+                </authority>
+            </publicationStmt>
+            <sourceDesc>
+                <p>File created electronically.</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language id="eng">English</language>
+                <language id="lat">Latin</language>
+                <language id="grc">Greek</language>
+                <language id="xgrc">Transliterated Greek</language>
+                <language id="deu">German</language>
+                <language id="fra">French</language>
+            </langUsage>
+            </profileDesc>
+        <revisionDesc>
+            <change>
+                <date>July 20, 2009</date>
+                <respStmt>
+                    <name>Alexander Loney</name>
+                    <resp>markup</resp>
+                </respStmt>
+                <item>Initial XML markup.</item>
+                </change>
+        </revisionDesc>
+    </teiHeader>
+    <text lang="grc">
+        <body>
+            
+            <div type="description" n="date" lang="eng">
+                <head>Date</head>
+                <p>2nd cent. A.D. (<bibl>Manfredi, 1</bibl>)</p>
+            </div>
+            <div type="description" n="provenance" lang="eng">
+                <head>Provenance</head>
+                <p>Unknown (<bibl>Manfredi, 1</bibl>)</p>
+            </div>
+            <div type="description" n="bibliography" lang="eng">
+                <head>Bibliography</head>
+                <list >
+                    <item><bibl>van Thiel, H. 1996. <title>Homeri Ilias.</title> Hildesheim: Olms.</bibl></item>
+                    <item><bibl>Manfredi, M. 2000. <title>Papiri dell'Iliade.</title> Firenze: Istituto Papirologico "G. Vitelli".</bibl></item>
+                       </list>
+            </div>
+            <div type="description" n="catalogues" lang="eng">
+                <head>Catalogue entries</head>
+                <list>
+                    <item>Mertens-Pack 556.01 </item>
+                    <item>LDAB 7876 </item>
+                    <item>Allen-Sutton-West p1546 </item>
+                </list>
+            </div>
+            <div type="edition" n="text">
+                
+                
+                
+                <head lang="eng">Iliad P 1546</head>
+                
+                <div n="1" type="book">
+                    <l n="1">mh=nin a)/<sic/>ide, qea/,<note resp="al" lang="eng">The scribe made a linebreak here.</note> <unclear>*p</unclear>hl<sic corr="h"/>ia/dew *)a<supplied reason="lost">xilh=os</supplied> </l>
+                 
+                </div>
+            </div>
+            
+                          
+            </body>
+              
+        
+    </text>
+</TEI.2>
+    
+                    
+                    
+                   

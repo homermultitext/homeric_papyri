@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" "tei-epidoc.dtd" [
+<!ENTITY % TEI.prose 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE' >
+<!ENTITY % TEI.linking 'INCLUDE' >
+<!ENTITY % TEI.certainty 'INCLUDE' >
+<!ENTITY % TEI.figures 'INCLUDE' >
+<!ENTITY % TEI.names.dates 'INCLUDE' >
+<!ENTITY % TEI.transcr 'INCLUDE' >
+<!ENTITY % TEI.textcrit 'INCLUDE' >
+<!ENTITY % TEI.XML 'INCLUDE'>
+<!ENTITY % ISOlat1 SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-lat1.ent'>
+%ISOlat1;
+<!ENTITY % ISOlat2 SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-lat2.ent'>
+%ISOlat2;
+<!ENTITY % ISOnum SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-num.ent'>
+%ISOnum;
+<!ENTITY % ISOpub SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-pub.ent'>
+%ISOpub;
+]>
+<TEI.2>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Iliad Allen-Sutton-West P132</title>
+                <editor id="bh">Bart Huelsenbeck</editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>A new edition, with semantic markup, punctuation, accentuation, emendation, and notes.</edition>
+                <respStmt>
+                    <name>Bart Huelsenbeck, ed.</name>
+                    <resp>after the edition of</resp>
+                    <name id="Hunt">Arthur S. Hunt<title>Catalogue of the Greek Papyri in the John Rylands Library</title> pp. 81-2</name>          
+                </respStmt>
+            </editionStmt>
+
+            <extent>under 1Mb</extent>
+            <publicationStmt>
+                <publisher>
+                    The Center for Hellenic Studies of Harvard University
+                </publisher>
+                <authority>
+                    <name>Casey Dué and Mary Ebbott, edd.</name>
+                </authority>
+            </publicationStmt>
+            <sourceDesc>
+                <p>File created electronically.</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language id="eng">English</language>
+                <language id="lat">Latin</language>
+                <language id="grc">Greek</language>
+                <language id="xgrc">Transliterated Greek</language>
+                <language id="deu">German</language>
+                <language id="fra">French</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change>
+                <date>10 Nov 2007</date>
+                <respStmt>
+                    <name>Bart Huelsenbeck</name>
+                    <resp>markup</resp>
+                </respStmt>
+                <item>Initial XML markup.</item>
+            </change>
+            <change>
+                <date>22 Nov 2007</date>
+                <respStmt>
+                    <name>Bart Huelsenbeck</name>
+                    <resp>markup</resp>
+                </respStmt>
+                <item>change made to place description of editorial signs</item>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text lang="grc">
+        <body>
+            <div type="description" n="date" lang="eng">
+                <head>Date</head>
+                <p>Middle or latter part of first century B.C. (<bibl>Hunt, 81</bibl>)</p>
+            </div>
+            <div type="description" n="provenance" lang="eng">
+                <head>Provenance</head>
+                <p>Egypt (<bibl>Hunt, 81</bibl>)</p>
+            </div>
+
+            <div type="description" n="bibliography" lang="eng">
+                <head>Bibliography</head>
+                <list >
+                    <item><bibl>van Thiel, H. 1996. <title>Homeri Ilias</title> Hildesheim: Olms.</bibl></item>
+                    <item><bibl>Hunt, Arthur S.<title>Catalogue of the Greek Papyri in the John Rylands Library</title> vol. I pp. 81-2</bibl></item> 
+                </list>
+            </div>
+            <div type="description" n="catalogues" lang="eng">
+                <head>Catalogue entries</head>
+                <list>
+                    <item>Mertens-Pack 612 </item>
+                    <item>Allen-Sutton-West  P 132</item>
+                    <item>P. Ryl. Gr. 1.44 </item>
+                </list>
+            </div>
+
+
+            <div type="edition" n="text">
+                <head lang="eng">Iliad P132</head>
+                <div n="1" type="book">                                
+                  <div n="1" type="column">
+                        <gap reason="lost" extent="?"/>
+                      <l n="471"><supplied reason="lost">nw/mhsan d' a)/ra pa=sin e)parca/menoi de</supplied>pa/es<supplied reason="lost">sin:</supplied> </l>
+                      <l n="472"><supplied reason="lost">oi(\ de\ panhme/rioi molph=| qeo\n i(la/s</supplied>konto </l>
+                      <l n="473"><supplied reason="lost">kalo\n a)ei/dontes paih/ona kou=r</supplied>oi *)axaiw=n, </l>
+                      <l n="474"><supplied reason="lost">me/lpontes e(ka/ergon: o(\ de\ fre/</supplied>na te/rpet' a)kou/wn. </l>
+                      <l n="475"><supplied reason="lost">)=hmos d' h)e/lios kate/du kai\ e)pi\ k</supplied>ne/fas h)=lqe, </l>
+                      <l n="476"><supplied reason="lost">dh\ to/te koimh/santo para\ pr</supplied>umnh/sia nho/s: </l>
+                      <l n="477"><supplied reason="lost">h)=mos d' h)rige/neia fa/nh r(odod</supplied>a/ktulos *)hw/s, </l>
+                      <l n="478"><supplied reason="lost">kai\ to/t' e)/peit' a)na/gonto meta\ strato\n eu)</supplied><unclear>ru\</unclear><supplied reason="lost">n</supplied> *)axaiw=n: </l>
+                      <l n="479"><supplied reason="lost">toi=sin d' i)/kmenon ou)=ron i(/ei e(ka/ergos *)apo/l</supplied>lwn. </l>
+                      <l n="480"><supplied reason="lost">oi(\ d' i(sto\n sth/sant' a)na/ q' i(sti/a leuka\ pe/tassa</supplied>n: </l>             
+                      <gap reason="lost" extent="?"/>
+                  </div>
+
+                    <div n="2" type="column">
+                        <gap reason="lost" extent="?"/>
+                        <l n="495"><supplied reason="lost">pa/nt</supplied>es a(/<unclear>m</unclear><supplied reason="lost">a, *zeu\s d' h)=rxe. *qe/tis d' ou) lh/qet' e)fetme/wn</supplied> </l>
+                        <l n="496"><supplied reason="lost">pa</supplied>ido\s e(ou=, a)ll' <supplied reason="lost">h(/ g' a)nedu/sato ku=ma qala/sshs,</supplied> </l>
+                        <l n="497"><supplied reason="lost">h)e</supplied>ri/h d' a)ne/bh me/<supplied reason="lost">gan ou)rano\n *ou)/lumpo/n te.</supplied> </l>
+                        <l n="498"><supplied reason="lost">eu(=re</supplied>n d' eu)ru/opa *kr<supplied reason="lost">oni/dhn a)/ter h(/menon a)/llwn</supplied> </l>
+                        <l n="499"><supplied reason="lost">a)k</supplied>r<supplied reason="lost">ot</supplied>a/th| kor<supplied reason="lost">u</supplied>fh=<supplied reason="lost">i poludeira/dos *ou)lu/mpoio.</supplied> </l>
+
+                        <l n="500"><note lang="eng">A stichometric sign in the left margin marks line 500.</note>k<supplied reason="lost">a</supplied>i/ r(<supplied reason="lost">a</supplied> pa/roi<unclear>q'</unclear> au)to<supplied reason="lost">i=o kaqe/zeto, kai\ la/be gou/nwn</supplied> </l>
+                        <l n="501">skaih=|, deciterh=| d' a)/<supplied reason="lost">r' u(p' a)nqerew=nos e(lou=sa</supplied> </l>
+                        <l n="502">lisso<supplied reason="lost">m</supplied>e/nh prose/e<supplied reason="lost">ipe *di/a *kroni/wna a)/nakta: </supplied></l>
+                        <l n="503">"*zeu= pa/ter, <unclear>ei)/</unclear> <supplied reason="lost">pote dh/ se met' a)qana/toisin o)/nhsa</supplied> </l>
+                        <l n="504">h)\ e)/pei <supplied reason="lost">h)\ e)/rgw|, to/de moi krh/hnon e)e/ldwr:</supplied> </l>
+                        <l n="505">ti/mh<supplied reason="lost">so/n moi ui(o/n, o(\s w)kumorw/tatos a)/llwn</supplied> </l>
+                        <l n="506">e)/plet', <supplied reason="lost">a)ta/r min nu=n ge a)/nac a)ndrw=n *)agame/mnwn</supplied> </l>
+                        <gap reason="lost" extent="?"/>
+                    </div>
+
+            </div>
+
+
+
+</div>
+        </body>
+
+    </text>
+</TEI.2>
+
+
+
+
+
+
+
+
+

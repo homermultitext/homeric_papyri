@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" "tei-epidoc.dtd" [
+<!ENTITY % TEI.prose 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE' >
+<!ENTITY % TEI.linking 'INCLUDE' >
+<!ENTITY % TEI.certainty 'INCLUDE' >
+<!ENTITY % TEI.figures 'INCLUDE' >
+<!ENTITY % TEI.names.dates 'INCLUDE' >
+<!ENTITY % TEI.transcr 'INCLUDE' >
+<!ENTITY % TEI.textcrit 'INCLUDE' >
+<!ENTITY % TEI.XML 'INCLUDE'>
+<!ENTITY % ISOlat1 SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-lat1.ent'>
+%ISOlat1;
+<!ENTITY % ISOlat2 SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-lat2.ent'>
+%ISOlat2;
+<!ENTITY % ISOnum SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-num.ent'>
+%ISOnum;
+<!ENTITY % ISOpub SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-pub.ent'>
+%ISOpub;
+]>
+<TEI.2>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Iliad P 269 (P.Tebtunis 3.898)</title>
+                <editor id="bh">Bart Huelsenbeck</editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>A new edition, with semantic markup, punctuation, accentuation, emendation, and notes.</edition>
+                <respStmt>
+                    <name>Bart Huelsenbeck, ed.</name>
+                    <resp>after the edition of</resp>
+                    <name id="swest">West, S.<title>The Ptolemaic Papyri of Homer, Papyrologica Coloniensia III</title> pp. 36-38</name>            
+                </respStmt>
+                
+           </editionStmt>
+            <extent>under 1Mb</extent>
+            <publicationStmt>
+                <publisher>
+                    The Center for Hellenic Studies of Harvard University
+                </publisher>
+                <authority>
+                    <name>Casey Dué and Mary Ebbott, edd.</name>
+                </authority>
+            </publicationStmt>
+            <sourceDesc>
+                <p>File created electronically.</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language id="eng">English</language>
+                <language id="lat">Latin</language>
+                <language id="grc">Greek</language>
+                <language id="xgrc">Transliterated Greek</language>
+                <language id="deu">German</language>
+                <language id="fra">French</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change>
+                <date>July 4, 2007</date>
+                <respStmt>
+                    <name>Bart Huelsenbeck</name>
+                    <resp>markup</resp>
+                </respStmt>
+                <item>Initial XML markup.</item>
+            </change>
+            <change>
+                <date>July 5, 2007</date>
+                <respStmt>
+                    <name id="al">Alexander Loney</name>
+                    <resp>markup</resp>
+                </respStmt>
+                <item>error check</item>
+            </change>
+        </revisionDesc>
+               
+    </teiHeader>
+    <text lang="grc">
+        <body>
+            <div type="description" n="date" lang="eng">
+                <head>Date</head>
+                <p>Late third or early second century B.C. (<bibl>West, 36</bibl>)</p>
+            </div>
+            <div type="description" n="provenance" lang="eng">
+                <head>Provenance</head>
+                <p>Tebtunis (<bibl>West, 36</bibl>)</p>
+            </div>
+            <div type="description" n="bibliography" lang="eng">
+                <head>Bibliography</head>
+                <list >
+                    <item><bibl>van Thiel, H. 1996. <title>Homeri Ilias</title> Hildesheim: Olms.</bibl></item>
+                    <item><bibl>West, S. 1967. <title>The Ptolemaic Papyri of Homer, Papyrologica Coloniensia III</title> Köln: Opladen.</bibl></item>
+                </list>
+            </div>
+            <div type="description" n="catalogues" lang="eng">
+                <head>Catalogue entries</head>
+                <list>
+                    <item>Mertens-Pack 619 </item>
+                    <item>LDAB 2388 </item>
+                    <item>Allen-Sutton-West p269</item>
+                </list>
+            </div>
+
+            
+            
+            
+            <div type="edition" n="text">    
+                <head lang="eng">Iliad P 269</head>
+                <div n="1" type="book">
+                    <div n="1" type="column">
+                    <gap reason="lost" unit="line" extent="2"/>
+                    <l n="539"><supplied reason="lost">au)ti/ka kertomi/oisi *di/a *kroni/wna proshu/</supplied>da:</l>
+                    <l n="540"><supplied reason="lost">ti/s d' au)= toi, dolomh=ta, qew=n sumfra/ssato bou</supplied><unclear>l</unclear>h/n;</l>
+                    <l n="541"><supplied reason="lost">ai)ei/ toi fi/lon e)sti\n e)meu= a)pono/sfin e)o/nta</supplied></l>
+                    <l n="542"><supplied reason="lost">krupta/dia frone/onta dikaze/men: ou)de/ ti/ p</supplied>w/ moi</l>
+                    <l n="543"><supplied reason="lost">pro/frwn te/tlhkas ei)pei=n e)/pos o(/tti noh/</supplied><unclear>sh|s</unclear></l>
+                    <l n="543a"><gap reason="lost" unit="character" extent="?"/>a</l>
+                    <l n="544"><gap reason="lost" unit="character" extent="?"/><supplied reason="lost">nefelhge</supplied><unclear>r</unclear>e/<unclear>ta</unclear> *zeu/s:</l>
+                    <l n="545"><supplied reason="lost">"*(/hrh, mh\ dh\ pa/ntas e)mou\s e)pie/lpeo mu/q</supplied>ous</l>
+                    <l n="546"><supplied reason="lost">ei)dh/sein: xalepoi/ toi e)/sont' a)lo/xw| per </supplied>e)ou/sh|.</l>
+                    <l n="547"><supplied reason="lost">a)ll' o(\n me/n k' e)pieike\s a)koue/men, ou)/ tis e)/</supplied>peita</l>
+                    <l n="548"><supplied reason="lost">ou)/te qew=n pro/teros to/n g' ei)/setai ou)/t' a)n</supplied><unclear>qr</unclear>w/pwn:</l>
+                    <l n="549"><supplied reason="lost">o(\n de/ k' e)gw\n a)pa/neuqe qew=n e)qe/loimi noh=</supplied>sai,</l>
+                    <gap reason="lost" unit="line" extent="?"/>
+ 
+                    </div>
+ 
+                    <div n="2" type="column">
+                        <l n="561"><note lang="eng">Points have been prefixed to 561 and 571 in what appears to be decimal stichometry (<bibl>West, 36</bibl>)</note> "daimoni/h, ai)ei\ me\n <supplied reason="lost">o)i/+eai ou)de/ se lh/qw: </supplied></l>
+                        <l n="562">prh=cai e)/mph<supplied reason="lost">s ou)/ ti dunh/seai, a)ll' a)po\ qumou= </supplied></l>
+                        <l n="563">ma=llon e)moi\ e)/s<supplied reason="lost">eai: to\ de/ toi kai\ r(i/gion e)/stai. </supplied></l>
+                        <l n="564">ei) d<unclear>e\</unclear> ou(/tw <unclear>t</unclear>ou=t' <supplied reason="lost">e)sti/n, e)moi\ me/llei fi/lon ei)=nai.</supplied></l>
+                        <l n="565">a)ll' a)ke/ousa ka/<supplied reason="lost">qhso, e)mw=| d' e)pipei/qeo mu/qw|,</supplied></l>
+                        <l n="566">mh/ nu/ toi ou) xra<supplied reason="lost">i/smwsin o(/soi qeoi/ ei)s' e)n *)olu/mpw|</supplied></l>
+                        <l n="567">a)=sson i)o/nti o(/te <unclear>k</unclear><supplied reason="lost">e/n toi a)a/ptous xei=ras e)fei/w."</supplied><note lang="eng">The variant <foreign lang="grc">i)o/nti</foreign> rather than the accusative is not an isolated aberration but may have been Aristarchus' interpretation as well as Nicander's (Ther. 551)(<bibl>West, 38 and n.10</bibl>).</note> </l>
+                        <l n="568">(\ws e)/fat' e)/ddeise<supplied reason="lost">n de\ bow=pis po/tnia *(/hrh,</supplied></l>
+                        <l n="569">k<unclear>ai/</unclear> r(' a)<unclear>k</unclear>e/<unclear>ousa</unclear> ka<supplied reason="lost">qh=sto e)pigna/myasa fi/lon kh=r:  </supplied></l>
+                        <l n="570">o)/xqhsan d' a)na\ <unclear>d</unclear><supplied reason="lost">w=ma *dio\s qeoi\ *ou)rani/wnes. </supplied></l>
+                        <l n="571"><note lang="eng">Points have been prefixed to 561 and 571 in what appears to be decimal stichometry (<bibl>West, 36</bibl>)</note> toi=sin d'<supplied reason="lost">*(/hfaistos klutote/xnhs h)=rx' a)goreu/ein,</supplied></l>
+                        <l n="572">mhtri\ <unclear>fi/lh|</unclear><supplied reason="lost">e)pi/hra fe/rwn, leukwle/nw| *(/hrh|:</supplied></l>
+                        <l n="573">"h)= dh\ <unclear>loi/gia e)/rg</unclear><supplied reason="lost">a ta/d' e)/ssetai ou)d' e)/t' a)nekta/, </supplied></l>
+                        <l n="574"><supplied reason="lost">e</supplied><unclear>i)</unclear> <supplied reason="lost">dh\ s</supplied><unclear>f</unclear><supplied reason="lost">w\ e(/neka qnhtw=n e)ridai/neton w(=de,</supplied></l>      
+                        <gap reason="lost" unit="line" extent="?"/>
+                
+                    </div>
+           
+                               
+           
+            </div>
+            
+            
+            
+            
+            
+            </div>
+        </body>
+        
+    </text>
+</TEI.2>
+

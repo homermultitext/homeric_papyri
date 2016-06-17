@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" "tei-epidoc.dtd" [
+<!ENTITY % TEI.prose 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE' >
+<!ENTITY % TEI.linking 'INCLUDE' >
+<!ENTITY % TEI.certainty 'INCLUDE' >
+<!ENTITY % TEI.figures 'INCLUDE' >
+<!ENTITY % TEI.names.dates 'INCLUDE' >
+<!ENTITY % TEI.transcr 'INCLUDE' >
+<!ENTITY % TEI.textcrit 'INCLUDE' >
+<!ENTITY % TEI.XML 'INCLUDE'>
+<!ENTITY % ISOlat1 SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-lat1.ent'>
+%ISOlat1;
+<!ENTITY % ISOlat2 SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-lat2.ent'>
+%ISOlat2;
+<!ENTITY % ISOnum SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-num.ent'>
+%ISOnum;
+<!ENTITY % ISOpub SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-pub.ent'>
+%ISOpub;
+]>
+<TEI.2>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Iliad X2 = P 263 + P 516 + P 516a + P 522 + P 525 et al.</title>
+				<editor>
+					<name id="al">Alexander Loney</name>
+				</editor>
+			</titleStmt>
+			<editionStmt>
+				<edition>A new edition, with semantic markup, punctuation, accentuation, emendation, and notes.</edition>
+				<respStmt>
+					<name>Alexander Loney, ed.</name>
+					<resp>after the editions of</resp>
+					<name id="funmart">Funghi, M. S. and M. C. Martinelli, <title>"Ostraca leturrari della collezione Finders Petrie: un addendum," ZPE 164 </title> (2008), 163-73;</name>
+					<name id="tait">Tait, J. G., <title>O. Petrie 399-404, 406-8, 471-72</title> (1930), 140-44.</name>
+					<name id="crum">Crum, W. E. <title>Coptic Ostraca.</title> (1902, London),  nos. 523-24.</name>
+				</respStmt>
+			</editionStmt>
+			<extent>under 1Mb</extent>
+			<publicationStmt>
+				<publisher>
+                    The Center for Hellenic Studies of Harvard University
+                </publisher>
+				<authority>
+					<name>Casey Dué and Mary Ebbott, edd.</name>
+				</authority>
+			</publicationStmt>
+			<sourceDesc>
+				<p>File created electronically.</p>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<langUsage>
+				<language id="eng">English</language>
+				<language id="lat">Latin</language>
+				<language id="grc">Greek</language>
+				<language id="xgrc">Transliterated Greek</language>
+				<language id="deu">German</language>
+				<language id="fra">French</language>
+			</langUsage>
+		</profileDesc>
+		<revisionDesc>
+			<change>
+				<date>July 13-17, 2009</date>
+				<respStmt>
+					<name>Alexander Loney</name>
+					<resp>markup</resp>
+				</respStmt>
+				<item>Initial XML markup.</item>
+			</change>
+		</revisionDesc>
+	</teiHeader>
+	<text lang="grc">
+		<body>
+			<div lang="eng" n="date" type="description">
+				<head>Date</head>
+				<p>4th or 5th century AD (<bibl>Funghi and Martinell 2003, 141-42</bibl>)</p>
+			</div>
+			<div lang="eng" n="provenance" type="description">
+				<head>Provenance</head>
+				<p>Denderah, Egypt (<bibl>Funghi and Martinell 2008, 66</bibl>)</p>
+			</div>
+			<div lang="eng" n="bibliography" type="description">
+				<head>Bibliography</head>
+				<list>
+					<item>
+						<bibl>van Thiel, H. 1996. <title>Homeri Ilias.</title> Hildesheim: Olms.</bibl>
+					</item>
+					<item>
+						<bibl>Funghi, M. S. and M. C. Martinelli. 2008. <title>"Ostraca leturrari della collezione Finders Petrie: un addendum," ZPE 164:</title> 163-73.</bibl>
+					</item>
+					<item>
+						<bibl>Funghi, M. S. and M. C. Martinelli. 2003. <title>"Ostraca leturrari inediti della collezione Petrie," ZPE 145:</title> 141-201.</bibl>
+					</item>
+					<item>
+						<bibl>Tait, J. G. 1930. <title>O. Petrie inv. 399-404, 406-8, 471-72</title> 140-44.</bibl>
+					</item>
+					<item><bibl>Crum, W. E. 1902. <title>Coptic Ostraca.</title> London.</bibl> nos. 523-24.</item>
+				</list>
+			</div>
+			<div lang="eng" n="catalogues" type="description">
+				<head>Catalogue entries</head>
+				<list>
+					<item>Mertens-Pack 561</item>
+					<item>LDAB 2161</item>
+					<item>Allen-Sutton-West P263, P516, P516a, P522, P525 = [X2]</item>
+				</list>
+			</div>
+			<div n="text" type="edition">
+				<head lang="eng">Iliad X2</head>
+				<note lang="eng" resp="al"
+						>When Funghi and Martinelli made their later edition of these fragments they could not find all the pieces which Tait and Crum had. I have collated the editions of Tait (1930) with Funghi and Martinelli (2008). However, the differences between the two editions extends to the readings of the same lines of text. Where such differences are irreconcilable the edition of Funghi and Martinelli has been followed. But see notes throughout. For a chart of the fragments and the lines they preserve and their publications, see <bibl>Funghi and Martinelli 2008, 67.</bibl></note>
+				<div n="1" type="book">
+					<div n="O. Petrie 403T recto" type="frag">
+						<note lang="eng" resp="al"
+							>The two editions differ greatly here. <bibl>Funghi and Martinelli 2008, 67,</bibl> believe that there must be typographical error in Tait's edition. Funghi and Martinelli's edition is followed here. For this reason, the accuracy of the rest of the text of O. Petrie 403T + 472T which Tait recorded (lines 6-9 + 25-27) cannot be assured. Therefore, those lines have been excluded from this edition.</note>
+						<l n="1">mh<supplied reason="lost">=nin a)/eide, qea/, *phlhia/dew *)axilh=os </supplied></l>
+						<l n="2">ou)lo<unclear>m</unclear><supplied reason="lost">e/nhn, h(\ muri/' *)axaioi=s a)/lge' e)/qhke, </supplied></l>
+						<l n="3">polla\s <supplied reason="lost">d' i)fqi/mous yuxa\s *)a/idi proi/+ayen </supplied></l>
+						<l n="4"><supplied reason="lost">h(</supplied>rw/wn, <supplied reason="lost">au)tou\s de\ e(lw/ria teu=xe ku/nessin </supplied></l>
+						<l n="5"><supplied reason="lost">oi)w</supplied><unclear>n</unclear>oi=si/ <sic>d</sic>e pa=si, *dio\s d' e)telei/eto boulh/, </l>
+						<note lang="eng" resp="al">Tait records a variant in line 7 of "<foreign lang="grc">de</foreign>" in place of "<foreign lang="grc"
+							>te</foreign>." But this is doubtful, seeing as his edition of this fragment has many errors and seeing as Funghi and Martinelli record this very same variant for line 5 (where Tait does not). Quite possibly, the variant in Tait's line 7 actually represents his reading of line 5.</note>
+					</div>
+					<gap extent="4" reason="lost" unit="line"/>
+					<div n="O. Petrie 404T + 408T recto" type="frag">
+						<note lang="eng" resp="al"
+							>The scribe did not write the lines of the poem as independent lines on the ostracon. Line breaks on the ostracon often occur in the middle of Homeric lines.</note>
+						<note lang="eng" resp="al"
+							>The fragment 408T has been lost. According to Tait, it covered lines 13-20 on its recto. The editions of Tait and Funghi and Martinelli are collated here.</note>
+						<l n="10">
+							<supplied reason="lost">nou=son a)na\ <note lang="eng" resp="al">The linebreak on the ostracon occurred here.</note>strato\n w)/</supplied>
+							<unclear>r</unclear>
+							<supplied reason="lost">se kakh/n, o)le/konto<note lang="eng" resp="al">The linebreak on the ostracon occurred here.</note> de\ laoi/, </supplied>
+						</l>
+						<l n="11"><supplied reason="lost">ou(/nek</supplied><unclear>a</unclear> to\n *xr<supplied reason="lost">u/shn h)ti/masen<note lang="eng" resp="al"
+									>The linebreak on the ostracon occurred here.</note> a)rhth=ra </supplied></l>
+						<l n="12"><supplied reason="lost">*)a</supplied>trei/dhs. o(\ g<supplied reason="lost">a\r h)=lqe qoa\s<note lang="eng" resp="al"
+									>The linebreak on the ostracon occurred here.</note> e)pi\ nh=as</supplied> *)axaiw=n<note lang="eng"
+								>Two dots resembling a dicolon have been written here.</note><add n="editorial sign" place="inline">#73</add>
+						</l>
+						<l n="13">lu<supplied reason="lost">so/meno/s te qu/ga<note lang="eng" resp="al">The linebreak on the ostracon occurred here.</note>tra f</supplied>e/ron t'<add
+								n="punctuation" place="inline">#81</add><note lang="eng">An apostrophe is visible here.</note> a)p<supplied reason="lost">erei/s</supplied>i' <supplied
+								reason="lost">a)/poina,</supplied><note lang="eng" resp="al">The linebreak on the ostracon occurred here.</note>
+						</l>
+						<l n="14"><supplied reason="lost">ste/</supplied><unclear>m</unclear>mat' e)/xwn <supplied reason="lost">e)n xe</supplied>rsi\n <supplied reason="lost">e(khbo/lou<note
+									lang="eng" resp="al">The linebreak on the ostracon occurred here.</note> *)apo/llw</supplied>nos<note lang="eng"
+								>Two dots resembling a dicolon have been written here.</note><add n="editorial sign" place="inline">#73</add>
+						</l>
+						<l n="15"><supplied reason="lost">xruse/w| a)na\<note lang="eng" resp="al">The linebreak on the ostracon occurred here.</note> skh/</supplied><unclear>p</unclear><add
+								n="correction" place="supralinear">t</add><note lang="eng" resp="al">An interlinear "<foreign lang="grc"
+								>t</foreign>" has been added in a brighter ink.</note>rw<supplied reason="lost">|, kai\ e)</supplied>li/sseto<note lang="eng" resp="al"
+								>The linebreak on the ostracon occurred here.</note>
+							<supplied reason="lost">pa/ntas *)axaiou/s,</supplied>
+						</l>
+						<note lang="eng" resp="al">Lines 16-20 are only preserved in Tait's edition of 408T. He makes no note of the linebreaks in the ostracon.</note>
+						<l n="16"><supplied reason="lost">*)atrei/da d</supplied>e\ ma/lista <supplied reason="lost">du/w, kosmh/tore law=n:</supplied>
+						</l>
+						<l n="17"><supplied reason="lost">"*)atrei=</supplied>dai te kai\ <supplied reason="lost">a)/lloi e)uknh/mides *)axaioi/,</supplied>
+						</l>
+						<l n="18">u(mi=n me\n <supplied reason="lost">qeoi\ doi=en *)olu/mpia dw/ma</supplied>t' e)/xontes </l>
+						<l n="19"><supplied reason="lost">e)kpe/rsai *pria/moio po/lin, eu)=</supplied>
+							<unclear>q</unclear>' oi)/kad' <supplied reason="lost">i(ke/sqai:</supplied>
+						</l>
+						<l n="20"><supplied reason="lost">pai=da d' e)moi\ lu/</supplied>s<sic>a</sic>te <supplied reason="lost">fi/lhn, ta\ d' a)/poina de/</supplied>xesqai, </l>
+					</div>
+					<div n="O. Petrie 403T + 472T verso" type="frag">
+						<note lang="eng" resp="al"
+							>The scribe did not write the lines of the poem as independent lines on the ostracon. Line breaks on the ostracon often occur in the middle of Homeric lines.</note>
+						<note lang="eng" resp="al"
+							>Substantial portions of the fragment 472T have been lost. According to Tait, it originally covered lines 21-28 on its verso. The editions of Tait and Funghi and Martinelli are collated here.</note>
+						<l n="21"><note lang="eng" resp="al"
+								>The two editions are irreconcilable with regard to their reading of this line. Funghi and Martinelli's is followed here.</note><supplied reason="lost"
+								>a(zo/menoi *dio\s ui(o\n e(khbo/lon *)apo/ll</supplied><unclear>w</unclear>na.<note lang="eng">Two dots resembling a dicolon have been written here.</note><add
+								n="editorial sign" place="inline">#73</add>"<note lang="eng" resp="al">The linebreak on the ostracon occurred here.</note>
+						</l>
+						<l n="22"><supplied reason="lost">e)/nq' a)/lloi me\n pa/n</supplied>tes e)peufh/mhsan <note lang="eng" resp="al"
+								>The linebreak on the ostracon occurred here.</note><supplied reason="lost">*)axaioi\ </supplied></l>
+						<l n="23"><supplied reason="lost">ai)dei=sqai/</supplied> q' i(erh=a kai\ a)glaa\<note lang="eng" resp="al">The linebreak on the ostracon occurred here.</note>
+							<supplied reason="lost">de/xqai a)/poina: </supplied></l>
+						<l n="24">a)ll' ou)k *)atrei/d<supplied reason="lost">h|<note lang="eng" resp="al"
+								>The linebreak on the ostracon occurred here.</note> *)agame/mnoni h(/n</supplied>dane qumw=<supplied reason="lost">|,</supplied>
+						</l>
+						<note lang="eng" resp="al">Lines 25-27 are only preserved in Tait's edition of 472T verso. Tait did not indicate linebreaks in the ostracon.</note>
+						<l n="25"><supplied reason="lost">a)lla\ kakw=s a)fi/</supplied>ei, kratero\n d' <supplied reason="lost">e)pi\ mu=qon e)/tell</supplied>e: </l>
+						<l n="26">"mh/ se, ge/ron, <supplied reason="lost">koi/lh|sin e)gw\</supplied> para\ nhusi\ kixe<supplied reason="lost">i/w</supplied>
+						</l>
+						<l n="27"><supplied reason="lost">h)\ nu=n dhqu/nont'</supplied> h)\ u(/steron au)=tis <supplied reason="lost">i)o/nta,</supplied>
+						</l>
+					</div>
+					<div n="O. Petrie 404T + 408T verso" type="frag">
+						<note lang="eng" resp="al"
+							>The scribe did not write the lines of the poem as independent lines on the ostracon. Line breaks on the ostracon often occur in the middle of Homeric lines.</note>
+						<l n="28"><supplied reason="lost">mh/ nu/ toi ou) xrai/smh| skh=ptr</supplied><unclear>o</unclear>n<unclear> k</unclear><supplied reason="lost">ai\</supplied><note
+								lang="eng" resp="al">The linebreak on the ostracon occurred here.</note><supplied reason="lost"> ste/mma qeoi=o.</supplied>
+						</l>
+						<l n="29"><supplied reason="lost">th\n d' e)g</supplied>w\ ou) lu/s<supplied reason="lost">w:<note lang="eng" resp="al"
+									>The linebreak on the ostracon occurred here.</note> pri/n min kai\ gh=ras</supplied> e)/pesin<note lang="eng"
+								>Two dots resembling a dicolon have been written here.</note><add n="editorial sign" place="inline">#73</add>
+						</l>
+						<l n="30"><unclear>h(</unclear><supplied reason="lost">mete/rw| e)ni\ oi)/kw| e)</supplied>n *)a/rgei+, th<supplied reason="lost">lo/qi<note lang="eng" resp="al"
+									>The linebreak on the ostracon occurred here.</note> pa/trhs, </supplied></l>
+						<l n="31"><supplied reason="lost">i(sto\n e)</supplied>/<unclear>p</unclear>oixome/n<unclear>h</unclear><supplied reason="lost">n kai\<note lang="eng" resp="al"
+									>The linebreak on the ostracon occurred here.</note> e)mo\n</supplied> le/x<supplied reason="lost">os a)n</supplied>tio/wsan. </l>
+						<l n="32"><supplied reason="lost">a)ll' i)/qi<note lang="eng" resp="al">The linebreak on the ostracon occurred here.</note> mh/ m'</supplied> e)re/qi<supplied
+								reason="lost">ze s</supplied>aw/<unclear>t</unclear><supplied reason="lost">eros w(/s<note lang="eng" resp="al"
+								>The linebreak on the ostracon occurred here.</note> ke n</supplied>e/hai." </l>
+						<l n="33">w(\<supplied reason="lost">s e)/fat', e)/ddeisen d' o(\ ge/</supplied>rwn k<supplied reason="lost">ai\ e)pei/qeto mu/qw|:</supplied>
+						</l>
+						<note lang="eng" resp="al">Lines 34-36 are only preserved in Tait's edition of 408T verso.</note>
+						<l n="34"><supplied reason="lost">bh= d'</supplied> a)ke/wn <supplied reason="lost">para\ qi=na polufloi/s</supplied>boio qal<supplied reason="lost">a/sshs.</supplied>
+						</l>
+						<l n="35"><supplied reason="lost">polla\ d' e)/peit'</supplied> a)pa/n<supplied reason="lost">euqe kiw\n h)ra=q' o(\ gera</supplied>io\s </l>
+						<l n="36">*)a<supplied reason="lost">po/llwni a)/nakti, to\n h)u/</supplied>komo<supplied reason="lost">s te/ke *lhtw/:</supplied>
+						</l>
+					</div>
+					<gap extent="11" reason="lost" unit="line"/>
+					<div n="O. Petrie 407T " type="frag">
+						<note lang="eng" resp="al"
+							>The scribe did not write the lines of the poem as independent lines on the ostracon. Line breaks on the ostracon often occur in the middle of Homeric lines.</note>
+						<l n="48">
+							<gap extent="?" reason="lost" unit="character"/>
+							<gap extent="1" reason="illegible" unit="character"/>
+						</l>
+						<l n="49"><unclear>deinh\</unclear><supplied reason="lost"> de\<note lang="eng" resp="al"
+								>The linebreak on the ostracon occurred here.</note> klaggh\ ge/net' a)rgure/o</supplied>io bioi=o.<note lang="eng" resp="al"
+								>The linebreak on the ostracon occurred here.</note>
+						</l>
+						<l n="50"><supplied reason="lost">ou)rh=as me\n prw=ton e)</supplied>pw/|xeto<note lang="eng" resp="al">The linebreak on the ostracon occurred here.</note><supplied
+								reason="lost"> kai\ ku/nas a)rgou/s,</supplied>
+						</l>
+						<l n="51"><supplied reason="lost">au)ta\</supplied><unclear>r</unclear> e)/peit'<add n="punctuation" place="inline">#81</add><note lang="eng"
+								>An apostrophe is visible here.</note><note lang="eng" resp="al">The linebreak on the ostraco  occurred here.</note><supplied reason="lost"
+								> au)toi=si be/los e)xepeu</supplied><unclear>k</unclear>e\s<note lang="eng" resp="al">The linebreak on the ostracon occurred here.</note><supplied reason="lost"
+								> e)fiei\s</supplied>
+						</l>
+						<l n="52"><supplied reason="lost">ba/ll': ai)ei\ de\ pur</supplied><unclear>a</unclear>i\<note lang="eng" resp="al"
+								>The linebreak on the ostracon occurred here. </note><note lang="eng" resp="al"
+								>The ostracon ends here, but the line appears to continue on frag. 62447UC.</note><gap extent="?" reason="omitted" unit="character"/></l>
+					</div>
+					<div n="University College, London 62447 UC" type="frag">
+						<note lang="eng" resp="al"
+							>The scribe did not write the lines of the poem as independent lines on the ostracon. Line breaks on the ostracon often occur in the middle of Homeric lines.</note>
+						<l n="52"><note lang="eng" resp="al"
+								>This fragment appears to pickup where frag. 407T left off, with a few words lost in line 52, where now only two illegilble traces of letters remain.</note><gap
+								extent="?" reason="lost" unit="character"/><gap extent="2" reason="illegible" unit="character"/><gap extent="?" reason="lost" unit="character"/><note lang="eng"
+								resp="al">The linebreak on the ostracon occurred here.</note><supplied reason="lost">qa</supplied><unclear>m</unclear>e<supplied reason="lost">iai/.</supplied>
+						</l>
+						<l n="53"><supplied reason="lost">e)nnh=mar me\n a)</supplied>na\ s<supplied reason="lost">trato\n<note lang="eng" resp="al"
+									>The linebreak on the ostracon occurred here.</note> w)/|xet</supplied><unclear>o k</unclear>h=la qeoi=o, </l>
+						<l n="54"><supplied reason="lost">th=| deka/th|<note lang="eng" resp="al"
+								>The linebreak on the ostracon occurred here.</note> d' a)g</supplied>orh\n de\ k<unclear>a</unclear><supplied reason="lost"
+							>le/ssato lao\n</supplied> *)axilleu/s. </l>
+					</div>
+					<gap extent="3" reason="lost" unit="line"/>
+					<div n="O. Petrie 402T recto">
+						<note lang="eng" resp="al">This fragment has been lost since Tait's edition. Tait did not record the linebreaks of the ostracon.</note>
+						<l n="58"><supplied reason="lost">t</supplied>oi=si d' <supplied reason="lost">a)nista/menos m</supplied>ete/f<supplied reason="lost"
+							>h po/das w)ku\s</supplied> *)axilleu/s: </l>
+						<l n="59"><supplied reason="lost">"*)atrei/dh nu=n</supplied> a)/mme pa<supplied reason="lost">limplagxqe/nta</supplied>s o)i/w </l>
+						<l n="60">a)\<supplied reason="lost">y a)ponosth/</supplied>sein, ei)/ <supplied reason="lost">ken qa/nato/n</supplied> ge fu/g<supplied reason="lost">oimen,</supplied>
+						</l>
+					</div>
+					<gap extent="8" reason="lost" unit="line"/>
+					<div n="O. Petrie 399T recto">
+						<note lang="eng" resp="al"
+							>This fragment has been lost since Crum's (1902) edition; Tait reproduced Crum's version. Crum did not record the linebreaks of the ostracon.</note>
+						<l n="69"><supplied reason="lost">*ka/lxas *qestori/dhs oi)wnopo/lw</supplied>n o)/x' a)/ristos, </l>
+						<l n="70"><supplied reason="lost">o(\s h)/|dh ta/ t' e)o/nta</supplied> ta/ t' e)sso/mena <supplied reason="lost">pro/ t' e)o/nta,</supplied>
+						</l>
+						<l n="71"><supplied reason="lost">kai\</supplied> nh/e<sic>s</sic>' h(gh/sat' *)axaiw=n <supplied reason="lost">*)/ilion ei)/sw</supplied>
+						</l>
+						<l n="72"><supplied reason="lost">h(\n</supplied> dia\ mantosu/nhn, th/n oi( <supplied reason="lost">po/re *foi=bos *)apo/ll</supplied>wn: </l>
+						<l n="73">o(/ sfin e)u\ frone/wn <supplied reason="lost">a)gorh/sato kai\ mete/</supplied>eipe<sic>i:</sic>
+						</l>
+						<l n="74">"w)= *)axileu=, ke/leai/ <supplied reason="lost">me, *dii\ fi/le, muqh/sasqai</supplied>
+						</l>
+						<l n="75">mh=nin *)apo/llwnos <supplied reason="lost">e(kathbele/tao a)/naktos.</supplied>
+						</l>
+						<l n="76">toi\ ga\r e)gw\n e)re/w: <supplied reason="lost">su\ de\ su/nqeo kai/ moi o)/mos</supplied>son </l>
+						<l n="77">h)= me/n moi <supplied reason="lost">pro/frwn e)/pesin kai\ x</supplied>ersi\n a)rh/cein. </l>
+						<l n="78"><supplied reason="lost">h)= ga\r o)i/omai a)/ndra xol</supplied>wse/men, o(\s me/ga <supplied reason="lost">pa/ntwn</supplied>
+						</l>
+						<l n="79"><supplied reason="lost">*)argei/wn krate/ei k</supplied>ai/ <sic>toi</sic> pei/q<sic>w</sic>ntai <supplied reason="lost">*)axaioi/.</supplied>
+						</l>
+						<l n="80"><supplied reason="lost">krei/sswn ga\r ba</supplied>sileu\s o(/te xw/s<supplied reason="lost">etai a)ndri\ xe/rhi:</supplied>
+						</l>
+						<l n="81"><supplied reason="lost">ei)/ per ga/r</supplied> te xo/lon ge kai\ <supplied reason="lost">au)th=mar katape/yh|,</supplied>
+						</l>
+						<l n="82">a)lla/ te kai\ met<supplied reason="lost">o/pisqen e)/xei ko/ton, o)/fra te</supplied>le/ssh<supplied reason="lost">|,</supplied>
+						</l>
+					</div>
+					<gap extent="6" reason="lost" unit="line"/>
+					<div n="O. Petrie 399T verso">
+						<note lang="eng" resp="al"
+							>This fragment has been lost since Crum's (1902) edition; Tait reproduced Crum's version. Crum did not record the linebreaks of the ostracon.</note>
+						<l n="89"><supplied reason="lost">soi\ koi/lh|s para\ nhu</supplied>si\ barei/as xei=<supplied reason="lost">ras e)poi/sei</supplied>
+						</l>
+						<l n="90"><supplied reason="lost">sumpa/n</supplied>twn *danaw=<supplied reason="lost">n, ou)d' h)\n *)agame/mnona</supplied> ei)/ph<sic corr="|"/>s, </l>
+						<l n="91">o(\s nh <supplied reason="lost">pollo\n a)/ristos e)ni\ stra</supplied>t<sic corr="w=|">w=</sic> eu)/xeta<supplied reason="lost">i ei)=nai."</supplied>
+						</l>
+						<l n="92"><supplied reason="lost">kai\ to/te dh\</supplied> qa/rs<sic>u</sic>se ka<supplied reason="lost">i\ hu)/da ma/ntis a)mu/mwn:</supplied>
+						</l>
+						<l n="93">"ou)/t' a)\r o(/ g' eu)<supplied reason="lost">xwlh=s e)pime/mfetai</supplied> ou)<sic>q</sic>' e(kato/<supplied reason="lost">mbhs,</supplied>
+						</l>
+						<l n="94"><supplied reason="lost">a)ll' e(/nek'</supplied> a)rhth=ros <supplied reason="lost">o(\n h)ti/mhs' *)agame/mnwn</supplied>
+						</l>
+						<l n="95">ou)d' a)pe/<supplied reason="lost">luse qu/gatra kai\ ou)k a)pede/cat' a)/poina,</supplied>
+						</l>
+					</div>
+					<div n="O. Petrie 400T recto">
+						<note lang="eng" resp="al">This fragment has been lost since Tait's edition. Tait did not record the linebreaks of the ostracon.</note>
+						<l n="96">tou)/nek' a)/r' a)/lge' e)/dwken <supplied reason="lost">e(khbo/los h)d' e)/t</supplied>i dw/sei. </l>
+						<l n="97">ou)d' o(/ ge pri\n <supplied reason="lost">loimoi=o barei/as xei=</supplied>ras a)fe/cei, </l>
+						<l n="98">pri/n g' a)po\ <supplied reason="lost">patri\ fi/lw| do/menai</supplied> e(likw/pida kou/<supplied reason="lost">rhn</supplied>
+						</l>
+						<l n="99"><supplied reason="lost">a)pria/thn a)na/</supplied>poinon, a)/gein q' i(e<supplied reason="lost">rh\n e(kato/mbhn</supplied>
+						</l>
+						<l n="100">e)s *xru/<note lang="eng" resp="al">Tait records that "after <foreign lang="grc">xru</foreign>4 letters are deleted.</note><del>
+								<gap extent="4" reason="illegible" unit="character"/>
+							</del><gap extent="?" reason="lost" unit="character"/><supplied reason="lost">i(las</supplied>sa/menoi pepi/q<supplied reason="lost">oimen."</supplied>
+						</l>
+						<l n="101"><supplied reason="lost">h)/toi o(/ g'</supplied> w(\s ei)pw\n kat' <supplied reason="lost">a)/r' e(/zeto: toi=si d'</supplied> a)ne/sth </l>
+						<l n="102">h(/r<supplied reason="lost">ws *)atrei/dhs eu)ru\ krei/</supplied>wn *)agame/mn<supplied reason="lost">wn</supplied>
+						</l>
+						<l n="103"><supplied reason="lost">a)xnu/menos:</supplied> me/neos de\ <supplied reason="lost">me/ga fre/nes a)m</supplied>fim<supplied reason="lost"
+								>e/lainai</supplied>
+						</l>
+					</div>
+					<div n="O. Petrie 400T verso">
+						<note lang="eng" resp="al">This fragment has been lost since Tait's edition. Tait did not record the linebreaks of the ostracon.</note>
+						<l n="104"><supplied reason="lost">pi/</supplied>mplant', o)/sse de/ oi( puri\ lampeto/<supplied reason="lost">w</supplied>nti e)i/kthn. </l>
+						<l n="105">*ka/lxanta prw/tis<supplied reason="lost">ta</supplied> ka/k' o)sso/menos prose/eipe: </l>
+						<l n="106"><supplied reason="lost">"ma/nti kak</supplied>w=n, ou) pw/ pote/ moi to\ <supplied reason="lost">krh/guon e</supplied>i)=pas. </l>
+						<l n="107">ai)ei/ toi ta\ ka/k' <supplied reason="lost">e)sti\ fi/la f</supplied>resi\ manteu/esqai, </l>
+						<l n="108"><supplied reason="lost">e)sqlo\n d' ou)de/ ti/ p</supplied>w ei)=pas e)/pos <supplied reason="lost">ou)/t' e)te/lessas.</supplied>
+						</l>
+						<l n="109"><supplied reason="lost">k</supplied>ai\ nu=n e)n *dana<supplied reason="lost">oi=si qeoprope/w</supplied>n a)goreu/eis </l>
+						<l n="110"><supplied reason="lost">w(s dh\ tou=d' e(/ne</supplied>ka/ sfin e(khbo/lo<add place="supralinear">s</add>
+							<supplied reason="lost">a)/lgea teu/xei,</supplied>
+						</l>
+						<l n="111">ou(/nek' e)gw\ kou/r<supplied reason="lost">hs *xrushi/</supplied>dos a)gla/' a)/poina </l>
+						<l n="112"><supplied reason="lost">ou)k e)/qelon de/c</supplied>asqai, e)pei\ po<supplied reason="lost">lu\ bou/lomai</supplied> au)th\n </l>
+						<l n="113"><supplied reason="lost">oi)/koi e)/xein: kai\</supplied> ga/r r(a *klutai<supplied reason="lost">mnh/strhs probe/</supplied>boula </l>
+						<l n="114">kou<supplied reason="lost">ridi/hs a)lo/</supplied>xou, e)pei\ ou)/ <supplied reason="lost">e(qe/n e)sti xer</supplied>ei/wn, </l>
+					</div>
+					<div n="O. Petrie 401T recto">
+						<note lang="eng" resp="al">This fragment has been lost since Tait's edition. Tait did not record the linebreaks of the ostracon.</note>
+						<l n="115"><supplied reason="lost">ou) de/mas ou)de\ fuh/n, ou)/t' a)\r</supplied> fre/nas ou)/<sic>d</sic>e/ <supplied reason="lost">ti e)/rga.</supplied>
+						</l>
+					</div>
+					<div n="O. Petrie 406T + 471T recto">
+						<note lang="eng" resp="al"
+							>The scribe did not write the lines of the poem as independent lines on the ostracon. Line breaks on the ostracon often occur in the middle of Homeric lines.</note>
+						<l n="116"><gap extent="?" reason="lost" unit="character"/><gap extent="1" reason="illegible" unit="character"/><gap extent="?" reason="lost" unit="character"
+								/><supplied reason="lost">do/men</supplied>ai <supplied reason="lost">p</supplied>a/<supplied reason="lost">lin<note lang="eng" resp="al"
+									>The linebreak on the ostracon occurred here.</note> ei) to/ g' a)/m</supplied><unclear>e</unclear>in<supplied reason="lost">on:</supplied>
+						</l>
+						<l n="117"><supplied reason="lost">bou/</supplied><unclear>lom'</unclear> e)gw\ la<supplied reason="lost">o\n so/on<note lang="eng" resp="al"
+									>The linebreak on the ostracon occurred here.</note> e)/mmenai</supplied> h)\ a)<unclear>p</unclear><supplied reason="lost"
+								>ole/sq</supplied><unclear>ai.</unclear><add n="punctuation" place="inline">#70</add><note lang="eng"
+								>A high punctus is visible here. Or it might be the trace of dicolon.</note>
+						</l>
+						<l n="118"><unclear>au)</unclear>ta\r<note lang="eng" resp="al">The linebreak on the ostracon occurred here.</note><supplied reason="lost"
+								> e)moi\ ge/r</supplied><unclear>as</unclear> au)ti/x' <supplied reason="lost">e(toi</supplied>ma/sat'<add n="punctuation" place="inline">#81</add><note lang="eng"
+								>An apostrophe is visible here.</note>,<note lang="eng" resp="al">The linebreak on the ostracon occurred here.</note><supplied reason="lost"
+								> o)/fra mh\ oi)=o</supplied>s<note lang="eng">Two dots resembling a dicolon have been written here.</note><add n="editorial sign" place="inline">#73</add>
+						</l>
+						<l n="119">*)argei/wn <unclear>a)</unclear><supplied reason="lost">ge/</supplied>rastos<note lang="eng" resp="al"
+								>The linebreak on the ostracon occurred here.</note><supplied reason="lost"> e)/w, e)pei\ ou)</supplied>de\ e)/oike. </l>
+						<l n="120"><supplied reason="lost">l</supplied>e<unclear>u/s</unclear>sete<note lang="eng" resp="al">The linebreak on the ostracon occurred here.</note><supplied
+								reason="lost"> ga\r to/ ge p</supplied>a/nte<unclear>s,</unclear><supplied reason="lost"> o(/ moi g</supplied>e/ras<note lang="eng" resp="al"
+								>The linebreak on the ostracon occurred here.</note>
+							<supplied reason="lost">e)/rxetai a)/llh|."</supplied>
+						</l>
+					</div>
+					<gap extent="1" reason="lost" unit="line"/>
+					<div n="O. Petrie 401T verso">
+						<note lang="eng" resp="al">This fragment has been lost since Tait's edition. Tait did not record the linebreaks of the ostracon.</note>
+						<l n="122">"*)atrei/dh k<supplied reason="lost">u/diste, a)/nac a)n</supplied>drw=n *)aga/m<supplied reason="lost">emnon,</supplied>
+						</l>
+						<l n="123"><supplied reason="lost">pw=s ga/r</supplied>
+							<sic>d</sic>oi dw/sousi ge/r<supplied reason="lost">as mega/qumoi</supplied> *)axaioi/; </l>
+						<l n="124">ou)de/ ti/ pw <supplied reason="lost">i)/dmen</supplied> cunh/ia kei/mena p<supplied reason="lost">olla/:</supplied>
+						</l>
+					</div>
+					<div n="O. Petrie 406T + 471T verso">
+						<note lang="eng" resp="al"
+							>The scribe did not write the lines of the poem as independent lines on the ostracon. Line breaks on the ostracon often occur in the middle of Homeric lines.</note>
+						<l n="125"><gap extent="?" reason="lost" unit="character"/><supplied reason="lost">poli/</supplied>wn e)c<supplied reason="lost">epra/qomen, ta\ de/das<note lang="eng"
+									resp="al">The linebreak on the ostracon occurred here.</note>ta</supplied><unclear>i,</unclear><note lang="eng"
+								>Two dots resembling a dicolon have been written here.</note><add n="editorial sign" place="inline">#73</add>
+						</l>
+						<l n="126">laou\<add place="supralinear">s</add> d'<supplied reason="lost"> ou)k e)</supplied>pe/o<unclear>i</unclear><supplied reason="lost">ke pali/llo<note
+									lang="eng" resp="al">The linebreak on the ostracon occurred here.</note>g</supplied>a tau=t' e)<unclear>p</unclear><supplied reason="lost"
+								>agei/</supplied>rein.<note lang="eng">Two dots resembling a dicolon have been written here.</note><add n="editorial sign" place="inline">#73</add>
+						</l>
+						<l n="127">a)<unclear>l</unclear><supplied reason="lost">la\ su\<note lang="eng" resp="al"
+								>The linebreak on the ostracon occurred here.</note> m</supplied>e\n nu=n t<supplied reason="lost">h=n</supplied>de qe<sic>otr</sic><gap extent="?" reason="lost"
+								unit="character"/><supplied reason="lost">au)ta\</supplied><note lang="eng" resp="al">The linebreak on the ostracon occurred here.</note>r *)axaioi\ </l>
+						<note lang="eng" resp="al">Lines 124-25 are repeated, probably on account of an error of homoeoteleuton.</note>
+						<l n="124"><supplied reason="lost">o</supplied><unclear>u)</unclear>de/ ti/ pw <supplied reason="lost">i)/dmen</supplied><note lang="eng" resp="al"
+								>The linebreak on the ostracon occurred here.</note> cunh/i<add n="punctuation" place="supralinear">#80</add><note lang="eng"
+								>A diaeresis is visible here.</note>a <supplied reason="lost">k</supplied><unclear>e</unclear>i/me.<add n="punctuation" place="inline">#72</add><note lang="eng"
+								>A low punctus is visible here.</note> p<supplied reason="lost">olla/:</supplied>
+						</l>
+						<l n="125">a)ll<unclear>a\</unclear><supplied reason="lost">t</supplied><unclear>a\</unclear> me\<unclear>n</unclear> p<unclear>o</unclear><supplied reason="lost"
+								>li/wn e)c</supplied><note lang="eng" resp="al">The linebreak on the ostracon occurred here.</note>epr<supplied reason="lost"
+								>a/qomen, ta\</supplied><unclear> de/</unclear><supplied reason="lost">dastai,</supplied>
+						</l>
+					</div>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI.2>

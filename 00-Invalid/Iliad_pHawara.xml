@@ -1,0 +1,1008 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" "tei-epidoc.dtd" [
+<!ENTITY % TEI.prose 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE' >
+<!ENTITY % TEI.linking 'INCLUDE' >
+<!ENTITY % TEI.certainty 'INCLUDE' >
+<!ENTITY % TEI.figures 'INCLUDE' >
+<!ENTITY % TEI.names.dates 'INCLUDE' >
+<!ENTITY % TEI.transcr 'INCLUDE' >
+<!ENTITY % TEI.textcrit 'INCLUDE' >
+<!ENTITY % TEI.XML 'INCLUDE'>
+<!ENTITY % ISOlat1 SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-lat1.ent'>
+%ISOlat1;
+<!ENTITY % ISOlat2 SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-lat2.ent'>
+%ISOlat2;
+<!ENTITY % ISOnum SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-num.ent'>
+%ISOnum;
+<!ENTITY % ISOpub SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-pub.ent'>
+%ISOpub;
+]>
+<TEI.2>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Iliad Allen-Sutton-West P2</title>
+                <editor id="bh">Bart Huelsenbeck</editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>A new edition, with semantic markup, punctuation, accentuation, emendation, and notes.</edition>
+                <respStmt>
+                    <name>Bart Huelsenbeck, ed.</name>
+                    <resp>after the edition of</resp>
+                    <name id="MV">Marc Vanberg<title>L'Iliade d'Hawara</title></name>
+
+                </respStmt>
+            </editionStmt>
+
+            <extent>under 1Mb</extent>
+            <publicationStmt>
+                <publisher>
+                    The Center for Hellenic Studies of Harvard University
+                </publisher>
+                <authority>
+                    <name>Casey Dué and Mary Ebbott, edd.</name>
+                </authority>
+            </publicationStmt>
+            <sourceDesc>
+                <p>File created electronically.</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language id="eng">English</language>
+                <language id="lat">Latin</language>
+                <language id="grc">Greek</language>
+                <language id="xgrc">Transliterated Greek</language>
+                <language id="deu">German</language>
+                <language id="fra">French</language>
+            </langUsage>
+
+
+        </profileDesc>
+        <revisionDesc>
+            <change>
+                <date>21 Dec 2007</date>
+                <respStmt>
+                    <name>Bart Huelsenbeck</name>
+                    <resp>markup</resp>
+                </respStmt>
+                <item>Initial XML markup.</item>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+
+
+    <text lang="grc">
+        <body>
+            <div type="description" n="date" lang="eng">
+                <head>Date</head>
+                <p>Middle of the second century A.D. (<bibl>Vanberg, 46-50</bibl>)</p>
+            </div>
+            <div type="description" n="provenance" lang="eng">
+                <head>Provenance</head>
+                <p>Hawara (Fayum, Egypt) (<bibl>Vanberg, 5-8</bibl>)</p>
+            </div>
+
+            <div type="description" n="bibliography" lang="eng">
+                <head>Bibliography</head>
+                <list >
+                    <item><bibl>van Thiel, H. 1996. <title>Homeri Ilias</title> Hildesheim: Olms.</bibl></item>
+                    <item><bibl>Vanberg, Marc<title>L'Iliade d'Hawara</title>Mémoire de license, Univ. de Liège</bibl></item>               
+                </list>
+            </div>
+            <div type="description" n="catalogues" lang="eng">
+                <head>Catalogue entries</head>
+                <list>
+                    <item>Mertens-Pack 616 </item>
+                    <item>Allen-Sutton-West  P 2</item>
+                    <item>P.Hawara (Bodl. Ms. Gr. class. a.1 (P))</item>
+                </list>
+            </div>
+
+            <div type="edition" n="text">
+                <head lang="eng">Iliad P2</head>
+                <div n="1" type="book">                                
+                  <div type="frag" n="1">
+                      <gap reason="lost" unit="line" extent="?"/>
+                      <l n="506"><supplied reason="lost">e)/plet', a)ta/r min nu=n ge a)/nac a)ndrw=n *)agame/</supplied>mnw<supplied reason="lost">n</supplied> </l>
+                      <l n="507"><supplied reason="lost">h)ti/mhsen: e(lw\n ga\r e)/xei ge/ras, au)to\s a)</supplied>po<add place="supralinear" n="diacritical mark">#82</add><note lang="eng" resp="bh">An acute accent is visible here.</note>u/ra<unclear>s</unclear>. </l>
+                      <gap reason="lost" unit="line" extent="1"/>
+                      <l n="509"><supplied reason="lost">to/fra d' e)pi\ *trw/essi ti/qei kra/tos, o)/fr' a)\n *)a</supplied>x<supplied reason="lost">aioi\</supplied></l>
+                      <gap reason="lost" unit="line" extent="?"/>
+                  </div>
+            </div>
+
+                <div n="2" type="book">                                
+                    <div type="frag" n="2">
+                        <l n="1"><supplied reason="lost">a)/lloi me/n r(a qeoi/ te kai\ a)ne/</supplied><unclear>r</unclear>e<supplied reason="lost">s i(ppokorustai\</supplied> </l>
+                        <l n="2"><supplied reason="lost">eu(=don pannu/xioi, *di/a d' ou)</supplied><unclear>k</unclear> e)/<add place="supralinear" n="diacritical mark">#82</add><note lang="eng" resp="bh">An acute accent is visible here.</note>xe <unclear>n</unclear>h/dumos u(/p<unclear>no</unclear><supplied reason="lost">s,</supplied> </l>
+                        <l n="3"><supplied reason="lost">a)ll' o(/ ge mermh/rize kata\ fre/</supplied>na<hi rend="superscript">s</hi> w(<add place="supralinear" n="diacritical mark">#85</add><note lang="eng" resp="bh">A rough breathing is visible here.</note>s *)axilh=a </l>
+                        <l n="4"><supplied reason="lost">timh/sh|, o)le/sh| de\ pole/as e)pi\</supplied> nhusi\<unclear>n</unclear> <supplied reason="lost">*)axaiw=n.</supplied> </l>
+                        <l n="5"><supplied reason="lost">h(=de de/ oi( kata\ qumo\n a)ri/sth</supplied> fai/net<unclear>o</unclear> <supplied reason="lost">boulh/,</supplied> </l>
+                        <l n="6"><supplied reason="lost">pe/myai e)p' *)atrei/dh| *)agame/mn</supplied><unclear>o</unclear>ni o<unclear>u)=lo</unclear><supplied reason="lost">n *)/oneiron.</supplied> </l>
+                        <gap reason="lost" unit="line" extent="?"/>
+                    </div>
+
+                    <div type="frag" n="3">
+                        <l n="45"><supplied reason="lost">a)mfi\</supplied> d' a)/<unclear>r'</unclear> w)/<supplied reason="lost">moi</supplied><unclear>s</unclear><supplied reason="lost">in ba/leto ci/fos a)rguro/hlon,</supplied> </l>
+                        <l n="46"><supplied reason="lost">ei(/leto</supplied> de\ sk<unclear>h=</unclear><supplied reason="lost">ptron patrw/ion a)/fqiton ai)ei\:</supplied> </l>
+                        <l n="47"><supplied reason="lost">su\n t</supplied>w=| e)/bh kata\ <supplied reason="lost">nh=as *)axaiw=n xalkoxitw/nwn.</supplied> </l>
+                        <l n="48"><supplied reason="lost">h)w\s m</supplied>e/n r(a qea\<add place="supralinear" n="diacritical mark">#83</add><note lang="eng" resp="bh">A grave accent is visible here.</note> pr<supplied reason="lost">osebh/seto makro\n *)/olumpon</supplied> </l>
+                        <l n="49"><supplied reason="lost">*zhni\ f</supplied><unclear>o/</unclear><add place="supralinear" n="diacritical mark">#82</add><note lang="eng" resp="bh">An acute accent is visible here.</note><unclear>ws e)</unclear>re/<unclear>ou</unclear><supplied reason="lost">sa kai\ a)/llois a)qana/toisin:</supplied> </l>                       
+                        <gap reason="lost" unit="line" extent="?"/>
+                    </div>
+
+                    <div type="frag" n="4, 5">
+                        <l n="111"><supplied reason="lost">*zeu/s me me/ga *kro</supplied>ni/d<unclear>hs</unclear> <supplied reason="lost">a)/</supplied><unclear>t</unclear>h| e)ne/dh<unclear>se</unclear> <supplied reason="lost">barei/h|,</supplied> </l>
+                        <l n="112"><supplied reason="lost">sxe/tlios, o(\s pri\n</supplied> me/<add place="supralinear" n="diacritical mark">#82</add><note lang="eng" resp="bh">An acute accent is visible here.</note>n m<supplied reason="lost">oi</supplied> u(pe/sxeto <unclear>k</unclear><supplied reason="lost">ai\ kate/neusen</supplied> </l>                
+                        <l n="113"><supplied reason="lost">*)/ilion e)kpe/rsant' </supplied><gap reason="illegible" unit="character" extent="5"/><gap reason="lost" unit="character" extent="2"/><unclear>on a)</unclear>p<supplied reason="lost">o</supplied>n<unclear>e/e</unclear><supplied reason="lost">sqai,</supplied> </l>
+                        <l n="114"><supplied reason="lost">nu=n de\ kakh\n a)pa/thn b</supplied><unclear>o</unclear>uleu/<unclear>s</unclear>at<unclear>o, k</unclear><supplied reason="lost">ai/ me keleu/ei </supplied></l>
+                        <l n="115"><supplied reason="lost">duskle/a *)a/rgos i(ke/sqai, e)</supplied>pei\ pol<supplied reason="lost">u\n w)/lesa lao/n.</supplied> </l>                                                    
+                        <gap reason="lost" unit="line" extent="?"/>
+                    </div>
+
+                    <div type="frag" n="6">
+                        <l n="155">e)/nqa/ ke<supplied reason="lost">n *)argei/oisin u(pe/rmora no/stos e)tu/xqh</supplied> </l>
+                        <l n="156"><add place="left" n="ancient editorial sign">#15</add><note resp="bh" lang="eng">A diple appears against this line.</note>ei) mh\ *)a<supplied reason="lost">qhnai/hn *(/hrh pro\s mu=qon e)/eipen:</supplied> </l>
+                        <l n="157">w)\ po/<unclear>p</unclear><supplied reason="lost">oi ai)gio/xoio *dio\s te/kos *)atrutw/nh,</supplied> </l>   
+                        <gap reason="lost" unit="line" extent="?"/>
+                    </div>
+
+                    <div type="frag" n="7">
+                        <l n="200"><supplied reason="lost">daimo/ni' a)tre/mas h(=</supplied>so kai\ <unclear>a)/</unclear>llw<supplied reason="lost">n mu=qon a)/koue,</supplied> </l>
+                        <l n="201"><supplied reason="lost">oi(\ se/o fe/rteroi/ ei)si, s</supplied><unclear>u\</unclear> d' a)<unclear>p</unclear><supplied reason="lost">to/lemo</supplied><unclear>s</unclear> <supplied reason="lost">kai\ a)/nalkis</supplied> </l>
+                        <l n="202"><supplied reason="lost">ou)/te/ pot' e)n pol</supplied>e/mw<unclear>i</unclear> <supplied reason="lost">e)nari/qmios ou)/t' e)ni\ boulh=|:</supplied> </l>
+                        <l n="203"><supplied reason="lost">ou)</supplied> me/<unclear>n</unclear> <supplied reason="lost">p</supplied>ws <supplied reason="lost">pa/ntes b</supplied><unclear>asi</unclear><supplied reason="lost">leu/somen e)nqa/d' *)axaioi/:</supplied> </l>                  
+                        <l n="204"><supplied reason="lost">ou)k a)gaqo\</supplied>n po<supplied reason="lost">lukoir</supplied>a<supplied reason="lost">ni/</supplied><unclear>h: ei(=s</unclear> <supplied reason="lost">koi/ranos e)/stw,</supplied> </l>
+                        <l n="205"><supplied reason="lost">ei(=s basileu/s, w(=| dw=ke *kro/nou p</supplied><unclear>a/</unclear><supplied reason="lost">is a)gkulomh/tew</supplied> </l>
+                        <note lang="eng">Line 206 is omitted.</note>
+                        <l n="207"><supplied reason="lost">w(\s o(/ ge koirane/wn di/epe strato/n: oi(\</supplied> <unclear>d' a)</unclear><supplied reason="lost">gorh\n de\</supplied> </l>                              
+                        <gap reason="lost" unit="line" extent="?"/>
+                    </div>
+
+                    <div type="frag" n="8">
+                        <l n="223"><supplied reason="lost">e)kpa/glws kote/onto neme/sshqe/n t' e)</supplied><unclear>n</unclear> qu<unclear>m</unclear><supplied reason="lost">w=|.</supplied> </l>
+                        <l n="224"><supplied reason="lost">au)ta\r o(\ makra\ bow=n *)agame/mnona nei/</supplied><unclear>k</unclear>ee <supplied reason="lost">mu/q</supplied><unclear>w</unclear><supplied reason="lost">i</supplied>: </l>
+                        <l n="225"><supplied reason="lost">"*)atrei/dh, te/o d' au)=t' e)pime/mfeai h)de\ xati/</supplied>ze<supplied reason="lost">is;</supplied> </l>
+                        <l n="226"><supplied reason="lost">plei=ai/ toi xalkou= klisi/ai, pollai\ de\ gu</supplied><unclear>n</unclear>a<unclear>i=</unclear>kes </l>
+                        <gap reason="lost" unit="line" extent="1"/>
+                        <l n="228"><supplied reason="lost">prwti/stw| di/domen, eu)=t' a)\n ptoli/eqron e(/</supplied>lwm<unclear>en</unclear>. </l>                                                                       
+                        <gap reason="lost" unit="line" extent="?"/>
+                    </div>
+
+                    <div type="frag" n="9, 10">
+                        <l n="245"><supplied reason="lost">kai/ min u(po/dr</supplied><unclear>a</unclear> i)dw\n <unclear>x</unclear><supplied reason="lost">alepw=| h)</supplied>n<sic corr="">o</sic><add place="supralinear" n="diacritical mark">#82</add><note lang="eng" resp="bh">An acute accent is visible here.</note>i/pape <unclear>m</unclear><supplied reason="lost">u/qw|:</supplied> </l>
+                        <l n="246"><supplied reason="lost">"*qersi=t' a)krito/m</supplied>uqe, l<supplied reason="lost">igu/s per e)</supplied><unclear>w\</unclear>n <unclear>a)g</unclear>orht<unclear>h/</unclear><supplied reason="lost">s,</supplied> </l>
+                        <l n="247"><supplied reason="lost">i)/sxeo mhd' e)/qel' oi)=</supplied>os e)<supplied reason="lost">rize/menai basileu=sin.</supplied> </l>
+                        <l n="248"><supplied reason="lost">ou) ga\r e)gw\ se/o fh</supplied>mi\ <supplied reason="lost">xereio/teron broto\n a)/llon</supplied> </l>
+                        <l n="249"><supplied reason="lost">e)/mmenai, o(/ssoi a(/</supplied>m' *)a<supplied reason="lost">trei/dh|s u(po\ *)/ilion h)=lqon.</supplied> </l>
+                        <l n="250"><supplied reason="lost">tw\ ou)k a)\n basil</supplied><unclear>h=</unclear>as a)<unclear>n</unclear><supplied reason="lost">a\ sto/m' e)/xwn a)goreu/ois</supplied> </l>
+                        <l n="251"><supplied reason="lost">kai/ sfin o)nei/dea/ t</supplied>e pr<supplied reason="lost">ofe/rois no/sto/n te fula/ssois.</supplied></l>
+                        <l n="252"><supplied reason="lost">ou)de/ ti/ pw sa/fa</supplied> <unclear>i)/</unclear>dme<supplied reason="lost">n, o(/pws e)/stai ta/de e)/rga:</supplied> </l>
+                        <l n="253"><supplied reason="lost">h)\ eu)= h)e\ kakw=s no</supplied><unclear>sth/s</unclear><supplied reason="lost">omen ui(=es *)axaiw=n.</supplied> </l>                                                                                                           
+                        <gap reason="lost" unit="line" extent="?"/>
+                    </div>
+
+                    <div type="frag" n="11, 12">
+                        <l n="289">w(/<add place="supralinear" n="diacritical mark">%36</add><note resp="bh" lang="eng">A rough breathing and acute accent mark are visible here.</note>s te ga\<unclear>r</unclear> <supplied reason="lost">h)\ pai=des ne</supplied>aroi\ xh=ra<unclear>i/</unclear> <supplied reason="lost">te</supplied> <unclear>g</unclear>un<supplied reason="lost">ai=kes</supplied> </l>
+                        <l n="290">a)llh/lo<supplied reason="lost">isin o)du/ron</supplied>tai oi)=ko/n<unclear>d</unclear><supplied reason="lost">e ne/esqai.</supplied> </l>
+                        <l n="291">h)=<add place="supralinear" n="diacritical mark">#84</add><note resp="bh" lang="eng">A circumflex is visible here.</note> m<unclear>h\</unclear><supplied reason="lost">n kai\ po/nos e)sti\</supplied>n a)n<unclear>i</unclear><supplied reason="lost">hqe/n</supplied>ta <unclear>n</unclear><supplied reason="lost">e/esqai:</supplied> </l>
+                        <l n="292">kai\ ga/<supplied reason="lost">r ti/s q' e(/na mh=na</supplied> <unclear>me/n</unclear><supplied reason="lost">wn a)</supplied><unclear>p</unclear>o\ h(=<supplied reason="lost">s a)lo/xoio</supplied></l>                                                                                                                            
+                        <gap reason="lost" unit="line" extent="?"/>
+                    </div>
+
+                    <div type="frag" n="13">
+                        <gap reason="lost" unit="line" extent="?"/>
+                        <l n="322"><supplied reason="lost">*ka/lxas d' au)ti/k' e)/peita qeopro</supplied><unclear>p</unclear><supplied reason="lost">e/wn a)go/reue:</supplied> </l>
+                        <l n="323"><supplied reason="lost">ti/pt' a)/new| e)ge/nesqe, ka/rh kom</supplied><unclear>o/</unclear><supplied reason="lost">wntes *)axaioi/;</supplied> </l>
+                        <l n="324"><supplied reason="lost">h(mi=n me\n to/d' e)/fhne te/ras</supplied> <unclear>m</unclear><supplied reason="lost">e/ga mhti/eta *zeu\s,</supplied> </l>
+                        <l n="325"><supplied reason="lost">o)/yimon o)yite/leston, o(/ou kle/</supplied>os o<supplied reason="lost">u)/ pot' o)lei=tai.</supplied> </l>
+                        <gap reason="lost" unit="line" extent="1"/>
+                        <l n="327"><supplied reason="lost">o)ktw/, a)ta\r mh/thr e)na/th h)=n,</supplied> <unclear>h(\</unclear> t<unclear>e/</unclear><supplied reason="lost">ke te/kna,</supplied> </l>
+                        <l n="328"><supplied reason="lost">w(\s h(mei=s tossau=t' e)/tea ptole</supplied><unclear>m</unclear><supplied reason="lost">i/</supplied>c<supplied reason="lost">omen au)=qi,</supplied> </l>
+                        <gap reason="lost" unit="line" extent="1"/>
+                        <l n="330"><supplied reason="lost">kei=nos tw\s a)go/reue: ta\ dh\ nu=n p</supplied><unclear>a/</unclear><supplied reason="lost">nta telei=tai.</supplied> </l>
+                        <l n="331"><supplied reason="lost">a)ll' a)/ge mi/mnete pa/ntes,</supplied> <unclear>e)</unclear><supplied reason="lost">u</supplied>kn<supplied reason="lost">h/mides *)axaioi/,</supplied> </l>
+                        <l n="332"><supplied reason="lost">au)tou=, ei)s o(/ ken a)/stu me/ga</supplied> *pria/mo<supplied reason="lost">io e(/lwmen."</supplied> </l>                                                                                                                              
+                    </div>
+
+
+                    <div type="frag" n="14, 15">
+                        <l n="333"><supplied reason="lost">w(\s e)/f</supplied><unclear>at', *)a</unclear>rgei=oi de\ <supplied reason="lost">me/g' i)/axon, a)mf</supplied><unclear>i\</unclear> de\ nh=<supplied reason="lost">es</supplied> </l>
+                        <l n="334"><supplied reason="lost">smerd</supplied><unclear>a</unclear>le/on kon<supplied reason="lost">a/bhsan a)usa/ntwn</supplied> <unclear>u(p'</unclear> <supplied reason="lost">*)axaiw=n,</supplied> </l>
+                        <l n="335"><supplied reason="lost">mu=qon e)p</supplied>ain<unclear>h/</unclear>s<supplied reason="lost">antes *)odussh=os qei/oio.</supplied> </l>
+                        <l n="336"><supplied reason="lost">toi=si de\ kai\</supplied> <unclear>m</unclear>ete/<supplied reason="lost">eipe *gerh/nios i(ppo/ta *ne/stwr:</supplied> </l>
+                        <l n="337"><supplied reason="lost">"w)= po/poi,</supplied> <unclear>h)=</unclear> dh\ p<supplied reason="lost">aisi\n e)oiko/tes a)gora/asqe</supplied> </l>
+                        <l n="338"><supplied reason="lost">nhpia/x</supplied><unclear>o</unclear><supplied reason="lost">is, oi(=s ou)/ ti me/lei polemh/ia e)/rga.</supplied> </l>
+                        <l n="339"><supplied reason="lost">ph=| d</supplied><unclear>h\</unclear> <supplied reason="lost">sun</supplied><unclear>q</unclear><supplied reason="lost">esi/ai te kai\ o(/rkia bh/setai h(/min;</supplied> </l>
+                        <gap reason="lost" unit="line" extent="?"/>
+                        <l n="342"><supplied reason="lost">au)/tws ga\r r(' e)p</supplied><unclear>e/</unclear>e<unclear>ss' e)</unclear><supplied reason="lost">ridai/nomen ou)de/ ti mh=xos</supplied> </l>            
+                        <gap reason="lost" unit="line" extent="1"/>
+                        <l n="344"><supplied reason="lost">*)atrei/dh, su\</supplied> d' <supplied reason="lost">e)/q' w(s pri\n e)/xwn a)stemfe/a boulh\n</supplied> </l>
+                        <l n="345"><supplied reason="lost">a)/rxeu' *)arg</supplied><unclear>ei/oisi</unclear> <supplied reason="lost">kata\ kratera\s u(smi/nas:</supplied> </l>
+                        <l n="346"><supplied reason="lost">tou/sde d' </supplied>e)/a fq<supplied reason="lost">inu/qein e(/na kai\ du/o, toi/ ken *)axaiw=n</supplied> </l>
+                        <l n="347"><supplied reason="lost">no/sfin b</supplied>oule<supplied reason="lost">u/ws': a)/nusis d' ou)k e)/ssetai au)tw=n:</supplied> </l>
+                        <l n="348"><supplied reason="lost">pri\n *)a/rgo</supplied><unclear>s</unclear> d' <unclear>i)e/</unclear><supplied reason="lost">nai, pri\n kai\ *dio\s ai)gio/xoio</supplied> </l>               
+                        <l n="349"><supplied reason="lost">gnw/menai,</supplied> e<add place="supralinear" n="diacritical mark">#86</add><note resp="bh" lang="eng">A smooth breathing mark is visible here.</note>i)/<add place="supralinear" n="diacritical mark">%96</add><note resp="bh" lang="eng">A hyphen is visible here.</note><unclear>t</unclear><supplied reason="lost">e yeu=dos u(po/sxesis ei)/ te kai\ ou)ki/.</supplied> </l>
+                        <l n="350"><supplied reason="lost">fhmi\ ga\</supplied>r ou)=n <unclear>k</unclear><supplied reason="lost">ataneu=sai u(permene/a *kroni/wna</supplied> </l>
+                        <l n="351"><supplied reason="lost">h)/mati t</supplied>w=|, o(/<add place="supralinear" n="diacritical mark">#85</add><note resp="bh" lang="eng">A rough breathing mark is visible here.</note>te <unclear>n</unclear><supplied reason="lost">husi\n e)n w)kupo/roisin e)/bainon</supplied> </l>
+                        <l n="352"><supplied reason="lost">*)argei=oi *t</supplied>rw/es<unclear>s</unclear><supplied reason="lost">i fo/non kai\ kh=ra fe/rontes,</supplied> </l>
+                        <l n="353"><supplied reason="lost">a)stra/</supplied>ptwn e)p<supplied reason="lost">ide/ci' e)nai/sima sh/mata fai/nwn.</supplied> </l>
+                        <l n="354"><supplied reason="lost">tw= m</supplied><unclear>h/</unclear> tis pri\n e)<unclear>p</unclear><supplied reason="lost">eige/sqw oi)=ko/nde ne/esqai,</supplied> </l>                                                                                            
+                    </div>
+
+                    <div type="frag" n="16">
+                        <gap reason="lost" unit="line" extent="?"/>
+                        <l n="369"><supplied reason="lost">to\n d' a)pameibo/menos pr</supplied>o<supplied reason="lost">se/</supplied>f<unclear>h</unclear> k<supplied reason="lost">rei/wn *)agame/mnwn:</supplied> </l>
+                        <l n="370"><supplied reason="lost">"h)= ma\n au)=t' a)gorh=| nika=|s, ge/ro</supplied><unclear>n,</unclear> ui(=a<supplied reason="lost">s *)axaiw=n.</supplied> </l>                  
+                        <l n="371"><supplied reason="lost">ai)\ ga\r, *zeu= te pa/ter kai\ *)aqhnai/</supplied>h kai\ <unclear>*)a/</unclear><supplied reason="lost">pollon,</supplied></l>
+                        <l n="372"><supplied reason="lost">toiou=toi de/ka moi sumfra/</supplied>dmones <unclear>e</unclear><supplied reason="lost">i)=en *)axaiw=n:</supplied> </l>
+                        <l n="373"><supplied reason="lost">tw/ ke ta/x' h)mu/seie po/lis</supplied> *pria/moi<unclear>o</unclear> <supplied reason="lost">a)/naktos</supplied> </l>
+                        <l n="374"><supplied reason="lost">xersi\n u(f' h(mete/rh|sin</supplied> <unclear>a(</unclear>lou=<add place="supralinear" n="diacritical mark">#84</add><note resp="bh" lang="eng">A circumflex is visible here.</note>sa/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note> te pe<supplied reason="lost">rqome/nh te.</supplied> </l>
+                        <l n="375"><supplied reason="lost">a)lla/ moi ai)gi/oxos *kroni/</supplied>dhs *zeu\s a)/lg<supplied reason="lost">e' e)/dwken,</supplied> </l>
+                        <l n="376"><supplied reason="lost">o(/s me met' a)prh/ktous e)/ri</supplied>das kai\ nei/k<supplied reason="lost">ea ba/llei.</supplied> </l>                                                                                                                                 
+                    </div>
+
+                    <div type="frag" n="17, 18, 19, 20">
+                        <l n="377"><supplied reason="lost">k</supplied>ai\ ga\r e)g<unclear>w\n *)a</unclear><supplied reason="lost">xileu/s te maxessa/meq' ei(/neka kou/rhs</supplied> </l>                              
+                        <l n="378"><supplied reason="lost">a)</supplied>ntibi/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>ois <unclear>e)p</unclear><supplied reason="lost">e/essin, e)gw\ d' h)=rxon xalepai/nwn: </supplied></l>
+                        <l n="379">e<unclear>i)</unclear> de/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note> pot'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> e)/s <supplied reason="lost">g</supplied><unclear>e m</unclear><supplied reason="lost">i/an bouleu/somen, ou)ke/t'</supplied> e)/<supplied reason="lost">peita</supplied> </l>
+
+                        <l n="380"><unclear>*t</unclear>rwsi\n a)n<supplied reason="lost">a/</supplied>bl<supplied reason="lost">hsis kakou= e)/ssetai, ou)d' h)b</supplied>a<supplied reason="lost">io/n.</supplied> </l>
+                        <l n="381">nu=n d'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> e)/rxesq' <supplied reason="lost">e)pi\ dei=pnon, i(/na cuna/gwmen *)a/rha.</supplied> </l>
+                        <l n="382"><supplied reason="lost">eu)= me/n</supplied> <unclear>ti</unclear>s <unclear>d</unclear><supplied reason="lost">o/ru qhca/sqw, eu)= d' a)spi/da qe/sqw,</supplied> </l>             
+                        <l n="383"><supplied reason="lost">eu)= de/ tis i(/ppoisin dei=pnon do/tw w)kupo/d</supplied>e<supplied reason="lost">ssin,</supplied> </l>
+                        <gap reason="lost" unit="line" extent="?"/>
+                        <l n="389"><supplied reason="lost">a)spi/dos a)mfibro/ths, peri\</supplied> d' <supplied reason="lost">e)/gxei+ xei=ra kamei=tai:</supplied> </l>
+                        <l n="390"><supplied reason="lost">i(drw/sei de/ teu i(/p</supplied><unclear>po</unclear><supplied reason="lost">s e)u/coon a(/rma titai/nwn.</supplied> </l>
+                        <l n="391"><supplied reason="lost">o(\n de/ k'</supplied> e)gw\<supplied reason="lost">n a)pa/neuqe ma/xhs e)qe/lonta noh/sw</supplied> </l>
+                        <l n="392"><supplied reason="lost">mimna/</supplied>zein <supplied reason="lost">para\ nhusi\ korwni/sin, ou)/ oi( e)/peita</supplied> </l>
+                        <l n="393"><supplied reason="lost">a)/rkio</supplied>n e)sse<supplied reason="lost">i=tai fuge/ein ku/nas h)d' oi)wnou/s."</supplied> </l>
+
+                        <l n="394"><supplied reason="lost">w(\s</supplied> <unclear>e)/</unclear>fat', *)arge<supplied reason="lost">i=oi de\ me/g' i)/axon, w(s o(/te ku=ma</supplied> </l>
+                        <l n="395"><supplied reason="lost">a)k</supplied>th=<add place="supralinear" n="diacritical mark">#84</add><note resp="bh" lang="eng">A circumflex is visible here.</note><hi rend="superscript"><unclear>i</unclear></hi> e)f' u(y<unclear>h</unclear><supplied reason="lost">lh=|, o(/te kinh/sh| *no/tos e)lqw/n,</supplied> </l>       
+                        <l n="396"><supplied reason="lost">p</supplied>roblh=ti <unclear>s</unclear>ko<supplied reason="lost">pe/lw|: to\n d' ou)/ pote ku/mata le</supplied>i/pei </l>
+                        <l n="397"><supplied reason="lost">p</supplied>antoi/wn a)<unclear>n</unclear><supplied reason="lost">e/mwn, o(/t' a)\n e)/nq' h)\ e)/nqa ge/nw</supplied>ntai.<add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note> <add place="right" n="scholion"><supplied reason="lost" n="ancient editorial sign">#512</supplied><note resp="bh" lang="eng">It is believed that there was an antisigma preceding the scholion, since the antisigma precedes other scholia in this papyrus.</note> h( k<hi rend="superscript">o</hi><supplied reason="abbreviation">inh\</supplied> ge/nhtai</add>  </l>
+
+                        <l n="398"><supplied reason="lost">a)</supplied>nsta/ntes d' o)r<supplied reason="lost">e/onto kedasqe/ntes kata\ nh=</supplied>as,<add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note> </l>              
+                    </div>
+
+                    <div type="frag" n="21, 22">
+                        <l n="399"><supplied reason="lost">ka/pnisa/n te kata\ klis</supplied>i/as kai\ <unclear>d</unclear><supplied reason="lost">ei=pnon e(/lonto.</supplied> </l>
+                        <l n="400"><supplied reason="lost">a)/llos d' a)/llw| e)/reze qe</supplied>w=n ai)ei<supplied reason="lost">geneta/wn</supplied> </l>
+                        <l n="401"><supplied reason="lost">eu)xo/menos qa/nato/n</supplied> te fu<unclear>g</unclear><supplied reason="lost">ei=n kai\ mw=lon *)a/rhos,</supplied> </l>
+                        <l n="402"><supplied reason="lost">au)ta\r o(\ bou=n i(e/reuse</supplied>n a)/<unclear>n</unclear>ac a)<unclear>n</unclear><supplied reason="lost">drw=n *)agame/mnwn</supplied> </l>          
+                        <gap reason="lost" unit="line" extent="1"/>
+                        <l n="404"><supplied reason="lost">ki/klhsken de\ ge/</supplied><unclear>r</unclear><supplied reason="lost">ont</supplied>a<supplied reason="lost">s a)risth=as *panaxaiw=n,</supplied> </l> 
+                        <gap reason="lost" unit="line" extent="?"/>
+                        <l n="411"><supplied reason="lost">toi=sin d' eu)xo/menos mete/</supplied>fh <unclear>k</unclear><supplied reason="lost">r</supplied>e<supplied reason="lost">i/wn *)agame/mnwn:</supplied> </l>
+                        <l n="412"><supplied reason="lost">"*zeu= ku/diste me/giste kelain</supplied>efe/<supplied reason="lost">s,</supplied> <unclear>a</unclear><supplied reason="lost">i)qe/ri nai/wn,</supplied> </l>
+                        <l n="413"><supplied reason="lost">mh\ pri\n e)p' h)e/lion du=nai</supplied> kai\ e)pi\ <unclear>kn</unclear><supplied reason="lost">e/fas e)lqei=n,</supplied> </l>
+                        <l n="414"><supplied reason="lost">pri/n me kata\ prhne\s bal</supplied>e/ein *pr<supplied reason="lost">ia/moio me/laqron</supplied> </l>
+                        <l n="415"><supplied reason="lost">ai)qalo/en, prh=sai de\ pur</supplied><unclear>o\</unclear>s dhi/<add place="supralinear" n="diacritical mark">%132</add><note resp="bh" lang="eng">A diaeresis and acute accent are visible here.</note>oio <unclear>q</unclear><supplied reason="lost">u/retra,</supplied> </l>
+                        <l n="416"><supplied reason="lost">*(ekto/reon de\ xitw=na per</supplied><unclear>i\</unclear> sth/qessi <unclear>d</unclear><supplied reason="lost">ai/+cai</supplied> </l>
+                        <l n="417"><supplied reason="lost">xalkw=| r(wgale/on: p</supplied>ole/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>es d'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> a)mf' a<unclear>u)</unclear><supplied reason="lost">to\n e(tai=roi</supplied> </l>
+                        <l n="418"><supplied reason="lost">prhne/es e)n koni/h|s</supplied>in o)<add place="supralinear" n="diacritical mark">#86</add><note resp="bh" lang="eng">A smooth breathing mark is visible here.</note>da\c la<add place="supralinear" n="diacritical mark">%27</add><note resp="bh" lang="eng">A breve is visible here.</note>zo<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note><unclear>i/</unclear><supplied reason="lost">ato gai=an."</supplied> </l>
+                        <l n="419"><supplied reason="lost">w(\s e)/fat': ou)d' a)/ra pw/ o</supplied><unclear>i(</unclear> e)pekrai/aine <supplied reason="lost">*kroni/wn,</supplied> </l>
+                        <l n="420"><supplied reason="lost">a)ll' o(/ ge de/kto me\n i(ra/</supplied><add place="inline" n="punctuation">#71</add><note resp="bh" lang="eng">A mid punctus is visible here.</note> po/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>non d'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> a)me/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note><supplied reason="lost">garton o)/fellen.</supplied> </l>
+
+                    </div>
+
+
+                    <div type="frag" n="23, 24">
+                        <l n="421"><supplied reason="lost">au)ta\r e)pei/ r(' eu)/canto kai\ ou)loxu/tas prob</supplied>a/l<unclear>on</unclear><supplied reason="lost">t</supplied><unclear>o,</unclear> </l>
+                        <l n="422"><supplied reason="lost">au)e/rusan me\n prw=ta kai\ e)/sfacan kai\ e)/</supplied>de<unclear>ir</unclear>a<unclear>n,</unclear> </l>
+
+                        <gap reason="lost" unit="line" extent="?"/>
+                        <l n="432"><supplied reason="lost">au)ta\r e)</supplied>p<supplied reason="lost">ei\ po/sios kai\ e)dhtu/os e)c e)/ron e(/nto,</supplied> </l>
+                        <l n="433"><supplied reason="lost">toi=s a)/</supplied>ra m<supplied reason="lost">u/qwn h)=rxe *gerh/nios i(ppo/ta *ne/st</supplied><unclear>w</unclear>r: </l>
+                        <l n="434"><supplied reason="lost">"*)atrei/+</supplied>dh ku/<supplied reason="lost">diste, a)/nac a)ndrw=n *)aga/memnon,</supplied> </l>
+                        <l n="435"><supplied reason="lost">mhk</supplied>e/ti nu=n <unclear>d</unclear><supplied reason="lost">h/q' au)=qi legw/meqa mhd' e)/ti dhro\</supplied>n </l>
+                        <l n="436"><supplied reason="lost">a)m</supplied><unclear>ba</unclear>llw/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>meq<supplied reason="lost">a e)/rgon, o(\ dh\ qeo\s e)gguali/cei.</supplied> <add place="right" n="scholion"><supplied reason="lost">#512 h( koinh\</supplied><unclear>e)</unclear>gguali/zei</add>       </l>
+                        <l n="437"><supplied reason="lost">a)l</supplied><unclear>l'</unclear> a)/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>ge kh/ru<supplied reason="lost">kes me\n *)axaiw=n xalkoxitw/nw</supplied><unclear>n</unclear> </l>
+                        <l n="438"><supplied reason="lost">l</supplied><unclear>ao\</unclear>n khru/sso<supplied reason="lost">ntes a)geiro/ntwn kata\ nh=as,</supplied> </l>
+                        <l n="439">h(mei=s d'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> a)<add place="supralinear" n="diacritical mark">#85</add><note resp="bh" lang="eng">A rough breathing mark is visible here.</note>qro/o<unclear>i</unclear> <supplied reason="lost">w(=de kata\ strato\n eu)ru\n *)a</supplied>xaiw=n </l>
+                        <l n="440">i)/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>omen, o)/fra ke <supplied reason="lost">qa=sson e)gei/romen o)cu\n *)a/r</supplied>ha" <add place="supralinear" n="punctuation">#72</add><note resp="bh" lang="eng">A supralinear high punctus is visible here.</note></l>
+                        <l n="441"><supplied reason="lost">w(\s e)/fat'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> <add place="inline" n="punctuation">#71</add><note resp="bh" lang="eng">A mid punctus is visible here.</note>ou)d'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> a)</supplied><unclear>p</unclear><supplied reason="lost">i/qhsen a)/nac a)ndrw=n *)ag</supplied><unclear>a</unclear>me/mnwn. </l>
+                        <l n="442">au)ti/ka khru/k<supplied reason="lost">essi ligufqo/ggoisi ke/leus</supplied>e </l>
+
+                    </div>
+
+
+                    <div type="frag" n="25, 26, 28">
+                        <l n="443"><supplied reason="lost">khru/ss</supplied>ein <supplied reason="lost">p</supplied>o/lemon d<unclear>e\</unclear> <supplied reason="lost">ka/</supplied><unclear>rh</unclear> <supplied reason="lost">komo/wntas</supplied> *)axa<unclear>i</unclear>ou/s. <add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note></l>
+                        <l n="444"><supplied reason="lost">oi(\ m</supplied>e\<supplied reason="lost">n e)kh/</supplied>r<unclear>u</unclear>sson, to<add place="supralinear" n="diacritical mark">#83</add><note lang="eng" resp="bh">A grave accent is visible here.</note>i\ d'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> h)<unclear>gei/</unclear>ro<supplied reason="lost">nto ma/l' w)=k</supplied><unclear>a.</unclear> </l>           
+                        <l n="445"><supplied reason="lost">oi(\ d' a)mf' *)atre</supplied>i/wna diotrefe/e<supplied reason="lost">s basilh=es</supplied> </l>
+                        <l n="446"><supplied reason="lost">qu=non kri/nont</supplied><unclear>es, m</unclear>et<supplied reason="lost">a\ de\ glaukw=pis</supplied> *)a<supplied reason="lost">qh/nh</supplied> </l> 
+                        <l n="447"><supplied reason="lost">ai)gi/d' e)/xous' e)ri/timon a)gh/rawn a)qana/thn te:</supplied> <add place="right" n="scholion"><supplied reason="lost">#512 *)ari/</supplied>star<supplied reason="lost">xos</supplied> a)gh/<supplied reason="lost">rwn</supplied></add></l>
+                        <l n="448"><supplied reason="lost">th=s e(kato\n qu/sanoi pagxru/seoi h)ere/</supplied><unclear>q</unclear><supplied reason="lost">ontai,</supplied> </l>
+                        <l n="449"><supplied reason="lost">pa/ntes e)upleke/es, e(kato/mboios de\</supplied> e(/<supplied reason="lost">kastos.</supplied> </l>
+                        <l n="450"><supplied reason="lost">su\n th=| paifa/ssousa die/ssuto la</supplied>o\<supplied reason="lost">n *)axaiw=n</supplied> </l>
+
+                        <gap reason="lost" unit="line" extent="?"/>
+                        <l n="454"><supplied reason="lost">e)n nhusi\ glafurh=|si fi/</supplied><unclear>l</unclear>hn <supplied reason="lost">e)s patri/da gai=an.</supplied> </l>
+                        <l n="455"><supplied reason="lost">h)u/te pu=r a)i/dhlon e)p</supplied><unclear>i</unclear>fle/<unclear>g</unclear><supplied reason="lost">ei a)/speton u(/lhn</supplied> </l>
+                        <l n="456"><supplied reason="lost">ou)/reos e)n korufh=|s, e(/k</supplied>aqen <unclear>de/</unclear> <supplied reason="lost">te fai/netai au)gh/,</supplied> </l>
+                        <l n="457"><supplied reason="lost">w(\s tw=n e)rxome/nwn a)</supplied>po\ xalk<supplied reason="lost">ou= qespesi/oio</supplied> </l>
+                        <l n="458"><supplied reason="lost">ai)/glh pamfano/wsa d</supplied>i' ai)qe/ros <supplied reason="lost">ou)rano\n i(=ken.</supplied> </l>
+                        <l n="459"><supplied reason="lost">tw=n d', w(/s t' o)rni/qwn</supplied> petehnw=<add place="supralinear" n="diacritical mark">%26</add><add place="supralinear" n="diacritical mark">#84</add><note resp="bh" lang="eng">A circumflex is visible here.</note><supplied reason="lost">n e)/qnea polla\,</supplied> </l>
+                        <l n="460"><supplied reason="lost">xhnw=n h)\ gera/nw</supplied><unclear>n</unclear> h)\ ku/knwn <supplied reason="lost">doulixodei/rwn,</supplied> </l>
+                        <l n="461"><supplied reason="lost">*)asi/w e)n leimw=n</supplied><unclear>i</unclear> *kau+<add place="supralinear" n="punctuation">#80</add><note resp="bh" lang="eng">A diaeresis is visible here.</note>stri/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>ou a)<supplied reason="lost">mfi\ r(e/eqra</supplied> </l>
+                        <l n="462"><supplied reason="lost">e)/nqa kai\ e)/nqa po</supplied>tw=<add place="supralinear" n="diacritical mark">#84</add><note resp="bh" lang="eng">A circumflex is visible here.</note>ntai a)gall<supplied reason="lost">o/mena pteru/gessi,</supplied> <gap reason="illegible" extent="?" unit="character"/> <note resp="bh" lang="eng">Illegible traces of a scholion, split between two lines, are visible here.</note> </l>
+                        <l n="463"><supplied reason="lost">klagghdo\n pro</supplied>kaqizo/ntw<unclear>n, s</unclear><supplied reason="lost">maragei= de/ te leimw/n:</supplied> </l>
+                        <l n="464"><supplied reason="lost">w(\s tw=n e)/qnea p</supplied><unclear>o</unclear>lla\ new=n a)/p<unclear>o</unclear> <supplied reason="lost">kai\ klisia/wn</supplied> </l>
+
+                    </div>
+
+                    <div type="frag" n="27, 28, 29">
+                        <l n="465"><supplied reason="lost">e)s pedi/on proxe/o</supplied>nto *ska<unclear>m</unclear><supplied reason="lost">a/ndrion: au)ta\r u(po\ xqw\n</supplied> </l>
+                        <l n="466"><supplied reason="lost">smerdale/on kona/bize p</supplied>o<unclear>d</unclear><supplied reason="lost">w=n au)tw=n te kai\ i(/ppwn.</supplied> </l>
+                        <l n="467"><supplied reason="lost">e)/stan d' e)n leimw=ni *skam</supplied>a<supplied reason="lost">ndri/w| a)nqemo/enti</supplied> </l>
+                        <l n="468"><supplied reason="lost">muri/oi, o(/ssa/ te fu/lla kai\ a)/</supplied><unclear>n</unclear><supplied reason="lost">qea gi/gnetai w(/rh|.</supplied> </l>
+
+                        <l n="469"><supplied reason="lost">h)u/te muia/wn a)dina/wn</supplied> e)/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>q<supplied reason="lost">nea polla\,</supplied> </l>
+                        <l n="470"><supplied reason="lost">ai(/ te kata\ staqmo\n poim</supplied>n<supplied reason="lost">h/ion h)la/skousin</supplied> </l>
+                        <l n="471"><supplied reason="lost">w(/rh| e)n ei)arinh=|, o(/te te gl</supplied><unclear>a/</unclear><add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note><supplied reason="lost">gos a)/ggea deu/ei,</supplied> </l>
+                        <l n="472"><supplied reason="lost">to/ssoi e)pi\ *trw/essi ka/rh komo/wntes *)ax</supplied>aioi\ </l>
+                        <l n="473">e)n <supplied reason="lost">pedi/w| i(/stanto diarrai=sai memaw=</supplied>tes <add place="supralinear" n="punctuation">#72</add><note resp="bh" lang="eng">A supralinear high punctus is visible here.</note></l>
+
+                        <l n="474"><unclear>t</unclear><supplied reason="lost">ou\s d' w(/s t' ai)po/lia plate/' ai)gw=n ai)po/l</supplied>oi a)/ndr<unclear>e</unclear><supplied reason="lost">s</supplied> </l>
+                        <l n="475">r(e<unclear>i=a</unclear> <supplied reason="lost">diakri/nwsin, e)pei/ ke nomw=| mig</supplied>e/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>wsin, <add place="inline" n="punctuation">#70</add><note resp="bh" lang="eng">A low punctus is visible here.</note></l>
+                        <l n="476">w(\<add place="supralinear" n="diacritical mark">%37</add><note resp="bh" lang="eng">A rough breathing and grave accent mark are visible here.</note>s <unclear>t</unclear><supplied reason="lost">ou\s h(gemo/nes dieko/smeon e)/nq</supplied><unclear>a</unclear> kai\ e)/nqa </l>
+                        <l n="477">u(sme<unclear>i/</unclear><supplied reason="lost">nhnd' i)e/nai, meta\ de\ krei/wn *)ag</supplied>ame/mnw<supplied reason="lost">n,</supplied> </l>
+                        <l n="478">o)/mm<supplied reason="lost">ata kai\ kefalh\n i)/kelos *dii\ ter</supplied>pikera<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>u/nw<supplied reason="lost">i,</supplied> </l>
+                        <l n="479">*)a/rei+<add place="supralinear" n="punctuation">#80</add><note resp="bh" lang="eng">A diaeresis is visible here.</note> d<supplied reason="lost">e\ zw/nhn, ste/rnon de\ *poseida/w</supplied>ni <add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note></l>
+                        <l n="480">h)u/<add place="supralinear" n="punctuation">#80</add><note resp="bh" lang="eng">A diaeresis is visible here.</note>te bo<supplied reason="lost">u=s a)ge/lhfi me/g' e)/coxos e)/plet</supplied>o pa/ntwn </l>
+                        <l n="481"><add place="left" n="ancient editorial sign">#15</add><note resp="bh" lang="eng">A diple appears against this line.</note>tau=<add place="supralinear" n="diacritical mark">#84</add><note resp="bh" lang="eng">A circumflex is visible here.</note>ros <add place="supralinear" n="punctuation">#72</add><note resp="bh" lang="eng">A supralinear high punctus is visible here.</note><unclear>o(\</unclear> <supplied reason="lost">ga/r te bo/essi metapre/pei</supplied> a)grome/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>nh|si <add place="inline" n="punctuation">#70</add><note resp="bh" lang="eng">A low punctus is visible here.</note></l>
+
+                        <l n="482">toi=<add place="supralinear" n="diacritical mark">#84</add><note resp="bh" lang="eng">A circumflex is visible here.</note>on a)/<supplied reason="lost">r' *)atrei/dhn qh=ke *zeu\s h)/</supplied>mati kei/nw| </l>
+                        <l n="483">e)kprep<unclear>e/'</unclear> <supplied reason="lost">e)n polloi=si kai\ e)/coxon</supplied> h(<add place="supralinear" n="diacritical mark">#85</add><note resp="bh" lang="eng">A rough breathing mark is visible here.</note>rw/essin <add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note></l>
+                        <l n="484"><add place="left" n="ancient editorial sign">#14</add><note resp="bh" lang="eng">A diple periestigmene appears against this line.</note>e)/spete n<supplied reason="lost">u=n moi, *mou=sai *)olu/mp</supplied><unclear>i</unclear>a dw/mat'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> e)/xousai: </l>
+                        <l n="485">u(mei=s ga\<supplied reason="lost">r qeai/ e)ste pa/reste/ te i)/s</supplied>te/ te pa/nta <add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note></l>
+                        <l n="486">h(mei=s d<supplied reason="lost">e\ kle/os oi)=on a)kou/omen</supplied> ou)de/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note> ti i)/<add place="supralinear" n="punctuation">#80</add><note resp="bh" lang="eng">A diaeresis is visible here.</note>dmen: </l>
+
+
+
+                    </div>
+
+
+                    <div type="frag" n="30, 31, 32, 33">
+                        <l n="487"><supplied reason="lost">oi(/ ti</supplied><unclear>n</unclear><supplied reason="lost">es h(g</supplied><unclear>em</unclear><supplied reason="lost">o/nes *danaw=n kai\ koi/ranoi h)=san.</supplied> </l>
+                        <l n="488"><supplied reason="lost">p</supplied><unclear>l</unclear>hqu\n d'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> <unclear>o</unclear><supplied reason="lost">u)k a)\n e)gw\ muqh/somai ou)d' o)nomh/n</supplied>w, </l>
+                        <l n="489"><supplied reason="lost">o</supplied>u)d'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> e<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>i)/ mo<unclear>i</unclear> <supplied reason="lost">de/ka me\n glw=ssai, de/ka de\ sto/mat'</supplied> ei)=e<unclear>n,</unclear> </l>
+                        <l n="490"><supplied reason="lost">f</supplied><unclear>w</unclear>nh\ d' a)/<unclear>r</unclear><supplied reason="lost">rhktos, xa/lkeon de/ moi h)=tor e)n</supplied>e<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>i/h, </l>
+                        <l n="491"><supplied reason="lost">ei)</supplied> mh\ *)olu<unclear>m</unclear><supplied reason="lost">pia/des *mou=sai, *dio\s ai)gio/xoio</supplied> </l>
+
+                        <gap reason="lost" unit="line" extent="?"/>
+                        <l n="493"><supplied reason="lost">a)rxou\s au)= nh</supplied><unclear>w=</unclear><supplied reason="lost">n e)re/w nh=a/s te propa/sas.</supplied> </l>
+                        <l n="494"><supplied reason="lost">*boiwtw=n</supplied> <unclear>m</unclear>e\n *p<supplied reason="lost">hne/lews kai\ *lh/itos h)=rxon</supplied> </l>
+                        <l n="495"><supplied reason="lost">*)arkesi/lao/</supplied><unclear>s</unclear> te *pro<supplied reason="lost">qoh/nwr te *kloni/os te:</supplied> </l>
+                        <l n="496"><supplied reason="lost">oi(/ q' *(uri/h</supplied>n e)ne/mon<supplied reason="lost">to kai\ *au)li/da petrh/essan</supplied> </l>
+                        <l n="497"><supplied reason="lost">*sxoi=no/n t</supplied>e <add place="inline" n="punctuation">#71</add><note resp="bh" lang="eng">A mid punctus is visible here.</note> *skw=lo/<unclear>n</unclear> <supplied reason="lost">te polu/knhmo/n t' *)ete</supplied>wno/n <add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note></l>
+                        <l n="498"><supplied reason="lost">*qe/speian</supplied> *grai=a/n te <unclear>k</unclear><supplied reason="lost">ai\ eu)ru/xoron *mukalhss</supplied>o/n <add place="inline" n="punctuation">#71</add><note resp="bh" lang="eng">A mid punctus is visible here.</note></l>
+
+                        <l n="499"><supplied reason="lost">oi(/ t' a)mf' *(/a</supplied><unclear>r</unclear>m'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> e)ne/mont<supplied reason="lost">o kai\ *ei)le/sion kai\ *)eruqra/</supplied>s <add place="inline" n="punctuation">#71</add><note resp="bh" lang="eng">A mid punctus is visible here.</note></l>
+                        <l n="500"><supplied reason="lost">oi(/ t' *)elew=</supplied>n'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> ei)=xon <add place="inline" n="punctuation">#71</add><note resp="bh" lang="eng">A mid punctus is visible here.</note> h)<add place="supralinear" n="diacritical mark">#86</add><note resp="bh" lang="eng">A smooth breathing mark is visible here.</note>d'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> *(/u<unclear>lh</unclear><supplied reason="lost">n kai\ *petew=na,</supplied> </l>
+                        <l n="501"><supplied reason="lost">*)wkale/h</supplied>n <add place="inline" n="punctuation">#71</add><note resp="bh" lang="eng">A mid punctus is visible here.</note> *medew=n<supplied reason="lost">a/ t' e)ukti/menon ptoli/eqr</supplied>on <add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note></l>
+                        <l n="502"><supplied reason="lost">*kw/pa</supplied><unclear>s</unclear> *e<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>u)/trhsi/n te <add place="inline" n="punctuation">#71</add><note resp="bh" lang="eng">A mid punctus is visible here.</note> p<supplied reason="lost">olutrh/rwna/ te *qi/sbhn,</supplied> </l>
+
+                        <l n="503"><supplied reason="lost">oi(/ te</supplied> *korw/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>neian kai\ <unclear>p</unclear><supplied reason="lost">oih/enq' *(ali/arton,</supplied> </l>
+                        <l n="504"><supplied reason="lost">oi(/ t</supplied><unclear>e</unclear> *pla/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>taian e)/xon h)<supplied reason="lost">d' oi(\ *glisa=nt' e)ne/mon</supplied>to <add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note></l>    
+                        <l n="505"><supplied reason="lost">oi(/ q'</supplied> *(upoqh/bas ei)=xon e)u<supplied reason="lost">kti/menon ptoli/eqr</supplied>on, </l>
+                        <l n="506"><supplied reason="lost">*)og</supplied>xhsto/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>n q'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> i(<add place="supralinear" n="diacritical mark">#85</add><note resp="bh" lang="eng">A rough breathing mark is visible here.</note>ero\n, *po<unclear>s</unclear><supplied reason="lost">idh/ion a)glao\n a)/lso</supplied><unclear>s</unclear> <add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note></l>
+                        <l n="507"><supplied reason="lost">oi(/ t</supplied>e polusta/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>fulon *)a/<supplied reason="lost">rnhn e)/xon, oi(/ te *mi/d</supplied>eian <add place="supralinear" n="punctuation">#72</add><note resp="bh" lang="eng">A supralinear punctus is visible here.</note></l>
+                        <l n="508"><supplied reason="lost">*ni=s</supplied>a/n te zaqe/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>hn <add place="inline" n="punctuation">#71</add><note resp="bh" lang="eng">A mid punctus is visible here.</note> *)anq<unclear>h</unclear><supplied reason="lost">do/na t' e)sxato/wsan.</supplied> </l>
+                    </div>
+
+
+                    <div type="frag" n="34, 35">
+                        <l n="509"><supplied reason="lost">tw=n me\n penth/konta ne/es ki/on,</supplied> <unclear>e)</unclear>n d<unclear>e\</unclear> <supplied reason="lost">e(ka/sth|</supplied> </l>
+                        <l n="510"><supplied reason="lost">kou=roi *boiwtw=n e(kato\n kai\ ei)/kosi b</supplied>ai=<add place="supralinear" n="diacritical mark">#84</add><note resp="bh" lang="eng">A circumflex is visible here.</note>n<supplied reason="lost">on.</supplied> </l>
+                        <l n="511"><supplied reason="lost">oi(\ d' *)asplhdo/na nai=on i)d' *)orx</supplied><unclear>om</unclear>e<supplied reason="lost">no\n *minu/eion,</supplied> </l>
+                       <gap reason="lost" unit="line" extent="?"/>
+
+                        <l n="515"><supplied reason="lost">*)a/rhi kraterw=|: o(\ de/ oi( parele/</supplied>c<unclear>a</unclear><supplied reason="lost">to la/qrh|.</supplied> </l>
+                        <l n="516"><supplied reason="lost">toi=s de\ trih/konta glafur</supplied>ai\ ne/es <unclear>e)</unclear>stixo/wnto.</l> 
+                        <l n="517"><supplied reason="lost">au)ta\r *fwkh/wn *sxedi/os</supplied> kai\ *)epi/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>s<unclear>t</unclear><supplied reason="lost">rofos h)=rxon,</supplied> </l>
+                        <l n="518"><supplied reason="lost">ui(=es *)ifi/tou megaqu/mou *n</supplied>auboli/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>da<supplied reason="lost">o:</supplied> </l>       
+                        <l n="519"><supplied reason="lost">oi(\ *kupa/risson e)/xon *p</supplied><unclear>u</unclear>qw=<add place="supralinear" n="diacritical mark">#84</add><note resp="bh" lang="eng">A circumflex is visible here.</note>na/ te <unclear>p</unclear><supplied reason="lost">etrh/essan</supplied> </l>
+                        <l n="520"><supplied reason="lost">*kri=sa/n te zaqe/hn kai\ *da</supplied><unclear>u</unclear>li/da kai\ *pa<supplied reason="lost">noph=a,</supplied> </l>
+                        <l n="521"><supplied reason="lost">oi(/ t' *)anemw/reian kai\ *(u</supplied><unclear>a/</unclear>mpolin a)mf<supplied reason="lost">ene/monto,</supplied> </l>
+                        <l n="522"><supplied reason="lost">oi(/ t' a)/ra pa\r potamo\n *k</supplied>hfiso\n di=<add place="supralinear" n="diacritical mark">#84</add><note resp="bh" lang="eng">A circumflex is visible here.</note>on e)/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>n<supplied reason="lost">aion,</supplied> </l>
+                        <l n="523"><supplied reason="lost">oi(/ te *li/laian e)/xon ph</supplied>gh=<add place="supralinear" n="diacritical mark">#84</add><note resp="bh" lang="eng">A circumflex is visible here.</note>i<add place="supralinear" n="punctuation"><unclear>#80</unclear></add><note resp="bh" lang="eng">Traces of a diaeresis are visible.</note>s e)/pi *khfiso<supplied reason="lost">i=o:</supplied> </l>
+                        <l n="524"><supplied reason="lost">toi=s d' a(/ma tessara/kon</supplied><unclear>t</unclear>a me/la<add place="supralinear" n="diacritical mark">#83</add><note lang="eng" resp="bh">A grave accent is visible here.</note>inai n<unclear>h=</unclear><supplied reason="lost">es e(/ponto.</supplied></l>
+                        <l n="525"><supplied reason="lost">oi(\ me\n *fwkh/wn st</supplied>i/xas i(/<add place="supralinear" n="punctuation">#80</add><note resp="bh" lang="eng">A diaeresis is visible here.</note>stasan a)<supplied reason="lost">mfie/pontes,</supplied> </l>
+                        <l n="526"><supplied reason="lost">*boiwtw=n d' e)/mplh</supplied>n e)p'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> a)ristera\ q<unclear>w</unclear><supplied reason="lost">rh/ssonto.</supplied> </l>
+                        <l n="527"><supplied reason="lost">*lokrw=n d' h(gemo/n</supplied>euen *)oi<add place="supralinear" n="punctuation">#80</add><note resp="bh" lang="eng">A diaeresis is visible here.</note>lh=os taxu\s <supplied reason="lost">*ai)/as:</supplied> </l>
+                        <l n="528"><supplied reason="lost">mei/wn, ou)/ ti to/sos g</supplied><unclear>e</unclear> o(/<add place="supralinear" n="diacritical mark">%36</add><note resp="bh" lang="eng">A rough breathing and acute accent mark are visible here.</note>sos *telamw/nio<unclear>s</unclear> <supplied reason="lost">*ai)/as,</supplied> </l>
+                        <l n="529"><supplied reason="lost">a)lla\ polu\ mei/wn: <add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note> </supplied> o)li/gos me\n e)/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>hn, <unclear>l</unclear><supplied reason="lost">inoqw/rhc,</supplied> </l>        
+                        <l n="530"><supplied reason="lost">e)gxei/h| d' e)ke/kast</supplied>o *pa<add place="supralinear" n="diacritical mark">#83</add><note lang="eng" resp="bh">A grave accent is visible here.</note>ne/llhnas k<unclear>a</unclear><supplied reason="lost">i\ *)axaiou/s:</supplied> </l>
+           </div>
+
+                    <div type="frag" n="36, 37, 38, 39">
+                        <l n="531"><supplied reason="lost">oi(\ *ku=no/n t' e)ne/mon</supplied>t'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> *)opo/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>ent<unclear>a/</unclear> <supplied reason="lost">te *k</supplied>all<supplied reason="lost">i/aro/n te</supplied> </l>
+                        <l n="532"><supplied reason="lost">*bh=ssa/n te *ska/rfhn te kai\ *au)g</supplied>e<supplied reason="lost">i</supplied><unclear>a\</unclear><supplied reason="lost">s e)rateina/s,</supplied> </l>
+                        <gap reason="lost" unit="line" extent="?"/>
+
+                        <l n="538"><supplied reason="lost">*kh/</supplied><unclear>r</unclear>inqo/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note><unclear>n</unclear> <supplied reason="lost">t' e)/falon *di/ou t' ai)pu\ ptoli/e</supplied>qron, </l>
+                        <l n="539"><supplied reason="lost">oi(/</supplied> te *ka/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>rust<supplied reason="lost">on e)/xon h)d' oi(\ *stu/ra naiet</supplied>a/askon, <add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note></l>
+                        <l n="540"><supplied reason="lost">t</supplied><unclear>w=</unclear>n au)=q'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> h(ge<supplied reason="lost">mo/neu' *)elefh/nwr o)/zos *)a/r</supplied>hos </l>
+                        <l n="541"><supplied reason="lost">*x</supplied><unclear>a</unclear>lkwdon<supplied reason="lost">tia/dhs, megaqu/mwn a)rxo\</supplied>s *)aba/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>ntw<supplied reason="lost">n.</supplied> </l>
+                        <l n="542"><supplied reason="lost">t</supplied>w=| d'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> a(/<add place="supralinear" n="diacritical mark">%36</add><note resp="bh" lang="eng">A rough breathing and acute accent mark are visible here.</note>m'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> *)a/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>ba<supplied reason="lost">ntes e(/ponto qooi\ o)/piqe</supplied>n komo/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>w<unclear>n</unclear><supplied reason="lost">tes,</supplied> </l>          
+
+                        <l n="543">ai)xmhtai\, <add place="inline" n="punctuation">#71</add><note resp="bh" lang="eng">A mid punctus is visible here.</note> me<supplied reason="lost">maw=tes o)rekth=|si</supplied>n meli/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>h|si </l>
+                        <l n="544">qw/rhkas r(h/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>c<unclear>e</unclear><supplied reason="lost">in dhi/wn a)mfi\ sth/q</supplied>essi: <add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note></l>
+
+
+                        <l n="545">tw=| d'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> a(/ma tessa<supplied reason="lost">ra/konta me/lainai</supplied> nh=es e(/<add place="supralinear" n="diacritical mark">%36</add><note resp="bh" lang="eng">A rough breathing and acute accent mark are visible here.</note>ponto. <add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note></l>
+                        <l n="546">o<add place="supralinear" n="diacritical mark">#85</add><note resp="bh" lang="eng">A rough breathing mark is visible here.</note>i(\ d' a)/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>r'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> *)aqh/nas <supplied reason="lost">ei)=xon e)ukti/meno</supplied><unclear>n</unclear> ptoli/eqron, </l>
+                        <l n="547">dh=<add place="supralinear" n="diacritical mark">#84</add><note resp="bh" lang="eng">A circumflex is visible here.</note>mon *)erexq<supplied reason="lost">h=os megalh/toros,</supplied> o(/n pot'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> *)aqh/nh </l>
+                        <l n="548"><add place="left" n="ancient editorial sign">#12</add><note resp="bh" lang="eng">An obelos appears against this line.</note>qre/ye *dio\<unclear>s</unclear> <supplied reason="lost">quga/thr, te/ke de\ zei/d</supplied>wros a)/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>roura, <add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note></l>
+                        <note lang="eng">Line 549 is omitted.</note>
+                        <l n="550">e)/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>nqa de/ min <unclear>t</unclear><supplied reason="lost">au/roisi kai\ a)rnei</supplied>oi=s i(<add place="supralinear" n="diacritical mark">#85</add><note resp="bh" lang="eng">A rough breathing mark is visible here.</note>la/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>ontai </l>
+                        <l n="551">ko<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>u=roi *)aqhn<supplied reason="lost">ai/wn peritello</supplied><unclear>m</unclear>e/nwn e)niautw=<supplied reason="lost">n:</supplied> </l>
+                        <l n="552">tw=n au)=<add place="supralinear" n="diacritical mark">#84</add><note resp="bh" lang="eng">A circumflex is visible here.</note>q'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> h(ge<unclear>m</unclear><supplied reason="lost">o/neu' ui(o\s *pete</supplied>w=o *menesqeu/s. <add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note></l>
+                        <l n="553">tw=| d'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> ou)/ pw/ t<supplied reason="lost">is o(moi=os e)pixqo/</supplied>nios ge/net'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> a)<add place="supralinear" n="diacritical mark">%26</add><note resp="bh" lang="eng">A macron is visible here.</note>nh\r </l>
+                    </div>
+
+                    <div type="frag" n="40, 41, 42, 43">
+                        <l n="554"><supplied reason="lost">kosm</supplied><unclear>h=s</unclear><supplied reason="lost">ai i(/ppous te kai\ a)n</supplied><unclear>e/</unclear>ras a)<supplied reason="lost">spidiw/tas:</supplied> </l>
+                        <l n="555"><supplied reason="lost">*ne/s</supplied>tw<supplied reason="lost">r oi)=os e)/rizen: o(\ ga\r pr</supplied>oge<supplied reason="lost">ne/steros h)=en.</supplied> </l>
+                        <l n="556"><supplied reason="lost">tw=|</supplied> d' <supplied reason="lost">a(/ma penth/konta me/l</supplied>a<unclear>in</unclear><supplied reason="lost">ai nh=es e(/ponto.</supplied> </l>
+                        <l n="557"><supplied reason="lost">*ai)/a</supplied>s d' <supplied reason="lost">e)k *salami=nos a)/gen duokai/deka nh=as:</supplied> </l>
+                        <note lang="eng">Line 558 is omitted.</note>
+
+                        <l n="559"><supplied reason="lost">oi(\ d' </supplied><unclear>*)a/r</unclear><supplied reason="lost">gos t' ei)=xon *ti/runqa/ te teixio/essan</supplied> </l>                                  
+                        <l n="560"><supplied reason="lost">*(erm</supplied><unclear>io/</unclear><supplied reason="lost">nhn *)asi/nhn te, baqu\n kata\ ko/lpon e)xou/sas,</supplied> </l>
+                        <gap reason="lost" unit="line" extent="?"/>
+
+                        <l n="562"><supplied reason="lost">oi(/ t' e)/xon *ai)/g</supplied>inan *m<supplied reason="lost">a/shta/ te kou=roi *)axaiw=n,</supplied> </l>
+                        <l n="563"><supplied reason="lost">tw=n au)=q' h(g</supplied>emo/neue <supplied reason="lost">boh\n a)gaqo\s *diomh/dhs</supplied> </l>
+                        <l n="564"><supplied reason="lost">kai\ *sqe/ne</supplied><unclear>l</unclear>os, *kapan<supplied reason="lost">h=os a)gakleitou= fi/los ui(</supplied>o/s: <add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note></l>
+                        <l n="565"><supplied reason="lost">toi=si d' a(/</supplied><unclear>m'</unclear> *eu)ru/alos tr<supplied reason="lost">i/tatos ki/en, i)so/qeos f</supplied>w/s </l>
+                        <l n="566"><supplied reason="lost">*mhkist</supplied>e/ws ui(o\s *tala<supplied reason="lost">i+oni/dao a)/naktos.</supplied> </l>
+                        <l n="567"><supplied reason="lost">sumpa/</supplied>ntwn d'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> h(gei=<add place="supralinear" n="diacritical mark">#84</add><note resp="bh" lang="eng">A circumflex is visible here.</note>to <supplied reason="lost">boh\n a)gaqo\s *diom</supplied><unclear>h/</unclear>dhs: <add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note></l>
+                        <l n="568"><supplied reason="lost">toi=si d' a(/</supplied>m'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> o)gdw/konta m<supplied reason="lost">e/lainai nh=es e(/po</supplied>nto. <add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note></l>
+                        <l n="569"><supplied reason="lost">oi(\ de\ *m</supplied>ukh/nas ei)=xon e)<supplied reason="lost">ukti/menon ptoli/</supplied>eqron </l>
+                        <l n="570"><supplied reason="lost">a)fnei</supplied>o/n te *ko/rinqon <add place="inline" n="punctuation">#71</add><note resp="bh" lang="eng">A mid punctus is visible here.</note> <unclear>e)</unclear><supplied reason="lost">uktime/nas te *kl</supplied>ew<add place="supralinear" n="diacritical mark">#83</add><note lang="eng" resp="bh">A grave accent is visible here.</note>na/<add place="supralinear" n="diacritical mark">%26</add><note resp="bh" lang="eng">A macron is visible here.</note>s, </l>
+                        <l n="571"><supplied reason="lost">*)ornei</supplied>a/s t'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> e)ne/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>monto <add place="inline" n="punctuation">#71</add><note resp="bh" lang="eng">A mid punctus is visible here.</note> *)ar<supplied reason="lost">aiqure/hn t' e)rate</supplied><unclear>i</unclear>nh\n </l>
+                        <l n="572"><supplied reason="lost">kai\ *s</supplied>ikuw=<add place="supralinear" n="diacritical mark">%26</add><note resp="bh" lang="eng">A macron is visible here.</note>n', <add place="supralinear" n="diacritical mark">%26</add><note resp="bh" lang="eng">A macron is visible here.</note>n', o(/q' a)/r' *)a/drhs<supplied reason="lost">tos prw=t' e)mbas</supplied>i/leuen, <add place="supralinear" n="punctuation">#72</add><note resp="bh" lang="eng">A supralinear high punctus is visible here.</note> o(/<add place="supralinear" n="diacritical mark">#85</add><note resp="bh" lang="eng">A rough breathing mark is visible here.</note>q'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> a)/r' *)a/drhs<supplied reason="lost">tos prw=t' e)mbas</supplied>i/leuen, <add place="supralinear" n="punctuation">#72</add><note resp="bh" lang="eng">A supralinear high punctus is visible here.</note></l>
+
+                        <l n="573"><supplied reason="lost">oi(/ q' *(u</supplied>perhse<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>i/hn te kai\ <supplied reason="lost">ai)peinh\n *gon</supplied><unclear>o/</unclear><add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>essan </l>
+                        <l n="574"><supplied reason="lost">*pe</supplied><unclear>l</unclear>lh/nhn t'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> ei)=<add place="supralinear" n="diacritical mark">#84</add><note resp="bh" lang="eng">A circumflex is visible here.</note>xon h)<add place="supralinear" n="diacritical mark">#86</add><note resp="bh" lang="eng">A smooth breathing mark is visible here.</note>d'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> <unclear>*a</unclear><supplied reason="lost">i)/gion a)mfen</supplied><unclear>e/</unclear>monto <add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note></l>
+                        <l n="575"><supplied reason="lost">*ai)g</supplied>ialo/n t'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> a)na\ pa/nta <supplied reason="lost">kai\ a)mf' *(eli/kh</supplied>n eu)rei=<add place="supralinear" n="diacritical mark">#84</add><note resp="bh" lang="eng">A circumflex is visible here.</note>an: <add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note></l>
+                        <l n="576"><supplied reason="lost">tw=</supplied>n e(<add place="supralinear" n="diacritical mark">#85</add><note resp="bh" lang="eng">A rough breathing mark is visible here.</note>kato\n nhw=n h)=<add place="supralinear" n="diacritical mark">%26</add><note resp="bh" lang="eng">A macron is visible here.</note>rx<supplied reason="lost">e krei/wn *)agam</supplied>e/mnwn </l>
+                    </div>
+
+                    <div type="frag" n="44, 45, 46">
+                        <l n="577"><supplied reason="lost">*)atrei/dhs. a(/m</supplied><unclear>a t</unclear>w=<unclear>i</unclear> <supplied reason="lost">ge polu\</supplied> ple<supplied reason="lost">i=stoi kai\ a)/ristoi </supplied></l>
+                        <l n="578"><supplied reason="lost">laoi\ e(/pont':</supplied> <unclear>e)n d' a</unclear><supplied reason="lost">u)to\s e)du/sato nw/ropa xalko\n</supplied> </l>
+                        <l n="579"><supplied reason="lost">kudio/wn,</supplied> o(/<unclear>ti</unclear> p<supplied reason="lost">a=si de\ mete/prepen h(rw/essin,</supplied> </l>
+                        <l n="580"><supplied reason="lost">ou(/nek' a)/ristos e)/hn, polu\ de\ pl</supplied>ei/sto<supplied reason="lost">us a)/ge laou/s.</supplied> </l>
+                        <l n="581"><supplied reason="lost">oi(\ d' ei)=xon koi/lhn *lakedai/mo</supplied><unclear>n</unclear>a kht<supplied reason="lost">w/essan,</supplied> </l>
+                        <l n="582"><supplied reason="lost">*fa=ri/n te *spa/rthn te</supplied> <add place="inline" n="punctuation">#71</add><note resp="bh" lang="eng">A mid punctus is visible here.</note> polu<supplied reason="lost">trh/rwna/ te *me/sshn,</supplied> </l>
+
+                        <l n="583"><supplied reason="lost">*bruseia/s t' e)ne/mont</supplied>o <add place="inline" n="punctuation">#71</add><note resp="bh" lang="eng">A mid punctus is visible here.</note> kai\ *au)<supplied reason="lost">geia\s e)rateina/s,</supplied> </l>
+                        <l n="584"><supplied reason="lost">oi(/ t' a)/r' *)amu/klas ei)=</supplied>xon <add place="inline" n="punctuation">#71</add><note resp="bh" lang="eng">A mid punctus is visible here.</note> *(/elos <unclear>t'</unclear><supplied reason="lost"> e)/falon ptoli/eqron,</supplied> </l>
+
+                        <l n="585"><supplied reason="lost">oi(/ te *la/an ei)=xo</supplied><unclear>n</unclear> h)d'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> *o<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>i)/tulo<supplied reason="lost">n a)mfene/monto:</supplied> </l>
+                        <l n="586"><supplied reason="lost">tw=n oi( a)delf</supplied><unclear>e</unclear>o\s h)=<add place="supralinear" n="diacritical mark">#84</add><note resp="bh" lang="eng">A circumflex is visible here.</note>rxe boh\<add place="supralinear" n="diacritical mark">#83</add><note lang="eng" resp="bh">A grave accent is visible here.</note><unclear>n</unclear> <supplied reason="lost">a)gaqo\s *mene/laos</supplied> </l>
+
+                        <l n="587"><supplied reason="lost">e(ch/konta ne</supplied>w=n: <add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note> a)pa/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>terq<unclear>e</unclear> <supplied reason="lost">de\ qwrh/ssonto.</supplied> </l>
+                        <l n="588"><supplied reason="lost">e)n d' au)to\s ki/e</supplied>n h(=<add place="supralinear" n="diacritical mark">%38</add><note resp="bh" lang="eng">A rough breathing and circumflex are visible here.</note>isi proqum<supplied reason="lost">i/h|si pepoiqw/s,</supplied> </l>
+                        <l n="589"><supplied reason="lost">o)tru/nwn p</supplied><unclear>o/</unclear>lemon de/: <add place="supralinear" n="punctuation">#72</add><note resp="bh" lang="eng">A supralinear high punctus is visible here.</note> ma/li<unclear>s</unclear><supplied reason="lost">ta de\ i(/eto qumw=</supplied>i </l>
+                        <l n="590"><supplied reason="lost">ti/sasqai *(ele/</supplied>nhs o(rmh/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>mata/ t<supplied reason="lost">e stonaxa/s te.</supplied> </l>
+                        <l n="591"><supplied reason="lost">oi(\ de\ *pu/lon</supplied> t' e)ne/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>monto kai\ *)a<add place="supralinear" n="diacritical mark">%26</add><note resp="bh" lang="eng">A macron is visible here.</note><supplied reason="lost">rh/nhn e)ratein</supplied><unclear>h\</unclear>n <add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note></l>
+
+                        <l n="592"><supplied reason="lost">kai\ *qru/on, *)a</supplied>lfeioi=<add place="supralinear" n="diacritical mark">#84</add><note resp="bh" lang="eng">A circumflex is visible here.</note>o po/ron, <supplied reason="lost">kai\ e)u/ktiton *ai)pu/,</supplied> </l>
+                        <l n="593"><supplied reason="lost">kai\ *kupari</supplied>ssh/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>enta kai\ *)amf<supplied reason="lost">ige/neian e)/nai</supplied><unclear>o</unclear>n <add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note></l>
+                        <l n="594"><supplied reason="lost">kai\ *ptele</supplied>o\n kai\ *(/e<add place="supralinear" n="diacritical mark">#85</add><note resp="bh" lang="eng">A rough breathing mark is visible here.</note>los <add place="inline" n="punctuation">#71</add><note resp="bh" lang="eng">A mid punctus is visible here.</note> kai\ *dw/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>r<supplied reason="lost">ion, e)/nqa/ te *mo</supplied><unclear>u=</unclear>sai </l>
+                        <l n="595"><supplied reason="lost">a)nto/me</supplied><unclear>n</unclear>ai *qa/murin to\n *qrh/<supplied reason="lost">ika pau=san a)o</supplied>idh=<add place="supralinear" n="diacritical mark">#84</add><note resp="bh" lang="eng">A circumflex is visible here.</note>s </l>
+                        <l n="596"><supplied reason="lost">*oi)xali/h</supplied>qen i)o/nta par' *eu)ru/t<supplied reason="lost">ou *oi)xalih=os:</supplied> </l>
+                        <l n="597"><supplied reason="lost">steu=to g</supplied><unclear>a\</unclear>r <unclear>e</unclear>u)xo/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>menos nikh<unclear>s</unclear><supplied reason="lost">e/men, ei)/ per a)\</supplied>n au)tai\<add place="supralinear" n="diacritical mark">%26</add><note resp="bh" lang="eng">A macron is visible here.</note> </l>
+                        <l n="598"><supplied reason="lost">*mou=sai a)e</supplied>i/doien kou=<add place="supralinear" n="diacritical mark">#84</add><note resp="bh" lang="eng">A circumflex is visible here.</note>rai *dio\s a<supplied reason="lost">i)gio/xoio:</supplied> </l>
+                    </div>
+
+
+                    <div type="frag" n="46, 47, 48, 49">
+                        <l n="601"><supplied reason="lost">tw=n</supplied> au)=<add place="supralinear" n="diacritical mark">#84</add><note resp="bh" lang="eng">A circumflex is visible here.</note><supplied reason="lost">q' h(gemo/neue *gerh/nios i(ppo/ta *ne/stwr:</supplied> </l>
+                        <l n="602"><supplied reason="lost">tw=</supplied>i d'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> e)<unclear>n</unclear><supplied reason="lost">enh/konta glafurai\ ne/es e)stixo/wnto.</supplied> </l>
+
+                        <l n="603"><supplied reason="lost">oi(\ d'</supplied> <unclear>e)/x</unclear><supplied reason="lost">on *)arkadi/hn u(po\ *k</supplied>ullh/<supplied reason="lost">nhs o)/ros ai)pu\</supplied> </l>
+                        <l n="604"><supplied reason="lost">*ai)p</supplied><unclear>u/</unclear>ti<supplied reason="lost">on para\ tu/mbon,</supplied> i(/n' a)<add place="supralinear" n="diacritical mark">%26</add><note resp="bh" lang="eng">A macron is visible here.</note>ne/<supplied reason="lost">res a)gximaxhtai/,</supplied> </l>
+                        <l n="605"><supplied reason="lost">oi(\ *feneo/n t' e)ne/mon</supplied><unclear>t</unclear>o kai\ *)orx<unclear>o</unclear><supplied reason="lost">meno\n polu/mhlon,</supplied> </l>
+
+                        <l n="606"><supplied reason="lost">*(ri/phn te *strati/hn t</supplied><unclear>e</unclear> kai\ h)nemo/<supplied reason="lost">essan *)eni/sphn</supplied> </l>
+                        <l n="607"><supplied reason="lost">kai\ *tege/hn ei)=xon k</supplied>ai\ *mantine/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note><supplied reason="lost">hn e)rateinh/n,</supplied> </l>
+                        <l n="608"><supplied reason="lost">*stu/mfhlo/n t' ei)=xo</supplied>n kai\ *parrasi/<supplied reason="lost">hn e)ne/monto:</supplied> </l>
+                        <l n="609"><supplied reason="lost">tw=n h)=rx' *)agkai/oio</supplied> <unclear>p</unclear>a/<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note>i<add place="supralinear" n="punctuation">#80</add><note resp="bh" lang="eng">A diaeresis is visible here.</note>s krei/wn *)ag<supplied reason="lost">aph/nwr,</supplied> </l>
+                        <l n="610"><supplied reason="lost">e(ch/konta new=n:</supplied> pole/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>es d'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> e)n nh<supplied reason="lost">i\ e(ka/sth|</supplied> </l>
+                        <l n="611">*)a<supplied reason="lost">rka/des a)/ndres e)/b</supplied>ainon e)pista/m<supplied reason="lost">enoi polemi/zei</supplied>n. </l>
+                        <l n="612"><add place="left" n="ancient editorial sign">#14</add><note resp="bh" lang="eng">A diple periestigmene appears against this line.</note>a<unclear>u)</unclear><supplied reason="lost">to\s ga/r sfin dw=</supplied>ken a)/nac a)ndrw=<supplied reason="lost">n *)agame/mnw</supplied>n </l>
+
+                        <l n="613">n<supplied reason="lost">h=as e)usse/lmou</supplied>s, pera/an e)pi\ oi)/n<unclear>o</unclear><supplied reason="lost">pa po/nton,</supplied> </l>
+                        <l n="614">*)a<supplied reason="lost">trei/dhs, e)pei\ o</supplied>u)/ sfi qala/ssia e)/rga <supplied reason="lost">memh/lei.</supplied> </l>
+                        <l n="615">o<add place="supralinear" n="diacritical mark">#85</add><note resp="bh" lang="eng">A rough breathing mark is visible here.</note>i(\ <supplied reason="lost">d' a)/ra *boupr</supplied><unclear>a/</unclear>sio/n te kai\ *)/h<add place="supralinear" n="diacritical mark">#86</add><note resp="bh" lang="eng">A smooth breathing mark is visible here.</note>lida di=<supplied reason="lost">an e)/naion,</supplied> </l>
+                        <l n="616">o(/<add place="supralinear" n="diacritical mark">#85</add><note resp="bh" lang="eng">A rough breathing mark is visible here.</note><supplied reason="lost">sson e)f' *(urm</supplied>i/nh kai\ *mu/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>rsinos e)<supplied reason="lost">sxato/wsa</supplied> </l>
+
+                        <l n="617"><unclear>p</unclear><supplied reason="lost">e/trh t' *)wlen</supplied>i/h kai\ *)a<add place="supralinear" n="diacritical mark">#86</add><note resp="bh" lang="eng">A smooth breathing mark is visible here.</note>le<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>i/sion e)nt<supplied reason="lost">o\s e)e/rgei,</supplied> </l>
+                        <l n="618"><supplied reason="lost">tw=n au)= te/ssar</supplied>es a)<add place="supralinear" n="diacritical mark">#83</add><note lang="eng" resp="bh">A grave accent is visible here.</note>rxoi\ e)/san, de/ka d' <supplied reason="lost">a)ndri\ e(ka/st</supplied>w<add place="supralinear" hand="corrector">i</add> </l>
+                        <l n="619"><supplied reason="lost">nh=es e(/ponto</supplied> qoa<add place="supralinear" n="diacritical mark">#83</add><note lang="eng" resp="bh">A grave accent is visible here.</note>i/, pole/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>es d' e)/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>mbai<supplied reason="lost">non *)epeioi/.</supplied> </l>
+                        <l n="620"><unclear>t</unclear><supplied reason="lost">w=n me\n a)/r' *)a</supplied>mfi/maxos kai\ *qa/lpi<supplied reason="lost">os h(ghsa/sqh</supplied><unclear>n,</unclear> </l>
+                    </div>
+
+                    <div type="frag" n="50, 51, 52">
+                        <l n="621"><supplied reason="lost">ui(=es o(\ me\n *ktea/tou, o(\ d' a)/r'</supplied> <unclear>*e</unclear>u)ru/<supplied reason="lost">tou *)aktori/wnos:</supplied> </l>
+                        <gap reason="lost" unit="line" extent="?"/>
+                        <l n="624"><supplied reason="lost">ui(o\s *)agasqe/neos *au)ghi</supplied>a/dao <unclear>a)/</unclear><supplied reason="lost">naktos.</supplied> </l>
+                        <l n="625"><supplied reason="lost">oi(\ d' e)k *doulixi/oio *)exi</supplied>na/wn q'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> <supplied reason="lost">i(era/wn</supplied> </l>
+                        <l n="626"><supplied reason="lost">nh/swn, ai(\ nai/ousi</supplied> pe/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>rhn a(<add place="supralinear" n="diacritical mark">#85</add><note resp="bh" lang="eng">A rough breathing mark is visible here.</note>lo\s <supplied reason="lost">*)/hlidos a)/nta,</supplied> </l>
+                        <l n="627"><supplied reason="lost">tw=n au)=q' h(gemo/ne</supplied>ue *me/ghs a)ta/<supplied reason="lost">l</supplied>a<unclear>n</unclear><supplied reason="lost">tos *)a/rhi</supplied> </l>
+                        <l n="628"><supplied reason="lost">*fulei/dhs, o(\n ti/kt</supplied>e *dii\<add place="supralinear" n="punctuation">#80</add><note resp="bh" lang="eng">A diaeresis is visible here.</note> fi/los i(p<supplied reason="lost">po/ta *fuleu/s,</supplied> </l>
+                        <l n="629"><supplied reason="lost">o(/s pote *douli/xi</supplied>on d'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> a)pena/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>ssa<unclear>to</unclear> <supplied reason="lost">patri\ xolwqe</supplied>i/s: <add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note></l>
+                        <l n="630"><supplied reason="lost">tw=| d' a(/ma tessar</supplied>a/konta me/lain<unclear>a</unclear><supplied reason="lost">i nh=es e(/pont</supplied>o.<add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note></l>
+                        <l n="631">a<supplied reason="lost">u)ta\r *)odusseu\s</supplied> h)=<del>t</del><add place="supralinear" n="correction">g</add>e *kefallh=nas <supplied reason="lost">megaqu/mous,</supplied> </l>
+                        <l n="632">o<add place="supralinear" n="diacritical mark">%36</add><note resp="bh" lang="eng">A rough breathing and acute accent mark are visible here.</note><unclear>i(/</unclear> <supplied reason="lost">r(' *)iqa/khn ei)=x</supplied>on kai\ *nh/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>riton ei)<unclear>n</unclear><supplied reason="lost">osi/fullo</supplied><unclear>n,</unclear> </l>
+                        <l n="633">k<supplied reason="lost">ai\ *kroku/lei'</supplied> <unclear>e)</unclear>ne/monto <add place="inline" n="punctuation">#71</add><note resp="bh" lang="eng">A mid punctus is visible here.</note> kai\ *ai)gi/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>li<supplied reason="lost">pa trhxei=</supplied>an, <add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note></l>
+                        <l n="634"><add place="left" n="ancient editorial sign">#14</add><note resp="bh" lang="eng">A diple periestigmene appears against this line.</note>o<add place="supralinear" n="diacritical mark">%36</add><note resp="bh" lang="eng">A rough breathing and acute accent mark are visible here.</note>i(/ <supplied reason="lost">te *za/kunq</supplied>on e)/xon <add place="inline" n="punctuation">#71</add><note resp="bh" lang="eng">A mid punctus is visible here.</note> h)<add place="supralinear" n="diacritical mark">#86</add><note resp="bh" lang="eng">A smooth breathing mark is visible here.</note>d'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> o<add place="supralinear" n="diacritical mark">#85</add><note resp="bh" lang="eng">A rough breathing mark is visible here.</note>i(\ *sa/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>mo<supplied reason="lost">n a)mfene/</supplied>monto: <add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note></l>
+
+
+                        <l n="635">o<add place="supralinear" n="diacritical mark">%36</add><note resp="bh" lang="eng">A rough breathing and acute accent mark are visible here.</note><unclear>i(/</unclear> <supplied reason="lost">t' h)/peiron</supplied> e)/xon <add place="inline" n="punctuation">#71</add><note resp="bh" lang="eng">A mid punctus is visible here.</note> h)<add place="supralinear" n="diacritical mark">#86</add><note resp="bh" lang="eng">A smooth breathing mark is visible here.</note>d' a)ntipe/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>rai' e)<unclear>n</unclear><supplied reason="lost">e/monto:</supplied> </l>
+                        <l n="636">t<supplied reason="lost">w=n me\n *)odu</supplied>sseu\s h)=<add place="supralinear" n="diacritical mark">#84</add><note resp="bh" lang="eng">A circumflex is visible here.</note>rxe *dii\<add place="supralinear" n="punctuation">#80</add><note resp="bh" lang="eng">A diaeresis is visible here.</note> mh=<add place="supralinear" n="diacritical mark">#84</add><note resp="bh" lang="eng">A circumflex is visible here.</note>tin <supplied reason="lost">a)ta/lan</supplied>tos: <add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note></l>
+                        <l n="637">t<supplied reason="lost">w=| d' a(/ma nh=</supplied>es e(/<add place="supralinear" n="diacritical mark">%36</add><note resp="bh" lang="eng">A rough breathing and acute accent mark are visible here.</note>ponto duw/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>deka <unclear>m</unclear><supplied reason="lost">iltopa/</supplied>rhoi <add place="supralinear" n="punctuation">#72</add><note resp="bh" lang="eng">A supralinear high punctus is visible here.</note></l>
+
+                        <l n="638"><supplied reason="lost">*ai)twlw=n d'</supplied> <unclear>h(</unclear>gei=to *qo/as *)andrai/mo<unclear>n</unclear><supplied reason="lost">os ui(o/s,</supplied> </l>
+                        <l n="639"><supplied reason="lost">oi(\ *pleurw=</supplied><unclear>n'</unclear><add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> e)ne/monto kai\ *)/w<add place="supralinear" n="diacritical mark">%35</add><note resp="bh" lang="eng">A smooth breathing and acute accent mark are visible here.</note>len<supplied reason="lost">on h)de\ *pu</supplied><unclear>l</unclear>h/nhn </l>
+
+                        <l n="640"><supplied reason="lost">*xalki/da t' a)g</supplied>xi/alon <add place="inline" n="punctuation">#71</add><note resp="bh" lang="eng">A mid punctus is visible here.</note> *kaludw=<add place="supralinear" n="diacritical mark">#84</add><note resp="bh" lang="eng">A circumflex is visible here.</note>na/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note> te <supplied reason="lost">petrh/ess</supplied><unclear>a</unclear>n: <add place="inline" n="punctuation">#71</add><note resp="bh" lang="eng">A mid punctus is visible here.</note></l>
+                        <l n="641"><supplied reason="lost">ou) ga\r e)/t' *oi)</supplied><unclear>n</unclear>h=os megalh/tor<del>e</del>s ui(e/<supplied reason="lost">es h)=san,</supplied> </l>
+                        <l n="642"><supplied reason="lost">ou)d' a)\r' e)/t' au)t</supplied>o\s e)/hn, <add place="supralinear" n="punctuation">#72</add><note resp="bh" lang="eng">A supralinear high punctus is visible here.</note> qa/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>ne de\ ca<add place="supralinear" n="diacritical mark">#83</add><note lang="eng" resp="bh">A grave accent is visible here.</note>nq<supplied reason="lost">o\s *mele/agr</supplied>os: <add place="supralinear" n="punctuation">#72</add><note resp="bh" lang="eng">A supralinear high punctus is visible here.</note></l>
+
+                    </div>
+
+                    <div type="frag" n="52, 53, 54, 55">
+                        <l n="643">tw=| d' e)<supplied reason="lost">pi\ p</supplied>a/<unclear>n</unclear>t' e)te/talto a)<unclear>n</unclear>asse/men <unclear>*ai)</unclear>tw<unclear>l</unclear><supplied reason="lost">oi=si:</supplied> </l>
+                        <note lang="eng">Line 644 is omitted.</note>
+                        <l n="645"><unclear>*kr</unclear>htw=<supplied reason="lost">n d' *)i</supplied>d<unclear>o</unclear><supplied reason="lost">meneu\s</supplied> <unclear>d</unclear>o<add place="supralinear" n="diacritical mark">#83</add><note lang="eng" resp="bh">A grave accent is visible here.</note>u<unclear>ri\</unclear> klu<unclear>t</unclear>o\s h(<add place="supralinear" n="diacritical mark">#85</add><note resp="bh" lang="eng">A rough breathing mark is visible here.</note>gemo/<supplied reason="lost">neuen,</supplied> </l>
+                        <l n="646"><supplied reason="lost">oi(\ *k</supplied>nw<supplied reason="lost">so/</supplied>n <supplied reason="lost">t' ei)=xon *go/rtuna/ te tei</supplied><unclear>x</unclear>io/<unclear>e</unclear>ssa<supplied reason="lost">n,</supplied> </l>
+
+                        <l n="647"><supplied reason="lost">*lu/k</supplied>ton <supplied reason="lost">*mi/lhto/n te k</supplied>ai\ <supplied reason="lost">a)rgi</supplied><unclear>n</unclear><supplied reason="lost">o/ent</supplied>a *lu/<unclear>k</unclear><supplied reason="lost">aston</supplied> </l>
+                        <l n="648"><supplied reason="lost">*fais</supplied>to/n <supplied reason="lost">te *(ru/tio/n te, p</supplied>o/leis eu)=<add place="supralinear" n="diacritical mark">#84</add><note resp="bh" lang="eng">A circumflex is visible here.</note> <unclear>n</unclear><supplied reason="lost">aiet</supplied>aw/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>s<supplied reason="lost">as,</supplied> </l>
+
+                        <l n="649"><supplied reason="lost">a)/ll</supplied><unclear>oi</unclear> q'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> o<supplied reason="lost">i(\ *krh/thn e(k</supplied>ato/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>mpolin <supplied reason="lost">a)mfene/monto.</supplied> </l>
+                        <l n="650"><supplied reason="lost">tw=n me\n a)/r' *)idom</supplied>eneu\s do<add place="supralinear" n="diacritical mark">#83</add><note lang="eng" resp="bh">A grave accent is visible here.</note>uri\ k<supplied reason="lost">luto\s h(gemo/neue</supplied> </l>
+                        <l n="651">*m<supplied reason="lost">hrio/nhs t' a)ta/la</supplied><unclear>n</unclear>tos *)enuali/w| <unclear>a)</unclear><supplied reason="lost">ndreifo/nth|:</supplied> </l>
+                        <l n="652"><unclear>to</unclear><supplied reason="lost">i=si d' a(/m' o)gdw/</supplied>konta me/lainai n<supplied reason="lost">h=es e(/ponto.</supplied> </l>
+                        <l n="653">*tlh<supplied reason="lost">po/lemos</supplied> d' *(h<supplied reason="lost">r</supplied>aklei/dhs h)u/<add place="supralinear" n="punctuation">#80</add><note resp="bh" lang="eng">A diaeresis is visible here.</note>s te m<supplied reason="lost">e/gas te</supplied> </l>
+                        <l n="654">e)k <unclear>*(r</unclear><supplied reason="lost">o/dou e)nn</supplied>e/a nh=as a)/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>gen *(rodi/wn a)<supplied reason="lost">gerw/xwn,</supplied> </l>
+
+                        <l n="655">o<add place="supralinear" n="diacritical mark">#85</add><note resp="bh" lang="eng">A rough breathing mark is visible here.</note>i(\ <unclear>*(r</unclear>o/<supplied reason="lost">don a)mf</supplied>ene/monto dia\ tri/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>xa k<supplied reason="lost">osmhqe/</supplied>ntes, </l>
+                        <l n="656">*li/<unclear>n</unclear><supplied reason="lost">don *)ihlu</supplied>so/n te kai\ a)rgino/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>enta <supplied reason="lost">*ka/meir</supplied>on. <add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note></l>
+                        <l n="657">tw=n <supplied reason="lost">me\n *tlh</supplied>po/lemos do<add place="supralinear" n="diacritical mark">#83</add><note lang="eng" resp="bh">A grave accent is visible here.</note>uri\ kluto\s <unclear>h(</unclear><supplied reason="lost">gemo/n</supplied>euen, <add place="inline" n="punctuation">#70</add><note resp="bh" lang="eng">A low punctus is visible here.</note></l>
+                        <l n="658"><add place="left" n="ancient editorial sign">#14</add><note resp="bh" lang="eng">A diple periestigmene appears against this line.</note>o(\<add place="supralinear" n="diacritical mark">%37</add><note resp="bh" lang="eng">A rough breathing and grave accent mark are visible here.</note>n <unclear>t</unclear><supplied reason="lost">e/ken *)ast</supplied>uo/xei<add place="supralinear" n="punctuation">#80</add><note resp="bh" lang="eng">A diaeresis is visible here.</note>a bi/h| *(<add place="supralinear" n="diacritical mark">#85</add><note resp="bh" lang="eng">A rough breathing mark is visible here.</note>hraklhe<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>i/h<unclear>i</unclear>:</l>
+
+                        <l n="659"><add place="left" n="ancient editorial sign">#15</add><note resp="bh" lang="eng">A diple appears against this line.</note>th\n <supplied reason="lost">a)/get' e)c *)e</supplied><unclear>f</unclear>u/<supplied reason="lost">r</supplied><unclear>h</unclear>s potamou= a)/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>po *se<unclear>l</unclear><supplied reason="lost">lh/ent</supplied>os, </l>
+
+                        <l n="660"><add place="left" n="ancient editorial sign">#12</add><note resp="bh" lang="eng">An obelos appears against this line.</note>pe/r<unclear>s</unclear><supplied reason="lost">as a)/ste</supplied>a polla\ diotrefe/wn ai)z<supplied reason="lost">hw=n.</supplied> </l>
+                        <l n="661">*tlh<unclear>p</unclear><supplied reason="lost">o/lemo</supplied><unclear>s d'</unclear><add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> e)pei\ ou)=n tra/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>f'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> e)ni\ meg<supplied reason="lost">a/rw|</supplied> e)uph/ktw|, <add place="inline" n="punctuation">#70</add><note resp="bh" lang="eng">A low punctus is visible here.</note></l>
+
+                        <l n="662">au)<supplied reason="lost">ti/ka patro\s</supplied> e(<supplied reason="lost">o</supplied>i=o fi/lon mh/trwa <supplied reason="lost">kate/kt</supplied>a </l>
+
+                        <l n="663">h)/d<supplied reason="lost">h ghra/sko</supplied><unclear>nt</unclear>a *liku/mnion o)/<add place="supralinear" n="diacritical mark">%35</add><note resp="bh" lang="eng">A smooth breathing and acute accent mark are visible here.</note>zon <supplied reason="lost">*)a/rhos.</supplied> </l>
+                        <l n="664">ai)=<unclear>y</unclear><supplied reason="lost">a de\ nh=as e)/p</supplied><unclear>hc</unclear>e, <add place="supralinear" n="punctuation">#72</add><note resp="bh" lang="eng">A supralinear high punctus is visible here.</note> polu\n d'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> o(/<add place="supralinear" n="diacritical mark">%36</add><note resp="bh" lang="eng">A rough breathing and acute accent mark are visible here.</note> ge l<unclear>a</unclear><supplied reason="lost">o\n a)gei/r</supplied><unclear>a</unclear>s <add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note></l>
+
+                        <l n="665"><unclear>b</unclear><supplied reason="lost">h= feu/gwn e)pi\ p</supplied><unclear>o/</unclear>nton: <add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note> a)pei/lhsa<supplied reason="lost">n ga/r oi(</supplied> a)/lloi <add place="right" n="scholion">#512 e)n t<hi rend="superscript">i</hi><supplied reason="abbreviation">si</supplied>bh= feu/gein</add></l>
+                    </div>
+
+                    <div type="frag" n="56, 57">
+                        <l n="666">ui(e/es <supplied reason="lost">ui(</supplied><unclear>w</unclear><supplied reason="lost">noi/ te bi/hs *(hraklhei/hs.</supplied> </l>
+                        <l n="667">au)ta\r <supplied reason="lost">o(\ g'</supplied> e)<unclear>s</unclear> <supplied reason="lost">*(ro/don i(=cen a)lw/menos a)/lgea pa/sxwn:</supplied> </l>
+                        <l n="668"><unclear>t</unclear>rixqa\ <supplied reason="lost">d</supplied>e\ w)/<supplied reason="lost">ikhqen katafulado/n, h)de\ fi/lhqen</supplied> </l>
+                        <l n="669"><unclear>e)</unclear>k *dio/<supplied reason="lost">s,</supplied> o(/<add place="supralinear" n="diacritical mark">%36</add><note resp="bh" lang="eng">A rough breathing and acute accent mark are visible here.</note>s <unclear>te</unclear> <supplied reason="lost">qeoi=si kai\ a)nqrw/poisin a)na/ssei:</supplied> </l>
+                        <l n="670"><supplied reason="lost">k</supplied>a<unclear>i/</unclear> sf<supplied reason="lost">in qespe/si</supplied>on plou=<add place="supralinear" n="diacritical mark">#84</add><note resp="bh" lang="eng">A circumflex is visible here.</note>t<unclear>o</unclear><supplied reason="lost">n kate/xeue *kroni/wn.</supplied> </l>
+                        <l n="671"><supplied reason="lost">*n</supplied><unclear>eir</unclear>e<supplied reason="lost">u\s au)= *su/mh</supplied>qen a)/gen t<unclear>r</unclear><supplied reason="lost">ei=s nh=as e)i/sas,</supplied> <add place="right" n="scholion"><supplied reason="lost">#512</supplied>*)ari/<unclear>s</unclear>tar<hi rend="superscript">x</hi><supplied reason="abbreviation">os</supplied> a)/ge dia\ to\ e)<unclear>pife/</unclear>ro<hi rend="superscript">m</hi><supplied reason="abbreviation">enon</supplied> <unclear>su/m</unclear>fw<unclear>n</unclear>on </add></l>                                                          
+                        <l n="672"><supplied reason="lost">*neireu\s *)aglai/h</supplied>s ui(o\s *xaro/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>p<supplied reason="lost">oio/ t' a)/naktos</supplied> </l>
+                        <l n="673"><supplied reason="lost">*neireu/s, o(\s ka/</supplied><unclear>l</unclear>listos a)nh\r u(<supplied reason="lost">po\ *)/ilion h)=lqe</supplied> </l>
+
+
+                        <l n="674"><add place="left" n="ancient editorial sign">#14</add><note resp="bh" lang="eng">A diple periestigmene appears against this line.</note><supplied reason="lost">tw=n a)/llwn *d</supplied>anaw=<add place="supralinear" n="diacritical mark">#84</add><note resp="bh" lang="eng">A circumflex is visible here.</note>n met' a)mu/<supplied reason="lost">mona *phlei/</supplied>wna: <add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note></l>
+                        <l n="675"><add place="left" n="ancient editorial sign">#14</add><note resp="bh" lang="eng">A diple periestigmene appears against this line.</note>a)<supplied reason="lost">ll' a)lapad</supplied><unclear>n</unclear>o\s e)/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>hn, <add place="supralinear" n="punctuation">#72</add><note resp="bh" lang="eng">A supralinear high punctus is visible here.</note> pau=<add place="supralinear" n="diacritical mark">#84</add><note resp="bh" lang="eng">A circumflex is visible here.</note>ros de/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note> o<unclear>i(</unclear> <supplied reason="lost">ei(/peto l</supplied>ao/s. <add place="supralinear" n="punctuation">#72</add><note resp="bh" lang="eng">A supralinear high punctus is visible here.</note></l>
+                        <l n="676">o<add place="supralinear" n="diacritical mark">%37</add><note resp="bh" lang="eng">A rough breathing and grave accent mark are visible here.</note><unclear>i(\</unclear> <supplied reason="lost">d' a)/ra *ni/s</supplied><unclear>u</unclear>ro/n t'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> ei)=<add place="supralinear" n="diacritical mark">#84</add><note resp="bh" lang="eng">A circumflex is visible here.</note>xon *kra/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>paqo/<supplied reason="lost">n te *ka/s</supplied>on te </l>
+
+                        <l n="677">ka<supplied reason="lost">i\ *kw=n *e</supplied>u)rupu/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>loio po/lin <add place="inline" n="punctuation">#71</add><note resp="bh" lang="eng">A mid punctus is visible here.</note> nh/s<supplied reason="lost">ous te *k</supplied>alu/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>dnas, <add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note></l>
+                        <l n="678">t<unclear>w=</unclear><supplied reason="lost">n au)= *fi/</supplied>dippo/s te kai\ *)a/ntifo<unclear>s</unclear> <supplied reason="lost">h(gh</supplied>sa/sqhn </l>
+
+                        <l n="679">*qe<supplied reason="lost">ssal</supplied>ou= <supplied reason="lost">ui(=</supplied>e du/w *(hraklei/dao a)/na<unclear>k</unclear><unclear>tos:</unclear> </l>
+                        <l n="680">tw=n d<supplied reason="lost">e\ tr</supplied>i<unclear>h/</unclear>konta glafura<add place="supralinear" n="diacritical mark">#83</add><note lang="eng" resp="bh">A grave accent is visible here.</note>i\ ne/es e)stixo/wnto. <add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note></l>
+                        <l n="681">n<supplied reason="lost">u=</supplied>n a<unclear>u)=</unclear><add place="supralinear" n="diacritical mark">#84</add><note resp="bh" lang="eng">A circumflex is visible here.</note> <supplied reason="lost">t</supplied>o<unclear>u\</unclear>s o(/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>ssoi to\ *pelasgiko\n *)a/rgos e)/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>naion, </l>
+                        <l n="682">o<add place="supralinear" n="diacritical mark">%36</add><note resp="bh" lang="eng">A rough breathing and acute accent mark are visible here.</note>i(/ t' <unclear>*)a/l</unclear><supplied reason="lost">on</supplied> o<add place="supralinear" n="diacritical mark">%36</add><note resp="bh" lang="eng">A rough breathing and acute accent mark are visible here.</note>i(/ t' *)alo/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>phn <add place="inline" n="punctuation">#71</add><note resp="bh" lang="eng">A mid punctus is visible here.</note> o<add place="supralinear" n="diacritical mark">#85</add><note resp="bh" lang="eng">A rough breathing mark is visible here.</note>i(/ te *trhxei=n e)ne/monto, <add place="right" n="scholion">#512 *)ari/star<hi rend="superscript">x</hi><supplied reason="abbreviation">os</supplied> i)axw=s *trhxei=na ne/monto</add></l>
+
+                        <l n="683">o<add place="supralinear" n="diacritical mark">%36</add><note resp="bh" lang="eng">A rough breathing and acute accent mark are visible here.</note>i(/ t' e<supplied reason="lost">i)=</supplied><unclear>x</unclear>on *fqei/hn h)<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>d'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> *(ella/da kalligu/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>naika, </l>
+                        <l n="684">*murmi<supplied reason="lost">do/</supplied><unclear>n</unclear>es de\ kaleu=<add place="supralinear" n="diacritical mark">#84</add><note resp="bh" lang="eng">A circumflex is visible here.</note>nto kai\ *(/<add place="supralinear" n="diacritical mark">#85</add><note resp="bh" lang="eng">A rough breathing mark is visible here.</note>ellhnes kai\ *)axaioi/: </l>
+                        <l n="685">tw=<supplied reason="lost">n au)= pe</supplied>nth/konta new=<add place="supralinear" n="diacritical mark">#84</add><note resp="bh" lang="eng">A circumflex is visible here.</note>n <add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note> h)=n a)<add place="supralinear" n="diacritical mark">#83</add><note lang="eng" resp="bh">A grave accent is visible here.</note>rxo\s *)axilleu/s. </l>         
+                        <l n="686">a)<unclear>l</unclear><supplied reason="lost">l' oi(/ g' ou) p</supplied>ole/moio dushxe/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>os e)mnw/onto: </l>
+                        <l n="687"><unclear>o</unclear><supplied reason="lost">u) ga\r</supplied> e)/<unclear>h</unclear>n <unclear>o(/s</unclear> ti/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>s sfin e)pi\ sti/xas <unclear>h(</unclear><add place="supralinear" n="diacritical mark">#85</add><note resp="bh" lang="eng">A rough breathing mark is visible here.</note><supplied reason="lost">g</supplied><unclear>h/</unclear>saito. <add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note></l>                   
+                    </div>
+
+                    <div type="frag" n="57">
+                        <l n="688">ke<unclear>i=t</unclear><supplied reason="lost">o ga\r e)n nh/essi poda/</supplied>rk<supplied reason="lost">hs di=os *)axilleu\s</supplied> </l>
+
+                        <l n="689"><add place="left" n="ancient editorial sign">#15</add><note resp="bh" lang="eng">A diple appears against this line.</note>ko<unclear>u/</unclear><supplied reason="lost">rhs xwo/men</supplied>o<supplied reason="lost">s *b</supplied><unclear>ri</unclear><supplied reason="lost">sh</supplied><unclear>i/d</unclear><supplied reason="lost">os h)uko/moio,</supplied> </l>
+                        <l n="690">th\n e)k <supplied reason="lost">*lurnhssou= e)cei/</supplied><unclear>l</unclear>e<supplied reason="lost">to polla\ mogh/sas,</supplied> </l>
+
+                        <l n="691">*lu<unclear>rnh</unclear><supplied reason="lost">sso\n diap</supplied>o<unclear>r</unclear><supplied reason="lost">q</supplied><unclear>h/</unclear><supplied reason="lost">sas kai\ tei/xea *qh/bhs,</supplied> </l>
+
+                        <l n="692"><supplied reason="lost">ka\d de\ *mu/nht'</supplied> <unclear>e)/</unclear>balen k<unclear>a</unclear><supplied reason="lost">i\ *)epi/strofon e)gxes</supplied><unclear>i</unclear>mw/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>rous, </l>
+                        <l n="693"><supplied reason="lost">ui(e/as *eu)hnoi=</supplied>o *selhpia/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>d<supplied reason="lost">ao a)/naktos:</supplied> </l>
+
+                        <l n="694"><supplied reason="lost">th=s o(/ ge kei=t'</supplied> a)xe/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>wn, <add place="inline" n="punctuation">#71</add><note resp="bh" lang="eng">A mid punctus is visible here.</note> ta/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>xa <unclear>d'</unclear> <supplied reason="lost">a)sth/sesqai e)/m</supplied>ellen. <add place="supralinear" n="punctuation">#72</add><note resp="bh" lang="eng">A supralinear high punctus is visible here.</note> <add place="right" n="scholion">#512 *)ari/star<hi rend="superscript">x</hi><supplied reason="abbreviation">os</supplied> a)nsth/<unclear>s</unclear><supplied reason="lost">esqai</supplied></add>   </l>
+
+                        <l n="695"><supplied reason="lost">oi(\ d' ei)=xon</supplied> *fula/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>khn <unclear>kai\</unclear> *pu/<supplied reason="lost">rason a)nqem</supplied>o/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>enta, </l>
+                        <l n="696"><supplied reason="lost">*dh/mhtr</supplied>os <unclear>t</unclear>e/menos, <unclear>*)/it</unclear>wn<unclear>a/</unclear> <supplied reason="lost">te mhte/ra</supplied> <unclear>m</unclear>h/lwn </l>
+                        <l n="697"><add place="left" n="ancient editorial sign">#14</add><note resp="bh" lang="eng">A diple periestigmene appears against this line.</note><supplied reason="lost">a)gxi/</supplied>a<unclear>l</unclear>o/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>n t' *)antrw=<add place="supralinear" n="diacritical mark">#84</add><note resp="bh" lang="eng">A circumflex is visible here.</note>na i)<add place="supralinear" n="punctuation">#80</add><note resp="bh" lang="eng">A diaeresis is visible here.</note>de\ *pte<supplied reason="lost">leo\n l</supplied>exepoi/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>hn, <add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note></l>         
+
+                        <l n="698"><supplied reason="lost">tw=n</supplied> <unclear>au)= *pr</unclear>wtesi/laos a)rh/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>i<add place="supralinear" n="punctuation">#80</add><note resp="bh" lang="eng">A diaeresis is visible here.</note>os <supplied reason="lost">h(gem</supplied>o/neue </l>
+                        <l n="699"><supplied reason="lost">zw</supplied><unclear>o\</unclear><supplied reason="lost">s</supplied> e)w/n: to/te d'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> h)/dh e)/xein <unclear>k</unclear><supplied reason="lost">a/ta g</supplied><unclear>a</unclear>i=a me/laina. <add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note></l>
+
+                        <l n="700"><supplied reason="lost">tou= d</supplied>e\ kai\ a)<add place="supralinear" n="diacritical mark">#83</add><note lang="eng" resp="bh">A grave accent is visible here.</note>mfidru<add place="supralinear" n="diacritical mark">%27</add><note resp="bh" lang="eng">A breve is visible here.</note>fh\s a)/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>lox<supplied reason="lost">os *fu</supplied>la/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>kh e)le/lipto </l>
+
+                        <l n="701"><add place="left" n="ancient editorial sign">#15</add><note resp="bh" lang="eng">A diple appears against this line.</note>k<supplied reason="lost">a</supplied>i\ do/mos h(<add place="supralinear" n="diacritical mark">#85</add><note resp="bh" lang="eng">A rough breathing mark is visible here.</note>mitelh/s: <add place="inline" n="punctuation">#71</add><note resp="bh" lang="eng">A mid punctus is visible here.</note> to\n d' e)/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>kt<supplied reason="lost">a</supplied><unclear>ne</unclear> *da/rdanos a)<add place="supralinear" n="diacritical mark">%26</add><note resp="bh" lang="eng">A macron is visible here.</note>nh\r </l>
+                        <l n="702">nho\s a)poq<supplied reason="lost">r</supplied>w/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>skonta polu\ prw/tiston *)axaiw=<add place="supralinear" n="diacritical mark">#84</add><note resp="bh" lang="eng">A circumflex is visible here.</note>n. <add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note></l>
+
+                        <l n="703">ou)de\ me\n o<unclear>u)d'</unclear><add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> o<add place="supralinear" n="diacritical mark">#85</add><note resp="bh" lang="eng">A rough breathing mark is visible here.</note>i(\ a)/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>narxoi e)/san, <add place="supralinear" n="punctuation">#72</add><note resp="bh" lang="eng">A supralinear high punctus is visible here.</note> po/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>qeo/n ge<add place="supralinear" n="diacritical mark">#83</add><note lang="eng" resp="bh">A grave accent is visible here.</note> me\n a)rxo/n, </l>
+
+                        <l n="704">a)lla/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note> sfeas <supplied reason="lost">k</supplied>o/smhse *poda/rk<supplied reason="lost">h</supplied>s o)/<add place="supralinear" n="diacritical mark">%36</add><note resp="bh" lang="eng">A rough breathing and acute accent mark are visible here.</note>zos *)a/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>rhos, </l>
+                        <l n="705">*)ifi/klou ui(o\s polumh/lou *fu<add place="supralinear" n="diacritical mark">%26</add><note resp="bh" lang="eng">A macron is visible here.</note>laki/dao, </l>
+                        <l n="706">au)tokasi/gnhtos megaqu/<add place="supralinear" n="diacritical mark">%26</add><note resp="bh" lang="eng">A macron is visible here.</note>mou *prwtesila/ou </l>
+                        <l n="707">o(plo/teros geneh=|: <add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note> o(<add place="supralinear" n="diacritical mark">#85</add><note resp="bh" lang="eng">A rough breathing mark is visible here.</note> d' a)/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>ra pro/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>teros kai\ a)re<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>i/wn <add place="right" n="scholion">#512 *)ari/star<hi rend="superscript">x</hi><supplied reason="abbreviation">os</supplied> o( d' a(/ma pro/<hi rend="superscript">t</hi><supplied reason="abbreviation">eros</supplied></add></l>
+                        <l n="708">h(/<add place="supralinear" n="diacritical mark">#85</add><note resp="bh" lang="eng">A rough breathing mark is visible here.</note>rws *prwtes<supplied reason="lost">i/</supplied>laos a)rh/i<add place="supralinear" n="punctuation">#80</add><note resp="bh" lang="eng">A diaeresis is visible here.</note>os: <add place="supralinear" n="punctuation">#72</add><note resp="bh" lang="eng">A supralinear high punctus is visible here.</note> ou)de/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note> ti laoi\ </l>
+                        <l n="709">deu/onq'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> h(<add place="supralinear" n="diacritical mark">#85</add><note resp="bh" lang="eng">A rough breathing mark is visible here.</note>gemo/nos, <add place="supralinear" n="punctuation">#72</add><note resp="bh" lang="eng">A supralinear high punctus is visible here.</note> po/qeo/n ge<add place="supralinear" n="diacritical mark">#83</add><note lang="eng" resp="bh">A grave accent is visible here.</note> me\n e)sqlo\n e)o/nta. <add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note></l>
+                    </div>
+
+
+                    <div type="frag" n="58">
+                        <l n="710"><supplied reason="lost">tw=|</supplied> <unclear>d' a(/</unclear>ma tessa<unclear>r</unclear>a/ko<unclear>n</unclear><supplied reason="lost">t</supplied><unclear>a m</unclear>e/<supplied reason="lost">lainai nh=es e(/ponto.</supplied> </l>
+                        <l n="711"><supplied reason="lost">oi(\ de\</supplied> *fe<supplied reason="lost">ra\s</supplied> <unclear>e)n</unclear>e/mon<unclear>to</unclear> pa<unclear>ra</unclear><supplied reason="lost">i\ *boibhi/da li/mnhn,</supplied> </l>
+                        <l n="712"><supplied reason="lost">*boi/bhn kai\ *glafu/r</supplied>as k<unclear>ai\</unclear> e)<unclear>u</unclear><supplied reason="lost">ktime/nhn *)iawlko/n,</supplied> </l>
+                        <l n="713"><supplied reason="lost">tw=n h)=r</supplied>x' *)a<unclear>d</unclear>m<unclear>h/</unclear><supplied reason="lost">toio fi/los pa/is e(/</supplied>ndeka nh<supplied reason="lost">w=n</supplied> </l>
+
+                        <l n="714">*eu)/m<unclear>h</unclear>los, <unclear>t</unclear>o\n u(p' <supplied reason="lost">*)admh/tw| te/ke</supplied> di=<add place="supralinear" n="diacritical mark">#84</add><note resp="bh" lang="eng">A circumflex is visible here.</note>a gunaik<unclear>w=</unclear><supplied reason="lost">n</supplied> </l>                   
+                        <l n="715"><supplied reason="lost">*)a/lk</supplied>hstis, *peli/ao <unclear>q</unclear><supplied reason="lost">ugatrw=n ei)=d</supplied><unclear>o</unclear>s a)ri/sth. <add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note></l>
+
+                        <l n="716"><supplied reason="lost">o</supplied><unclear>i(\</unclear> d' a)/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>ra *mh<unclear>q</unclear>w/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>nhn <supplied reason="lost">kai\ *qaum</supplied>aki/hn e)ne/monto <add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note></l>
+
+
+                        <l n="717"><unclear>k</unclear>ai\ *meli/bo<unclear>i</unclear>an <unclear>e)/</unclear>xo<unclear>n</unclear> <supplied reason="lost">kai\ *)oli</supplied><unclear>z</unclear>w=<add place="supralinear" n="diacritical mark">#84</add><note resp="bh" lang="eng">A circumflex is visible here.</note>na trhxei=an, <add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note></l>
+                        <l n="718">tw=n de\ *filo<unclear>k</unclear>th/ths <supplied reason="lost">h)=rx</supplied><unclear>e</unclear>n to/cwn e)u\<add place="supralinear" n="diacritical mark">#84</add><note resp="bh" lang="eng">A circumflex is visible here.</note> ei)dw\s, </l>
+                        <l n="719">e(pta\ new=n: e)re/tai d'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> e)n e(ka/sth| penth/konta </l>
+                        <l n="720">e)mbe/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>basan, to/cwn eu)= ei)do/tes i)=<add place="supralinear" n="diacritical mark">#84</add><note resp="bh" lang="eng">A circumflex is visible here.</note>fi ma/xesqai. <add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note></l>
+
+                        <l n="721">a)ll'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> o(\<add place="supralinear" n="diacritical mark">#85</add><note resp="bh" lang="eng">A rough breathing mark is visible here.</note> me\n e)n <unclear>n</unclear>h/sw| ke<supplied reason="lost">i=</supplied>to krate/r'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> a)/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>lgea pa/sxwn, </l>
+
+                        <l n="722"><add place="left" n="ancient editorial sign">#15</add><note resp="bh" lang="eng">A diple appears against this line.</note>*lh/mnw| e)n h)gaqe/h|, <supplied reason="lost">o(/q</supplied><unclear>i</unclear> min li/pon u<add place="supralinear" n="diacritical mark">#85</add><note resp="bh" lang="eng">A rough breathing mark is visible here.</note>i(=es *)axaiw=<add place="supralinear" n="diacritical mark">#84</add><note resp="bh" lang="eng">A circumflex is visible here.</note>n </l>
+
+                        <l n="723">e(/lkei+<add place="supralinear" n="punctuation">#80</add><note resp="bh" lang="eng">A diaeresis is visible here.</note> moxqi/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note><unclear>z</unclear>onta ka<unclear>k</unclear>w=| o)loo/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>fronos u(/<add place="supralinear" n="diacritical mark">%36</add><note resp="bh" lang="eng">A rough breathing and acute accent mark are visible here.</note>drou: <add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note></l>
+
+                        <l n="724"><add place="left" n="ancient editorial sign">#14</add><note resp="bh" lang="eng">A diple periestigmene appears against this line.</note>e)/nq'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> o(/<add place="supralinear" n="diacritical mark">%36</add><note resp="bh" lang="eng">A rough breathing and acute accent mark are visible here.</note> ge kei=t' a)<unclear>x</unclear>e/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>wn: ta/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>xa de\ mnh/sesqai e)/mell<del>e</del><hi rend="superscript" n="scribal correction">o</hi>n </l>
+                        <l n="725">*)argei=oi para\ <unclear>n</unclear>husi\ *filokth/tao a)/naktos. </l>
+
+                        <l n="726">ou)de\ me\n o<add place="supralinear" n="diacritical mark">#86</add><note resp="bh" lang="eng">A smooth breathing mark is visible here.</note>u)<unclear>d'</unclear> o<add place="supralinear" n="diacritical mark">#85</add><note resp="bh" lang="eng">A rough breathing mark is visible here.</note>i(\ a)/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>narxoi e)/san,<add place="supralinear" n="punctuation">#72</add><note resp="bh" lang="eng">A supralinear high punctus is visible here.</note> po/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>qeo/n ge me\n a)<add place="supralinear" n="diacritical mark">#83</add><note lang="eng" resp="bh">A grave accent is visible here.</note>rxo/n, <add place="supralinear" n="punctuation">#72</add><note resp="bh" lang="eng">A supralinear high punctus is visible here.</note></l>
+                        <l n="727"><add place="left" n="ancient editorial sign">#15</add><note resp="bh" lang="eng">A diple appears against this line.</note>a)lla\ *me/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>dwn <unclear>k</unclear>o/smhsen <unclear>*)o</unclear>i<add place="supralinear" n="punctuation">#80</add><note resp="bh" lang="eng">A diaeresis is visible here.</note>lh=os no/qos ui(o/s, </l>
+                        <l n="728">to/n r('<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> e)/teken <unclear>*(rh/</unclear>nh u(<add place="supralinear" n="diacritical mark">%26</add><note resp="bh" lang="eng">A macron is visible here.</note>p'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> *)oi<add place="supralinear" n="punctuation">#80</add><note resp="bh" lang="eng">A diaeresis is visible here.</note>lh=i ptolipo/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>rqw|. <add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note></l>
+
+                        <l n="729">oi(\ d' ei)=xon *tr<unclear>i/kkh</unclear>n kai\ *)i<unclear>q</unclear>w/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>mhn klwmako/essa<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>n, <add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note></l>
+                        <l n="730"><add place="left" n="ancient editorial sign">#15</add><note resp="bh" lang="eng">A diple appears against this line.</note>o<add place="supralinear" n="diacritical mark">#85</add><note resp="bh" lang="eng">A rough breathing mark is visible here.</note>i(/ t'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> e)/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>xon *oi)x<unclear>ali/h</unclear>n po/lin *eu)ru/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>tou *oi)xalih=<add place="supralinear" n="diacritical mark">#84</add><note resp="bh" lang="eng">A circumflex is visible here.</note>os, <add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note></l>
+                        <l n="731">tw=n au)=<add place="supralinear" n="diacritical mark">#84</add><note resp="bh" lang="eng">A circumflex is visible here.</note>q'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> <add place="inline" n="punctuation">#71</add><note resp="bh" lang="eng">A mid punctus is visible here.</note> h(gei/s<unclear>q</unclear>hn *)asklh<unclear>p</unclear>iou=<add place="supralinear" n="diacritical mark">#84</add><note resp="bh" lang="eng">A circumflex is visible here.</note> du/o pai=de, </l>
+
+                    </div>
+
+                    <div type="frag" n="58">
+                        <l n="732"><supplied reason="lost">i)hth=r' a)gaqw/, *podalei/rios h)de\</supplied> <unclear>*m</unclear><supplied reason="lost">ax</supplied><unclear>a/</unclear>w<unclear>n:</unclear> </l>
+                        <l n="733"><supplied reason="lost">toi=s de\ trih/konta glafurai\ n</supplied><unclear>e/e</unclear>s e)<supplied reason="lost">stixo/wnto.</supplied> </l>
+                        <gap reason="lost" unit="line" extent="1"/>
+                        <l n="735">oi(/ t'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> e)/x<unclear>o</unclear><supplied reason="lost">n *)aste/rion *tita/noi</supplied>o/ te le<unclear>u</unclear><supplied reason="lost">ka\ ka/rhna,</supplied> </l>
+                        <l n="736">tw=n h)=<add place="supralinear" n="diacritical mark">#84</add><note resp="bh" lang="eng">A circumflex is visible here.</note>rx' <unclear>*e</unclear><supplied reason="lost">u)ru/pulos *eu)ai/</supplied>monos a)g<supplied reason="lost">lao\s ui(o/s:</supplied> </l>
+
+                        <l n="737">tw=| d' a(/ma <supplied reason="lost">tessara/</supplied>ko<unclear>n</unclear><supplied reason="lost">t</supplied>a me/lainai n<supplied reason="lost">h=es e(/pon</supplied>to. <add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note></l>
+                        <l n="738">o<add place="supralinear" n="diacritical mark">#85</add><note resp="bh" lang="eng">A rough breathing mark is visible here.</note>i(\ d'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> *)a/rgeis<unclear>a</unclear><supplied reason="lost">n e)/x</supplied><unclear>o</unclear>n kai\ *gurtw/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>nhn e)n<supplied reason="lost">e/mo</supplied><unclear>n</unclear>to, </l>
+
+
+                        <l n="739">*)/<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note>orqhn *)hlw/<supplied reason="lost">nh</supplied>n te <add place="inline" n="punctuation">#71</add><note resp="bh" lang="eng">A mid punctus is visible here.</note> po/lin t'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> *)oloosso/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>n<supplied reason="lost">a leu</supplied>kh/n, </l>
+
+                        <l n="740">tw=n au)=<add place="supralinear" n="diacritical mark">#84</add><note resp="bh" lang="eng">A circumflex is visible here.</note>q'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> h(ge<unclear>m</unclear><supplied reason="lost">o/</supplied>neue menepto/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>lemos *p<supplied reason="lost">ol</supplied>upoi/ths, </l>
+
+                        <l n="741"><add place="left" n="ancient editorial sign">#15</add><note resp="bh" lang="eng">A diple appears against this line.</note>u<add place="supralinear" n="diacritical mark">#85</add><note resp="bh" lang="eng">A rough breathing mark is visible here.</note>i(o\s *peiriqo/o<unclear>io, t</unclear>o\n a)<add place="supralinear" n="diacritical mark">%26</add><note resp="bh" lang="eng">A macron is visible here.</note>qa/natos te/keto *ze<unclear>u/s:</unclear> <add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note></l>
+
+
+
+
+                        <l n="742"><add place="left" n="ancient editorial sign">#15</add><note resp="bh" lang="eng">A diple appears against this line.</note>to/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>n r('<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> u(po\ *peiriqo/w| te/keto kluto\s *(ippoda/meia </l>
+
+                        <l n="743">h)/mati tw=<add place="supralinear" n="diacritical mark">#84</add><note resp="bh" lang="eng">A circumflex is visible here.</note>| o(/<add place="supralinear" n="diacritical mark">#85</add><note resp="bh" lang="eng">A rough breathing mark is visible here.</note>te *fh=<add place="supralinear" n="diacritical mark">#84</add><note resp="bh" lang="eng">A circumflex is visible here.</note>ras e)ti/<add place="supralinear" n="diacritical mark">%26</add><note resp="bh" lang="eng">A macron is visible here.</note>sato laxnh/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>entas, <add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note></l>
+
+                        <l n="744">tou\s d'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> e)k *phl<supplied reason="lost">i/</supplied>ou w)=<add place="supralinear" n="diacritical mark">%134</add><note resp="bh" lang="eng">A smooth breathing and circumflex are visible here.</note>se kai\ *ai)qi/<add place="supralinear" n="diacritical mark">%26</add><note resp="bh" lang="eng">A macron is visible here.</note>kessi pe/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>lassen: </l>
+
+                        <l n="745">ou)k<add place="inline" n="diacritical mark">#532</add><note resp="bh" lang="eng">A diastole is visible here.</note> o<add place="supralinear" n="diacritical mark">#86</add><note resp="bh" lang="eng">A smooth breathing mark is visible here.</note>i)=os,<add place="inline" n="punctuation">#71</add><note resp="bh" lang="eng">A mid punctus is visible here.</note> a(/<add place="supralinear" n="diacritical mark">#85</add><note resp="bh" lang="eng">A rough breathing mark is visible here.</note>ma tw=| ge *leonte<add place="supralinear" n="diacritical mark">#83</add><note lang="eng" resp="bh">A grave accent is visible here.</note>u\s o)/<add place="supralinear" n="diacritical mark">%35</add><note resp="bh" lang="eng">A smooth breathing and acute accent mark are visible here.</note>zos *)<add place="supralinear" n="diacritical mark">#86</add><note resp="bh" lang="eng">A smooth breathing mark is visible here.</note>a/rhos, </l>
+
+                        <l n="746"><add place="left" n="ancient editorial sign">#14</add><note resp="bh" lang="eng">A diple periestigmene appears against this line.</note>ui(o\s u(<add place="supralinear" n="punctuation">#80</add><note resp="bh" lang="eng">A diaeresis is visible here.</note>perqu/<add place="supralinear" n="diacritical mark">%26</add><note resp="bh" lang="eng">A macron is visible here.</note><add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>moio *korw/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>nou *kainei/dao: <add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note></l>
+
+                        <l n="747">toi=s d'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> a(/ma tessara/konta me/lainai nh=es e(/<add place="supralinear" n="diacritical mark">%36</add><note resp="bh" lang="eng">A rough breathing and acute accent mark are visible here.</note>ponto. </l>    
+
+                        <l n="748">*gouneu\s d'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> e)k *ku/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>fou h)=<add place="supralinear" n="diacritical mark">#84</add><note resp="bh" lang="eng">A circumflex is visible here.</note>ge du/w kai\ ei)/kosi nh=<add place="supralinear" n="diacritical mark">#84</add><note resp="bh" lang="eng">A circumflex is visible here.</note>as: <add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note></l>
+
+                        <l n="749">tw=<add place="supralinear" hand="corrector">i</add> d' *ai)neih=<add place="supralinear" n="diacritical mark">#84</add><note resp="bh" lang="eng">A circumflex is visible here.</note>nes e(/<add place="supralinear" n="diacritical mark">%36</add><note resp="bh" lang="eng">A rough breathing and acute accent mark are visible here.</note>ponto menepto/lemoi/ te *perraiboi/, </l>
+
+                        <l n="750">o<add place="supralinear" n="diacritical mark">#85</add><note resp="bh" lang="eng">A rough breathing mark is visible here.</note>i(\ peri\ *dwdw/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>nhn dusxe<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>i/meron oi)ki/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>' e)/qento, </l>
+                        <l n="751">o<add place="supralinear" n="diacritical mark">%36</add><note resp="bh" lang="eng">A rough breathing and acute accent mark are visible here.</note>i(/ t'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> a)mf' i(<add place="supralinear" n="diacritical mark">%26</add><note resp="bh" lang="eng">A macron is visible here.</note>merto\n *titarh/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>sion e)/rg'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> e)ne/monto, <add place="right" n="scholion">#512 <unclear>*)a</unclear>ri/s<unclear>tar</unclear><hi rend="superscript"><unclear>x</unclear></hi><supplied reason="abbreviation">os</supplied> <unclear>e)/rga</unclear> ne/monto</add></l>
+
+                        <l n="752">o(/<add place="supralinear" n="diacritical mark">%36</add><note resp="bh" lang="eng">A rough breathing and acute accent mark are visible here.</note>s r('<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> e)s *phneio\n proi/<add place="supralinear" n="diacritical mark">%36</add><note resp="bh" lang="eng">A rough breathing and acute accent mark are visible here.</note>+ei kalli/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>roon u(/<add place="supralinear" n="diacritical mark">%26</add><note resp="bh" lang="eng">A macron is visible here.</note>dwr: <add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note></l>
+                        <l n="753">ou)d'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> o(/<add place="supralinear" n="diacritical mark">%36</add><note resp="bh" lang="eng">A rough breathing and acute accent mark are visible here.</note> ge *phneiw=<add place="supralinear" n="diacritical mark">#84</add><note resp="bh" lang="eng">A circumflex is visible here.</note><add place="supralinear" hand="corrector">i</add> summi/sgetai a)rgurodi/<add place="supralinear" n="diacritical mark">%26</add><note resp="bh" lang="eng">A macron is visible here.</note><add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>nh|, </l>
+
+                    </div>
+
+                    <div type="frag" n="59">
+                        <l n="754">a)<supplied reason="lost">lla/ te/ min k</supplied><unclear>a</unclear>q<unclear>u/p</unclear>e<unclear>r</unclear><supplied reason="lost">q</supplied>en <unclear>e)p</unclear><supplied reason="lost">irre/ei h)u/t' e)/laio</supplied>n: </l>
+                        <l n="755"><supplied reason="lost">o(/rk</supplied><unclear>o</unclear><supplied reason="lost">u ga\r dei</supplied><unclear>n</unclear>ou= <unclear>*st</unclear>ugo\s u(/<supplied reason="lost">da</supplied><unclear>t</unclear><supplied reason="lost">o/s e)stin a)por</supplied><unclear>r</unclear>w/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>c.<add place="supralinear" n="punctuation">#72</add><note resp="bh" lang="eng">A supralinear high punctus is visible here.</note> </l>
+
+                        <l n="756"><supplied reason="lost">*magnh/twn d'</supplied> <unclear>h)=r</unclear>x<supplied reason="lost">e</supplied> <unclear>*p</unclear>ro/<unclear>qo</unclear><supplied reason="lost">os *tenqrhdo/nos ui(</supplied>o/s, </l>
+
+                        <l n="757"><supplied reason="lost">oi(\ peri\ *phnei</supplied>o\n kai\ *ph/<supplied reason="lost">lion ei)nosi/fu</supplied><unclear>l</unclear>lon </l>
+
+                        <l n="758"><supplied reason="lost">nai/eskon: t</supplied><unclear>w=</unclear>n me\n *pro/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>qo<supplied reason="lost">os qoo\s h(g</supplied><unclear>e</unclear>mo/neue, </l>
+                        <l n="759"><supplied reason="lost">tw=| d' a(/m</supplied><unclear>a</unclear> tessara/konta m<unclear>e/</unclear><supplied reason="lost">lainai</supplied> nh=<add place="supralinear" n="diacritical mark">#84</add><note resp="bh" lang="eng">A circumflex is visible here.</note>es e(/<add place="supralinear" n="diacritical mark">%36</add><note resp="bh" lang="eng">A rough breathing and acute accent mark are visible here.</note>ponto. <add place="supralinear" n="punctuation">#72</add><note resp="bh" lang="eng">A supralinear high punctus is visible here.</note></l>
+
+                        <l n="760"><unclear>o</unclear><supplied reason="lost">u(=toi a)\</supplied><unclear>r'</unclear> h(gemo/nes *danaw=<add place="supralinear" n="diacritical mark">#84</add><note resp="bh" lang="eng">A circumflex is visible here.</note><unclear>n</unclear> <supplied reason="lost">kai\ k</supplied>oi/ranoi h)=san. <add place="supralinear" n="punctuation">#72</add><note resp="bh" lang="eng">A supralinear high punctus is visible here.</note></l>
+
+                        <l n="761">t<supplied reason="lost">i/s t' a)\</supplied>r tw=<add place="supralinear" n="diacritical mark">#84</add><note resp="bh" lang="eng">A circumflex is visible here.</note>n o)/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>x'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> a)/ristos e)/hn, su/ m<unclear>o</unclear>i e)/nnepe *mou=sa, </l>
+
+                        <l n="762">au)tw=n h)<add place="supralinear" n="diacritical mark">#86</add><note resp="bh" lang="eng">A smooth breathing mark is visible here.</note>d'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> i(/ppwn, o<add place="supralinear" n="diacritical mark">#85</add><note resp="bh" lang="eng">A rough breathing mark is visible here.</note>i(\ a(/<add place="supralinear" n="diacritical mark">%36</add><note resp="bh" lang="eng">A rough breathing and acute accent mark are visible here.</note>m'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> *)atrei/dh<add place="supralinear" hand="corrector">i</add>sin e(/<add place="supralinear" n="diacritical mark">%36</add><note resp="bh" lang="eng">A rough breathing and acute accent mark are visible here.</note>ponto. </l>
+
+                        <l n="763">i(/ppoi me\n ga\r a)/ristai e)/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>san *fhrhtia/dao, </l>
+
+                        <l n="764">ta\s *e<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>u)/mhlos e)/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>laune podw/keas o)/rniqas w(/<add place="supralinear" n="diacritical mark">%37</add><note resp="bh" lang="eng">A rough breathing and grave accent mark are visible here.</note>s, </l>
+                        <l n="765">o)/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>trixas o<add place="supralinear" n="diacritical mark">#86</add><note resp="bh" lang="eng">A smooth breathing mark is visible here.</note>i)<add place="infralinear" n="diacritical mark">%96</add><note resp="bh" lang="eng">A hyphen is visible here.</note>e/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>teas,<add place="inline" n="punctuation">#71</add><note resp="bh" lang="eng">A mid punctus is visible here.</note> stafu/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>lh| e)pi\ nw=<add place="supralinear" n="diacritical mark">#84</add><note resp="bh" lang="eng">A circumflex is visible here.</note>ton e)ei/sas: </l>
+
+                        <l n="766">ta\s e)n *phrei/h| qre/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>y'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> a)rguro/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>tocos *)apo/llwn, </l>
+
+
+                        <l n="767">a)/mfw qhlei/as, fo/bon *)a<add place="supralinear" n="diacritical mark">%26</add><note resp="bh" lang="eng">A macron is visible here.</note>/rhos foreo<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>u/sas. <add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note> <add place="right" n="scholion"><supplied reason="lost" n="ancient editorial sign">#512</supplied><note resp="bh" lang="eng">It is believed that there was an antisigma preceding the scholion, since the antisigma precedes other scholia in this papyrus.</note> h( k<hi rend="superscript">o</hi><supplied reason="abbreviation">inh\</supplied> fe/rteros h)=en</add>    </l>
+                        <l n="768">a)ndrw=n au)=<add place="supralinear" n="diacritical mark">#84</add><note resp="bh" lang="eng">A circumflex is visible here.</note> me/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>g'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> a)/ristos e)/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>hn *telamw/n<unclear>i</unclear>os *ai)/as, </l>
+
+                        <l n="769">o)/fr'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> *)axileu\s mh/nien:<add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note>  o(\<add place="supralinear" n="diacritical mark">#85</add><note resp="bh" lang="eng">A rough breathing mark is visible here.</note> ga\r polu\ fe/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>rtatos h)=en, </l>
+                        <l n="770">i(/ppoi q'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> o<add place="supralinear" n="diacritical mark">#85</add><note resp="bh" lang="eng">A rough breathing mark is visible here.</note>i(\ fore/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>eskon a)mu/mona *phlei/wna. </l>
+
+
+                        <l n="771">a)ll'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> o(<add place="supralinear" n="diacritical mark">#85</add><note resp="bh" lang="eng">A rough breathing mark is visible here.</note>\ me\n e)n nh/essi korwni/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>si pontopo/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>roisi </l>
+
+                        <l n="772">kei=t'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> a)pomhni/sas *)agame/mnoni poime/ni law=n </l>
+                        <l n="773">*)atrei/dh|: <add place="inline" n="punctuation">#71</add><note resp="bh" lang="eng">A mid punctus is visible here.</note> laoi\ de\ para\ r(hgmei=<add place="supralinear" n="diacritical mark">#84</add><note resp="bh" lang="eng">A circumflex is visible here.</note>ni qala/sshs </l>
+
+                        <l n="774">di/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>skoisin te/rponto kai\ ai)gane/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>h|sin i(<add place="supralinear" n="diacritical mark">#85</add><note resp="bh" lang="eng">A rough breathing mark is visible here.</note>e/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>ntes </l>
+                        <l n="775">to/coisi/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>n q'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note>: i(/ppoi de\ par'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> a(/rmasin o<add place="supralinear" n="diacritical mark">#85</add><note resp="bh" lang="eng">A rough breathing mark is visible here.</note>i(=<add place="supralinear" n="diacritical mark">#84</add><note resp="bh" lang="eng">A circumflex is visible here.</note>sin e(/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>kastos </l>
+
+                    </div>
+
+                    <div type="frag" n="59">
+                        <l n="776"><supplied reason="lost">lwt</supplied><unclear>o\</unclear>n e)rep<unclear>t</unclear>o/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>men<supplied reason="lost">oi e)leo/qrept</supplied><unclear>o/</unclear>n <unclear>t</unclear>e s<unclear>e/l</unclear>in<supplied reason="lost">on</supplied> </l>
+                        <l n="777"><supplied reason="lost">e(/sta</supplied><unclear>sa</unclear>n: <add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note> a(/rmata d' eu)=<add place="supralinear" n="diacritical mark">#84</add><note resp="bh" lang="eng">A circumflex is visible here.</note> <unclear>pep</unclear><supplied reason="lost">ukasme/</supplied><unclear>n</unclear>a <unclear>kei=t</unclear><supplied reason="lost">o</supplied> a)/na<unclear>kto</unclear><supplied reason="lost">s</supplied> </l>
+
+                        <l n="778">e)<supplied reason="lost">n klisi/</supplied>h|s, <add place="supralinear" n="punctuation">#72</add><note resp="bh" lang="eng">A supralinear high punctus is visible here.</note> oi(\ <unclear>d' a)r</unclear>xo\n a)<supplied reason="lost">rhi/filo</supplied><unclear>n</unclear> poq<unclear>e/</unclear><supplied reason="lost">ontes</supplied> </l>
+                        <l n="779"><supplied reason="lost">foi/t</supplied><unclear>w</unclear>n e)/nqa <unclear>k</unclear><supplied reason="lost">ai\ e)/nqa kata\ str</supplied>ato\n <add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note> ou)d'<supplied reason="lost"> e)ma/xonto.</supplied> </l>
+                        <l n="780">o<unclear>i(\</unclear> d' a)\r<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> i)/san w(<add place="supralinear" n="diacritical mark">%37</add><note resp="bh" lang="eng">A rough breathing and grave accent mark are visible here.</note>s ei)/ <supplied reason="lost">te puri\ x</supplied><unclear>q</unclear>w\n pa=<add place="supralinear" n="diacritical mark">#84</add><note resp="bh" lang="eng">A circumflex is visible here.</note>sa ne/mo<supplied reason="lost">ito:</supplied> </l>
+
+                        <l n="781"><supplied reason="lost">g</supplied>ai=a d'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> u(pestena/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>x<supplied reason="lost">ize *dii\</supplied> w(\s terpikera<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>u/nw<add place="supralinear" hand="corrector">i</add> </l>
+                        <l n="782">xwome/nw|, o(/<add place="supralinear" n="diacritical mark">#85</add><note resp="bh" lang="eng">A rough breathing mark is visible here.</note>te t'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> a)<supplied reason="lost">mfi\</supplied> <unclear>*t</unclear>ufwe/i gai=an i(<add place="supralinear" n="diacritical mark">#85</add><note resp="bh" lang="eng">A rough breathing mark is visible here.</note>ma/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>ssh<supplied reason="lost">i</supplied> <add place="right" n="scholion"><supplied reason="lost">#512 *)ari/</supplied><unclear>s</unclear>tar<hi rend="superscript">x</hi><supplied reason="abbreviation">os</supplied> o(/<hi rend="superscript">t</hi><supplied reason="abbreviation">i</supplied> tines xwo/menos w(s a)p' a)/llhs a)rxh=s</add></l>                     
+
+                        <l n="783"><unclear>e</unclear><supplied reason="lost">i)</supplied>n *)ari/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>mois, o(/qi fasi\ *tufwe/os e)/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>mmenai eu)na/s.<add place="inline" n="punctuation">#71</add><note resp="bh" lang="eng">A mid punctus is visible here.</note> </l>
+
+                        <l n="784"><unclear>w(\s</unclear> a)/ra tw=<add place="supralinear" n="diacritical mark">#84</add><note resp="bh" lang="eng">A circumflex is visible here.</note>n u(<add place="supralinear" n="punctuation">#80</add><note resp="bh" lang="eng">A diaeresis is visible here.</note>po\ possi\ me/ga stenaxi/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>zeto gai=<add place="supralinear" n="diacritical mark">#84</add><note resp="bh" lang="eng">A circumflex is visible here.</note>a </l>
+
+
+                        <l n="785"><add place="left" n="ancient editorial sign">#15</add><note resp="bh" lang="eng">A diple appears against this line.</note>e)rxome/nwn: <add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note> ma/la d' w)=<add place="supralinear" n="diacritical mark">#84</add><note resp="bh" lang="eng">A circumflex is visible here.</note>ka die/prhsson pedi/oio. <add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note></l>
+
+                        <l n="786">*trwsi\n d'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> a)/ggelos h)=lqe podh/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>nemos w)ke/a *)=i<add place="supralinear" n="punctuation">#80</add><note resp="bh" lang="eng">A diaeresis is visible here.</note>ris </l>
+
+
+                        <l n="787">pa\r *dio\s ai)gio/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>xoio su\n a)ggeli/h<add place="supralinear" hand="corrector">i</add> a)legeinh=<add place="supralinear" hand="corrector">i</add>: <add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note></l>
+                        <l n="788">oi(\ d'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> a)gora\s a)go/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>reuon e)pi\ *pria/moio qu/rh|sin </l>
+                        <l n="789">pa/ntes o(<add place="supralinear" n="diacritical mark">#85</add><note resp="bh" lang="eng">A rough breathing mark is visible here.</note>mhgere/es, h)<add place="supralinear" n="diacritical mark">#86</add><note resp="bh" lang="eng">A smooth breathing mark is visible here.</note>me\n ne/oi h)<add place="supralinear" n="diacritical mark">#86</add><note resp="bh" lang="eng">A smooth breathing mark is visible here.</note>de\ ge/rontes. <add place="supralinear" n="punctuation">#72</add><note resp="bh" lang="eng">A supralinear high punctus is visible here.</note></l>
+                        <l n="790">a)gxou=<add place="supralinear" n="diacritical mark">#84</add><note resp="bh" lang="eng">A circumflex is visible here.</note> d'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> i(stame/nh prose/fh po/das w)ke/a *)=i<add place="supralinear" n="punctuation">#80</add><note resp="bh" lang="eng">A diaeresis is visible here.</note>ris: </l>
+
+                        <l n="791">i)/sato de\ fqoggh\n ui(ei=<add place="supralinear" n="diacritical mark">#84</add><note resp="bh" lang="eng">A circumflex is visible here.</note> *pria/moio *poli/th|, </l>
+                        <l n="792">o(\<add place="supralinear" n="diacritical mark">#85</add><note resp="bh" lang="eng">A rough breathing mark is visible here.</note>s *trw/wn skopo\s i(<add place="supralinear" n="diacritical mark">#85</add><note resp="bh" lang="eng">A rough breathing mark is visible here.</note><add place="supralinear" n="diacritical mark">%27</add><note resp="bh" lang="eng">A breve is visible here.</note>=ze podwkei/h|si pepoiqw\s </l>
+
+
+                        <l n="793">tu/mbw| e)p' a)krota/tw| *ai)suih/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>tao ge/rontos, </l>
+
+                        <l n="794"><add place="left" n="ancient editorial sign">#12</add><note resp="bh" lang="eng">An obelos appears against this line.</note>de/gmenos o(<add place="supralinear" n="diacritical mark">#85</add><note resp="bh" lang="eng">A rough breathing mark is visible here.</note>ppo/te nau=<add place="supralinear" n="diacritical mark">#84</add><note resp="bh" lang="eng">A circumflex is visible here.</note>fin a)formhqei=<add place="supralinear" n="diacritical mark">#84</add><note resp="bh" lang="eng">A circumflex is visible here.</note>en *)axaioi/. <add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note></l>
+                        <l n="795">tw=| min e)eisame/nh mete/fh po/das w)ke/a *)=i<add place="supralinear" n="punctuation">#80</add><note resp="bh" lang="eng">A diaeresis is visible here.</note>ris: <add place="supralinear" n="punctuation">#72</add><note resp="bh" lang="eng">A supralinear high punctus is visible here.</note></l>
+                        <l n="796">"w)= ge/ron, <add place="inline" n="punctuation">#71</add><note resp="bh" lang="eng">A mid punctus is visible here.</note> ai)ei/ toi mu=qoi fi/loi a)/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>kritoi/ e<add place="supralinear" n="diacritical mark">#83</add><note lang="eng" resp="bh">A grave accent is visible here.</note>i)sin, </l>
+
+                        <l n="797">w(<add place="supralinear" n="diacritical mark">#85</add><note resp="bh" lang="eng">A rough breathing mark is visible here.</note>/s te<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note> pot'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> e)p' ei)rh/nhs: po/lemos d'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> a)<add place="supralinear" n="diacritical mark">#86</add><note resp="bh" lang="eng">A smooth breathing mark is visible here.</note>li/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>astos o)/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>rwren. <add place="supralinear" n="punctuation">#72</add><note resp="bh" lang="eng">A supralinear high punctus is visible here.</note></l>
+
+                    </div>
+
+                    <div type="frag" n="60">
+                        <l n="798">h)= me\n dh\ <unclear>ma/</unclear><supplied reason="lost">la polla\ m</supplied>a/x<unclear>a</unclear>s e<supplied reason="lost">i)s</supplied><unclear>h/</unclear>l<unclear>u</unclear><supplied reason="lost">qon a)</supplied>ndrw=n,   <add place="right" n="scholion"><supplied reason="lost">#512 *)ari/</supplied><unclear>star</unclear><supplied reason="lost">xos</supplied> h)/<supplied reason="lost">dh me\n</supplied></add>            </l>
+                        <l n="799">a)ll' ou)/ pw <supplied reason="lost">toio/nde to</supplied>so/<unclear>n</unclear><supplied reason="lost">d</supplied><unclear>e</unclear> <supplied reason="lost">te l</supplied><unclear>a</unclear>o\<supplied reason="lost">n o)/pwpa:</supplied> </l>
+
+                        <l n="800"><supplied reason="lost">li/hn ga\r fu/lloisin</supplied> e)<supplied reason="lost">oiko/tes h)\ yama/qoisin</supplied> </l>
+                        <l n="801"><add place="left" n="ancient editorial sign">#15</add><note resp="bh" lang="eng">A diple appears against this line.</note>e)/<unclear>r</unclear><supplied reason="lost">xontai pedi/o</supplied>io maxhs<supplied reason="lost">o/menoi peri\</supplied> <unclear>a)/</unclear>stu. <add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note></l>  
+
+                        <l n="802"><add place="left" n="ancient editorial sign">#15</add><note resp="bh" lang="eng">A diple appears against this line.</note>*(/ekt<supplied reason="lost">or, soi\ de\</supplied> ma/list'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> e)pite/ll<unclear>o</unclear><supplied reason="lost">mai, w(=</supplied><unclear>d</unclear>e de\ r(e/cai: <add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note></l>                  
+
+
+                        <l n="803">poll<supplied reason="lost">oi\ ga\r</supplied> <unclear>k</unclear>ata\ a)/stu me/ga *pria/<supplied reason="lost">mou</supplied> e)pi/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>kouroi, </l>
+
+
+
+                        <l n="804">a)/llh d' <supplied reason="lost">a)/</supplied>llwn glw=ssa poluspere/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>wn a)nqrw/pwn: <add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note></l>
+
+                        <l n="805">toi=sin <supplied reason="lost">e(/</supplied>kastos a)nh\r shmaine/tw o<add place="supralinear" n="diacritical mark">#85</add><note resp="bh" lang="eng">A rough breathing mark is visible here.</note>i(=<add place="supralinear" n="diacritical mark">#84</add><note resp="bh" lang="eng">A circumflex is visible here.</note>si/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note> pe<add place="supralinear" n="diacritical mark">#83</add><note lang="eng" resp="bh">A grave accent is visible here.</note>r a)/rxei, <add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note></l>
+
+
+
+                        <l n="806"><unclear>t</unclear>w=n d'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> <supplied reason="lost">e)</supplied><unclear>c</unclear>hgei/sqw, kosmhsa/menos polih/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>tas." <add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note></l>
+
+                        <l n="807"><add place="left" n="ancient editorial sign">#15</add><note resp="bh" lang="eng">A diple appears against this line.</note>w(\s e)/fat'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note>, <unclear>*(/e</unclear>ktwr d'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> ou)/ ti qea=<add place="supralinear" n="diacritical mark">#84</add><note resp="bh" lang="eng">A circumflex is visible here.</note>s e)/pos h)gnoi/hisen, <add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note></l>
+
+                        <l n="808">ai)=ya d<unclear>e\ lu</unclear><add place="supralinear" n="diacritical mark">#84</add><note resp="bh" lang="eng">A circumflex is visible here.</note>s'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> a)gorh/n: e)pi\ teu/xea d'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> e)sseu/onto. <add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note></l>
+
+
+
+
+
+                        <l n="809"><add place="left" n="ancient editorial sign">#15</add><note resp="bh" lang="eng">A diple appears against this line.</note>pa=sai d'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> w)i/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>gnunto pu/lai, <add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note> e)k d'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> e)/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>ssuto lao\s, </l>
+
+                        <l n="810">pezoi/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note> q' i(pph=e/s te: <add place="supralinear" n="punctuation">#72</add><note resp="bh" lang="eng">A supralinear high punctus is visible here.</note> polu\s d'<add place="inline" n="punctuation">#81</add><note resp="bh" lang="eng">An apostrophe is visible here.</note> o)rumagdo\s o)rw/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>rei. <add place="supralinear" n="punctuation">#72</add><note resp="bh" lang="eng">A supralinear high punctus is visible here.</note></l>
+
+
+
+                        <l n="811">e)/sti de/ <unclear>ti</unclear>s propa/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>roiqe po/lis ai)pei=<add place="supralinear" n="diacritical mark">#84</add><note resp="bh" lang="eng">A circumflex is visible here.</note>a kolw/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>nh </l>
+
+                        <l n="812">e)n ped<supplied reason="lost">i/w</supplied>i a)pa/neuqe, pe<add place="supralinear" n="diacritical mark">#83</add><note lang="eng" resp="bh">A grave accent is visible here.</note>ri/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>dromos e)/nqa kai\ e)/nqa, </l>
+
+                        <l n="813">th\n h)/toi a)/ndres *batei/an kiklh/skousin, </l>
+
+
+                        <l n="814">a)<add place="supralinear" n="diacritical mark">%26</add><note resp="bh" lang="eng">A macron is visible here.</note>qa/nat<unclear>o</unclear>i de/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note> te sh=<add place="supralinear" n="diacritical mark">#84</add><note resp="bh" lang="eng">A circumflex is visible here.</note>ma poluska/<add place="supralinear" n="diacritical mark">#82</add><note resp="bh" lang="eng">An acute accent mark is visible here.</note>rqmoio *muri/<add place="supralinear" n="diacritical mark">%26</add><note resp="bh" lang="eng">A macron is visible here.</note>nhs: <add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note></l>
+
+                        <l n="815">e)/nqa to/<unclear>te</unclear> *trw=e/s te die/kriqen h)d' e)pi/kouroi. </l>
+
+                        <l n="816">*trwsi\ me\n h(gemo/neue me/gas koruqai/olos *(/ektwr </l>
+                        <l n="817">*priami/d<unclear>hs:</unclear><add place="inline" n="punctuation">#71</add><note resp="bh" lang="eng">A mid punctus is visible here.</note> a(/ma tw=| ge polu\ plei=stoi kai\ a)/ristoi </l>
+                        <l n="818">laoi\ qw<unclear>rh/</unclear>ssonto, memao/tes e)gxei/h|si. <add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note></l>
+                        <l n="819">*dardani/<supplied reason="lost">w</supplied>n au)=t' h)=rxen e)u\s pa/is *)agxi/sao </l>
+
+                    </div>
+
+
+                    <div type="frag" n="60">
+                        <l n="820"><supplied reason="lost">*ai)nei/as, to\n u(</supplied><unclear>p'</unclear> *)a<unclear>gx</unclear>ei/sh<unclear>i t</unclear>e/ke di=' *)afro<unclear>d</unclear>i/th<del>i</del>, </l>
+                        <l n="821"><supplied reason="lost">*)/idhs e)n k</supplied><unclear>nh</unclear>moi=si qea\ bro<unclear>t</unclear>w=| eu)nhqei=sa: </l>
+                        <l n="822"><supplied reason="lost">ou)k oi)=os, a(/ma tw=| ge du/w *)an</supplied><unclear>t</unclear>h/no<unclear>r</unclear><supplied reason="lost">os ui(=e,</supplied> </l>
+
+                        <l n="823"><supplied reason="lost">*)a</supplied><unclear>r</unclear>xe/loxo/s <supplied reason="lost">*)aka/mas te,</supplied> ma/xhs eu)= ei)d<unclear>o/</unclear><supplied reason="lost">te pa/sh</supplied><unclear>s.</unclear> </l>
+
+                        <l n="824">oi(\ de\ *ze/leian e)/<supplied reason="lost">naion</supplied> u(pai\ po/da ni/ato<supplied reason="lost">n *)/id</supplied>hs </l>
+
+                        <l n="825">a)fneioi\, pei/non<supplied reason="lost">t</supplied><unclear>e</unclear><supplied reason="lost">s</supplied> u(/dwr me/lan *ai)sh/poio, </l>
+                        <l n="826">*trw=es, <add place="supralinear" n="punctuation">#72</add><note resp="bh" lang="eng">A supralinear high punctus is visible here.</note> tw=n au)=t' h)=rx<supplied reason="lost">e *l</supplied>uka/onos a)<unclear>g</unclear>lao\s u<unclear>i(</unclear>o\s </l>
+
+                        <l n="827"><add place="left" n="ancient editorial sign">#15</add><note resp="bh" lang="eng">A diple appears against this line.</note>*pa/ndaros, w(=| ka<supplied reason="lost">i\ t</supplied>o/<unclear>c</unclear>on *)apo/llwn au)<unclear>to\</unclear>s e)/dwken. <add place="supralinear" n="punctuation">#72</add><note resp="bh" lang="eng">A supralinear high punctus is visible here.</note></l>
+
+                        <l n="828">oi(\ d' *)adrh/steia/<unclear>n t'</unclear> ei)=xon kai\ dh=mon *)a<unclear>pa</unclear>isou=, </l>
+
+
+                        <l n="829">kai\ *pitu/eian e)/xo<unclear>n</unclear> <add place="inline" n="punctuation">#71</add><note resp="bh" lang="eng">A mid punctus is visible here.</note> kai\ *threi/hs o)/ros ai)pu/, <add place="inline" n="punctuation">#71</add><note resp="bh" lang="eng">A mid punctus is visible here.</note></l>
+
+                        <l n="830"><add place="left" n="ancient editorial sign">#15</add><note resp="bh" lang="eng">A diple appears against this line.</note>tw=n h)=rx' *)a/drhst<unclear>o/</unclear>s te kai\ *)a/mfeios linoqw/rhc, </l>
+                        <l n="831">ui(=e du/w<del>i</del> *me/ropos *perkwsi/ou, <add place="inline" n="punctuation">#71</add><note resp="bh" lang="eng">A mid punctus is visible here.</note> o(\s peri\ pa/ntwn </l>
+
+
+
+                        <l n="832">h)/|dee mantosu/nas, <add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note> ou)de\ ou(\s pai=das e)/aske </l>
+                        <l n="833">stei/xein e)s po/l<supplied reason="lost">e</supplied><unclear>m</unclear>on fqish/nora. <add place="supralinear" n="punctuation">#72</add><note resp="bh" lang="eng">A spralinear high punctus is visible here.</note> tw\ de/ oi( ou)/ ti </l>
+
+                        <l n="834">peiqe/sqhn: <add place="inline" n="punctuation">#71</add><note resp="bh" lang="eng">A mid punctus is visible here.</note> kh=re<unclear>s</unclear> <supplied reason="lost">ga\</supplied>r a)/gon me/lanos qana/toio. </l>
+
+                        <l n="835">oi(\ d' a)/ra *perkw/thn kai\ *pra/ktion a)mfene/monto <add place="inline" n="punctuation">#71</add><note resp="bh" lang="eng">A mid punctus is visible here.</note></l>
+                        <l n="836">kai\ *shsto\n <add place="inline" n="punctuation">#71</add><note resp="bh" lang="eng">A mid punctus is visible here.</note> kai\ *)a/<unclear>b</unclear>u<unclear>do</unclear><supplied reason="lost">n</supplied> e)/xon <add place="inline" n="punctuation">#71</add><note resp="bh" lang="eng">A mid punctus is visible here.</note> kai\ di=an *)ari/sbhn, </l>
+
+                        <l n="837">tw=n au)=q' *(urtaki/dh<unclear>s</unclear> h)=rx' *)a/sios o)/rxamos a)ndrw=n, </l>
+                        <l n="838"><add place="left" n="ancient editorial sign">#15</add><note resp="bh" lang="eng">A diple appears against this line.</note>*)a/sios *(urtaki/dhs, <unclear>o(\n</unclear> *)ari/sbhqen fe/ron i(/ppoi </l>
+                        <l n="839"><add place="left" n="ancient editorial sign">#15</add><note resp="bh" lang="eng">A diple appears against this line.</note>ai)/qwnes mega/lo<unclear>i, p</unclear>otamou= a)/po *sellh/entos. <add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note></l>
+                        <l n="840">*(ippo/qoos d' a)/ge fu=<supplied reason="lost">l</supplied><unclear>a</unclear> *pelasgw=n e)gxesimw/rwn, </l>
+                        <l n="841">tw=n oi(\ *la/risan e)ribw/laka naieta/askon: </l>
+
+                    </div>
+
+                    <div type="frag" n="61">
+                        <note lang="eng">Line 842 is omitted.</note>
+                        <l n="843">ui(=e du/w *lh/qoio *pelas<unclear>go</unclear><supplied reason="lost">u= *teutami/dao.</supplied> </l>
+                        <l n="844">au)<unclear>ta\r</unclear> *q<unclear>r</unclear><supplied reason="lost">h/ikas</supplied> <unclear>h)=g' *)a</unclear>ka/ma<supplied reason="lost">s kai\ *pei/roos h(/r</supplied>ws, </l>
+
+                        <l n="845">o(/<supplied reason="lost">s</supplied>sous *(ellh/s<unclear>p</unclear><supplied reason="lost">ontos a)ga/rr</supplied><unclear>o</unclear>os e)nt<supplied reason="lost">o\s e)e/rgei.</supplied> </l>
+                        <l n="846"><supplied reason="lost">*eu)/</supplied>fhmos d' a)rxo\<supplied reason="lost">s *kiko/n</supplied>wn h)=n ai)xm<supplied reason="lost">hta/wn,</supplied> </l>
+
+                        <l n="847">ui(o\s *troizh/noio dio<supplied reason="lost">tre</supplied>f<unclear>e/</unclear>os *kea/dao. <add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note></l>
+
+                        <l n="848">au)ta\r *purai/xmhs a)/ge *paio/nas a)gkuloto/cous, </l>
+
+                        <l n="849">thlo/qen e)c *)amudw=nos a)p' *)aci/ou eu)ru\ r(e/ontos, </l>
+
+                        <l n="850">*)aci/ou, <add place="inline" n="punctuation">#71</add><note resp="bh" lang="eng">A mid punctus is visible here.</note> ou(= ka/lliston <unclear>u(/</unclear>dwr e)piki/dnatai ai)=an. <add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note></l>
+
+                        <l n="851">*paflago/nwn d' h(ge<unclear>i=</unclear>to *pulaime/neos la/sion kh=r </l>
+
+                        <l n="852"><unclear>e)c</unclear> *)enetw=n, o(/q<unclear>en h(mi</unclear>o/nwn ge/nos a)grotera/wn: </l>
+                        <l n="853">oi(/ r(a *ku/twron e)/xon kai\ *sh/samon a)mfene/monto, <add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note></l>
+
+                        <l n="854">a)mfi/ te *parqe/nion potamo\n kluta\ dw/mat' e)/naion, <add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note></l>
+                        <l n="855">*krw=mna/n t' *ai)gialo/n te kai\ u(yhlou\s *)eruqei/nous. <add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note></l>
+
+                        <l n="856"><add place="left" n="ancient editorial sign">#15</add><note resp="bh" lang="eng">A diple appears against this line.</note>au)ta\r *(alizw/nwn *)odi/o<unclear>s</unclear> kai\ *)epi/strofos h)=rxon, </l>
+                        <l n="857">thlo/qen e)c *)alu/bhs, o(/q<unclear>en a)</unclear>rgu/rou e)s<unclear>t</unclear>i\ gene/qlh. <add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note></l>
+
+                        <l n="858"><add place="left" n="ancient editorial sign">#15</add><note resp="bh" lang="eng">A diple appears against this line.</note>*musw=n de\ *xro/mis h)=rxe <unclear>k</unclear>ai\ *)/ennomos oi)wnisth/s: <add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note></l>
+                        <l n="859"><add place="left" n="ancient editorial sign">#12</add><note resp="bh" lang="eng">An obelos appears against this line.</note>a)ll' ou)k oi)wnoi=sin e)ru/<unclear>sato</unclear> kh=ra me/lainan, </l>
+                        <l n="860"><add place="left" n="ancient editorial sign">#12</add><note resp="bh" lang="eng">An obelos appears against this line.</note>a)ll' e)da/mh u(po\ xersi\ p<supplied reason="lost">o</supplied>dw/keos *ai)aki/dao </l>
+
+                        <l n="861"><add place="left" n="ancient editorial sign">#12</add><note resp="bh" lang="eng">An obelos appears against this line.</note>e)n potamw=|, o(/qi per *tr<unclear>w=</unclear>as kera/ize kai\ a)/llous. <add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note></l>
+                        <l n="862">*fo/rkus au)= *fru/gas h)=ge k<unclear>ai\</unclear> *)aska/nios qeoeidh/s, </l>
+
+                        <l n="863"><add place="left" n="ancient editorial sign">#15</add><note resp="bh" lang="eng">A diple appears against this line.</note>th=l' e)c *)askani/hs: <add place="supralinear" n="punctuation">#72</add><note resp="bh" lang="eng">A supralinear high punctus is visible here.</note> me/ma<unclear>s</unclear><supplied reason="lost">a</supplied>n d' u(smei=ni ma/xesqai. <add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note></l>
+                        <l n="864">*mh|o/sin au)= *me/sqlh te k<supplied reason="lost">ai\</supplied> *)a/ntifos h(ghsa/sqhn, </l>
+
+                    </div>
+
+                    <div type="frag" n="61">
+                        <l n="865">u<supplied reason="lost">i(=e</supplied> *talaime/neo<supplied reason="lost">s, t</supplied><unclear>w\</unclear> *gugai/h te/ke li/mnh, <add place="right" n="scholion">#512 e)n t<hi rend="superscript">i</hi><supplied reason="abbreviation">si</supplied> *gurai/h te/ke</add></l>
+                        <l n="866"><supplied reason="lost">oi(\ kai\ *mh|o/n</supplied><unclear>as h)=</unclear>gon u(po\ *tmw/lw| gegaw=tas. <add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note></l>
+                        <l n="867"><supplied reason="lost">*na/sth</supplied><unclear>s au)=</unclear> *k<unclear>a</unclear><supplied reason="lost">rw=n h(gh/sato ba</supplied><unclear>r</unclear>ba<unclear>ro</unclear>fw/nw<unclear>n,</unclear> </l>
+
+                        <l n="868"><supplied reason="lost">oi(\</supplied> *mei/lhton e)/<supplied reason="lost">xon *fqir</supplied><unclear>w=</unclear>n t' o)/ros a)krito/fullon </l>
+
+                        <l n="869">*maia/ndrou te r(oa\<supplied reason="lost">s</supplied> <unclear>*m</unclear><supplied reason="lost">u</supplied>ka/lhs t' ai)pein<supplied reason="lost">a\ k</supplied><unclear>a/r</unclear>hna: <add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note></l>
+
+                        <l n="870">tw=n me\n a)\r' *)amfi/maxos kai\ *na/sths h(ghsa/sqhn, </l>
+                        <l n="871">*na/sths *)amfi/maxo/s te, *nomi/onos a)glaa\ te/kna, <add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note></l>
+
+                        <l n="872"><add place="left" n="ancient editorial sign">#15</add><note resp="bh" lang="eng">A diple appears against this line.</note>o(\s kai\ xruso\n e)/xwn po/l<unclear>e</unclear>mon d' i)/en h)u/te kou/rh, <add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note></l>
+                        <l n="873">nh/pios, <add place="inline" n="punctuation">#71</add><note resp="bh" lang="eng">A mid punctus is visible here.</note> ou)de/ ti/ oi( to/ g' e)p<unclear>h/</unclear>rk<unclear>es</unclear>e lugro\n o)/leqron, </l>
+
+                        <l n="874">a)ll' e)da/mh u(po\ xersi\ podw/ke<unclear>o</unclear>s *ai)aki/dao </l>
+                        <l n="875"><add place="left" n="ancient editorial sign">#12</add><note resp="bh" lang="eng">An obelos appears against this line.</note>e)n potamw=|, <add place="inline" n="punctuation">#71</add><note resp="bh" lang="eng">A mid punctus is visible here.</note> xruso\n d' *)axilleu\s e)ko/misse dai/+frwn. <add place="inline" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note></l>
+                        <l n="876"><add place="left" n="ancient editorial sign">#12</add><note resp="bh" lang="eng">An obelos appears against this line.</note>*sarphdw\n d' h)=rxen *luki/wn kai\ *glau=kos a)mu/mwn </l>
+                        <l n="877">thlo/qen e)k *luki/hs, *ca/nqou a)/po dinh/entos. </l>
+
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+</div>
+        </body>
+
+    </text>
+</TEI.2>
+
+
+
+
+
+
+
+
+

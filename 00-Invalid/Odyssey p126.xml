@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" "tei-epidoc.dtd" [
+<!ENTITY % TEI.prose 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE' >
+<!ENTITY % TEI.linking 'INCLUDE' >
+<!ENTITY % TEI.certainty 'INCLUDE' >
+<!ENTITY % TEI.figures 'INCLUDE' >
+<!ENTITY % TEI.names.dates 'INCLUDE' >
+<!ENTITY % TEI.transcr 'INCLUDE' >
+<!ENTITY % TEI.textcrit 'INCLUDE' >
+<!ENTITY % TEI.XML 'INCLUDE'>
+<!ENTITY % ISOlat1 SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-lat1.ent'>
+%ISOlat1;
+<!ENTITY % ISOlat2 SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-lat2.ent'>
+%ISOlat2;
+<!ENTITY % ISOnum SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-num.ent'>
+%ISOnum;
+<!ENTITY % ISOpub SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-pub.ent'>
+%ISOpub;
+]>
+<TEI.2>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Odyssey P 126: P. Hamburg 2.154</title>
+                <editor><name id="jm">Joseph Miller</name></editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>A new edition, with semantic markup, punctuation, accentuation, emendation, and notes.</edition>
+                <respStmt>
+                    <name>Joseph Miller, ed.</name>
+                    <resp>after the edition of</resp>
+                    <name id="swest">West, S.  1967. <title>The Ptolemaic Papyri of Homer.</title> 263-267.   </name>        
+                </respStmt>
+                
+            </editionStmt>
+            <extent>under 1Mb</extent>
+            <publicationStmt>
+                <publisher>
+                    The Center for Hellenic Studies of Harvard University
+                </publisher>
+                <authority>
+                    <name>Casey Dué and Mary Ebbott, edd.</name>
+                </authority>
+            </publicationStmt>
+            <sourceDesc>
+                <p>File created electronically.</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language id="eng">English</language>
+                <language id="lat">Latin</language>
+                <language id="grc">Greek</language>
+                <language id="xgrc">Transliterated Greek</language>
+                <language id="deu">German</language>
+                <language id="fra">French</language>
+            </langUsage>
+            <handList>
+                <hand scribe="Principal manuscript hand, lucid and professional." id="h1" first="yes"/>
+                <hand scribe="A somewhat cursive hand responsible for variants and corrections." id="h2"/> 
+            </handList>
+        </profileDesc>
+        <revisionDesc>
+            <change>
+                <date>July 6, 2007</date>
+                <respStmt>
+                    <name>Joseph Miller</name>
+                    <resp>markup</resp>
+                </respStmt>
+                <item>Initial XML markup.</item>
+            </change>
+            <change>
+                <date>July 12, 13 2007</date>
+                <respStmt>
+                    <name id="al">Alexander Loney</name>
+                    <resp>markup</resp>
+                </respStmt>
+                <item>review and error-check.</item>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text lang="grc">
+        <body>
+            <div type="description" n="date" lang="eng">
+                <head>Date</head>
+                <p>Second century B.C. (<bibl>West 1967: 263</bibl>).</p>
+            </div>
+            <div type="description" n="provenance" lang="eng">
+                <head>Provenance</head>
+                <p>Unknown (<bibl>West 1967: 263</bibl>).</p>
+            </div>
+            <div type="description" n="bibliography" lang="eng">
+                <head>Bibliography</head>
+                <list >
+                    <item><bibl>Van Thiel, H. 1991. <title>Homeri Odysseea.</title> Hildesheim: Georg Olms.</bibl></item>
+                    <item><bibl>West, S. 1967. <title>The Ptolemaic Papyri of Homer, Papyrologica Coloniensia III.</title> Köln: Opladen.</bibl></item>
+                    
+                </list>
+            </div>
+            <div type="description" n="catalogues" lang="eng">
+                <head>Catalogue entries</head>
+                <list>
+                    <item>Mertens-Pack 1122</item>
+                    <item>LDAB 2345</item>
+                    <item>Allen-Sutton p126</item>
+                    <item></item>
+                </list>
+            </div>
+            <div type="edition" n="text">
+                
+                <head lang="eng">Odyssey P 126</head>
+                <div n="16" type="book">
+                    <div type="frag" n="1">
+                    <l n="153"><supplied reason="lost">kru/bdhn: k</supplied>ei/nh ga/r <supplied reason="lost">k</supplied>en a)pagg<supplied reason="lost">ei/leie ge/ronti."</supplied></l>
+                    <l n="154"><supplied reason="lost">h)= r(a kai\ w)=r</supplied><unclear>s</unclear>en u(forbo/n: o( d' <add place="supralinear" hand="h2" n="correction">e</add>i(/leto <unclear>k</unclear><supplied reason="lost">ala\ pe/dila,</supplied></l>
+                    <l n="155"><supplied reason="lost">dhsa/men</supplied>os d' u(po\ possi\ po/lind' <supplied reason="lost">i)/en. ou)d' a)/r' *)aqh/nhn</supplied></l>
+                    <l n="156"><supplied reason="lost">lh=qen a)p</supplied>o\ staqmoi=o kiw\n *eu)/m<supplied reason="lost">aios u(forbo/s,</supplied></l>
+                    <l n="157"><supplied reason="lost">a)ll' h(/ ge s</supplied>xedo\n h)=lqe: de/mas d' <supplied reason="lost">h)/i+kto gunaiki\</supplied></l>
+                    <l n="158"><supplied reason="lost">kalh=| te</supplied> m<sic corr="">m</sic>ega/lh| te kai\ a)gla<supplied reason="lost">a\ e)/rg' ei)dui/h|.</supplied></l>
+                    <l n="159"><supplied reason="lost">sth= de\ ka</supplied>t' a)nti/quron klisi/h<supplied reason="lost">s *)odush=i+ fanei=sa:</supplied></l>
+                    <l n="160"><supplied reason="lost">ou)d' a)/ra *t</supplied>hle/maxos i)/den a)nti/on<add place="supralinear" hand="h2" n="variant reading">min e)se/draken</add> <supplied reason="lost">ou)d' e)no/hsen,</supplied></l>
+                    <l n="161"><supplied reason="lost">ou) ga/r p</supplied>w<del>s</del><note lang="eng">Above and below this deleted sigma are two points marked by an uncertain hand.  Medieval manuscripts offer both <foreign lang="grc">pw</foreign> and <foreign lang="grc">pws</foreign>, the latter being the most often attested (<bibl>West 1967: 265</bibl>).</note> pa/ntessi qeoi\ fa<supplied reason="lost">i/nontai e)nargei=s,</supplied></l>
+                    <l n="162"><supplied reason="lost">a)ll' *)odus</supplied><unclear>e</unclear>u/s te ku/nes te i)/don, <supplied reason="lost">kai/ r(' ou)x u(la/onto,</supplied></l>
+                    <l n="163"><supplied reason="lost">knuzhq</supplied><unclear>m</unclear>w=| d' e(te/r<supplied reason="lost">w</supplied>qe kata\ k<supplied reason="lost">lisi/h</supplied></l>
+                    <l n="164"><supplied reason="lost">h( de\ kar</supplied><unclear>h/</unclear>ati <unclear>n</unclear>eu=<unclear>s</unclear>e: no/hse de\ <supplied reason="lost">di=os *)odusseu/s,</supplied></l>
+                    <l n="165"><supplied reason="lost">e)k d' h)=lqen s</supplied>taqm<supplied reason="lost">o</supplied>i=o pare\<sic corr="k">g</sic><add place="supralinear" hand="h2" n="correction">c</add> <supplied reason="lost">me/ga teixi/on au)lh=s,</supplied></l>
+                    <l n="166"><gap reason="lost" unit="character" extent="9"/><unclear>eq</unclear><gap reason="lost" unit="character" extent="1"/><gap reason="illegible" unit="character" extent="1"/>n: to\n d<supplied reason="lost">e\ prose/eipen *)aqh/nh:</supplied></l>
+                    <l n="167"><supplied reason="lost">"diogene\s *laertia/dh,</supplied> <unclear>p</unclear>o<unclear>lu</unclear><supplied reason="lost">mh/xan' *)odusseu=,</supplied></l>
+                    <gap reason="lost" unit="line" extent="?"/>
+                        </div>
+                    
+                    <div type="frag" n="2">
+                    <gap reason="lost" unit="line" extent="?"/>
+                    <l n="175"><supplied reason="lost">a)\y de\ mela</supplied>gxr<unclear>o</unclear><supplied reason="lost">ih\s ge/neto, gnaqmoi\ d' e)ta/nusqen,</supplied></l>
+                    <l n="176"><supplied reason="lost">kua/neai d' e)</supplied>ge/nont<supplied reason="lost">o geneia/des</supplied><gap reason="lost"/></l>
+                    <l n="176a"><supplied reason="lost">ou)/las</supplied> <unclear>h(=k</unclear>e k<unclear>o/</unclear>ma<unclear>s, u(</unclear>a<supplied reason="lost">ki</supplied><unclear>n</unclear>qi/n<supplied reason="lost">w| a)/nqei o(moi/as.</supplied></l>
+                    <l n="177"><supplied reason="lost">tw/ g' w(\s</supplied> <unclear>b</unclear><supplied reason="lost">o</supplied>uleu/<unclear>s</unclear>ant<supplied reason="lost">e</supplied> <unclear>d</unclear>ie/t<supplied reason="lost">magen</supplied><note lang="eng" resp="al">This line seems to replace the Wolfian 177.</note></l>
+                    <l n="177a"><gap reason="lost" unit="character" extent="2"/><supplied reason="lost">*)odus</supplied>eu\s a)ne/palto dia\<gap reason="lost"/></l>
+                    <l n="178"><supplied reason="lost">h)/ien d' e)s k</supplied><unclear>l</unclear>isi/hn: qa/mbhse <unclear>d</unclear><supplied reason="lost">e/ min fi/los ui(o/s</supplied><add place="infralinear" hand="h2" n="variant reading">h( me\n a)/r' w(\s e)/rcasa pa/lin <supplied reason="lost">ki/en: au)ta\r *)odusseu/s</supplied><note lang="eng">This line (=vulgate 177) is indented on the papyrus, written small in the secondary hand that records variants and corrections elsewhere.</note></add></l>
+                    
+                       </div>
+                </div>    
+            </div>
+            
+        </body>
+    </text>
+</TEI.2>
+
+

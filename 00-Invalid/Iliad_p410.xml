@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" "tei-epidoc.dtd" [
+<!ENTITY % TEI.prose 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE' >
+<!ENTITY % TEI.linking 'INCLUDE' >
+<!ENTITY % TEI.certainty 'INCLUDE' >
+<!ENTITY % TEI.figures 'INCLUDE' >
+<!ENTITY % TEI.names.dates 'INCLUDE' >
+<!ENTITY % TEI.transcr 'INCLUDE' >
+<!ENTITY % TEI.textcrit 'INCLUDE' >
+<!ENTITY % TEI.XML 'INCLUDE'>
+<!ENTITY % ISOlat1 SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-lat1.ent'>
+%ISOlat1;
+<!ENTITY % ISOlat2 SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-lat2.ent'>
+%ISOlat2;
+<!ENTITY % ISOnum SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-num.ent'>
+%ISOnum;
+<!ENTITY % ISOpub SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-pub.ent'>
+%ISOpub;
+]>
+<TEI.2>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Iliad P410</title>
+                <editor id="bh">Bart Huelsenbeck</editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>A new edition, with semantic markup, punctuation, accentuation, emendation, and notes.</edition>
+                <respStmt>
+                    <name>Bart Huelsenbeck, ed.</name>
+                    <resp>after the editions of</resp>
+                    <name id="swest">West, S.<title>The Ptolemaic Papyri of Homer, Papyrologica Coloniensia III</title> pp. 71-3</name>
+                    <name id="johnson">Johnson, W.A.<title>"P. Hibeh II 193 (Iliad VI 4-7)," ZPE</title> 139 (2002), 1-2</name>
+                </respStmt>
+            </editionStmt>
+           
+            <extent>under 1Mb</extent>
+            <publicationStmt>
+                <publisher>
+                    The Center for Hellenic Studies of Harvard University
+                </publisher>
+                <authority>
+                    <name>Casey Dué and Mary Ebbott, edd.</name>
+                </authority>
+            </publicationStmt>
+            <sourceDesc>
+                <p>File created electronically.</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language id="eng">English</language>
+                <language id="lat">Latin</language>
+                <language id="grc">Greek</language>
+                <language id="xgrc">Transliterated Greek</language>
+                <language id="deu">German</language>
+                <language id="fra">French</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change>
+                <date>July 12, 2007</date>
+                <respStmt>
+                    <name>Bart Huelsenbeck</name>
+                    <resp>markup</resp>
+                </respStmt>
+                <item>Initial XML markup.</item>
+            </change>
+            <change>
+                <date>July 14, 2007</date>
+                <respStmt>
+                    <name id="al">Alexander Loney</name>
+                    <resp>markup</resp>
+                </respStmt>
+                <item>review and error-check.</item>
+            </change>
+            <change>
+                <date>July 16, 2007</date>
+                <respStmt>
+                    <name>Bart Huelsenbeck</name>
+                    <resp>markup</resp>
+                </respStmt>
+                <item>change to the transcription of Il. 6.4</item>
+            </change>
+        </revisionDesc>
+               
+    </teiHeader>
+    <text lang="grc">
+        <body>
+            <div type="description" n="date" lang="eng">
+                <head>Date</head>
+                <p>270-230 B.C. (<bibl>West, 71</bibl>)</p>
+            </div>
+            <div type="description" n="provenance" lang="eng">
+                <head>Provenance</head>
+                <p>Hibeh (<bibl>West, 71</bibl>)</p>
+            </div>
+            
+            <div type="description" n="bibliography" lang="eng">
+                <head>Bibliography</head>
+                <list >
+                    <item><bibl>van Thiel, H. 1996. <title>Homeri Ilias</title> Hildesheim: Olms.</bibl></item>
+                    <item><bibl>West, S. 1967. <title>The Ptolemaic Papyri of Homer, Papyrologica Coloniensia III</title> Köln and Opladen.</bibl></item>
+                    <item><bibl>Johnson, W.A. 2002. <title>"P. Hibeh II 193 (Iliad VI 4-7)" ZPE 139,</title> 1-2</bibl></item>
+                </list>
+            </div>
+            
+            <div type="description" n="catalogues" lang="eng">
+                <head>Catalogue entries</head>
+                <list>
+                    <item>Mertens-Pack 774 </item>
+                    <item>LDAB 2371 </item>
+                    <item>Allen-Sutton-West  p410</item>
+                </list>
+            </div>
+
+           
+            <div type="edition" n="text">    
+                <head lang="eng">Iliad p410</head>
+                <div n="6" type="book">                                      
+                    <gap reason="lost" unit="line" extent="?"/>
+                    <l n="4"><supplied reason="lost">messhgu\s *simo/entos i)de\ *ca/nqoio r(o</supplied><gap reason="illegible" unit="character" extent="1"/><unclear>w</unclear><gap reason="illegible" unit="character" extent="1"/><gap reason="lost" unit="character" extent="?"/>     
+                        <note resp="bh" lang="eng">Instead of <foreign lang="grc"><unclear>w</unclear></foreign>, which is Johnson's interpretation of the traces (<bibl>Johnson, 1-2</bibl>), S. West (<bibl>West, 72</bibl>) reads <foreign lang="grc">m<unclear>n</unclear></foreign>. Johnson believes that the lost verse was most likely the same as the vulgate Il. 6.4: <foreign lang="grc">messhgu\s *simo/entos i)de\ *ca/nqoio r(oa/wn.</foreign>  West believes that the verse reads: <foreign lang="grc"><supplied reason="lost">messhgu\s potamoi=o *skama/ndrou kai\ stomali/</supplied>m<unclear>n</unclear><supplied reason="lost">hs.</supplied></foreign> This reading is attested in Allen-Sutton-West P270. Scholia A bT also mention it and say that it was once accepted by Aristarchus, who later preferred the vulgate reading. </note></l>       
+                    <l n="5"><supplied reason="lost">*ai)/as de\ prw=tos *telamw/nios, e(/rkos</supplied> *)axaiw=n, </l>
+                    <l n="6"><supplied reason="lost">*trw/wn r(h=ce fa/lagga, fo/ws d' e(ta/r</supplied>oisin e)/qhken<gap reason="lost" unit="character" extent="?"/> </l>
+                    <l n="7"><supplied reason="lost">a)/ndra balw\n, o(\s a)/ristos e)ni\ *qrh/|k</supplied>essi te/tuk<unclear>t</unclear><supplied reason="lost">o </supplied></l>                       
+                    <gap reason="lost" unit="line" extent="?"/> <note>S. West (<bibl>West, 72</bibl>) thinks that verse 7 is at the end of a column; Johnson (<bibl>Johnson, 1-2</bibl>) shows that this assumption is unfounded.</note>
+
+                </div>
+            
+            
+            
+                      
+            </div>
+        </body>
+        
+    </text>
+</TEI.2>
+

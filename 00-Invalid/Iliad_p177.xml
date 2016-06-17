@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" "tei-epidoc.dtd" [
+<!ENTITY % TEI.prose 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE' >
+<!ENTITY % TEI.linking 'INCLUDE' >
+<!ENTITY % TEI.certainty 'INCLUDE' >
+<!ENTITY % TEI.figures 'INCLUDE' >
+<!ENTITY % TEI.names.dates 'INCLUDE' >
+<!ENTITY % TEI.transcr 'INCLUDE' >
+<!ENTITY % TEI.textcrit 'INCLUDE' >
+<!ENTITY % TEI.XML 'INCLUDE'>
+<!ENTITY % ISOlat1 SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-lat1.ent'>
+%ISOlat1;
+<!ENTITY % ISOlat2 SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-lat2.ent'>
+%ISOlat2;
+<!ENTITY % ISOnum SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-num.ent'>
+%ISOnum;
+<!ENTITY % ISOpub SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-pub.ent'>
+%ISOpub;
+]>
+<TEI.2>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Iliad Allen-Sutton-West P177</title>
+                <editor id="bh">Bart Huelsenbeck</editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>A new edition, with semantic markup, punctuation, accentuation, emendation, and notes.</edition>
+                <respStmt>
+                    <name>Bart Huelsenbeck, ed.</name>
+                    <resp>after the edition of</resp>
+                    <name id="ES">E. Schaefer<title>Papyri Iandanae: Voluminum codicumque fragmenta graeca cum amuleto christiano</title> pp. 1-3 </name>
+
+                </respStmt>
+            </editionStmt>
+
+            <extent>under 1Mb</extent>
+            <publicationStmt>
+                <publisher>
+                    The Center for Hellenic Studies of Harvard University
+                </publisher>
+                <authority>
+                    <name>Casey Dué and Mary Ebbott, edd.</name>
+                </authority>
+            </publicationStmt>
+            <sourceDesc>
+                <p>File created electronically.</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language id="eng">English</language>
+                <language id="lat">Latin</language>
+                <language id="grc">Greek</language>
+                <language id="xgrc">Transliterated Greek</language>
+                <language id="deu">German</language>
+                <language id="fra">French</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change>
+                <date>29 Nov 2007</date>
+                <respStmt>
+                    <name>Bart Huelsenbeck</name>
+                    <resp>markup</resp>
+                </respStmt>
+                <item>Initial XML markup.</item>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text lang="grc">
+        <body>
+            <div type="description" n="date" lang="eng">
+                <head>Date</head>
+                <p>First century B.C. (<bibl>Schaefer, 1</bibl>)</p>
+            </div>
+            <div type="description" n="provenance" lang="eng">
+                <head>Provenance</head>
+                <p>Egypt (<bibl>Schaefer, 1</bibl>)</p>
+            </div>
+
+            <div type="description" n="bibliography" lang="eng">
+                <head>Bibliography</head>
+                <list >
+                    <item><bibl>van Thiel, H. 1996. <title>Homeri Ilias</title> Hildesheim: Olms.</bibl></item>
+                    <item><bibl>Schaefer, E.<title>Papyri Iandanae</title> vol. I pp. 1-3</bibl></item>
+                </list>
+            </div>
+            <div type="description" n="catalogues" lang="eng">
+                <head>Catalogue entries</head>
+                <list>
+                    <item>Mertens-Pack 727 </item>
+                    <item>Allen-Sutton-West  P 177</item>
+                    <item>P. Iand. 1.1 </item>
+                </list>
+            </div>
+
+
+            <div type="edition" n="text">
+                <head lang="eng">Iliad P177</head>
+                <div n="4" type="book">                                
+                  <div n="1" type="column">
+                      <gap reason="lost" extent="?"/>
+                      <l n="454"><supplied reason="lost">krounw=n e)k mega/lwn</supplied> <unclear>k</unclear>o<unclear>i/</unclear>lh<unclear>s e)/</unclear>ntosq<unclear>e</unclear> <supplied reason="lost">xara/drhs,</supplied> </l>
+                      <l n="455"><supplied reason="lost">tw=n de/ te thlo/se dou=pon e)n ou)/resin</supplied> <unclear>e)/</unclear>klue <unclear>p</unclear><supplied reason="lost">oim</supplied>h/n: </l>
+                      <l n="456"><supplied reason="lost">w(\s tw=n misgome/nwn ge/neto i)axh/</supplied> te fo/b<supplied reason="lost">os</supplied> <unclear>t</unclear>e.</l>
+                      <l n="457"><supplied reason="lost">prw=tos d' *)anti/loxos *trw/wn e(/len</supplied> <unclear>a)/n</unclear>dra k<unclear>or</unclear><unclear>u</unclear>sth\n </l>
+                      <l n="458"><supplied reason="lost">e)sqlo\n e)ni\ proma/xoisi *qalusia/</supplied><unclear>dh</unclear>n *)exe/pwlon: </l>
+                      <l n="459"><supplied reason="lost">to/n r(' e)/bale prw=tos ko/ruqos fa/lo</supplied><unclear>n</unclear> i(ppod<unclear>as</unclear><supplied reason="lost">ei/hs:</supplied> </l>
+                      <l n="460"><supplied reason="lost">e)n de\ metw/pw| ph=ce, pe/rhse d' a)/r'</supplied> <unclear>o)</unclear>ste/on ei)/sw, </l>
+                      <note lang="eng">Line 461 is omitted.</note>
+                      <l n="462"><supplied reason="lost">h)/ripe d' w(s o(/te pu/rgos e)ni\ krate</supplied>rh=| u(smi/nh|. </l>
+                      <l n="463"><supplied reason="lost">to\n de\ peso/nta podw=n e)/labe kre</supplied>i/wn *)elefh/nwn </l>
+                      <l n="464"><supplied reason="lost">*xalkwdontia/dhs megaqu/mwn</supplied> a)rxo\s *)a<unclear>ba/</unclear>ntwn: </l>
+                      <l n="465"><supplied reason="lost">e(/lke d' u(p' e)k bele/wn, lelihme/no</supplied><unclear>s,</unclear> o)/fra <unclear>ta/</unclear><supplied reason="lost">xista</supplied> </l>
+                      <l n="466"><supplied reason="lost">teu/xea sulh/seie: mi/nunqa de/ oi( g</supplied><unclear>e/n</unclear>eq' o(<unclear>rm</unclear><supplied reason="lost">h/.</supplied> </l>
+
+                  </div>
+
+                    <div n="2" type="column">
+                        <gap reason="lost" extent="?"/>
+                        <l n="483"><unclear>h(/</unclear> <supplied reason="lost">r(a/ t' e)</supplied><unclear>n e</unclear><supplied reason="lost">i(amenh=| e(/leos mega/loio pefu/kei</supplied> </l>
+                        <l n="484">lei/<unclear>h,</unclear> <supplied reason="lost">a)ta/r te/ oi( o)/zoi e)p' a)krota/th| pefu/asi:</supplied> </l>
+                        <l n="485">th\n me/<unclear>n</unclear> <supplied reason="lost">q' a(rmatophgo\s a)nh\r ai)/qwni sidh/rw|</supplied> </l>
+                        <l n="486">e)ce/ta<unclear>m',</unclear> <supplied reason="lost">o)/fra i)/tun ka/myh| perikalle/i di/frw|:</supplied> </l>
+                        <l n="487">h(\ me/n t' <unclear>a)z</unclear><supplied reason="lost">ome/nh kei=tai potamoi=o par' o)/xqas.</supplied> </l>
+                        <l n="488">toi=on a)/<unclear>r'</unclear> <supplied reason="lost">*)anqemi/dhn *simoei/sion e)cena/ricen</supplied> </l>
+                    </div>
+
+
+
+            </div>
+
+</div>
+        </body>
+
+    </text>
+</TEI.2>
+
+
+
+
+
+
+
+
+

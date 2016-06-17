@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" "tei-epidoc.dtd" [
+<!ENTITY % TEI.prose 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE' >
+<!ENTITY % TEI.linking 'INCLUDE' >
+<!ENTITY % TEI.certainty 'INCLUDE' >
+<!ENTITY % TEI.figures 'INCLUDE' >
+<!ENTITY % TEI.names.dates 'INCLUDE' >
+<!ENTITY % TEI.transcr 'INCLUDE' >
+<!ENTITY % TEI.textcrit 'INCLUDE' >
+<!ENTITY % TEI.XML 'INCLUDE'>
+<!ENTITY % ISOlat1 SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-lat1.ent'>
+%ISOlat1;
+<!ENTITY % ISOlat2 SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-lat2.ent'>
+%ISOlat2;
+<!ENTITY % ISOnum SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-num.ent'>
+%ISOnum;
+<!ENTITY % ISOpub SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-pub.ent'>
+%ISOpub;
+]>
+<TEI.2>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Iliad P 642 (P. Mich. 3753)</title>
+                <editor><name id="al">Alexander Loney</name></editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>A new edition, with semantic markup, punctuation, accentuation, emendation, and notes.</edition>
+                <respStmt>
+                    <name>Alexander Loney, ed.</name>
+                    <resp>after the edition of</resp>
+                    <name id="heisler">Heisler, R.J. <title>"A Michigan Papyrus of Iliad 16.532-38," ZPE</title> 56 (1984), 10.</name> 
+                        
+                </respStmt>
+                
+            </editionStmt>
+            <extent>under 1Mb</extent>
+            <publicationStmt>
+                <publisher>
+                    The Center for Hellenic Studies of Harvard University
+                </publisher>
+                <authority>
+                    <name>Casey Dué and Mary Ebbott, edd.</name>
+                </authority>
+            </publicationStmt>
+            <sourceDesc>
+                <p>File created electronically.</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language id="eng">English</language>
+                <language id="lat">Latin</language>
+                <language id="grc">Greek</language>
+                <language id="xgrc">Transliterated Greek</language>
+                <language id="deu">German</language>
+                <language id="fra">French</language>
+            </langUsage>
+           </profileDesc>
+        <revisionDesc>
+            <change>
+                <date>August 3, 2007</date>
+                <respStmt>
+                    <name>Alexander Loney</name>
+                    <resp>markup</resp>
+                </respStmt>
+                <item>Initial XML markup.</item>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text lang="grc">
+        <body>
+            
+            <div type="description" n="date" lang="eng">
+                <head>Date</head>
+                <p>2nd century AD (<bibl>Heisler, 10</bibl>)</p>
+            </div>
+            <div type="description" n="provenance" lang="eng">
+                <head>Provenance</head>
+                <p>Egypt?, unknown</p>
+            </div>
+            <div type="description" n="bibliography" lang="eng">
+                <head>Bibliography</head>
+                <list >
+                    <item><bibl>van Thiel, H. 1996. <title>Homeri Ilias.</title> Hildesheim: Olms.</bibl></item>
+                    <item><bibl>Heisler, R.J. 1984. <title>"A Michigan Papyrus of Iliad 16.532-38," ZPE 56,</title> 10.</bibl></item>
+                    </list>
+            </div>
+            <div type="description" n="catalogues" lang="eng">
+                <head>Catalogue entries</head>
+                <list>
+                    <item>Mertens-Pack 936.1</item>
+                    <item>LDAB 1648</item>
+                    <item>Allen-Sutton-West p642</item>
+                </list>
+            </div>
+            <div type="edition" n="text">
+                
+                
+                
+                <head lang="eng">Iliad P 642</head>
+                
+                <div n="16" type="book">
+                      <div n="1" type="frag">
+                          <gap reason="lost" unit="line" extent="?"/>
+                          <l n="532"><supplied reason="lost">prw=ta m</supplied>e\n w)/<add n="diactrical mark">#86#82</add><note lang="eng" resp="al">The scribe has added a smooth breathing mark and an acute accent.</note>tr<supplied reason="lost">unen *luki/wn h(gh/toras a)/ndras </supplied></l>
+                          <l n="533">pa/nth| e)poixo/m<supplied reason="lost">enos *sarphdo/nos a)mfima/xesqai: </supplied></l>
+                          <l n="534">au)ta\r e)/<add n="diactrical mark">#82</add><note lang="eng" resp="al">The scribe has added an acute accent, appearing here as "a long diagonal line actually on top of the following letter," (<bibl>Heisler 1984, 10</bibl>).</note>peita m<supplied reason="lost">eta\ *trw=as ki/e makra\ biba/sqwn </supplied></l>
+                          <l n="535">*pouluda/<add n="diactrical mark">#82</add><note lang="eng" resp="al">The scribe has added an acute accent, appearing here as "a long diagonal line actually on top of the following letter," (<bibl>Heisler 1984, 10</bibl>).</note>mant'<note lang="eng" resp="al">The scribe has marked elision here.</note> e)/<supplied reason="lost">pi *panqoi/+dhn kai\ *)agh/nora di=on, </supplied></l>
+                          <l n="536">bh= de\ met'<note lang="eng" resp="al">The scribe has marked elision here.</note> *ai)nei/<supplied reason="lost">an te kai\ *(/ektora xalkokorusth/n, </supplied></l>
+                          <l n="537">a)gxou= d'<note lang="eng" resp="al">The scribe has marked elision here.</note> i(sta/me<supplied reason="lost">nos e)/pea ptero/enta proshu/da: </supplied></l>
+                          <l n="538">"*(/ektor nu=n dh\ p<supplied reason="lost">a/gxu lelasme/nos ei)s e)pikou/rwn, </supplied></l>
+                          
+                      </div>
+                       
+                          
+                          
+                      </div>
+                </div>
+       
+                
+            </body>
+              
+        
+    </text>
+</TEI.2>
+    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                   

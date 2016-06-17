@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI.2>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Iliad P 7 (P. Grenf. 2.2, P. Hibeh 21, P. Heidelberg 1260, P. Heidelberg 1261)</title>
+                <editor><name id="al">Alexander Loney</name></editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>A new edition, with semantic markup, punctuation, accentuation, emendation, and notes.</edition>
+                <respStmt>
+                    <name>Alexander Loney, ed.</name>
+                    <resp>after the editions of</resp>
+                    <name id="swest">West, S.<title>The Ptolemaic Papyri of Homer, Papyrologica Coloniensia III.</title> pp. 74-90.</name> 
+                    <name id="hag"> Hagedorn, U. and D. 2003. <title>"Drei Iliasfragmente der Heidelberger Papyrussammlung," in A. Meinhold and A. Berlejung, eds., Der Freund des Menschen: Festschrift fur Georg Christian Macholz zur Vollendung des 70 Lebensjahres.</title> Neukirchen: Vluyn. pp. 209-222.</name>
+                        
+                </respStmt>
+                
+            </editionStmt>
+            <extent>under 1Mb</extent>
+            <publicationStmt>
+                <publisher>
+                    The Center for Hellenic Studies of Harvard University
+                </publisher>
+                <authority>
+                    <name>Casey Dué and Mary Ebbott, edd.</name>
+                </authority>
+            </publicationStmt>
+            <sourceDesc>
+                <p>File created electronically.</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language id="eng">English</language>
+                <language id="lat">Latin</language>
+                <language id="grc">Greek</language>
+                <language id="xgrc">Transliterated Greek</language>
+                <language id="deu">German</language>
+                <language id="fra">French</language>
+            </langUsage>
+            </profileDesc>
+        <revisionDesc>
+            <change>
+                <date>June 4, 25, July 18, 21 2007</date>
+                <respStmt>
+                    <name>Alexander Loney</name>
+                    <resp>markup</resp>
+                </respStmt>
+                <item>Initial XML markup.</item>
+            </change>
+            <change>
+                <date>July 31, 2007</date>
+                <respStmt>
+                    <name id="bh">Bart Huelsenbeck</name>
+                    <resp>markup</resp>
+                </respStmt>
+                <item>review and error-check.</item>
+            </change>
+            <change>
+                <date>Aug. 1, 2001</date>
+                <respStmt>
+                    <name>Alexander Loney</name>
+                    <resp>markup</resp>
+                </respStmt>
+                <item>final updates.</item>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text lang="grc">
+        <body>
+            
+            <div type="description" n="date" lang="eng">
+                <head>Date</head>
+                <p>Between 285 and 260 B.C. (<bibl>West, 74</bibl>)</p>
+            </div>
+            <div type="description" n="provenance" lang="eng">
+                <head>Provenance</head>
+                <p>Hibeh; mummy cartonnage (<bibl>West, 74</bibl>)</p>
+            </div>
+            <div type="description" n="bibliography" lang="eng">
+                <head>Bibliography</head>
+                <list >
+                    <item><bibl>van Thiel, H. 1996. <title>Homeri Ilias</title> Hildesheim: Olms.</bibl></item>
+                    <item><bibl>West, S. 1967. <title>The Ptolemaic Papyri of Homer, Papyrologica Coloniensia III</title> Köln: Opladen.</bibl></item>
+                    <item><bibl> Hagedorn, U. and D. 2003. <title>"Drei Iliasfragmente der Heidelberger Papyrussammlung," in A. Meinhold and A. Berlejung, eds., Der Freund des Menschen: Festschrift für Georg Christian Macholz zur Vollendung des 70 Lebensjahres.</title> Neukirchen: Vluyn. pp. 209-222</bibl></item>
+                </list>
+            </div>
+            <div type="description" n="catalogues" lang="eng">
+                <head>Catalogue entries</head>
+                <list>
+                    <item>Mertens-Pack 819 </item>
+                    <item>LDAB 2377 </item>
+                    <item>Allen-Sutton-West p7</item>
+                </list>
+            </div>
+            <div type="edition" n="text">
+                
+                
+                
+                <head lang="eng">Iliad P 7</head>
+                
+                <div n="8" type="book">
+                      <div n="a" type="frag">
+                          <gap reason="lost" unit="line" extent="?"/>
+                          <l n="17"><supplied reason="lost">gnw/set' e)/peiq' o(/son ei)mi\ qe</supplied>w=<supplied reason="lost">n ka/rtistos a(pa/ntwn. </supplied></l>
+                          <l n="18"><supplied reason="lost">ei) d' a)/ge peirh/sasqe qeoi\</supplied> <sic n="anticipation">pa=sa<supplied reason="lost">i/ te qe/ainai:</supplied></sic><note resp="al" lang="eng">The hemistich of the second half of this line seems to have been taken by anticipation from line 20 below.</note></l>
+                          <l n="19"><supplied reason="lost">seirh\n xrusei/hn e)c ou)ra</supplied>no/qen <supplied reason="lost">krema/santes </supplied></l>
+                          <l n="20"><supplied reason="lost">pa/nte/s t' e)ca/ptesqe qeo</supplied>i\ pa=s<supplied reason="lost">ai/ te qe/ainai: </supplied></l>
+                          <l n="21"><supplied reason="lost">a)ll' ou)k a)\n e)ru/sait' e)c ou)r</supplied>ano/q<supplied reason="lost">en pedi/onde </supplied></l>
+                          <l n="22"><supplied reason="lost">*zh=na u(/paton mh/stwra,</supplied><note resp="al" lang="eng">West thinks that the elided vowel of "<foreign lang="grc">a</foreign>" was twice written out in the first half of this line because the gap requires more letters, versus the attested reading of "<foreign lang="grc">*zh=n' u(/paton mh/stwr',</foreign>," even though it thus would be unmetrical (West, 80). Presumabley these vowels must have been unpronounced. There is also the possibility that an entirely different hemistich was present here , such as Fick suggested from 5.756: "<foreign lang="grc">*zh=n' u(/paton *kroni/dhn</foreign>."</note> ou)d' <supplied reason="lost">ei) ma/la polla\ ka/moite. </supplied></l>
+                          <gap reason="lost" unit="line" extent="?"/>
+                      </div>
+                    
+                    <div n="b" type="frag">
+                          <gap reason="lost" unit="line" extent="?"/>
+                            <l n="24"><supplied reason="lost">au)th=| ken gai/h| e)ru/saim' au)th=|</supplied> te qal<supplied reason="lost">a/ssh|: </supplied></l>
+                            <l n="25"><supplied reason="lost">seirh\n me/n ken e)/peita peri\ r(i/on *ou)</supplied>lu/mp<supplied reason="lost">oio </supplied></l>
+                            <l n="26"><supplied reason="lost">dhsai/mhn, ta\ de/ k' au)=te meth/ora</supplied> pa/nt<supplied reason="lost">a ge/noito. </supplied></l>
+                            <l n="27"><gap reason="lost" unit="character" extent="25?"/>wnt<unclear>a</unclear><gap reason="lost"/><note resp="al" lang="eng">These traces may indicate a minor variation in diction, but still be the same notional line, thus West numbers this line 27. This line may, however, be suitabley numbered 27a as a plus-verse.</note></l>
+                            <l n="28"><supplied reason="lost">*(\ws e)/faq', oi( d' a)/ra pa/ntes a)kh\n e)ge/</supplied><unclear>non</unclear><supplied reason="lost">to siwph=| </supplied></l>
+                    <gap reason="lost" unit="line" extent="?"/>
+                    </div>
+                    
+                    <div n="c" type="frag">
+                        <gap reason="lost" unit="line" extent="?"/>
+                        <l n="29"><supplied reason="lost">mu=qon a)gassa/menoi: ma/la ga\r kra</supplied>ter<supplied reason="lost">w=s a)go/reusen. </supplied></l>
+                        <l n="30"><supplied reason="lost">o)ye\ de\ dh\ mete/eipe qea\ glaukw=p</supplied>is *)aqh/nh: </l>
+                        <l n="31"><supplied reason="lost">w)= pa/ter h(me/tere *kroni/dh u(/pat</supplied>e kreio/<supplied reason="lost">ntwn, </supplied></l>
+                        <l n="32"><supplied reason="lost">eu)= nu kai\ h(mei=s i)/dmen o(/ toi sqe/nos o</supplied>u)k <supplied reason="lost">e)pieikto/n: </supplied></l>
+                     <gap reason="lost" unit="line" extent="?"/>
+                        </div>
+                        
+                        <div n="d, e, f, g, h" type="frag">
+                            <div n="1" type="col">
+                            <gap reason="lost" unit="line" extent="?"/>
+                            <l n="38"><supplied reason="lost">(\ws fa/to, mei/dhsen de\ pa</supplied><unclear>t</unclear><supplied reason="lost">h\</supplied>r a)n<unclear>d</unclear><supplied reason="lost">r</supplied><unclear>w=n t</unclear>e qe<unclear>w=n te, </unclear></l>
+                            <l n="38a"><supplied reason="lost">xeiri/ te/ min kate/</supplied>recen e)/pos t' e)/fat' e)/<unclear>k t' o)no/</unclear>m<supplied reason="lost">a</supplied>ze: </l>
+                            <l n="39"><supplied reason="lost">"qa/rsei *trito</supplied><unclear>g</unclear>e/neia fi/lon t<unclear>e/k</unclear>os: ou)/ <unclear>nu/ ti qum</unclear><supplied reason="lost">w=</supplied>| </l>
+                            <l n="40"><supplied reason="lost">pro/froni muqe/om</supplied><unclear>ai, e)</unclear>qe/lw de/ toi h)/pio<unclear>s ei)=</unclear><supplied reason="lost">n</supplied><unclear>a</unclear>i." </l>
+                            <l n="41"><supplied reason="lost">(\ws ei)pw\n u(</supplied>p' o)/xesfi tetu/<supplied reason="lost">ske</supplied>to xalk<supplied reason="lost">o/po</supplied><unclear>d' </unclear><supplied reason="lost">i(/</supplied><unclear>ppw </unclear></l>
+                            <l n="42"><supplied reason="lost">w)kupe/ta</supplied> xruse/aisin e)qe<supplied reason="lost">i/rh|si</supplied>n kom<supplied reason="lost">o/</supplied><unclear>wnte,</unclear> </l>
+                            <l n="43"><supplied reason="lost">xruso\n d' au)</supplied>t<supplied reason="lost">o\</supplied>s e)/du<unclear>ne p</unclear>eri\ <supplied reason="lost">xroi/+, ge/n</supplied><unclear>to d' </unclear><supplied reason="lost">i(</supplied><unclear>ma/sql</unclear>hn </l>
+                            <l n="44"><supplied reason="lost">xrusei/hn eu)/</supplied>tukton, <unclear>e(ou= d' </unclear><supplied reason="lost">e)pebh/seto di/</supplied><unclear>f</unclear>rou, </l>
+                            <l n="45"><supplied reason="lost">ma/sticen d' e)</supplied><unclear>l</unclear>a/<unclear>an: t</unclear>w\ d' ou)<supplied reason="lost">k a)/konte pe</supplied><unclear>t</unclear>a/sqhn </l>
+                            <l n="46"><supplied reason="lost">messhgu\s gai/h</supplied>s t<supplied reason="lost">e k</supplied>ai\ ou)ra<supplied reason="lost">nou= a)stero/en</supplied>to<unclear>s. </unclear></l>
+                            <l n="47"><supplied reason="lost">*)/idhn d' i(/kane</supplied>m po<unclear>lupi/d</unclear><supplied reason="lost">aka mhte/ra q</supplied><unclear>hrw=n </unclear></l>
+                            <l n="48"><supplied reason="lost">*ga/rgaron, e)/nq</supplied>a/ te/ oi( <supplied reason="lost">te/</supplied><unclear>me</unclear><supplied reason="lost">nos bwmo/s te quh/e</supplied>is. </l>
+                            <l n="49"><supplied reason="lost">e)/nq' i(/ppous e)/sthse *kro/nou pa/i+s a)gkulom</supplied>h/tew </l>
+                            <l n="50"><supplied reason="lost">lu/sas e)c o)xe/wn, kata\ d' h)e/ra poulu\n e)/xeu</supplied>e<unclear>n. </unclear></l>
+                            <gap reason="lost" unit="line" extent="?"/>
+                            <l n="?"><gap reason="lost"/><gap reason="illegible" unit="character" extent="2"/><gap reason="lost"/></l>
+                            <gap reason="lost" unit="line" extent="4?"/><note resp="al" lang="eng">According to West (<bibl>West, 82-83</bibl>), there are at least five lines between 51 and 53.</note>     
+                            <l n="53"><supplied reason="lost">*oi(\ d' a)/ra dei=pnon e(/lonto ka/rh komo/wntes *)axaio</supplied>i\ </l>
+                            <l n="54"><supplied reason="lost">r(i/mfa kata\ klisi/as, a)po\ d' au)tou= qwrh/sson</supplied>t<unclear>o.</unclear> </l>
+                            <l n="54a"><gap reason="lost"/><gap reason="illegible" unit="character" extent="2"/><unclear>e</unclear><gap reason="illegible" unit="character" extent="2"/><gap reason="lost" unit="character" extent="1"/><unclear>i</unclear> </l>         
+                            <l n="54b"><gap reason="lost"/><supplied reason="lost">meta\ de\ krei/wn</supplied> *a)ga<supplied reason="lost">m</supplied>e/mnwn </l>
+                            <l n="54c"><supplied reason="lost">o)/mmata kai\ kefalh\n i)/kelos *dii\ ter</supplied>piker<supplied reason="lost">au/</supplied>nw|, </l>
+                            <l n="54d"><supplied reason="lost">*a)/</supplied>rei+ de\ z<supplied reason="lost">w/nhn, ste/rnon de\ *poseida/w</supplied>ni. </l>   
+                            <l n="55">*trw=es d' <supplied reason="lost">au)=q' e(te/rwqen a)na\ pto/li</supplied>n w(pli/<supplied reason="lost">zo</supplied>nto </l>
+                            
+                            <l n="55a"><note resp="bh" lang="eng">Plus-verses 55a, b, c, d = Iliad 11.57-60.  S. West (<bibl>West, 83</bibl>) observes that the first hemistich of 8.55 and 11.56 is the same.</note>*(/ektora/ t' <supplied reason="lost">a)mfi\ me/gan kai\ a)mu/mon</supplied>a *pou<supplied reason="lost">lu</supplied>da/manta </l>
+                            <l n="55b">*ai)nei/a<supplied reason="lost">n q', o(\s *trwsi\ qeo\s w(\s ti/eto dh/</supplied>mw<supplied reason="lost">i,</supplied> </l>
+                            <l n="55c">trei=s t' *)a<supplied reason="lost">nthnori/das *po/lubon kai\ *)agh/nora di=on</supplied> </l>
+                            <gap reason="lost" unit="line" extent="?"/>
+                            </div>
+                            
+                            <div n="2" type="col">
+                                <gap reason="lost" unit="line" extent="?"/>
+                            <l n="55d"><unclear>h)i/qeo/n</unclear> t<unclear>e</unclear> <unclear>*)aka/</unclear><supplied reason="lost">mant' e)piei/kelon a)qana/toisin,</supplied> </l>
+                            <l n="56"><unclear>pau</unclear>ro/teroi: me/m<supplied reason="lost">asan de\ kai\ w(=s u(smi=ni ma/xesqai </supplied></l>
+                            <l n="57">xr<sic corr="ei">h</sic>h=| a)nagka<supplied reason="lost">i/h|, pro/ te pai/dwn kai\ pro\ gunaikw=n. </supplied></l>
+                            <l n="58">pa=sai d' w)i/gon<supplied reason="lost">to pu/lai, e)k d' e)/ssuto lao/s, </supplied></l>
+                            <l n="59">pezo<supplied reason="lost">i/ q' i(</supplied>pph=<supplied reason="lost">e/s te: polu\s d' o)rumagdo\s o)rw/rei. </supplied></l>
+                            <l n="60"><unclear>oi(\ d' </unclear>o(/te <supplied reason="lost">dh/ </supplied>r(' e)<supplied reason="lost">s</supplied><unclear> x</unclear><supplied reason="lost">w=ron e(/na cunio/ntes i(/konto </supplied></l>
+                            <l n="61">su/<sic corr="n">r</sic> r(' e)/b<supplied reason="lost">a</supplied><unclear>l</unclear>on r(<supplied reason="lost">inou/s, su\n d' e)/gxea kai\ me/ne' a)ndrw=n </supplied></l>
+                            <l n="62">xa<unclear>l</unclear>k<supplied reason="lost">eoq</supplied>wrh/k<supplied reason="lost">wn: a)ta\r a)spi/des o)mfalo/essai </supplied></l>
+                            <l n="63">e)/plh<supplied reason="lost">nt' a)ll</supplied>h/<supplied reason="lost">lh|si, polu\s d' o)rumagdo\s o)rw/rei. </supplied></l>
+                            <l n="64">e)/nqa d' <supplied reason="lost">a(/m'</supplied><unclear> oi)m</unclear>w<supplied reason="lost">gh/ te kai\ eu)xwlh\ pe/len a)ndrw=n </supplied></l>
+                            <l n="65"><unclear>o)ll</unclear>u/ntwn t<supplied reason="lost">e kai\ o)llume/nwn, r(e/e d' ai(/mati gai=a. </supplied></l>
+                            <l n="65a">e)n d' *)/eris <supplied reason="lost">e)</supplied>n de\ <unclear>*k</unclear><supplied reason="lost">udoimo\s o(mi/leon, e)n d' o)loh\ *kh/r, </supplied></l>
+                            <l n="65b">a)/llon z<supplied reason="lost">w</supplied><sic corr=""><unclear>|</unclear></sic><unclear>o\n e)/</unclear><supplied reason="lost">xousa neou/taton, a)/llon a)/outon, </supplied></l>
+                            <l n="65c">a)/llon te<supplied reason="lost">q</supplied>n<supplied reason="lost">hw=ta kata\ mo/qon e(/lke podoi=in: </supplied></l>
+                            <l n="65d"><unclear>n</unclear><gap reason="illegible" unit="character" extent="2"/><gap reason="lost" unit="character" extent="1"/><unclear>t</unclear><gap reason="illegible" unit="character" extent="1"/><gap reason="lost"/><note lang="eng" resp="al">Blass identified 65a,b, and c as Iliad 18.535-7, but the traces of 65d do not suit 18.538.</note></l>
+                            <gap reason="lost" unit="line" extent="4?"/><note lang="eng" resp="al">West says that at least 4 lines have been lost here, but the exact size of the lacuna is uncertain (<bibl>West, 84</bibl>). She has numbered the missing lines accordingly 65 e, f, g, and h.</note>   
+                            <l n="65i"><gap reason="illegible" unit="character" extent="2"/><gap reason="lost"/></l>
+                            <l n="66">o)/fr<supplied reason="lost">a</supplied> me\<supplied reason="lost">n h)w</supplied><unclear>\s h)=</unclear>n <supplied reason="lost">kai\ a)e/ceto i(ero\n h)=mar, </supplied></l>
+                            <l n="67">to/fra ma/<supplied reason="lost">l' a)mfote/rwn be/le' h(/pteto, pi=pte de\ lao/s. </supplied></l>
+                            <l n="68">h)=mos d' *)he/<supplied reason="lost">lio</supplied>s me/s<supplied reason="lost">on ou)rano\n a)mfibebh/kei, </supplied></l>
+                            <l n="69"><unclear>k</unclear>ai\ to/t<supplied reason="lost">e d</supplied>h\ xru/<supplied reason="lost">seia path\r e)ti/taine ta/lanta: </supplied></l>
+                            <l n="70">e)n d' e)ti/q<supplied reason="lost">ei</supplied> du/o <supplied reason="lost">kh=re tanhlege/os qana/toio </supplied></l>
+                            <l n="71"><supplied reason="lost">*trw/</supplied><unclear>wn q' i(</unclear><supplied reason="lost">p</supplied><unclear>pod</unclear><supplied reason="lost">a/mwn kai\ *)axaiw=n xalkoxitw/nwn, </supplied></l>
+                            <l n="72"><supplied reason="lost">e(/lke de\ me/s</supplied>sa l<supplied reason="lost">abw/n: r(e/pe d' ai)/simon h)=mar *)axaiw=n. </supplied></l>
+                            <l n="73"><supplied reason="lost">ai(\ me\n *)axai</supplied>w=n <supplied reason="lost">kh=res e)pi\ xqoni\ poulubotei/rh| </supplied></l>
+                            <gap reason="lost" unit="line" extent="?"/>
+                            </div>
+                            </div>
+                    
+                    <div n="P. Heid. 1261" type="frag">
+                        <gap reason="lost" unit="line" extent="?"/>
+                        <l n="153"><supplied reason="lost">ei)/ per ga/r s' *(/ektwr ge kako\n kai\ a)n</supplied><unclear>a/lkid</unclear><supplied reason="lost">a</supplied> fh/sei, </l>
+                        <l n="154"><supplied reason="lost">a)ll' ou) pei/sontai *trw=es kai\ *darda</supplied><unclear>n</unclear>i/w<unclear>n</unclear>es </l>
+                        <l n="155"><supplied reason="lost">kai\ *trw/wn a)/loxoi megaqu/mwn ai)</supplied><unclear>x</unclear>mhta/wn, </l>
+                        <l n="156"><supplied reason="lost">ta/wn e)n koni/h|si ba/les qalerou\s</supplied> parak<unclear>o</unclear>i/tas. </l>
+                        <l n="157"><supplied reason="lost">(\ws a)/ra fwnh/sas fu/gade tra/pe m</supplied><unclear>w/</unclear>nuxas i(/pp<unclear>o</unclear>u<supplied reason="lost">s </supplied></l>
+                        <l n="158"><supplied reason="lost">au)=tis a)n' i)wxmo/n: e)pi\ de\ *trw=e/s te</supplied><unclear> k</unclear>ai\ <unclear>*(/ek</unclear>twr </l>
+                        <l n="159"><supplied reason="lost">h)xh=| qespesi/h| be/lea stono/en</supplied>ta x<unclear>e/o</unclear>ntes. </l>
+                        <l n="160"><supplied reason="lost">tw=| d' e)pi\ makro\n a)/use me/gas kor</supplied>uq<unclear>a</unclear>i/o<unclear>lo</unclear>s *(/e<unclear>k</unclear>twr: </l>
+                        <l n="161"><supplied reason="lost">*tudei/dh peri\ me/n se ti/on *da</supplied><unclear>n</unclear>ao<supplied reason="lost">i\</supplied> tax<unclear>u/</unclear>p<unclear>w</unclear>loi </l>
+                        <l n="162"><supplied reason="lost">e(/drh| te kre/asi/n te i)de\ plei/ois de</supplied><unclear>p</unclear>a/essin: </l>
+                        <l n="163"><supplied reason="lost">nu=n de/ s' a)timh/sousi: gunaiko\s</supplied><unclear> a)/r' a)</unclear>nt<gap reason="illegible" unit="character" extent="1"/>te/tuco. <note lang="eng" resp="al">The textual tradition the final colon has both "<foreign lang="grc">a)nti\ te/tuco</foreign>" and "<foreign lang="grc">a)nt' e)te/tuco</foreign>." In this papyrus the fourth letter is uncertain, thus it is unclear which of these two readings is present.</note></l>
+                        <l n="164"><supplied reason="lost">e)/rre kakh\ glh/nh, e)pei\ ou)k ei)/can</supplied><unclear>tos e)me</unclear><supplied reason="lost">i=o </supplied></l>
+                        <l n="165"><supplied reason="lost">pu/rgwn h(mete/rwn e)pibh/seai, o</supplied>u)de\ gun<unclear>a</unclear>i=ka<unclear>s </unclear></l>
+                        <l n="166"><supplied reason="lost">a)/ceis e)n nh/essi: pa/ros toi po/tmo</supplied>n e)fh/sw. </l>
+                        <l n="167"><supplied reason="lost">(\ws fa/to, *tudei/dhs de\ dia/ndi</supplied><unclear>x</unclear>a merm<supplied reason="lost">h/ri</supplied>ce<supplied reason="lost">n </supplied></l>
+                        <gap reason="lost" unit="line" extent="?"/>
+                        </div>
+                    
+                        <div n="i" type="frag">
+                            <l n="180"><supplied reason="lost">a)ll' o(/te ken dh\ nhusi\n e)/pi glafurh=|</supplied><unclear>s</unclear>i ge/nw<supplied reason="lost">m</supplied>ai, </l>
+                            <l n="181"><supplied reason="lost">mnhmosu/nh tis e)/peita puro\s dhi/oio</supplied> gene/s<sic/><add place="supralinear" n="correction">q</add>w, </l>
+                            <l n="182"><supplied reason="lost">w(s puri\ nh=as e)niprh/sw, ktei/nw de\ k</supplied>ai\ au)tou\s </l>
+                            <l n="183"><supplied reason="lost">*)argei/ous para\ nhusi\n a)tuzome/nous</supplied> u(po\ kapnou=." </l>
+                            <l n="184"><supplied reason="lost">w(\s ei)pw\n i(/ppoisin e)ke/kleto fai/dimos</supplied> *(/ektwr: </l>
+                            <gap reason="lost" unit="line" extent="?"/>
+                        </div>
+                        <div n="k and P. Heid. 1261" type="frag">
+                            <gap reason="lost" unit="line" extent="?"/>
+                            <l n="187"><supplied reason="lost">*)androma/xh quga/thr megal</supplied>h/toros *)h<supplied reason="lost">eti/wnos </supplied></l>
+                            <l n="188"><supplied reason="lost">u(mi=n pa\r prote/roisi meli/</supplied>f<supplied reason="lost">r</supplied>ona puro\<supplied reason="lost">n e)/qhken </supplied></l>
+                            <l n="189"><supplied reason="lost">oi)=no/n t' e)gkera/sasa piei=n, o(/te</supplied> qumo\<supplied reason="lost">s a)nw/goi, </supplied></l>
+                            <l n="190"><supplied reason="lost">h)\ e)moi/, o(/s p</supplied>e/<supplied reason="lost">r oi( qalero\s po/sis</supplied> eu)/xoma<supplied reason="lost">i ei)=nai. </supplied></l>
+                            <l n="191"><supplied reason="lost">a)ll' e)fo</supplied>martei=to<sic/><add place="supralinear" n="correction">n</add> ka<supplied reason="lost">i\ speu/deton o)/fra la/bwmen </supplied></l>
+
+                            
+                            
+                            
+                            
+                            <l n="192"><supplied reason="lost">a)spi/da</supplied> *nestore/hn, <supplied reason="lost">th=s nu=n kle/os ou)rano\n i(/kei </supplied></l>
+                            <l n="193"><supplied reason="lost">pa=san xru</supplied><note lang="eng" resp="al">West notes (<bibl>1967, 85</bibl>) that the lacuna at the beginning of the line is rather short for "<foreign lang="grc">pa=san xru</foreign>."</note>sei/hn ei)=nai, kan<supplied reason="lost">o/nas te kai\ au)th/n, </supplied></l>
+                            <l n="194"><supplied reason="lost">au)ta\r a)</supplied><unclear>p'</unclear> w)/moiin *diomh/<supplied reason="lost">deos i(ppoda/moio </supplied></l>
+                            <l n="195"><supplied reason="lost">daida/leo</supplied>n qw/rhka, to\n <supplied reason="lost">*(/hfaistos ka/me teu/xwn. </supplied></l>
+                            <l n="196"><supplied reason="lost">ei) tou/tw</supplied> ge la/boimen, e)e<supplied reason="lost">lpoi/mhn ken *)axaiou\s </supplied></l>
+                            <l n="197"><gap reason="lost" unit="character" extent="8?"/>s nhw=n e)pibh<gap reason="lost"/></l>
+                            <l n="197a"><gap reason="lost" unit="character" extent="8?"/><unclear>u</unclear>s ma/la ga/r ke<gap reason="lost"/></l>
+                            <l n="198"><supplied reason="lost">*(\ws e)/fat' eu)</supplied>xo/menos, nem<supplied reason="lost">e/shse de\ po/tnia *(/hrh, </supplied></l>
+                            <l n="199"><gap reason="lost" unit="character" extent="6-7"/>klismw=|, pele/<supplied reason="lost">mice de\ makro\n *)/olumpon, </supplied></l>
+                            <l n="199a"><gap reason="lost" unit="character" extent="6?"/><supplied reason="lost">a)</supplied>mfote/raisin e<gap reason="lost"/></l>
+                            <l n="200"><supplied reason="lost">kai/ r(a *pos</supplied>eida/wna me/gan <supplied reason="lost">qeo\n a)nti/on hu)/da: </supplied></l>
+                            <l n="201"><supplied reason="lost">w)\ po/poi e)</supplied>nnosi/ga<sic corr="i"/>' eu)rus<supplied reason="lost">qene/s, ou)de/ nu soi/ per </supplied></l>
+                            <l n="202"><gap reason="lost" unit="character" extent="6?"/>*)argei/wn o)lof<supplied reason="lost">u/retai e)n fresi\ qumo/s. </supplied></l>
+                            <l n="202a"><supplied reason="lost">oi(/ ken dh\ k</supplied><unclear>a</unclear>ko\n oi)=to<unclear>n </unclear><supplied reason="lost">a)naplh/santes o)/lwntai </supplied></l>
+                            <l n="202b"><supplied reason="lost">a)ndro\s e(n</supplied>o\s r(ip<supplied reason="lost">h=|, o(\ de\ mai/netai ou)ke/t' a)nektw=s </supplied></l>
+                            <gap reason="lost" unit="line" extent="?"/>
+                        </div>
+                        
+                        <div n="l" type="frag">
+                            <l n="203"><supplied reason="lost">oi(\</supplied><unclear> d</unclear>e/ soi ei)s *(el<unclear>i/k</unclear><supplied reason="lost">hn te kai\ *ai)ga\s dw=r' a)na/gousi </supplied></l>
+                            <l n="204">polla/ <unclear>te k</unclear><supplied reason="lost">ai\ xari/enta: su\ de/ sfisi bou/leo ni/khn. </supplied></l>
+                            <l n="204a"><gap reason="lost" unit="character" extent="6?"/><unclear>k</unclear><note lang="eng" resp="al">According to West (<bibl>1967, 89</bibl>) this unclear letter could be either "<foreign lang="grc">k</foreign>" or "<foreign lang="grc">is</foreign>."</note>aim<gap reason="lost"/></l>    
+                            <l n="205"><supplied reason="lost">ei)/ pe</supplied>r ga/r k' e)q<supplied reason="lost">e/loimen, o(/soi *danaoi=sin a)rwgoi/, </supplied></l>
+                            <l n="206"><supplied reason="lost">*t</supplied>rw=as a)<unclear>p</unclear><supplied reason="lost">w/sasqai kai\ e)ruke/men eu)ru/opa *zh=n, </supplied></l>
+                            <l n="206a"><gap reason="lost" unit="character" extent="3?"/><unclear>mi</unclear><note lang="eng" resp="al">The first letter could also be "<foreign lang="grc">a</foreign>" and the second letter could also be "<foreign lang="grc">k </foreign>or <foreign lang="grc">r</foreign>," (<bibl>West 1967, 89)</bibl>).</note><gap reason="lost"/></l>
+                            <gap reason="lost" unit="line" extent="?"/>
+                            </div>
+                        
+                        <div n="m and Grenfell" type="frag">
+                            <pb n="column1"/>
+                            <gap reason="lost" unit="line" extent="?"/>
+                            <l n="216a"><supplied reason="lost">*)/enqa/ ke loigo\s e)/hn kai\ a)mh/xan</supplied>a e)/rg' e)ge/nonto, </l>
+                            <l n="217"><gap reason="lost"/><supplied reason="lost">n</supplied>h=es *)axa<supplied reason="lost">i</supplied>w=n, <note lang="eng" resp="al">See note to line 220.</note></l>
+                            <l n="218"><supplied reason="lost">ei) mh\ e)pi\ fresi\ qh=k' *)agame/mnon</supplied><unclear>i</unclear> po/tnia *(/hrh </l>
+                            <l n="219"><supplied reason="lost">au)tw=| poipnu/santi qow=</supplied>s o)tru=na<sic corr="i"/> *)axaiou/s. </l>
+                            <l n="220"><supplied reason="lost">bh= d' i)e/nai para/ te klis</supplied><unclear>i/</unclear>as kai\ nh=<sic corr="as">es</sic> e)i/<unclear>s</unclear><supplied reason="lost">as </supplied><note lang="eng" resp="al">The ending of this line may be present here by its similarity to line 217. Syntactically, the extant ending in this line is not likely to be possible with "<foreign lang="grc">nh=es</foreign>" in the nominative and "<foreign lang="grc">kli/sias</foreign>" in the accusative. Likewise, line 217 seems also to have been changed because of its similarity to line 220.</note></l>
+                            <l n="221"><supplied reason="lost">porfu/reon me/ga fa=ros e)/</supplied>xwn e)<sic corr="n">g</sic> x<supplied reason="lost">ei</supplied><unclear>ri\ p</unclear><supplied reason="lost">axei/h|, </supplied></l>
+                            <gap reason="lost" unit="line" extent="?"/>
+                            
+                            <pb n="column2"/>
+                                <gap reason="lost" unit="line" extent="?"/>
+                                <l n="249">pa\r de\ *di<supplied reason="lost">o\s bwmw=| perikalle/i ka/bbale nebro/n, </supplied></l>
+                                <l n="250">e)/nqa panomfai/w| *zhni\ r(e/z<supplied reason="lost">eskon *)axaioi/. </supplied></l>
+                                <l n="251">oi(\ d' w(s ou)=n ei)/donto *dio\s te/ras <supplied reason="lost"> ai)gio/xoio, </supplied></l>
+                                <l n="252">ma=llon e)pi\ *trw/e<corr sic="e">s</corr><note lang="eng" resp="">There appears to be an error here in West's edition. Compare her note on the line (<bibl>1967, 90</bibl>) versus her printed edition of it (<bibl>West 1967, 80</bibl>).</note>si qo/ro<sic corr="n">m</sic>, mn<supplied reason="lost">h/santo de\ xa/rmhs. </supplied></l>
+                                <l n="252a">*zeu\s de\ path\r w)/trune f<gap reason="lost"/></l>
+                                <l n="252b">eisan<note lang="eng" resp="al">"<foreign lang="grc">ei)=san</foreign>" in this context seems unlikely. Most editors have emended it to "<foreign lang="grc">ei)=can</foreign>," (<bibl>West 1967, 90</bibl>).</note> de\ *trw=es tutqo\n da<gap reason="lost"/></l>
+                                <l n="253">e)/nq' ou)/ tis <supplied reason="lost">pro/teros *danaw=n pollw=n per e)o/ntwn </supplied></l>
+                                <gap reason="lost" unit="line" extent="?"/>
+                        </div>
+                        
+                        <div n="n" type="frag">
+                                <l n="255?"><note lang="eng" resp="al">West numbers this verse 255a becasue the traces cannot be reconciled with the vulgate (<bibl>1967, 90</bibl>).</note><gap reason="lost" unit="character" extent="21?"/><gap reason="illegible" unit="character" extent="1"/>kein<gap reason="lost"/></l>
+                                <l n="256"><supplied reason="lost">a)lla\ polu\ prw=tos *trw/wn e(/l</supplied><unclear>e</unclear>n a)/<unclear>n</unclear><supplied reason="lost">dra korusth\n </supplied></l>
+                                <l n="257"><supplied reason="lost">*fradmoni/dhn *)age/laon: o(\ me\</supplied><sic corr="m">n</sic> fu/ga<supplied reason="lost">d' e)/trapen i(/ppous: </supplied></l>
+                                <l n="258"><supplied reason="lost">tw=| de\ metastrefqe/nti m</supplied>etafre/n<supplied reason="lost">w| e)n do/ru ph=cen </supplied></l>
+                        <note lang="eng" resp="al">There is a further fragment O of 4 lines, but these lines have not been identifed or placed.</note>
+                        </div>
+                        
+                      </div>
+                    </div>
+                          
+            </body>
+              
+        
+    </text>
+</TEI.2>
+    
+                    
+                    
+                   

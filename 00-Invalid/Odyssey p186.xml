@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" "tei-epidoc.dtd" [
+<!ENTITY % TEI.prose 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE' >
+<!ENTITY % TEI.linking 'INCLUDE' >
+<!ENTITY % TEI.certainty 'INCLUDE' >
+<!ENTITY % TEI.figures 'INCLUDE' >
+<!ENTITY % TEI.names.dates 'INCLUDE' >
+<!ENTITY % TEI.transcr 'INCLUDE' >
+<!ENTITY % TEI.textcrit 'INCLUDE' >
+<!ENTITY % TEI.XML 'INCLUDE'>
+<!ENTITY % ISOlat1 SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-lat1.ent'>
+%ISOlat1;
+<!ENTITY % ISOlat2 SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-lat2.ent'>
+%ISOlat2;
+<!ENTITY % ISOnum SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-num.ent'>
+%ISOnum;
+<!ENTITY % ISOpub SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-pub.ent'>
+%ISOpub;
+]>
+<TEI.2>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bodmer 49</title>
+            <editor>Alexander Loney</editor>
+         </titleStmt>
+         <editionStmt>
+            <edition>A new edition, with semantic markup, punctuation, accentuation, emendation, and notes.</edition>
+            <respStmt>
+               <name>Alexander Loney, ed.</name>
+               <resp>after the edition of</resp>
+               <name id="hurst">Hurst, A.,<title>MusHelv</title> 43 (1986), 221-230.</name>            
+            </respStmt>
+ 
+        </editionStmt>
+            <extent>under 1Mb</extent>
+            <publicationStmt>
+                <publisher>
+                    The Center for Hellenic Studies of Harvard University
+                </publisher>
+                <authority>
+                    <name>Casey Dué and Mary Ebbott, edd.</name>
+                </authority>
+            </publicationStmt>
+            <sourceDesc>
+                <p>File created electronically.</p>
+            </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language id="eng">English</language>
+            <language id="lat">Latin</language>
+            <language id="grc">Greek</language>
+            <language id="xgrc">Transliterated Greek</language>
+            <language id="deu">German</language>
+            <language id="fra">French</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>July 20, 2005</date>
+            <respStmt>
+               <name id="al">Alexander Loney</name>
+               <resp>markup</resp>
+            </respStmt>
+            <item>Initial XML markup.</item>
+         </change>
+         <change>
+            <date>June 1, 2007</date>
+            <respStmt>
+               <name>Alexander Loney</name>
+               <resp>markup</resp>
+            </respStmt>
+            <item>minor adjustments to "sic" and "corr" elements.</item>
+         </change>
+         <change>
+            <date>June 6, 2007</date>
+            <respStmt>
+               <name>Alexander Loney</name>
+               <resp>markup</resp>
+            </respStmt>
+            <item>changed plus verse numbering format.</item>
+         </change>
+         <change>
+            <date>June 22, 2007</date>
+            <respStmt>
+               <name>Alexander Loney</name>
+               <resp>markup</resp>
+            </respStmt>
+            <item>fixing of conventions</item>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+         <text lang="grc">
+               <body>
+                  <div type="description" n="date" lang="eng">
+                  <head>Date</head>
+                  <p>About the end of the 3rd century BC or the beginning of the 2nd (<bibl>Hurst 1986: 223</bibl>)</p>
+               </div>
+               <div type="description" n="provenance" lang="eng">
+                  <head>Provenance</head>
+                  <p>Upper-Egypt (<bibl>Hurst 1984: 100</bibl>)</p>
+               </div>
+               <div type="description" n="bibliography" lang="eng">
+                  <head>Bibliography</head>
+                  <list >
+                     <item><bibl>Van Thiel, H. 1991. <title>Homeri Odysseea.</title> Hildesheim: Georg Olms.</bibl></item>
+                  <item><bibl>Hurst, A., O. Reverdin, and J. Rudhardt. 1984. <title>Papyrus Bodmer XXIX: Vision de 
+                     Dorothéos</title> (Geneva; Cologne).</bibl></item>
+                  <item><bibl>West, S. 1967. <title>The Ptolemaic Papyri of Homer, Papyrologica Coloniensia III</title> (Köln; 
+                     Opladen).</bibl>
+                  </item>
+                  </list>
+                  </div>
+                  <div type="description" n="catalogues" lang="eng">
+                     <head>Catalogue entries</head>
+                     <list>
+                        <item>Mertens-Pack 1082.21</item>
+                           <item>LDAB 2389 </item>
+                        <item>Allen-Sutton-West p186</item>
+                        </list>
+               </div>
+                  <div type="edition" n="text">
+                     
+            
+                                        
+                  <head lang="eng">Bodmer 49</head>
+         <div n="9" type="book">
+            <div n="1" type="col">
+               <l n="455"><gap reason="lost"/><gap reason="illegible" unit="character" extent="2"/><gap reason="lost"/></l>
+               <l n="456"><supplied reason="lost">ei) dh\ o(mofrone/ois potifw</supplied><unclear>n</unclear>h/eis t<supplied reason="lost">e ge/noio </supplied></l>
+               <l n="457"><supplied reason="lost">ei)pei=n o(/pph| kei=nos e)mo\n me/nos</supplied> h)laska/z<supplied reason="lost">ei: </supplied></l>
+               <l n="458"><supplied reason="lost">tw=| ke/ oi( e)gke/falo/s ge dia\ spe/o</supplied><unclear>s</unclear> a)/lludis <supplied reason="lost">a)/llh| </supplied></l>
+               <l n="459"><supplied reason="lost">qeinome/nou r(ai/oito pro\s ou)/de</supplied>i+, ka\d de/ <unclear>t' </unclear><supplied reason="lost">e)mo\n kh=r </supplied></l>
+               <l n="460"><supplied reason="lost">lwfh/seie kakw=n, ta/ moi ou)ti</supplied>dano\s po/r<supplied reason="lost">en *ou)=tis.’</supplied></l>
+               <l n="461"><supplied reason="lost">w(\s ei)pw\n to\n krio\n a)po\ e(/o pe/</supplied>mpe qu/raz<supplied reason="lost">e. </supplied></l>
+               <l n="462"><supplied reason="lost">e)lqo/ntes d' h)baio\n a)po\ spe</supplied><unclear>i/ous</unclear> te kai\ au)l<supplied reason="lost">h=s </supplied></l>
+               <l n="463"><supplied reason="lost">prw=tos u(p' a)rneiou= l</supplied>luo/mhn, u(pe/lusa d' e(<supplied reason="lost">tai/rous. </supplied></l>
+               <l n="464"><supplied reason="lost">karpali/mws de\ ta\ </supplied><unclear>m</unclear>h=la tanau/poda, p<supplied reason="lost">i/ona dhm</supplied>w=<sic corr ="|"/><note resp="al" lang="eng"> The iota adscript was sometimes written, sometimes not.</note>, </l>
+               <l n="465"><supplied reason="lost">polla\ peritrope/onte</supplied>s e)lau/nomen, <corr n="anticipation" sic ="e)">o)/</corr>fr' e)pi\ <supplied reason="lost">nh=a </supplied></l>
+               <l n="466"><supplied reason="lost">i(ko/meq': a)spa/si</supplied><unclear>o</unclear><supplied reason="lost">i d</supplied>e\ fi/lois' e(ta/rois e)fa/nhmen, </l> 
+               <l n="467"><supplied reason="lost">oi(\ fu/gomen qa/na</supplied><unclear>ton: </unclear>tou\s de\ stena/xonto gow=ntes. </l>
+               <l n="468"><supplied reason="lost">a)ll' e)gw\ ou)k ei)/wn, a)n</supplied>na\ d' o)fru/si neu=on e(ka/stw|, </l>
+               <l n="469"><supplied reason="lost">klai/ein: a)ll' e)ke/leu</supplied>sa tanau/poda pi/ona mh=<supplied reason="lost">la </supplied></l>
+               <l n="470"><supplied reason="lost">po/ll' e)n nhi\+ balo/nta</supplied><unclear>s</unclear> e)piplei=n a(lmuro\n u(/dw<supplied reason="lost">r. </supplied></l>
+               <l n="471"><supplied reason="lost">oi( d' ai)=y' ei)/sbai</supplied>n<unclear>o</unclear><supplied reason="lost">n k</supplied>ai\ e)pi\ klisi/h|si kaqi=zon: </l>
+               <l n="472"><supplied reason="lost">e(ch=s d' e(zo/men</supplied><unclear>oi</unclear> polih\n a(/la tu/pton e)retmoi=s. </l>
+               <l n="473"><supplied reason="lost">a)ll' o(/te to/sson a)ph=n,</supplied> o(/s<corr n="haplography" sic ="">s </corr>on<note resp="al" lang="eng">Alternatively, this word could be seen as having been copied correctly with only one sigma, if we suppose that rather than the commonly attested line we have instead here the formulaic alternative of line Od. 12.181: <foreign lang="grc">a)ll' o(/te to/sson a)ph=men, o(/son te ge/gwne boh/sas,</foreign> (von der Mühl, 1962). </note> te ge/gwne boh/sas, </l>
+               <l n="474"><supplied reason="lost">kai\ to/t' e)gw\ *ku/klw</supplied><unclear>p</unclear>klwpa proshu/dwn kerto<unclear>m</unclear><supplied reason="lost">i/</supplied><unclear>o</unclear>isi: </l>
+               <l n="475"><supplied reason="lost">‘*ku/klwy, ou)k a)/r' e)/me</supplied>lles a)na/lkidos a)ndro\s e(tai/r<unclear>o</unclear><supplied reason="lost">us </supplied></l>
+               <l n="476"><supplied reason="lost">e)/dmenai e)n sph=i+ gl</supplied>afurw=| kraterh=fi bi/hfi. </l>
+               <l n="477"><supplied reason="lost">kai\ li/hn se/ g' e)/melle</supplied><unclear> k</unclear>ix<unclear>h/</unclear>sesqai kaka\ e)/rga, </l>
+               <l n="478"><supplied reason="lost">sxe/tli', e)pei\</supplied><unclear> ce</unclear><supplied reason="lost">i/no</supplied><unclear>us</unclear> ou)x a(/zeo sw=<sic corr="|"/><note resp="al" lang="eng"> The iota adscript was sometimes written, sometimes not.</note> e)ni\ oi)/kw| </l>
+               <l n="479"><supplied reason="lost">e)sqe/menai: tw= se *ze</supplied>u\s tei/sato kai\ qeoi\ a)/lloi.’ </l> 
+               <l n="480"><supplied reason="lost">w(\s e)fa/mhn, o(</supplied><unclear> d' e)/</unclear><supplied reason="lost">peita</supplied> xolw/sato khro/qi ma=<supplied reason="lost">llo</supplied><unclear>n: </unclear></l>
+               <l n="481"><supplied reason="lost">h(=ke d' a)porrh/c</supplied><unclear>as k</unclear><supplied reason="lost">oru</supplied>fh\n o)/reos mega/loio, </l>
+               <l n="482"><supplied reason="lost">ka\d d' e)/bale p</supplied><unclear>ropa/</unclear><supplied reason="lost">r</supplied><unclear>o</unclear><supplied reason="lost">i</supplied>qe ne<sic corr="o" n="Atticism">w</sic>\s kuanoprw/|roio </l>
+               <l n="483"><supplied reason="lost">tutqo/n, e)deu/h</supplied><unclear>s</unclear>e<unclear>n d'</unclear> o<unclear>i)</unclear>h/<supplied reason="lost">i+</supplied><unclear>o</unclear>n <unclear>a)/</unclear>kron i(ke/sqai. </l>
+               <l n="484"><supplied reason="lost">e)klu/sqh de\ qa/la</supplied><unclear>ss</unclear><supplied reason="lost">a</supplied> kate<unclear>r</unclear>xome/nhs u(po\ pe/trhs: </l>
+               <l n="485"><supplied reason="lost">th\n d' a)\y h)/peiro/nde</supplied> pali<sic corr="r">n</sic>ro/qion <note resp="al" lang="eng">This form is unattested elsewhere in literature, however it is not, ipsa verba, erroneous. This form is the result of dissimilation of "-<foreign lang="grc">rr</foreign>-" in the usual form, "<foreign lang="grc">palirro/qion</foreign>," which is a combination of "<foreign lang="grc">pa/lin</foreign>" and "<foreign lang="grc">ro/qios</foreign>." See also lines 545, 548.</note> fe/re ku=ma, </l> 
+               <l n="486"><supplied reason="lost">plhmuri\s e)k po/nt</supplied>ntoio, q<unclear>e/</unclear>mwse de\ x<supplied reason="lost">e/rso</supplied><unclear>n i(ke/sqai. </unclear></l>
+               <l n="487"><supplied reason="lost">au)ta\r e)gw\ xei/re</supplied><unclear>ssi</unclear> labw\n <unclear>per</unclear>im<unclear>h/k</unclear><supplied reason="lost">ea konto\n </supplied></l>
+               <l n="488"><supplied reason="lost">w)=sa pare/c: e(t</supplied>a/r<supplied reason="lost">oi</supplied><unclear>si</unclear>n e)p<unclear>otr</unclear><supplied reason="lost">u/</supplied>nas <unclear>e)</unclear><supplied reason="lost">ke/leusa </supplied></l>
+            </div>
+            <div n="2" type="col">
+               <l n="526"><supplied reason="lost">w(\s</supplied> e)f<supplied reason="lost">a/mhn, o( d' e)/peita *poseida/wni a)/nakti </supplied></l>
+               <l n="527"><supplied reason="lost">e</supplied>u)/xe<supplied reason="lost">to, xei=r' o)re/gwn ei)s ou)rano\n a)stero/enta: </supplied></l>
+               <l n="528"><supplied reason="lost">‘k</supplied><unclear>l</unclear>u=qi, <unclear>*p</unclear><supplied reason="lost">osei/daon gaih/oxe kuanoxai=ta: </supplied></l>
+               <l n="529"><supplied reason="lost">ei)</supplied><unclear> e)</unclear>te<unclear>o/</unclear><supplied reason="lost">n ge so/s ei)mi, path\r d' e)mo\s eu)/xeai ei)=nai, </supplied></l>
+               <l n="530"><supplied reason="lost">d</supplied>o\s <unclear>m</unclear><supplied reason="lost">mh\ *)odussh=a ptolipo/rqion oi)/kad' i(ke/sqai, </supplied></l>
+               <lb/><gap reason="lost" unit="line" extent="5"/><lb/><note resp="al" lang="eng">This means that there must be one minus verse in this gap, probably 531.</note>
+               <l n="537"><supplied reason="lost">au)ta\r o(/</supplied><unclear> g' </unclear>e)c<supplied reason="lost">au=tis polu\ mei/zona la=an a)ei/ras </supplied></l>
+               <l n="537a"><supplied reason="lost">e)c au)lh\s</supplied> a)nelw\n<supplied reason="lost"> o(/qi o</supplied>i( qu<unclear>re</unclear><supplied reason="lost">o\s</supplied><gap reason="lost" unit="character" extent="10"/> </l>
+               <l n="538"><supplied reason="lost">h(=k' </supplied><unclear>e)</unclear>p<unclear>id</unclear><supplied reason="lost">i</supplied>nh/sa<unclear>s,</unclear> e)pe/r<sic corr="ei" n="iotacism">h</sic>se d<supplied reason="lost">e\ i)=n' a)pe/leqron: </supplied></l>
+                <l n="539"><supplied reason="lost">k</supplied><unclear>a\d d' </unclear><supplied reason="lost">e)/</supplied><unclear>b</unclear>alen meto/pisq<unclear>e </unclear><supplied reason="lost">neo\s kuanoprw/|roio </supplied></l>
+               <l n="540"><unclear>t</unclear>utqo/<unclear>n</unclear>, e)d<corr n="anticipation" sic ="oi">eu</corr>/hsen d' o<unclear>i)h/i+</unclear>o<unclear>n a)/kro</unclear><supplied reason="lost">n i(ke/sqai. </supplied></l>
+                <l n="541"><supplied reason="lost">e)k</supplied>lu/sqh de\ qa/lassa ka<unclear>t</unclear><supplied reason="lost">erxome/nhs u(po\ pe/trhs: </supplied></l>
+                <l n="542">t<unclear>h\</unclear>n de\ pro/sw fe/re ku=ma, qe/<unclear>mwse</unclear><supplied reason="lost"> de\ xe/rson i(ke/sqai. </supplied></l>
+               <l n="543"><unclear>a)ll' o(/</unclear>te dh\ t<sic n="anticipation" corr="h">o</sic>\n <unclear>n</unclear>h=son a)fi<unclear>k</unclear>o/<unclear>me</unclear>q', e)/n<supplied reason="lost">qa per a)/llai </supplied></l>
+                <l n="544"><unclear>nh=</unclear>es e)u/+sselmoi me/non <unclear>a(</unclear>q<unclear>r</unclear>o/ai, a)mf<supplied reason="lost">i\ d' e(tai=roi </supplied></l>
+               <l n="545">ei(/at' o)duro/menoi, h(m<sic corr="e/a" n="Atticism">a=</sic>s potide/<sic corr="g">x</sic>m<unclear>e</unclear><supplied reason="lost">noi<note resp="al" lang="eng"> This form is unattested elsewhere in literature, however it is not, ipsa verba, erroneous. This form is the result of dissimilation of "-<foreign lang="grc">gm</foreign>-" in the usual form, "<foreign lang="grc">potide/gmenoi</foreign>." See also lines 485, 548.</note> ai)ei/, </supplied></l>
+                <l n="546">n<unclear>h=</unclear>a me\<unclear>n</unclear> e)/nq' e)lqo/ntes e)ke/lsame<unclear>n</unclear><supplied reason="lost"> e)n yama/qoisin, </supplied></l>
+                <l n="547">e)k de\ kai\ au)toi\ b<unclear>h=</unclear>m<unclear>e</unclear>n e)<unclear>pi\</unclear> r(<unclear>hgmi=</unclear><supplied reason="lost">ni qala/sshs. </supplied></l>
+               <l n="548">m<unclear>h=</unclear>la de\ *ku/klwpos <unclear>g</unclear>laf<supplied reason="lost">u</supplied><unclear>rh=</unclear><supplied reason="lost">s</supplied> e)g<note resp="al" lang="eng">This form is unattested elsewhere in literature, however it is not, ipsa verba, erroneous. This form is a common result of assimilation of "<foreign lang="grc">e)k n</foreign>..." in the usual form. See also lines 485, 548.</note> n<supplied reason="lost">ho\s e(lo/ntes </supplied></l>
+                <l n="549">d<unclear>a</unclear>ssa/meq', w(s mh/ ti/<supplied reason="lost">s</supplied> moi <unclear>a)tembo/m</unclear><supplied reason="lost">enos ki/oi i)/shs. </supplied></l>
+               <l n="550">a)rneio\n d' e)moi\ oi)/w<sic corr="|"/> e)u+<unclear>k</unclear>nh/<unclear>m</unclear><supplied reason="lost">ides e(tai=roi </supplied></l>
+                <l n="551">mh/lwn daiome/nwn <unclear>do/</unclear>san e)/c<unclear>o</unclear><supplied reason="lost">xa: to\n d' e)pi\ qini\ </supplied></l>
+                <l n="552">*zhni\ kelainefe/i+ *kroni/dh<unclear>|,</unclear><supplied reason="lost"> o(\s pa=sin a)na/ssei, </supplied></l>
+               <l n="553">r(e/cas mhri/' e)/k<sic corr="ai" n="Atticism">a</sic>on: o( d' ou)k e)mpa/zet<supplied reason="lost">o</supplied><unclear> i(r</unclear><supplied reason="lost">w=n, </supplied></l>
+               <l n="554">a)l<corr sic="" n="haplography">l</corr>' o(/ ge mermh/ri<unclear>z</unclear>en, o(/pws a)poloi/ato pa=s<unclear>a</unclear><supplied reason="lost">i </supplied></l>
+               <l n="555">nh=<unclear>es</unclear> e)u/+sselmoi kai\ <sic n= "homoeoteleuton" corr="e)moi\">moi</sic><note resp="al" lang="eng"> Although "<foreign lang="grc">moi</foreign>" is metrical, it cannot be sensibly construed here and the scribal error of homoeoteleuton is available to explain the variance, but due to its at least theoretically possible use here, it ought to be preserved.</note> e)ri/hres e(tai=ro<supplied reason="lost">i. </supplied></l>
+               <l n="556"><supplied reason="lost">w(\s to/t</supplied>e me\n pro/pan h)=mar e)<unclear>s h)e/l</unclear><supplied reason="lost">ion katadu/nta </supplied></l>
+               
+            </div>
+         </div>
+         <div n="10" type="book">
+            <div n="6" type="col">
+               <l n="188"><supplied reason="lost">kai\ to/t' e)gw\n a)</supplied>g<unclear>orh\</unclear>n q<unclear>e/</unclear><supplied reason="lost">menos meta\ pa=sin e)/eipon: </supplied></l>
+               <l n="189"><supplied reason="lost">ke/klute/ meu</supplied><unclear> m</unclear>u/qwn, kak<unclear>a/</unclear><supplied reason="lost"> per pa/sxontes e(tai=roi: </supplied></l>
+               <l n="190"><supplied reason="lost">w)= fi/loi, ou) ga\</supplied>r i)/<sic corr="s" n="Atticism">d</sic>men o(/p<supplied reason="lost">h| zo/fos ou)d' o(/ph| h)w/s, </supplied></l>
+               <l n="191"><supplied reason="lost">ou)d' o(/ph| h)e/li</supplied><unclear>o</unclear>s fa<unclear>e</unclear>si/mbr<supplied reason="lost">otos ei)=s' u(po\ gai=an </supplied></l>
+               <note resp="al"> Verse 192 absent. It may have been skipped by a scribe due to the identical beginnigs of 191 and 192.</note>
+               <l n="193"><supplied reason="lost">ei)/ tis e)/t' e)/stai m</supplied><note resp="al" lang="eng">This supplementation is by no means certain. The extant "<foreign lang="grc">em</foreign>" later in the line cannot conform to our received 193, although the extant "<foreign lang="grc">h=tis</foreign>" does. Thus it is possible (as Hurst did(<bibl>Hurst 1986: 229</bibl>)) to suppose that the first hemistich does conform, while the second does not. </note>h=tis: <gap reason="illegible" unit="character" extent='4'/>e<unclear>m</unclear><gap reason="lost"/></l>
+               <l n="194"><supplied reason="lost">ei)=don ga\r sk</supplied>op<unclear>i</unclear><supplied reason="lost">h\n e)s pai</supplied>palo/e<supplied reason="lost">ssan a)nelqw\n </supplied></l>
+               <l n="195"><supplied reason="lost">nh=son, th\n pe/ri </supplied>po/nt<supplied reason="lost">os</supplied> a)<unclear>pei/r</unclear><supplied reason="lost">itos e)stefa/nwtai. </supplied></l>
+               <l n="196"><supplied reason="lost">au)th\ de\ xqamalh\ kei=</supplied>tai: kapno\<supplied reason="lost">n d' e)ni\ me/ssh| </supplied></l>
+               <l n="197"><supplied reason="lost">e)/drakon o)fqalm</supplied>o<unclear>i=s</unclear><supplied reason="lost">i dia\ dru</supplied>ma\ puk<supplied reason="lost">na\ kai\ u(/lhn. </supplied></l>
+               <l n="198"><supplied reason="lost">w(\s e)fa/mhn, toi=sin de\</supplied> kate<supplied reason="lost">kla/sqh fi/lon h)=tor </supplied></l>
+               <l n="199"><supplied reason="lost">mnhsame/nois' e)/rgwn mega</supplied><unclear>lh/toros*)ant</unclear>if<supplied reason="lost">a/tao </supplied><note resp="al" lang="eng">The occurrence of the word, <foreign lang="grc">megalh/toros</foreign>, as opposed to the koine <foreign lang="grc">*laistrugo/nos</foreign> may be a case of anticipation of the following line 200. </note></l>
+               <l n="199a"><gap reason="lost"/><gap reason="illegible" unit="character" extent='1'/>tr<gap reason="lost" unit="character" extent='3'/><gap reason="illegible" unit="character" extent='2'/><gap reason="lost"/></l>
+               <l n="200"><supplied reason="lost">*ku/klwpo/s te bi/h</supplied><unclear>s me</unclear>galh/toros <unclear>a)</unclear><supplied reason="lost">ndrofa/goio. </supplied></l>
+               <l n="201"><gap reason="lost"/><unclear>o</unclear>s a)llh/lous <unclear>a</unclear><gap  reason="illegible" unit="character" extent='4'/><gap reason="lost"/><note resp="al" lang="eng">Evidently, 201 has been completely replaced.</note></l>
+               <l n="202"><supplied reason="lost">a)ll' ou) ga/r tis</supplied><unclear> p</unclear>rh=<unclear>cis e)gi/ne</unclear>to <unclear>m</unclear><supplied reason="lost">urome/noisin. </supplied></l>
+               <l n="203"><supplied reason="lost">au)ta\r e)gw\ di/xa</supplied> pa/nt<unclear>a</unclear>s e)u+knh/<unclear>m</unclear><supplied reason="lost">idas e(tai/rous </supplied></l>
+               <l n="204"><supplied reason="lost">h)ri/qmeon, a)rxo\</supplied>n de\ met' a)mfote/ro<supplied reason="lost">isin o)/passa: </supplied></l>
+               <l n="205"><supplied reason="lost">tw=n me\n e)gw\n h)=r</supplied><unclear>x</unclear>on, <unclear>t</unclear>w=n d' *eu)ru/lox<unclear>o</unclear><supplied reason="lost">s qeoeidh/s. </supplied></l>
+               <l n="206"><supplied reason="lost">klh/rous d' e)n ku</supplied>ne/h<supplied reason="lost">s</supplied> xalkh/r<sic>hs</sic><note resp="al" lang="eng">This reading is problematic, since "<foreign lang="grc">xalkh/rhs</foreign>" is in the nominative case. Hurst suggests (<bibl>Hurst 1986: 230</bibl>) that it may be attracted in declension to a hypothetical preceding "<foreign lang="grc">e)k kune/hs</foreign>," rather than the received "<foreign lang="grc">e)n kune/h|.</foreign>" This, however, is an elsewhere unattested reading. </note>  pa/l<supplied reason="lost">lomen w)=ka: </supplied></l>
+               <l n="207"><supplied reason="lost">e)k d' e)/qore klh=</supplied>ros megal<sic corr="h">h</sic>/toros *e<supplied reason="lost">u)rulo/xoio. </supplied></l>
+               <l n="208"><supplied reason="lost">bh= d' i)e/nai, a(/ma t</supplied>w=| ge du/w <unclear>kai\</unclear> ei)/k<unclear>os' </unclear><supplied reason="lost">e(tai=roi </supplied></l>
+               <l n="209"><supplied reason="lost">klai/ontes: ka</supplied>ta\ d' a)/mme li/po<unclear>n</unclear> go<supplied reason="lost">o/wntas o)/pisqen. </supplied></l>
+               <l n="210"><supplied reason="lost">eu(=ron d' e)n bh/s</supplied><unclear>s</unclear>h|si <unclear>te</unclear>tugme/na<supplied reason="lost"> dw/mata *ki/rkhs </supplied></l>
+               <l n="211"><supplied reason="lost">cestoi=sin la/</supplied><unclear>e</unclear>ssi, p<unclear>e</unclear><supplied reason="lost">riske/</supplied>ptw| <unclear>e)</unclear><supplied reason="lost">ni\ xw/rw|. </supplied></l>
+               <l n="212"><supplied reason="lost">a)mfi\ de/ min lu/k</supplied>oi <supplied reason="lost">h)=</supplied>s<supplied reason="lost">an o)re/</supplied><unclear>s</unclear>teroi <unclear>h)</unclear><supplied reason="lost">de\ le/ontes, </supplied></l>
+               <l n="213"><supplied reason="lost">tou\s au)th\ kate/qelc</supplied>en, <unclear>e)p</unclear><supplied reason="lost">ei\ kaka\ fa/rmak' e)/dwken. </supplied></l>
+               <l n="214"><supplied reason="lost">ou)d' oi(/ g' w(rmh/qhs</supplied><unclear>an e)p' a)</unclear><supplied reason="lost">ndra/sin, a)ll' a)/ra toi/ ge </supplied></l>
+               <l n="215"><gap reason="lost"/><gap reason="illegible" unit="character" extent='3'/><gap reason="lost"/> </l>
+            </div>
+         </div>
+                     </div>
+      </body>
+   </text>
+</TEI.2>

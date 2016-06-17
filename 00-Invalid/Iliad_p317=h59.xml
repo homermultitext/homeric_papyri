@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" "tei-epidoc.dtd" [
+<!ENTITY % TEI.prose 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE' >
+<!ENTITY % TEI.linking 'INCLUDE' >
+<!ENTITY % TEI.certainty 'INCLUDE' >
+<!ENTITY % TEI.figures 'INCLUDE' >
+<!ENTITY % TEI.names.dates 'INCLUDE' >
+<!ENTITY % TEI.transcr 'INCLUDE' >
+<!ENTITY % TEI.textcrit 'INCLUDE' >
+<!ENTITY % TEI.XML 'INCLUDE'>
+<!ENTITY % ISOlat1 SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-lat1.ent'>
+%ISOlat1;
+<!ENTITY % ISOlat2 SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-lat2.ent'>
+%ISOlat2;
+<!ENTITY % ISOnum SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-num.ent'>
+%ISOnum;
+<!ENTITY % ISOpub SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-pub.ent'>
+%ISOpub;
+]>
+<TEI.2>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Iliad P317=h59</title>
+                <editor id="bh">Bart Huelsenbeck</editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>A new edition, with semantic markup, punctuation, accentuation, emendation, and notes.</edition>
+                <respStmt>
+                    <name>Bart Huelsenbeck, ed.</name>
+                    <resp>after the edition of</resp>
+                    <name id="swest">West, S.<title>The Ptolemaic Papyri of Homer, Papyrologica Coloniensia III</title> pp. 73-4</name>
+                </respStmt>
+            </editionStmt>
+           
+            <extent>under 1Mb</extent>
+            <publicationStmt>
+                <publisher>
+                    The Center for Hellenic Studies of Harvard University
+                </publisher>
+                <authority>
+                    <name>Casey Dué and Mary Ebbott, edd.</name>
+                </authority>
+            </publicationStmt>
+            <sourceDesc>
+                <p>File created electronically.</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language id="eng">English</language>
+                <language id="lat">Latin</language>
+                <language id="grc">Greek</language>
+                <language id="xgrc">Transliterated Greek</language>
+                <language id="deu">German</language>
+                <language id="fra">French</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change>
+                <date>July 14, 2007</date>
+                <respStmt>
+                    <name>Bart Huelsenbeck</name>
+                    <resp>markup</resp>
+                </respStmt>
+                <item>Initial XML markup.</item>
+            </change>
+            <change>
+                <date>July 16, 2007</date>
+                <respStmt>
+                    <name id="al">Alexander Loney</name>
+                    <resp>markup</resp>
+                </respStmt>
+                <item>review and error-check.</item>
+            </change>
+        </revisionDesc>
+               
+    </teiHeader>
+    <text lang="grc">
+        <body>
+            <div type="description" n="date" lang="eng">
+                <head>Date</head>
+                <p>Middle of the third century B.C. (<bibl>West, 73</bibl>)</p>
+            </div>
+            <div type="description" n="provenance" lang="eng">
+                <head>Provenance</head>
+                <p>unknown (<bibl>West, 73</bibl>)</p>
+            </div>
+            <div type="description" n="context" lang="eng">
+                <head>Context</head>
+                <p>The verses are quoted in a prose summary of Iliad book 6 (<bibl>West, 73</bibl>)</p>
+            </div>
+            
+            <div type="description" n="bibliography" lang="eng">
+                <head>Bibliography</head>
+                <list >
+                    <item><bibl>van Thiel, H. 1996. <title>Homeri Ilias</title> Hildesheim: Olms.</bibl></item>
+                    <item><bibl>West, S. 1967. <title>The Ptolemaic Papyri of Homer, Papyrologica Coloniensia III</title> Köln and Opladen.</bibl></item>
+                </list>
+            </div>
+            
+            <div type="description" n="catalogues" lang="eng">
+                <head>Catalogue entries</head>
+                <list>
+                    <item>Mertens-Pack 1185 </item>
+                    <item>LDAB 2381 </item>
+                    <item>Allen-Sutton-West  h59 (formerly p317)</item>
+                    <item>P.Strasb. inv. G 2374 </item>
+                </list>
+            </div>
+
+           
+            <div type="edition" n="text">    
+                <head lang="eng">Iliad h59</head>
+                <div n="6" type="book">                                      
+                    <l n="448">e)/ssetai h)=mar, o(/t' a)/n pot' o)lwle/<unclear>h</unclear><supplied reason="lost">i *)/i</supplied><unclear>l</unclear><supplied reason="lost">ios i(rh\ </supplied></l>
+                    <l n="449">kai\ *pri/amos kai\ lao\s e)umme<unclear>l</unclear>i/w  <supplied reason="lost">*pria/moio.</supplied></l>
+                    <l n="450">a)ll' ou)/ moi *trw/wn <del>a)/lgos</del><add place="supralinear" n="correction">to/sson</add> me/lei <add place="supralinear" n="correction">a)/lg</add><sic>os</sic> <supplied reason="lost">o)pi/ssw, </supplied></l>
+                    <l n="451">ou)/t' au)th=s *(eka/bhs ou)/<unclear>te</unclear> *pr<unclear>ia/</unclear>mo<unclear>i</unclear><supplied reason="lost">o a)/naktos </supplied></l>
+                    <l n="452">ou)/te kasignh/twn, oi(/ ken pol<unclear>e/e</unclear>s <unclear>t</unclear><supplied reason="lost">e kai\ e)sqloi\ </supplied></l>
+                    <l n="453">e)<sic corr="n">g</sic> koni/h|si pe/swsen u(p' a)ndra/s<supplied reason="lost">i dusmene/essin,  </supplied></l>
+                    <l n="454">w(s se/qe<unclear>n</unclear>, o(ppo/<del>s</del><add place="supralinear" n="correction">t</add>e ke/n tis <unclear>*)ax</unclear>aiw=n x<supplied reason="lost">alkoxitw/nwn </supplied></l>    
+                    <l n="455">dakru<unclear>o/</unclear>essan a)/ghtai e)leu/qero<supplied reason="lost">n h)=mar a)pou/ras. </supplied></l>
+
+                </div>
+            
+            
+          
+            
+            
+            </div>
+        </body>
+        
+    </text>
+</TEI.2>
+

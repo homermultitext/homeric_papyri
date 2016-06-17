@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" "tei-epidoc.dtd" [
+<!ENTITY % TEI.prose 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE' >
+<!ENTITY % TEI.linking 'INCLUDE' >
+<!ENTITY % TEI.certainty 'INCLUDE' >
+<!ENTITY % TEI.figures 'INCLUDE' >
+<!ENTITY % TEI.names.dates 'INCLUDE' >
+<!ENTITY % TEI.transcr 'INCLUDE' >
+<!ENTITY % TEI.textcrit 'INCLUDE' >
+<!ENTITY % TEI.XML 'INCLUDE'>
+<!ENTITY % ISOlat1 SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-lat1.ent'>
+%ISOlat1;
+<!ENTITY % ISOlat2 SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-lat2.ent'>
+%ISOlat2;
+<!ENTITY % ISOnum SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-num.ent'>
+%ISOnum;
+<!ENTITY % ISOpub SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-pub.ent'>
+%ISOpub;
+]>
+<TEI.2>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Iliad P 609 (P. Mich. 6972)</title>
+                <editor><name id="al">Alexander Loney</name></editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>A new edition, with semantic markup, punctuation, accentuation, emendation, and notes.</edition>
+                <respStmt>
+                    <name>Alexander Loney, ed.</name>
+                    <resp>after the edition of</resp>
+                    <name id="aedwards">Edwards, A.T. <title>" P. Mich, 6972: An Eccentric Papyrus of Iliad K 421-34, 445-60," ZPE</title> 56 (1984), 11-15.</name> 
+                        
+                </respStmt>
+                
+            </editionStmt>
+            <extent>under 1Mb</extent>
+            <publicationStmt>
+                <publisher>
+                    The Center for Hellenic Studies of Harvard University
+                </publisher>
+                <authority>
+                    <name>Casey Dué and Mary Ebbott, edd.</name>
+                </authority>
+            </publicationStmt>
+            <sourceDesc>
+                <p>File created electronically.</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language id="eng">English</language>
+                <language id="lat">Latin</language>
+                <language id="grc">Greek</language>
+                <language id="xgrc">Transliterated Greek</language>
+                <language id="deu">German</language>
+                <language id="fra">French</language>
+            </langUsage>
+           </profileDesc>
+        <revisionDesc>
+            <change>
+                <date>August 1, 2 2007</date>
+                <respStmt>
+                    <name>Alexander Loney</name>
+                    <resp>markup</resp>
+                </respStmt>
+                <item>Initial XML markup.</item>
+            </change>
+            <change>
+                <date>August 4, 2007</date>
+                <respStmt>
+                    <name id="bh">Bart Huelsenbeck</name>
+                    <resp>markup</resp>
+                </respStmt>
+                <item>review and error-check.</item>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text lang="grc">
+        <body>
+            
+            <div type="description" n="date" lang="eng">
+                <head>Date</head>
+                <p>2nd century BC (<bibl>Edwards, 11</bibl>)</p>
+            </div>
+            <div type="description" n="provenance" lang="eng">
+                <head>Provenance</head>
+                <p>Egypt, unknown</p>
+            </div>
+            <div type="description" n="bibliography" lang="eng">
+                <head>Bibliography</head>
+                <list >
+                    <item><bibl>van Thiel, H. 1996. <title>Homeri Ilias.</title> Hildesheim: Olms.</bibl></item>
+                    <item><bibl>Edwards, A.T. 1984. <title>" P. Mich, 6972: An Eccentric Papyrus of Iliad K 421-34, 445-60," ZPE 56,</title> 11-15.</bibl></item>
+                    <item><bibl>Photograph from Institut de Papyrologie de la Sorbonne: http://www.papyrologie.paris4.sorbonne.fr/photos/1020830.jpg</bibl></item>
+                </list>
+            </div>
+            <div type="description" n="catalogues" lang="eng">
+                <head>Catalogue entries</head>
+                <list>
+                    <item>Mertens-Pack 864.1</item>
+                    <item>LDAB 2350</item>
+                    <item>Allen-Sutton-West p609</item>
+                </list>
+            </div>
+            <div type="edition" n="text">
+                
+                
+                
+                <head lang="eng">Iliad P 609</head>
+                
+                <div n="10" type="book">
+                      <div n="1" type="frag">
+                      <div n="1" type="col">
+                          <l n="421"><supplied reason="lost">eu(/dousi, *trwsi\n</supplied> g<unclear>a\r e)</unclear>pitrwpw=si fula/ssein: </l>
+                          <l n="422"><supplied reason="lost">ou) ga/r sfin pa</supplied><unclear>i=de</unclear><supplied reason="lost">s</supplied><unclear> sxed</unclear>o\n ei(/atai ou)de\ gunai=kes." </l>
+                          <l n="423"><supplied reason="lost">to\n d' h)mei/bet'</supplied><unclear> e)/</unclear><supplied reason="lost">pei</supplied><unclear>t</unclear>a polu/tas *)odusseu/s: </l>
+                          <l n="424"><supplied reason="lost">"pw=s ga\r nu=n, *trw/</supplied><unclear>e</unclear>ss<unclear>i m</unclear>em<sic corr="">e</sic>igme/noi i(ppoda/moisin </l>
+                          <l n="425"><supplied reason="lost">eu(/dous' h)= a)pa/neuqe; to/ mo</supplied>i nhmerte\s e)/nispe." <note lang="eng" resp="al">The supplement here is L. Koenen's (<bibl>Edwards 1984, 13</bibl>).</note></l>
+                          <l n="426"><supplied reason="lost">to\n d' h)mei/bet' e)/peita *do/</supplied>lwn kata\ dakru<supplied reason="lost">o</supplied><unclear>n</unclear><supplied reason="lost">ei)/bwn: </supplied></l>
+                          <l n="427"><supplied reason="lost">"toiga\r e)gw\ kai\ tau=ta</supplied> ma/l' a)treke/ws katal<supplied reason="lost">e/</supplied>cw. </l>
+                          <l n="428"><supplied reason="lost">pro\s me\n a(lo\s *ka=res k</supplied>ai\ *pai/ones a)gkulo/tocoi </l>
+                          <l n="429"><supplied reason="lost">kai\ *le/leges kai\ *kau/k</supplied>wnes di=oi/ te *pelasgoi/, </l>
+                          <l n="430"><supplied reason="lost">pro\s *qu/mbrhs d' e)/laxo</supplied>n *lu/kioi *musoi/ t' a)ge/rwxoi </l>
+                          <l n="431"><supplied reason="lost">kai\ *fru/ges i(ppo/maxo</supplied><unclear>i</unclear><supplied reason="lost"> k</supplied>ai\ *mh/<sic corr="|"/>ones i(ppokorustai/. </l>
+                          <l n="432"><supplied reason="lost">a)lla\ ti/h e)me\ tau=ta di</supplied><unclear>e</unclear>cere/<unclear>e</unclear>sqe e(/kasta; </l>
+                          <l n="433"><gap reason="lost"/><unclear>o(</unclear>rma=tai fi/lon h)=tor </l>
+                          <l n="433a"><gap reason="lost" unit="character" extent="16-18"/>du=na<unclear>i</unclear><gap reason="lost" unit="character" extent="1"/><unclear>i</unclear><note lang="eng" resp="al">Edwards suggests that "<foreign lang="grc">dunai<sic>ai</sic></foreign>" was written here, with the second "<foreign lang="grc">ai</foreign>" erroneously written due to dittography.</note> strato\n e)ggu\s <supplied reason="lost">e)o/nt</supplied>wn, </l>
+                          <l n="434"><supplied reason="lost">*qrh/ikes oi(=d' a)pa/neuqe neh/</supplied>ludes, e)/sxatoi a)/llwn: </l>
+                      </div>
+                          
+                          <div n="2" type="col">
+                          <l n="445">h)/ r(a kat' ai)=<unclear>sa</unclear>n <unclear>e)/e</unclear><supplied reason="lost">ipon e)n u(mi=n, h)=e kai\ ou)ki/." </supplied></l>
+                          <l n="446">to\n d' a)/r' u(po/dra <supplied reason="lost">i)dw\n prose/fh kratero\s *diomh/dhs: </supplied></l>
+                          <l n="447">"mh\ dh/ moi fu/c<unclear>in </unclear><supplied reason="lost">ge, *do/lwn, e)mba/lleo qumw=|, </supplied></l>
+                          <l n="448">e)s<sic/>la/ per a)gge/ll<supplied reason="lost">wn, e)pei\ i(/keo xei=ras e)s a)ma/s. </supplied></l>
+                          <l n="449">h)\<sic corr="n">m</sic> me\<sic corr="n">g</sic> ga/r ke/ se n<supplied reason="lost">u=n a)polu/somen h)e\ meqw=men, </supplied></l>
+                          <l n="450">h)= te kai\ u(/steron e<supplied reason="lost">i)=sqa qoa\s e)pi\ nh=as *)axaiw=n </supplied></l>
+                          <l n="451">h)e\ dioyo/menos h)\ e)<supplied reason="lost">nanti/bion polemi/cwn: </supplied></l>
+                          <l n="452">h)\n de/ k' e)mh=|s u(po\ x<supplied reason="lost">ersi\ damei\s a)po\ qumo\n o)le/sshs, </supplied></l>
+                          <l n="453">ou)ke/t' e)/peita su\ ph=<supplied reason="lost">ma/ pot' e)/sseai *)argei/oisin." </supplied></l>
+                          <l n="454">h)=, kai\ o(\ me/<sic corr="n">m</sic> min e)/me<supplied reason="lost">lle genei/ou xeiri\ paxei/h| </supplied></l>
+                          <l n="455">a(ya/menos li/sses<unclear>q</unclear><supplied reason="lost">ai, o(\ d' au)xe/na me/sson e)/lasse </supplied></l>
+                          <l n="456">fasga/nw| a)i/cas, a)<unclear>p</unclear><supplied reason="lost">o\ d' a)/mfw ke/rse te/nonte: </supplied></l>
+                          <l n="457">fqeggome/nou d' <supplied reason="lost">a)/r</supplied><unclear>a </unclear><supplied reason="lost">tou= ge ka/rh koni/h|sin e)mi/xqh. </supplied></l>
+                          <l n="458"><note lang="eng" resp="al">This line is indented about 3 and 1/2 characters to accommodate the length of 433b.</note><unclear>t</unclear>ou= d' a)po\ me\n kt<supplied reason="lost">ide/hn kune/hn kefalh=fin e(/lonto </supplied></l>
+                          <l n="459"><unclear>kai\</unclear> luke/hn kai\ to/ca <supplied reason="lost">pali/ntona kai\ do/ru makro/n: </supplied></l>
+                          <l n="460"><supplied reason="lost">kai\ ta/</supplied><unclear> g' *)a</unclear><supplied reason="lost">qh</supplied>nai/h<sic corr="|"/> lh<unclear>i/+</unclear><supplied reason="lost">tidi di=os *)odusseu\s </supplied></l>
+                         </div>
+                          
+                          
+                      </div>
+                </div>
+                </div>
+                
+            </body>
+              
+        
+    </text>
+</TEI.2>
+    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                   

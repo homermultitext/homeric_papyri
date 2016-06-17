@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" "tei-epidoc.dtd" [
+<!ENTITY % TEI.prose 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE' >
+<!ENTITY % TEI.linking 'INCLUDE' >
+<!ENTITY % TEI.certainty 'INCLUDE' >
+<!ENTITY % TEI.figures 'INCLUDE' >
+<!ENTITY % TEI.names.dates 'INCLUDE' >
+<!ENTITY % TEI.transcr 'INCLUDE' >
+<!ENTITY % TEI.textcrit 'INCLUDE' >
+<!ENTITY % TEI.XML 'INCLUDE'>
+<!ENTITY % ISOlat1 SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-lat1.ent'>
+%ISOlat1;
+<!ENTITY % ISOlat2 SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-lat2.ent'>
+%ISOlat2;
+<!ENTITY % ISOnum SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-num.ent'>
+%ISOnum;
+<!ENTITY % ISOpub SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-pub.ent'>
+%ISOpub;
+]>
+<TEI.2>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Iliad P 514</title>
+                <editor><name id="al">Alexander Loney</name></editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>A new edition, with semantic markup, punctuation, accentuation, emendation, and notes.</edition>
+                <respStmt>
+                    <name>Alexander Loney, ed.</name>
+                    <resp>after the edition of</resp>
+                    <name id="manf">Hohti, P. <title>P. Oxy. Hels. 2.</title> p. 4.</name> 
+                  
+                        
+                </respStmt>
+                
+            </editionStmt>
+            <extent>under 1Mb</extent>
+            <publicationStmt>
+                <publisher>
+                    The Center for Hellenic Studies of Harvard University
+                </publisher>
+                <authority>
+                    <name>Casey Dué and Mary Ebbott, edd.</name>
+                </authority>
+            </publicationStmt>
+            <sourceDesc>
+                <p>File created electronically.</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language id="eng">English</language>
+                <language id="lat">Latin</language>
+                <language id="grc">Greek</language>
+                <language id="xgrc">Transliterated Greek</language>
+                <language id="deu">German</language>
+                <language id="fra">French</language>
+            </langUsage>
+            </profileDesc>
+        <revisionDesc>
+            <change>
+                <date>July 21, 2009</date>
+                <respStmt>
+                    <name>Alexander Loney</name>
+                    <resp>markup</resp>
+                </respStmt>
+                <item>Initial XML markup.</item>
+                </change>
+        </revisionDesc>
+    </teiHeader>
+    <text lang="grc">
+        <body>
+            
+            <div type="description" n="date" lang="eng">
+                <head>Date</head>
+                <p>2nd cent. A.D. (<bibl>Hohti, 4</bibl>)</p>
+            </div>
+            <div type="description" n="provenance" lang="eng">
+                <head>Provenance</head>
+                <p>Oxyrhynchus (<bibl>Hohti, 4</bibl>)</p>
+            </div>
+            <div type="description" n="bibliography" lang="eng">
+                <head>Bibliography</head>
+                <list >
+                    <item><bibl>van Thiel, H. 1996. <title>Homeri Ilias.</title> Hildesheim: Olms.</bibl></item>
+                    <item><bibl>Hohti, P. 1979.<title>Commentationes Humanarum Litterarum 63: Fifty Oxyrhynchus Papyri (P. Oxy. Hels.), 2</title> Helsinki: Societas Scientiarum Fennica.</bibl></item>
+                       </list>
+            </div>
+            <div type="description" n="catalogues" lang="eng">
+                <head>Catalogue entries</head>
+                <list>
+                    <item>Mertens-Pack 560.1 </item>
+                    <item>LDAB 1675 </item>
+                    <item>Allen-Sutton-West p514 </item>
+                </list>
+            </div>
+            <div type="edition" n="text">
+                
+                
+                
+                <head lang="eng">Iliad P 514</head>
+                
+                <div n="1" type="book">
+                    <l n="1"><supplied reason="lost">mh=nin a)/eide, qea/, *phlhia/</supplied><unclear>dew *)axi</unclear><supplied reason="lost">lh=os</supplied> </l>
+                    <l n="2"><supplied reason="lost">ou)lome/nhn, h(\ muri/' *)axaioi=</supplied><unclear>s a)/l</unclear>ge' e)/q<unclear>h</unclear><supplied reason="lost">ke,</supplied> </l>
+                    <l n="3"><supplied reason="lost">polla\s d' i)fqi/mous yuxa\s *)a/id</supplied><unclear>i pr</unclear>oi/+<add place="supralinear" n="punctuation">#80</add><note lang="eng">A diaeresis is visible here.</note>aye<supplied reason="lost">n</supplied> </l>
+                    <l n="4"><supplied reason="lost">h(rw/wn, au)tou\s de\ e(lw/ria teu=</supplied>xe ku/nes<supplied reason="lost">sin,</supplied> </l>
+                    <l n="5"><supplied reason="lost">oi)wnoi=si/ te pa=si, *dio\s d' e)telei/e</supplied>to boulh/, </l>
+                    <l n="6"><supplied reason="lost">e)c ou(= dh\ ta\ prw=ta diasth/thn e)r</supplied><unclear>i/sa</unclear>n<unclear>t</unclear>e </l>
+                    <l n="7"><supplied reason="lost">*)atrei/dhs te a)/nac a)ndrw=n kai\ di=o</supplied>s *)axilleu/<unclear>s.</unclear> </l>
+                    <l n="8"><supplied reason="lost">ti/s t' a)/r sfwe qew=n e)/ridi cune/hke</supplied><unclear> m</unclear>a/xe<unclear>s</unclear>qa<supplied reason="lost">i;</supplied> </l>
+                    <l n="9"><supplied reason="lost">*lhtou=s kai\ *dio\s ui(o/s: o(\ ga\r basilh=i+</supplied> xolwqei\<supplied reason="lost">s</supplied> </l>
+                    <l n="10"><supplied reason="lost">nou=son a)na\ strato\n w)/rse kakh/n,</supplied> o)le/<sic>s</sic>onto <supplied reason="lost">de\ laoi/,</supplied> </l>
+                    <l n="11"><supplied reason="lost">ou(/neka to\n *xru/shn h)ti/masen a)r</supplied><unclear>h</unclear>th=ra </l>
+                    <l n="12"><supplied reason="lost">*)atrei/dhs. o(\ ga\r h)=lqe qoa\s e)pi\ nh=a</supplied><unclear>s</unclear> *)axaiw=n </l>
+                    <l n="13"><supplied reason="lost">luso/meno/s te qu/gatra fe/rwn t' a)p</supplied>erei/si' a)/p<unclear>o</unclear><supplied reason="lost">ina,</supplied> </l>
+                    <l n="14"><supplied reason="lost">ste/mmat' e)/xwn e)n xersi\n e(khbo/l</supplied><unclear>o</unclear>u *)apo/ll<supplied reason="lost">wnos</supplied> </l>
+                    <l n="15"><supplied reason="lost">xruse/w| a)na\ skh/ptrw|, kai\ e)li/sset</supplied>o pa/nt<unclear>a</unclear><supplied reason="lost">s *)axaiou/s,</supplied> </l>
+                    <l n="16"><supplied reason="lost">*)atrei/da de\ ma/lista du/w, kosmh/tor</supplied>e law=n: </l>
+                    <l n="17"><supplied reason="lost">"*)atrei=dai te kai\ a)/lloi e)uknh/mide</supplied>s *)axaioi/, </l>
+                    <l n="18"><supplied reason="lost">u(mi=n me\n qeoi\ doi=en *)olu/mpia dw/</supplied><unclear>m</unclear>at' e)/xon<supplied reason="lost">tes</supplied> </l>
+                    <l n="19"><supplied reason="lost">e)kpe/rsai *pria/moio po/lin, eu)= d' oi)/k</supplied>ad'<add place="inline" n="punctuation">#81</add><note lang="eng">An apostrophe is visible here.</note> i(ke/sqa<supplied reason="lost">i:</supplied> </l>
+                    <l n="20"><supplied reason="lost">pai=da d' e)moi\ lu/saite fi/lhn, ta\ d' a)/p</supplied><unclear>o</unclear>ina de/x<supplied reason="lost">esqai,</supplied> </l>
+                    <l n="21"><supplied reason="lost">a(zo/menoi *dio\s ui(o\n e(khbo/lon *)apo/l</supplied><unclear>l</unclear>wna." </l>
+                    <l n="22"><supplied reason="lost">e)/nq' a)/lloi me\n pa/ntes e)peufh/mhsa</supplied><unclear>n</unclear> *)axaioi\ </l>
+                    <gap reason="lost" extent="?" unit="line"/>
+                    
+                </div>
+            </div>
+            
+                          
+            </body>
+              
+        
+    </text>
+</TEI.2>
+    
+                    
+                    
+                   

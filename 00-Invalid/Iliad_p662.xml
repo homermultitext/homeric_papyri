@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" "tei-epidoc.dtd" [
+<!ENTITY % TEI.prose 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE' >
+<!ENTITY % TEI.linking 'INCLUDE' >
+<!ENTITY % TEI.certainty 'INCLUDE' >
+<!ENTITY % TEI.figures 'INCLUDE' >
+<!ENTITY % TEI.names.dates 'INCLUDE' >
+<!ENTITY % TEI.transcr 'INCLUDE' >
+<!ENTITY % TEI.textcrit 'INCLUDE' >
+<!ENTITY % TEI.XML 'INCLUDE'>
+<!ENTITY % ISOlat1 SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-lat1.ent'>
+%ISOlat1;
+<!ENTITY % ISOlat2 SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-lat2.ent'>
+%ISOlat2;
+<!ENTITY % ISOnum SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-num.ent'>
+%ISOnum;
+<!ENTITY % ISOpub SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-pub.ent'>
+%ISOpub;
+]>
+<TEI.2>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Iliad P 662 (P. Strasb. inv. Gr. 2344.1-5, formerly Snell 46)</title>
+                <editor><name id="al">Alexander Loney</name></editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>A new edition, with semantic markup, punctuation, accentuation, emendation, and notes.</edition>
+                <respStmt>
+                    <name>Alexander Loney, ed.</name>
+                    <resp>after the edition of</resp>
+                    <name id="huys">Huys, M.<title>"Euripides, Alexandros fr. 46 Snell unmasked as Ilias T 325-329," ZPE</title> 79 (1989), 261-5.</name> 
+                        
+                </respStmt>
+                
+            </editionStmt>
+            <extent>under 1Mb</extent>
+            <publicationStmt>
+                <publisher>
+                    The Center for Hellenic Studies of Harvard University
+                </publisher>
+                <authority>
+                    <name>Casey Dué and Mary Ebbott, edd.</name>
+                </authority>
+            </publicationStmt>
+            <sourceDesc>
+                <p>File created electronically.</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language id="eng">English</language>
+                <language id="lat">Latin</language>
+                <language id="grc">Greek</language>
+                <language id="xgrc">Transliterated Greek</language>
+                <language id="deu">German</language>
+                <language id="fra">French</language>
+            </langUsage>
+            </profileDesc>
+        <revisionDesc>
+            <change>
+                <date>July 27, 2007</date>
+                <respStmt>
+                    <name>Alexander Loney</name>
+                    <resp>markup</resp>
+                </respStmt>
+                <item>Initial XML markup.</item>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text lang="grc">
+        <body>
+            
+            <div type="description" n="date" lang="eng">
+                <head>Date</head>
+                <p>Mid 3rd century BCE (<bibl>Huys, 262</bibl>)</p>
+            </div>
+            <div type="description" n="provenance" lang="eng">
+                <head>Provenance</head>
+                <p>unknown (<bibl>Huys, 262</bibl>)</p>
+            </div>
+            <div type="description" n="bibliography" lang="eng">
+                <head>Bibliography</head>
+                <list >
+                    <item><bibl>van Thiel, H. 1996. <title>Homeri Ilias.</title> Hildesheim: Olms.</bibl></item>
+                    <item><bibl>Huys, M. 1989.<title>"Euripides, Alexandros fr. 46 Snell unmasked as Ilias T 325-329," ZPE 79,</title> 261-5.</bibl></item>   
+                </list>
+            </div>
+            <div type="description" n="catalogues" lang="eng">
+                <head>Catalogue entries</head>
+                <list>
+                    <item>Mertens-Pack 967.01, formerly 432 </item>
+                    <item>LDAB 2395, formerly 7117 </item>
+                    <item>Allen-Sutton-West p662</item>
+                </list>
+            </div>
+            <div type="edition" n="text">
+                
+                
+                
+                <head lang="eng">Iliad P 662</head>
+                
+                <div n="19" type="book">
+                      <div n="1" type="frag">
+                          <gap reason="lost" unit="line" extent="?"/>
+                          <l n="325"><supplied reason="lost">ei(/neka r(</supplied><unclear>ig</unclear><supplied reason="lost">edanh=s *(ele/nhs *trwsi\n polemi/zw: </supplied></l>
+                          <l n="326">h)\ to\n o(\s e)n <unclear>oi</unclear><note lang="eng" resp="al">Huys (<bibl>1989: 264</bibl>) thinks a reading of "<foreign lang="grc"><unclear>sk</unclear></foreign> cannot be ruled out.</note><gap reason="lost"/><note lang="eng" resp="al">Huys (<bibl>1989: 264</bibl>) suggests "<foreign lang="grc">h)\ to\n o(\s e)n <unclear>oi)/</unclear><supplied reason="lost">kw| tre/fetai</supplied><gap reason="lost"/><supplied reason="lost">fi/los ui(io/s,</supplied></foreign>" as a possible line (cf. P.Berol. 13930 (= Pack2 1203), l. 11).</note></l>
+                          <l n="327">ei)/ pou e)/ti z<unclear>w/</unclear><supplied reason="lost">ei ge *neopto/lemos qeoeidh/s. </supplied></l>
+                          <l n="328">pri\<sic corr="n">m</sic> me\<sic corr="n">g</sic> g<supplied reason="lost">a/r moi qumo\s e)ni\ sth/qessin e)w/lpei </supplied></l>
+                          <l n="329"><supplied reason="lost">oi)=o</supplied>n e)<supplied reason="lost">me\</supplied> f<supplied reason="lost">qi/sesqai a)p' *)a/rgeos i(ppobo/toio </supplied></l>
+                          <gap reason="lost" unit="line" extent="?"/>
+                      </div>
+                </div>
+                </div>
+            </body>
+              
+        
+    </text>
+</TEI.2>
+    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                   

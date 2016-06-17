@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI.2>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Iliad Allen-Sutton-West P37</title>
+                <editor id="bh">Bart Huelsenbeck</editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>A new edition, with semantic markup, punctuation, accentuation, emendation, and notes.</edition>
+                <respStmt>
+                    <name>Bart Huelsenbeck, ed.</name>
+                    <resp>after the edition of</resp>
+
+                    <name id="GHS">Bernard P. Grenfell, Arthur S. Hunt, J. Gilbart Smyly<title>The Tebtunis Papyri</title> pp. 12-17 </name>        
+                </respStmt>
+            </editionStmt>
+
+            <extent>under 1Mb</extent>
+            <publicationStmt>
+                <publisher>
+                    The Center for Hellenic Studies of Harvard University
+                </publisher>
+                <authority>
+                    <name>Casey Dué and Mary Ebbott, edd.</name>
+                </authority>
+            </publicationStmt>
+            <sourceDesc>
+                <p>File created electronically.</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language id="eng">English</language>
+                <language id="lat">Latin</language>
+                <language id="grc">Greek</language>
+                <language id="xgrc">Transliterated Greek</language>
+                <language id="deu">German</language>
+                <language id="fra">French</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change>
+                <date>22 Nov 2007</date>
+                <respStmt>
+                    <name>Bart Huelsenbeck</name>
+                    <resp>markup</resp>
+                </respStmt>
+                <item>Initial XML markup.</item>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text lang="grc">
+        <body>
+            <div type="description" n="date" lang="eng">
+                <head>Date</head>
+                <p>Late second century B.C. (<bibl>Grenfell, Hunt, Smyly, 12</bibl>)</p>
+            </div>
+            <div type="description" n="provenance" lang="eng">
+                <head>Provenance</head>
+                <p>Egypt (<bibl>Grenfell, Hunt, Smyly, 12</bibl>)</p>
+            </div>
+
+            <div type="description" n="bibliography" lang="eng">
+                <head>Bibliography</head>
+                <list >
+                    <item><bibl>van Thiel, H. 1996. <title>Homeri Ilias</title> Hildesheim: Olms.</bibl></item>
+                    <item><bibl>Grenfell, Bernard P.; Hunt, Arthur S.; Smyly, J. Gilbart<title>The Tebtunis Papyri</title> vol. I pp. 12-17</bibl></item>
+                </list>
+            </div>
+            <div type="description" n="catalogues" lang="eng">
+                <head>Catalogue entries</head>
+                <list>
+                    <item>Mertens-Pack 632 </item>
+                    <item>Allen-Sutton-West  P 37</item>
+                    <item>P. Tebt. 1.4 </item>
+                </list>
+            </div>
+
+
+            <div type="edition" n="text">
+                <head lang="eng">Iliad P37</head>
+                <div n="2" type="book">                                
+                  <div n="1" type="column">
+                      <l n="95"><supplied reason="lost">tetrh/xei d' a)gorh/, u(po\ de\ stenaxi/zeto g</supplied>ai=a </l>
+                      <l n="96"><supplied reason="lost">law=n i(zo/ntwn, o(/mados d' h)=n: e)nne/a de/ sfe</supplied>as </l>
+                      <l n="97"><supplied reason="lost">kh/rukes boo/wntes e)rh/tuon, ei)/ pot' a)u</supplied>th=s </l>
+                      <l n="98"><supplied reason="lost">sxoi/at', a)kou/seian de\ dio</supplied>tref<supplied reason="lost">e/</supplied>wn <supplied reason="lost">basilh/w</supplied>n: </l>
+                      <l n="99"><supplied reason="lost">spoudh=| d' e(/zeto lao/s,</supplied> e)rh/tuqen <supplied reason="lost">d</supplied>e\ kaq' e(/dras </l>
+                      <l n="100"><supplied reason="lost">pausa/menoi klaggh=s.</supplied> a)na\ de\ krei/wn *)agame/mnw<supplied reason="lost">n</supplied> </l>
+                      <l n="101"><supplied reason="lost">e)/sth skh=ptron e)/xwn. to\ me\n</supplied> *(/hfaistos ka/me teu/xwn: </l>
+                      <l n="102"><supplied reason="lost">*(/hfaistos me\n dw=ke *dii\ *kroni/wni a)/</supplied><unclear>nak</unclear><supplied reason="lost">t</supplied>i, </l>
+                      <l n="103"><supplied reason="lost">au)ta\r a)/ra *zeu\s dw=ke diakto/rw| a)rg</supplied>ei+fo/nt<supplied reason="lost">h|:</supplied> </l>
+                      <l n="104"><supplied reason="lost">*(ermei/as de\ a)/nac dw=ken *pe/lopi plhc</supplied>i/pp<supplied reason="lost">w|,</supplied> </l>
+                      <l n="105"><supplied reason="lost">au)ta\r o(\ au)=te *pe/loy dw=k' *)atre/i poime/</supplied>ni law=n: </l>
+                      <l n="106"><supplied reason="lost">*)atreu\s de\ qnh/skwn e)/lipen polu/ar</supplied>ni *qu<supplied reason="lost">e/s</supplied>th|, </l>
+                      <l n="107"><supplied reason="lost">au)ta\r o(\ au)=te *que/st' *)agame/mnoni lei=</supplied>pe forh=nai, </l>
+                      <gap reason="lost" unit="line" extent="1"/>    
+                      <l n="109"><supplied reason="lost">tw=| o(/ g' e)reisa/menos e)/pe' *)argei/oisi methu/d</supplied>a: </l>
+                      <gap reason="lost" unit="line" extent="2"/>
+                      <l n="112"><supplied reason="lost">sxe/tlios, o(\s pri\n me/n moi u(pe/sxeto kai\ kate/</supplied><unclear>neuse</unclear><supplied reason="lost">n</supplied> </l>
+                      <gap reason="lost" unit="line" extent="1"/>
+                      <l n="114"><supplied reason="lost">nu=n de\ kakh\n a)pa/thn bouleu/sa</supplied>to, kai/ me ke<supplied reason="lost">leu/ei</supplied> </l>
+                      <l n="115"><supplied reason="lost">duskle/a *)a/rgos i(ke/sqai, e)pei\ polu\</supplied>n w)/lesa l<supplied reason="lost">ao/n.</supplied> </l>
+                      <gap reason="lost" extent="?"/>
+                  </div>
+
+                    <div n="2" type="column">
+                        <l n="121">a)/prhkton <supplied reason="lost">po/l</supplied>emon pole<supplied reason="lost">mi/</supplied>zein h)de\ ma/xesqai </l>
+                        <l n="122">a)ndra/si paur<supplied reason="lost">o</supplied>te/roisi, <supplied reason="lost">te/los d' o</supplied>u)/ pw/ ti pe/fantai. </l>
+                        <l n="123">ei)/ per ga/r k' e)q<supplied reason="lost">e/loimen *)axaioi/ te</supplied> *trw=e/s te </l>
+                        <l n="124"><add place="left" n="ancient editorial sign">#12</add><note resp="bh" lang="eng">An obelos appears against this line.</note>o(/rkia pista\ ta<supplied reason="lost">mo/ntes a)riqmh</supplied>qh/menai a)/mfw, </l>
+                        <l n="125">*trw=as me\n le/c<supplied reason="lost">asqai e)fe/stioi o(/</supplied>ssoi e)/asin, </l>
+                        <l n="126">h(mei=s d' e)s de<supplied reason="lost">ka/das diakosmhqei=m</supplied>en *)axaioi/, </l>
+                        <l n="127">*trw/wn d' a)/nd<supplied reason="lost">ra e(/kaston e(loi/me</supplied>qa oi)noxoeu/ein, </l>
+                        <l n="128">pollai/ ken d<supplied reason="lost">eka/des deuoi/ato</supplied> oi)noxo/oio. </l>
+                        <l n="129">to/sson e)gw\ <supplied reason="lost">fhmi\ ple/as e)/mm</supplied>enai ui(=as *)axaiw=n </l>
+                        <l n="130"><supplied reason="lost">*t</supplied>rw/wn, oi(\ <supplied reason="lost">n</supplied>ai/ou<supplied reason="lost">si kata\ pto/li</supplied>n: a)ll' e)pi/kour<unclear>oi</unclear> </l>
+                        <l n="131"><supplied reason="lost">p</supplied>olle/w<supplied reason="lost">n e)k poli/wn e)gxe/sp</supplied><unclear>a</unclear>lo<supplied reason="lost">i a)/</supplied>ndres e)/as<supplied reason="lost">in,</supplied> </l>
+                        <l n="132"><supplied reason="lost">oi(/</supplied> me kep<gap reason="lost" unit="character" extent="?"/> <supplied reason="lost">kai\ ou)k ei)w=s' e)qe/lo</supplied>n<unclear>ta</unclear> </l>
+
+
+
+                        <l n="133"><add place="left" n="ancient editorial sign">#12</add><note resp="bh" lang="eng">An obelos appears against this line.</note> <supplied reason="lost">*)ili/o</supplied>n<add n="scribal correction" place="supralinear">u</add><note lang="eng">The correction is probably the work of another scribe (<bibl>Grenfell, Hunt, Smyly, 16</bibl>)</note> e)kpe/<supplied reason="lost">rsai eu)= naio/menon ptoli/eq</supplied><unclear>ro</unclear>n. </l>
+                        <l n="134"><supplied reason="lost">e)nn</supplied>e/a dh\ b<supplied reason="lost">eba/asi *dio\s mega/lou e)niautoi\</supplied> </l>
+                        <l n="135"><supplied reason="lost">kai\ d</supplied>h\ d<supplied reason="lost">ou=ra se/shpe new=n kai\ spa/rta l</supplied>e/lunta<supplied reason="lost">i,</supplied> </l>
+                        <l n="136"><add place="left">pe<unclear>d</unclear><gap reason="lost" unit="character" extent="?"/></add><gap reason="lost" unit="line" extent="?"/></l>
+                        <l n="137"><supplied reason="lost">ei(/at' e)ni\ mega/rois poti</supplied>de/g<supplied reason="lost">men</supplied><gap reason="illegible" unit="character" extent="5?"/><note lang="eng">The traces cannot be reconciled with <foreign lang="grc">ai a)/mmi</foreign> or with the variant <foreign lang="grc">ui(=as</foreign>(<bibl>Grenfell, Hunt, Smyly, 16</bibl>)</note> <gap reason="lost" unit="character" extent="?"/> </l>
+                        <l n="138"><supplied reason="lost">au)/tws a)kra/anton, ou(= ei(/ne</supplied>ka d<supplied reason="lost">eu=r' i(</supplied>ko/<unclear>m</unclear>es<add place="supralinear" n="variant"><gap reason="illegible" unit="character" extent="2?"/><unclear>l</unclear><gap reason="lost" unit="character" extent="?"/></add><supplied reason="lost">q</supplied>a. </l>
+                        <l n="139"><supplied reason="lost">a)ll' a)/geq', w(s a)\n e)gw\ ei)/p</supplied>w pei<supplied reason="lost">qw/</supplied>meqa pa/ntes: </l>
+                        <l n="140"><supplied reason="lost">feu/gwmen su\n nhusi\ fi/lh</supplied>n e)<unclear>s</unclear> <supplied reason="lost">p</supplied>atri/da gai=an: <note place="right" lang="eng"><add place="right" n="ancient editorial signs">#13 #12</add></note>Asterisk and obelos appear in the right margin.  These apply to a lost line in the next column, perhaps line 164.</l>
+                        <l n="141"><supplied reason="lost">ou) ga\r e)/ti *troi/hn ai(rh/som</supplied>en eu)rua/guian." </l>
+                        <l n="142"><supplied reason="lost">w(\s fa/to, toi=si de\ qumo\n</supplied> e)ni\ st<supplied reason="lost">h/</supplied>qessin o)/<supplied reason="lost">ri</supplied>ne </l>
+                        <l n="143"><supplied reason="lost">pa=si meta\ plhqu/n, o(/so</supplied>i ou) boulh=s <supplied reason="lost">e)pa/kousan:</supplied> </l>
+                        <l n="144"><supplied reason="lost">kinh/qh d' a)gorh\ w(s ku/mat</supplied>a makr<supplied reason="lost">a\ qala/sshs,</supplied></l>
+                        <l n="145"><supplied reason="lost">po/ntou *)ikari/oio: ta\ me/n t' eu)=</supplied>ro/s te no/<supplied reason="lost">tos te</supplied> </l>
+                        <l n="146"><supplied reason="lost">w)/ror' e)pai/+cas patro\s *dio\s e)k</supplied> nefe<supplied reason="lost">la/wn.</supplied> </l>
+                    </div>
+
+                    <div n="3" type="column">
+                        <l n="147"><add place="left" n="ancient editorial sign">#17</add><note resp="bh" lang="eng">An oblique stroke appears against line.</note>w(s d' o(/te <supplied reason="lost">kinh/sh| *ze/furos baqu\ lh/ion e)lqw\n,</supplied> </l>
+                        <l n="148">la/bro<supplied reason="lost">s e)paigi/zwn,</supplied> <unclear>e)pi/ t' h)</unclear><supplied reason="lost">mu/ei a)staxu/essin,</supplied> </l>
+                        <l n="149">w(\s tw=<supplied reason="lost">n pa=s' a)gorh\ ki</supplied>nh/qh: toi\ <supplied reason="lost">d' a)lalhtw=|</supplied></l>
+                        <l n="150">nh=as e)<supplied reason="lost">pe</supplied>sseu/onto, podw=n d' u(<supplied reason="lost">pe/nerqe koni/h</supplied> </l>
+                        <l n="151"><supplied reason="lost">i(/</supplied>stat' a)eirome/nh: toi\ d' a)lh/lois<supplied reason="lost">i ke/</supplied><unclear>l</unclear><supplied reason="lost">euon</supplied> </l>
+                        <l n="152">a(/ptes<supplied reason="lost">q</supplied>ai nhw=n h)d' e(lke/men e<supplied reason="lost">i)s</supplied> <unclear>a(/</unclear><supplied reason="lost">la di=an,</supplied> </l>
+                        <l n="153">ou)rou/s t' <supplied reason="lost">e)c</supplied>eka/qair<supplied reason="lost">on: a)uth\ d' ou)rano\n i(=ken</supplied> </l>
+                        <l n="154">oi)/kade i(eme/nwn: u(po\ <supplied reason="lost">d' h(/r</supplied>eon e(/rm<unclear>a</unclear><supplied reason="lost">ta nhw=n.</supplied> </l>
+                        <l n="155">e)/nqa/ k<supplied reason="lost">e</supplied>n *)arge<supplied reason="lost">i/oisin u(pe/rmora</supplied> no/<supplied reason="lost">s</supplied>tos e)<supplied reason="lost">tu/xqh,</supplied> </l>
+
+                        <l n="156"><add place="left" n="ancient editorial sign">#14</add><note resp="bh" lang="eng">Only the top stroke and the upper dot of a diple periestigmene is preserved. (<bibl>Grenfell, Hunt, Smyly, 16</bibl>)</note>ei) mh\ *)aqhna<supplied reason="lost">i/hn *(/hrh pro\s mu=qon</supplied> e)/<supplied reason="lost">e</supplied>ipe<supplied reason="lost">n:</supplied> </l>
+                        <l n="157"><supplied reason="lost">"w)\</supplied>po/<supplied reason="lost">poi, ai)gio/xoio *dio\s te/kos *)atrutw/nh, </supplied></l>
+                        <gap reason="lost" extent="?"/>
+                    </div>
+
+
+                    <div n="4" type="column">
+                        <l n="172"><supplied reason="lost">a)gxou= d' i(stame/nh prose/</supplied><unclear>fh g</unclear>la<supplied reason="lost">u</supplied>kw=pis *)aqh/nh: </l>
+                        <l n="173"><supplied reason="lost">"diogene\s *laertia/d</supplied>h, polumh/xan *)odusseu=, </l>
+                        <l n="174"><supplied reason="lost">ou(/tw dh\ oi)=kon/de fi/l</supplied>hn e)s patri/da gai=an </l>
+                        <l n="175"><supplied reason="lost">feu/cesq' e)n nh/essi</supplied> poluklh/si peso/ntes; </l>
+                        <l n="176"><supplied reason="lost">ka\d de/ ken eu)xwlh\</supplied>n *pria/mw| kai\ *trwsi\ li/poite </l>
+                        <l n="177"><gap reason="lost" unit="character" extent="14?"/> *(ele/nhn, h(=s ei(/neka polloi\ *)axaiw=n </l>
+                        <l n="178"><supplied reason="lost">e)n *troi/h| a)po/lont</supplied>o fi/lhs a)po\ patri/dos ai)/hs. </l>
+                        <l n="179"><supplied reason="lost">a)ll' i)/qi nu=n kata\ lao\n</supplied> *)axaiw=n, mhde\ t' e)rw/ei, </l>
+                        <l n="180"><supplied reason="lost">soi=s d' a)ganoi=s e)pe/essi</supplied>n e)rh/tue fw=ta e(/kaston, </l>
+                        <l n="181"><supplied reason="lost">mhde\ e)/a nh=as a(/la d' e(l</supplied>ke/men a)mfieli/ssas." </l>
+                        <l n="182"><supplied reason="lost">w(\s fa/q', o(\ de\ cune/hk</supplied>e qea=s o)/pa fwnhsa/shs: </l>
+                        <l n="183"><supplied reason="lost">bh= de\ qe/ein, a)po\ de\ xl</supplied>ai=nan ba/le: th\n de\ ko/misse </l>
+                        <l n="184"><supplied reason="lost">kh=ruc *eu)ruba/ths *)iqa</supplied>kh/sios o(/s oi( o)ph/dei: <add place="right"><unclear>ka</unclear>tw</add><note lang="eng">The marginal note (perhaps by a different scribe) means that line 185, which is omitted, was inserted in the margin at the bottom (<bibl>Grenfell, Hunt, Smyly,16</bibl>)</note></l>
+                        <l n="186"><supplied reason="lost">de/cato/ oi( sk</supplied>h=ptr<unclear>on</unclear> patrw/io<supplied reason="lost">n, a)/fqiton ai)ei/:</supplied> </l>
+                        <l n="187"><supplied reason="lost">su\n tw=| e)/bh ka</supplied>ta\ nh=as *)axaiw=<supplied reason="lost">n xalkoxitw/nwn.</supplied> </l>
+                        <gap reason="lost" extent="?"/>
+                    </div>
+
+
+                    <div n="5" type="column">
+                        <l n="197"><add place="left" n="ancient editorial sign">#12</add><note resp="bh" lang="eng">An obelos appears against this line.</note>timh\ d' <supplied reason="lost">e)k *dio/s e)sti, filei= de/ e( mhti/eta *zeu/s."</supplied> </l>
+                        <l n="198"><add place="left" n="ancient editorial sign">#17</add><note resp="bh" lang="eng">An oblique stroke appears against line.</note>o(\n d' au)= <supplied reason="lost">dh/mou t' a)/ndra i)/doi boo/wnta/ t' e)feu/roi,</supplied> </l>
+                        <l n="199">to\n s<supplied reason="lost">kh/ptrw| e)la/sasken o(moklh/saske/ te mu/qw|:</supplied> </l>
+                        <l n="200"><note lang="eng">A stichometric sign in the left margin marks line 200.</note>"dai<supplied reason="lost">mo/ni', a)tre/mas h(=so kai\ a)/llwn mu=qon a)/koue,</supplied> </l>
+                        <l n="201">oi(\ s<unclear>e/</unclear><supplied reason="lost">o fe/rteroi/ ei)si, su\ d' a)pto/lemos kai\ a)/nalkis,</supplied> </l>
+                        <l n="202">ou)/<supplied reason="lost">te/ pot' e)n pole/mw| e)nari/qmios ou)/t' e)ni\ boulh=|:</supplied> </l>
+                        <gap reason="lost" unit="line" extent="1"/>
+                        <l n="204"><add place="left" n="ancient editorial sign">#10</add><note resp="bh" lang="eng">An antisigma appears against this line.</note><supplied reason="lost">ou)</supplied>k a)ga<supplied reason="lost">qo\n polukoirani/h: ei(=s koi/ranos e)/stw, </supplied></l>
+
+                        <l n="205"><unclear>ei(=s</unclear> basi<supplied reason="lost">leu/s, w(=| dw=ke *kro/nou pa/is a)gkulomh/tew</supplied> </l>
+                        <note lang="eng">Line 206 is omitted.</note>
+                        <l n="207"><add place="left" n="ancient editorial sign">#17</add><note resp="bh" lang="eng">An oblique stroke appears against line.</note>w(\s o(/ ge k<supplied reason="lost">oirane/wn di/epe strato/n: oi(\ d' a)gorh/nde</supplied> </l>
+                        <l n="208">au)=tis e)p<supplied reason="lost">esseu/onto new=n a)/po kai\ klisia/wn </supplied></l>
+                        <l n="209">h)xh=|, w(s <unclear>o(/</unclear><supplied reason="lost">te ku=ma polufloi/sboio qala/sshs</supplied> </l>
+                        <l n="210"><supplied reason="lost">ai)gi</supplied><unclear>alw=</unclear><supplied reason="lost">i mega/lw| bre/metai, smaragei= de/ te po/ntos.</supplied> </l>
+                        <gap reason="lost" extent="?"/>
+                    </div>
+
+            </div>
+
+</div>
+        </body>
+
+    </text>
+</TEI.2>
+
+
+
+
+
+
+
+
+

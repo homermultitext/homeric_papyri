@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI.2>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Iliad P 40 (P. Hibeh 1.19)</title>
+                <editor id="jm">Joseph Miller</editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>A new edition, with semantic markup, punctuation, accentuation, emendation, and notes</edition>
+                <respStmt>
+                    <name>Joseph Miller, ed.</name>
+                    <resp>after the edition of</resp>
+                    <name id="swest">West, S.<title>The Ptolemaic Papyri of Homer, Papyrologica Coloniensia III</title>pp. 40-58</name>            
+                </respStmt>
+                
+            </editionStmt>
+            <extent>under 1Mb</extent>
+            <publicationStmt>
+                <publisher>
+                    The Center for Hellenic Studies of Harvard University
+                </publisher>
+                <authority>
+                    <name>Casey Dué and Mary Ebbott, edd.</name>
+                </authority>
+            </publicationStmt>
+            <sourceDesc>
+                <p>File created electronically.</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language id="eng">English</language>
+                <language id="lat">Latin</language>
+                <language id="grc">Greek</language>
+                <language id="xgrc">Transliterated Greek</language>
+                <language id="deu">German</language>
+                <language id="fra">French</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change>
+                <date>June 7, 2007</date>
+                <respStmt>
+                    <name>Joseph Miller</name>
+                    <resp>markup</resp>
+                </respStmt>
+                <item>Initial XML markup.</item>
+            </change>
+            <change>
+                <date>June 22, 2007</date>
+                <respStmt>
+                    <name id="al">Alexander Loney</name>
+                    <resp>markup</resp>
+                </respStmt>
+                <item>general proof reading and fixing of conventions</item>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text lang="grc">
+        <body>
+            
+            <div type="description" n="date" lang="eng">
+                <head>Date</head>
+                <p>285-250 B.C. (<bibl>West, 40</bibl>)</p>
+            </div>
+            <div type="description" n="provenance" lang="eng">
+                <head>Provenance</head>
+                <p>Hibeh; mummy cartonnage (<bibl>West, 40</bibl>)</p>
+            </div>
+            <div type="description" n="bibliography" lang="eng">
+                <head>Bibliography</head>
+                <list >
+                    <item><bibl>van Thiel, H. 1996. <title>Homeri Ilias</title> Hildesheim: Olms.</bibl></item>
+                    <item><bibl>West, S. 1967. <title>The Ptolemaic Papyri of Homer, Papyrologica Coloniensia III</title> Köln: Opladen.</bibl></item>
+                </list>
+            </div>
+            <div type="description" n="catalogues" lang="eng">
+                <head>Catalogue entries</head>
+                <list>
+                    <item>Mertens-Pack 640</item>
+                    <item>LDAB 2343</item>
+                    <item>Allen-Sutton-West p040</item>
+                </list>
+            </div>
+            <div type="edition" n="text">
+                
+                
+                
+                <head lang="eng">Iliad P 40</head>
+                <div type="book" n="2">  
+                    <div type="frag" n="Frag. A">
+                    <gap reason="lost" unit="line" extent="?"/>
+                    <l n="174"><supplied reason="lost">ou(/tw dh\ oi)=ko/nde fi/lhn e)s patri/da ga</supplied><unclear>i=</unclear>an</l>
+                    <l n="175"><supplied reason="lost">feu/cesq', e)n nh/essi poluklh/i+si peso/n</supplied><unclear>t</unclear>es,</l>
+                    <l n="176"><supplied reason="lost">ka\d de/ ken eu)xwlh\n *pria/mw| kai\</supplied> *trwsi\ l<supplied reason="lost">i/poite</supplied></l>
+                    <l n="177"><supplied reason="lost">*)argei/hn *(ele/nhn, h(=s ei(/neka pollo</supplied><unclear>i\</unclear> *)axa<supplied reason="lost">iw=n</supplied></l>
+                    <l n="178"><supplied reason="lost">e)n *troi/hI a)po/lonto fi/lhs a)po\ pat</supplied><unclear>ri/</unclear>dos a<unclear>i)/h</unclear><supplied reason="lost">s.</supplied></l>
+                    <l n="179"><supplied reason="lost">a)ll' i)/qi nu=n kata\ lao\n *)axaiw=n mhd' e)/</supplied><unclear>t'</unclear> <supplied reason="lost">e)rw/ei:</supplied></l>
+                    <gap reason="lost" unit="line" extent="?"/>
+                    </div>
+                    
+                    <div type="frag" n="Frag. B">
+                    <gap reason="lost" unit="line" extent="?"/>
+                    <l n="204">ou)k a)gaqh\ <unclear>p</unclear><supplied reason="lost">olukoirani/h: ei(=s koi/ranos e)/stw,</supplied></l>
+                    <l n="205"><unclear>e</unclear>i(=s basileu/s, w(=| e)/<supplied reason="lost">dwke *kro/nou pai=s a)gkulomh/tew</supplied></l>
+                    <gap reason="lost" unit="line" extent="?"/>
+                     </div>
+                    
+                    <div type="frag" n="Frag. C 1">
+                    <gap reason="lost" unit="line" extent="?"/>
+                    <l n="621"><supplied reason="lost">ui(=es o(\ me\n *ktea/tou, o(\ d' a)/r' *eu)ru/tou *a)kt</supplied><unclear>ori/w</unclear>nos:</l>
+                    <l n="622"><gap reason="lost"/><supplied reason="lost">a)</supplied>mu/mwn</l>
+                    <l n="623"><supplied reason="lost">tw=n de\ teta/rtwn h)=rxe *polu/ceinos qeoe</supplied><unclear>i</unclear>dh/s</l>
+                    <gap reason="lost" unit="line" extent="?"/>
+                    </div>
+                    
+                    <div type="frag" n="Frag. C 2">
+                    <gap reason="lost" unit="line" extent="?"/>
+                    <l n="673"><supplied reason="lost">*nireu/s, o(\s ka/llistos a)nh\p</supplied>u(p<unclear>o\</unclear> <supplied reason="lost">*)/ilion h)=lqe</supplied></l>
+                    <l n="674"><supplied reason="lost">tw=n a)/llwn *danaw=n m</supplied>et' a)mu/<supplied reason="lost">mona *phlei/+wna:</supplied></l>
+                    <l n="675"><supplied reason="lost">a)ll' a)lapadno\s e)/hn, pa</supplied>u=<unclear>ros de/</unclear> oi( e(/s<unclear>p</unclear><supplied reason="lost">eto lao/s.</supplied></l>
+                    <l n="676"><supplied reason="lost">oi(\ d' a)/ra *ni/suro/</supplied><unclear>n</unclear> t' ei)=xo<supplied reason="lost">n *kra/</supplied>pa<unclear>q</unclear>o/<unclear>n</unclear> <supplied reason="lost">te *ka/son te</supplied></l>
+                    <l n="677"><supplied reason="lost">kai *kw=n *eu)r</supplied>upu/loio po/lin <supplied reason="lost">n</supplied><unclear>h/</unclear><supplied reason="lost">sous te *kalu/dnas,</supplied></l>
+                    <l n="678"><supplied reason="lost">tw=n au)= *fei/d</supplied>ipp<unclear>o/s</unclear> te kai\ *)/a<unclear>nt</unclear><supplied reason="lost">i</supplied><unclear>fo</unclear><supplied reason="lost">s h(ghsa/sqhn,</supplied></l>
+                    <l n="679"><supplied reason="lost">*qessalou= ui(=e du/</supplied><unclear>w</unclear> <supplied reason="lost">*(hra</supplied>klei/+dao <supplied reason="lost">a)/naktos:</supplied></l>
+                    <l n="680"><supplied reason="lost">toi=s de\ trih/konta glafurai\ ne/es e)s</supplied><unclear>t</unclear><supplied reason="lost">ix</supplied>o/<supplied reason="lost">wnto.</supplied></l>
+                    <gap reason="lost" unit="line" extent="?"/>
+                        </div>
+                    
+                    <div type="frag" n="Frag. D">
+                    <l n="715"><supplied reason="lost">*)/alkhstis, *peli/ao qug</supplied>at<unclear>rw=</unclear>n <supplied reason="lost">ei)=dos a)ri/s</supplied>th.</l>
+                    <l n="716"><supplied reason="lost">oi(\ d' a)/ra *mhqw/nhn ka</supplied>i\ *qaumaki/hn <unclear>e)ra</unclear>teinh\<unclear>n</unclear></l>
+                    <l n="717"><supplied reason="lost">kai\ *meli/boian e)/xon kai\ *)oli</supplied>zw=na trhxei=an,</l>
+                    <l n="718"><supplied reason="lost">tw=n de\ *filokth/ths h)=rxen to/cw</supplied>n e)u\+ <supplied reason="lost">e</supplied>i)dw/<supplied reason="lost">s,</supplied></l>
+                    <l n="719"><supplied reason="lost">e(pta\ new=n: e)re/tai d' e)n e(ka/sth| pe</supplied>n<supplied reason="lost">t</supplied>h/kont<unclear>a</unclear></l>
+                    <l n="720"><supplied reason="lost">e)mbe/basan, to/cwn eu)= ei)do/tes i)=fi ma/x</supplied>esq<add place="supralinear" n="variant reading"><gap reason="illegible" unit="character" extent="1"/>o<gap reason="illegible" unit="character" extent="1"/></add>a<supplied reason="lost">i.</supplied></l>
+                    <l n="721"><supplied reason="lost">a)ll' o(\ me\n e)n nh/sw| kei=to krate/r' a)/lge</supplied><unclear>a pa/</unclear><supplied reason="lost">s</supplied><unclear>x</unclear><supplied reason="lost">wn,</supplied></l>
+                    <l n="722"><supplied reason="lost">*lh/mnw| e)n h)gaqe/h|, o(/qi min li/pon u</supplied>i(=<supplied reason="lost">e</supplied><unclear>s *)a</unclear>x<supplied reason="lost">aiw=n</supplied></l>
+                    <l n="723"><supplied reason="lost">e(/lkei+ moxqi/zonta kakw=| o)loo/fronos </supplied>u(/drou:</l>
+                    <l n="724"><supplied reason="lost">e)/nq' o(/ ge kei=t' a)xe/wn: ta/xa de\ mn</supplied><unclear>h/</unclear>se<supplied reason="lost">sqai e)/mellon</supplied></l>
+                    <gap reason="lost" unit="line" extent="?"/>
+                        </div>
+                    
+                    <div type="frag" n="Frag. E">
+                    <gap reason="lost" unit="line" extent="?"/>
+                    <l n="794"><supplied reason="lost">de/gmenos o(ppo/</supplied><unclear>te na</unclear><supplied reason="lost">u=fin a)formhqei=en *)axaioi\</supplied></l>
+                    <l n="794a"><unclear>ei)s</unclear> pedi/on *trw/essi fo/no<sic corr="n">g</sic> ka<supplied reason="lost">i\ kh=ra fe/rontes.</supplied><note lang="eng" resp="jm">West cites Iliad 2.352, 3.6, Odyssey 4.273, and 9.513 as parallels for this supplement (<bibl>West, 48</bibl>).</note></l>
+                    <l n="795"><supplied reason="lost">tw=|</supplied> <unclear>min</unclear> a)/r' ei)dome/nh pro<supplied reason="lost">se/</supplied><unclear>f</unclear><supplied reason="lost">h po/das w)ke/a *)=iris:</supplied></l>
+                    <l n="796"><supplied reason="lost">"w)= ge/ron,</supplied> a<sic corr="i"/>)ei/ toi mu=qoi fi/<unclear>loi a)/</unclear><supplied reason="lost">kritoi/ ei)sin,</supplied></l>
+                    <l n="797"><supplied reason="lost">w(/s te/ po</supplied>te ei)rh/nh <note lang="eng" resp="jm">West confirms the correctness of Schwartz' reconstruction of the original reading here (<foreign lang="grc">w(/s te/ pot' ei)rh/nhs</foreign>), noting that the papyrus approaches it more closely than does the Vulgate (<bibl>West, 48-49</bibl>).</note>: po/lem<supplied reason="lost">os d' a)li/astos o)/rwren.</supplied></l>
+                    <l n="798"><supplied reason="lost">h)= me\n dh\</supplied> ma/la polla\ ma/<unclear>x</unclear><supplied reason="lost">as ei)sh/luqon a)ndrw=n,</supplied></l>
+                    <l n="799"><supplied reason="lost">a)ll' ou)/ pw</supplied> toio/nde toso/nde <supplied reason="lost">te lao\n o)/pwpa:</supplied></l>
+                    <l n="800"><supplied reason="lost">li/hn ga\r fu/lloisin e)oi</supplied>ko/<unclear>t</unclear><supplied reason="lost">es h)\ yama/qoisin</supplied></l>
+                    <gap reason="lost" unit="line" extent="?"/>
+                        </div>
+                    
+                    <div type="frag" n="Frag. F">
+                    <gap reason="lost" unit="line" extent="?"/>
+                    <l n="813"><unclear>t</unclear><supplied reason="lost">h\n h)/toi a)/ndres *bati/eian kiklh/skousin,</supplied></l>
+                    <l n="814">a)qa/n<supplied reason="lost">atoi de/ te sh=ma poluska/rqmoio *muri/nhs:</supplied></l>
+                    <l n="815">e)/nqa <supplied reason="lost">to/te *trw=e/s te die/kriqen h)d' e)pi/kouroi.</supplied></l>
+                    <l n="816">*trws<supplied reason="lost">i\ me\n h(gemo/neue me/gas koruqai/olos *(/ektwr</supplied></l>
+                    <l n="817"><supplied reason="lost">*p</supplied>riam<supplied reason="lost">i/dhs: a(/ma tw=| ge polu\ plei=stoi kai\ a)/ristoi</supplied></l>
+                    <gap reason="lost" unit="line" extent="?"/>
+                        </div>
+                    
+                    <div type="frag" n="Frag. G">
+                    <gap reason="lost" unit="line" extent="?"/>
+                    <l n="826"><supplied reason="lost">tw=n au)=</supplied><unclear>q'</unclear> h(gemo/ne<supplied reason="lost">ue *luka/onos a)glao\s ui(o/s</supplied></l>
+                    <l n="827"><supplied reason="lost">*pa/nd</supplied><unclear>a</unclear>ros, w(=| kai\ to/c<supplied reason="lost">on *)apo/llwn au)to\s e)/dwken.</supplied></l>
+                    <l n="828"><supplied reason="lost">oi(\ d' </supplied>a)/<unclear>r'</unclear> <supplied reason="lost">*)a</supplied>drh/steian na<unclear>i=</unclear><supplied reason="lost">on kai\ dh=mon *)apaisou=,</supplied></l>
+                    <l n="829"><supplied reason="lost">kai\ *pit</supplied><unclear>u/ei</unclear>an e)/xo<sic corr="n">g</sic> ka<supplied reason="lost">i\ *threi/hs o)/ros ai)pu/,</supplied></l>
+                    <l n="830"><supplied reason="lost">tw=n</supplied> <unclear>h)=rxe</unclear> *)/adrhsto/s te <supplied reason="lost">kai\ *)/amfios linoqw/rhc,</supplied></l>
+                    </div>
+                    
+                    <div type="frag" n="Frag. P">
+                    <gap reason="lost" unit="line" extent="?"/>
+                    <l n="855a"><supplied reason="lost">*k</supplied><unclear>a</unclear>u/kwn<supplied reason="lost">as d' au)=t' h)=ge *polukle/os ui(o\s *)/ameibos,</supplied></l>
+                    <l n="855b"><supplied reason="lost">oi(\</supplied> peri\ *p<unclear>a</unclear><supplied reason="lost">rqe/nion potamo\n kluta\ dw/mat' e)/naion.</supplied><note lang="eng" resp="jm">As noted by Bolling, these lines are found in Strabo (542), Scholiast T (ad Y329), and Eustathius (1210.46), allowing the supplements here.  After noting this, West points out that Strabo's attribution of the lines to Callisthenes is unlikely given that Apollodorus appears to have regarded them as genuine (<bibl>West, 49-50</bibl>).</note></l>
+                    <gap reason="lost" unit="line" extent="?"/>
+                </div>
+                </div>                
+                
+                <div type="book" n="3"> 
+                    <div type="frag" n="Frag. H">
+                    <gap reason="lost" unit="line" extent="?"/>
+                    <l n="277"><supplied reason="lost">*)he/lio/s q', o(\s pa/</supplied>nt' e)fora=| ka<supplied reason="lost">i\ pa/nt' e)pakou/ei,</supplied></l>
+                    <l n="278"><supplied reason="lost">kai\ potamoi\</supplied> <unclear>k</unclear>ai\ g<unclear>a</unclear>i=a, k<supplied reason="lost">ai\ oi(\ u(pe/nerqe kamo/ntas</supplied></l>
+                    <gap reason="lost" unit="line" extent="?"/>
+                    </div>
+                    
+                    <div type="frag" n="Frag. I">
+                    <gap reason="lost" unit="line" extent="?"/>
+                        <l n="?"><gap reason="lost" unit="character" extent="25"/><gap reason="illegible" unit="character" extent="1"/> n<unclear>ta</unclear><gap reason="lost"/></l>
+                    <l n="280"><supplied reason="lost">u(mei=s ma/rt</supplied>ures<note lang="eng" resp="jm">West explains the substitution of <foreign lang="grc">ma/rtures</foreign> in place of <foreign lang="grc">ma/rturoi</foreign> as a  "modernization" and deliberately refrains from deducing any definite textual relationships from the fact that it occurs here on the papyrus and in the text of Zenodotus (<bibl>West, 51</bibl>).</note> e)/ste, fula/ssete d' o(/rkia <unclear>p</unclear><supplied reason="lost">ista/:</supplied></l>
+                    <l n="281"><supplied reason="lost">ei) me/n ken</supplied> <unclear>*mene/</unclear>laon *)ale/candros kata<supplied reason="lost">pe/fnh|,</supplied></l>
+                    <l n="282"><supplied reason="lost">au)to\s e)/peiq' *(e</supplied>le/nhn <unclear>e)xe/</unclear>tw kai\ kth/m<supplied reason="lost">ata pa/nta,</supplied></l>
+                    <l n="283"><supplied reason="lost">h(mei=s d' e)n nh/</supplied>essi ne<unclear>w/</unclear>meqa kou=roi *)axaiw=<supplied reason="lost">n</supplied></l>
+                    <l n="283a"><supplied reason="lost">*)/argos e)s i(ppo/boton k</supplied><unclear>a</unclear>i\ *)axai/+da kalligu/<supplied reason="lost">naika:</supplied></l>
+                    <l n="284"><supplied reason="lost">ei) de/ ke/ toi *mene/laos *)a</supplied>le/candro<unclear>n</unclear> kat<supplied reason="lost">ape/fnh|,</supplied></l>
+                    <l n="285"><supplied reason="lost">*trw=as e)/peiq' *(ele/nhn ka</supplied>i\ kth/mat<supplied reason="lost">a pa/nt' a)podou=nai,</supplied></l>
+                    <gap reason="lost" unit="line" extent="?"/>
+                    </div>
+                    
+                    <div type="frag" n="Frag. K">
+                    <gap reason="lost" unit="line" extent="?"/>
+                    <l n="295"><supplied reason="lost">oi)=non d' e)k k</supplied>rhth=ro<unclear>s</unclear> <supplied reason="lost">a)</supplied>fusso/<supplied reason="lost">menoi depa/essin</supplied></l>
+                    <l n="296"><supplied reason="lost">e)/kxeon h)</supplied>d' hu)/xonto qeoi=s a<sic corr="i"/>)e<unclear>i</unclear><supplied reason="lost">gene/th|sin:</supplied></l>
+                    <l n="297"><supplied reason="lost">w(=de de/ tis ei)/p</supplied><unclear>a</unclear>sken *)axa<unclear>iw=n</unclear> te *trw/wn t<supplied reason="lost">e:</supplied></l>
+                    <gap reason="lost" unit="line" extent="?"/>
+                        </div>
+                    
+                    <div type="frag" n="Frag. L ">
+                        <div type="col" n="1">
+                    <l n="302"><supplied reason="lost">w(\s e)/fan eu)xo/</supplied>menoi,  me/ga d' e)/ktupe mhti/eta *ze<unclear>u\</unclear>s</l>
+                    <l n="302a"><gap reason="lost" unit="character" extent="about 10"/> <unclear>f</unclear>wn <unclear>e)pi\</unclear> de\ steroph\n e)fe/hken:</l>
+                    <l n="302b"><supplied reason="lost">qhse/menai g</supplied>a\<unclear>r</unclear> e)/mellen e)/t' a)/lgea/ te stonaxa/s te</l>
+                    <l n="302c"><supplied reason="lost">*trwsi/ te kai\</supplied> *dana<unclear>oi=</unclear><supplied reason="lost">si</supplied> dia\ kratera\s u(s<supplied reason="lost">mi/</supplied>nas.</l>
+                    <l n="302d"><supplied reason="lost">au)ta\r e)pei/ r(' o)/</supplied>mose/n te teleu/thse/n <supplied reason="lost">te</supplied> to\n o(/rkon,</l>
+                    <l n="303"><supplied reason="lost"><gap reason="lost" unit="character" extent="5"/>*dardani/</supplied>d<supplied reason="lost">h</supplied><unclear>s</unclear> *pri/amos pro\s mu=qon e)/eip<supplied reason="lost">e:</supplied></l>
+                    <l n="304"><supplied reason="lost">"ke/klute/ meu, *t</supplied>rw=es kai\ *da/rdanoi h)d' <supplied reason="lost">e)</supplied><unclear>pi/k</unclear><supplied reason="lost">ouroi,</supplied></l>
+                    <l n="304a"><supplied reason="lost">o)/fr' ei)/pw</supplied> ta/ <unclear>m</unclear><supplied reason="lost">e qu</supplied>mo\s e)ni\ sth/qessin a)n<supplied reason="lost">w/</supplied>ge<supplied reason="lost">i.</supplied></l>
+                    <l n="305"><supplied reason="lost">h)/toi e)</supplied>gw\n ei)=mi pr<supplied reason="lost">o</supplied>ti\ *)/ilion h)nemo/essan:</l>
+                    <l n="306"><supplied reason="lost">o</supplied><unclear>u)</unclear> ga/r ken tlai/hn <supplied reason="lost">pot' e)n o)fqa</supplied>lmoi=sin o(ra=<supplied reason="lost">sqai</supplied></l>
+                    <l n="307"><supplied reason="lost">ma</supplied>rna/m<supplied reason="lost">e</supplied>non fi/lo<supplied reason="lost">n ui(o\n a)rhi+fi/lw| *menela/w|.</supplied></l>
+                    <l n="308"><supplied reason="lost">*zeu\s me/n pou</supplied> <unclear>to/</unclear> <supplied reason="lost">g</supplied><unclear>e</unclear> <supplied reason="lost">oi)=de kai\ a)qa/natoi qeoi\ a)/lloi,</supplied></l>
+                    <l n="309"><supplied reason="lost">o(ppote/rw| qa</supplied><unclear>na/</unclear>toio te/l<supplied reason="lost">os peprwme/non e)sti/n."</supplied></l>
+                    <l n="310"><supplied reason="lost">h)= r(a, kai\ e)s di/fro</supplied><unclear>n a)/r</unclear><supplied reason="lost">nas qe/to i)so/qeos fw/s,</supplied></l>
+                    <gap reason="lost" unit="line" extent="?"/>
+                        </div>
+                        </div>
+                    
+                    <div type="frag" n="Frag. L">
+                        <div type="col" n="2">
+                    <l n="325">ei)soro/<supplied reason="lost">wn: *pa/rios de\ qow=s e)k klh=ros o)/rousen.</supplied></l>
+                    <l n="326">oi(\ me\n <supplied reason="lost">e)/peiq' i(/zonto kata\ sti/xas, h(=xi e(ka/stw|</supplied></l>
+                    <l n="327"><supplied reason="lost">i(/</supplied><unclear>pp</unclear><supplied reason="lost">oi a)ersi/podes kai\ poiki/la teu/xea kei=to:</supplied></l>
+                    <gap reason="lost" unit="line" extent="?"/>
+                        </div>
+                        </div>
+                    
+                    <div type="frag" n="Frags. M and Z">
+                    <gap reason="lost" unit="line" extent="?"/>
+                    <l n="?"><gap reason="lost" unit="character" extent="about 13"/>thn<gap reason="lost"/></l>
+                    <l n="338">ei(/l<unclear>e</unclear><supplied reason="lost">to d' a)/lkima</supplied> dou=re d<unclear>u/</unclear><supplied reason="lost">w kekoruqme/na xalkw=|.</supplied></l>
+                    <l n="339">w(\s d' a<unclear>u)/</unclear><supplied reason="lost">tws *men</supplied>e/laos a)rh/i+a <supplied reason="lost">teu/xe' e)/dunen,</supplied></l>
+                    <l n="339a">a)spi/da k<supplied reason="lost">ai\ ph/lh</supplied>ka faeinh\<supplied reason="lost">n kai\ du/o dou=re</supplied></l>
+                    <l n="339b">kai\ kala\<supplied reason="lost">s knh</supplied>mi=das e)pisf<supplied reason="lost">uri/ois a)rarui/as,</supplied></l>
+                    <l n="339c">a)mfi\ d' a)/<supplied reason="lost">r' w)/moisi</supplied>n ba/leto ci/<supplied reason="lost">fos a)rguro/hlon</supplied></l>
+                    <gap reason="lost" unit="line" extent="?"/>
+                        </div>
+                    
+                    <div type="frag" n="Frag. J">
+                    <gap reason="lost" unit="line" extent="?"/>
+                    <l n="351">*z<unclear>e</unclear><supplied reason="lost">u= a)/na, do\s ti/</supplied><unclear>s</unclear>a<unclear>sq</unclear>a<supplied reason="lost">i, o(/ me pro/</supplied><unclear>t</unclear><supplied reason="lost">eros ka/k' e)/orge,</supplied></l>
+                    <l n="352"><unclear>di=on *)a</unclear><supplied reason="lost">le</supplied>ca<supplied reason="lost">n</supplied>dron ka<supplied reason="lost">i\</supplied> e)<supplied reason="lost">m</supplied>h=|s <unclear>u(</unclear><supplied reason="lost">po\ xersi\ da/masson,</supplied></l>
+                    <l n="353"><unclear>o)/f</unclear><supplied reason="lost">r</supplied>a ti<unclear>s</unclear> e)rri/gh|si kai\ o)<supplied reason="lost">yi</supplied>go/nwn <supplied reason="lost">a)nqrw/pwn</supplied></l>
+                    <l n="354"><supplied reason="lost">ceino</supplied>do/k<unclear>o</unclear>n kaka\ r(e/cai o(/ tis <unclear>f</unclear><supplied reason="lost">ilo/thta para/sxh|."</supplied></l>
+                    <l n="355">fh= r(a, ka<supplied reason="lost">i\</supplied> <unclear>a)m</unclear>pepalw\n <unclear>pro</unclear>i/+ei d<unclear>o</unclear>li<unclear>x</unclear><supplied reason="lost">o/skion e)/gxos,</supplied></l>
+                    <l n="356">ka<unclear>i\ b</unclear><supplied reason="lost">a/</supplied><unclear>le</unclear> <supplied reason="lost">*p</supplied><unclear>ria</unclear>mi/dao k<unclear>at'</unclear> a)spi/d<supplied reason="lost">a pa/ntos' e)i/+shn.</supplied></l>
+                    <l n="357">d<supplied reason="lost">ia\ me\</supplied>n a)spi/dos h(=ke faeinh=s <supplied reason="lost">o)/brimon e)/gxos,</supplied></l>
+                    <l n="358"><supplied reason="lost">kai\ dia\</supplied> qw/rhkos poludaida/<supplied reason="lost">lou h)rh/reisto:</supplied></l>
+                    <l n="359"><supplied reason="lost">a)</supplied><unclear>n</unclear>tikru\ de\ parai\ lapa/r<unclear>hn</unclear> dia/<supplied reason="lost">mhse xitw=na</supplied></l>
+                    <l n="360"><supplied reason="lost">e)/</supplied>gxos: o(\ d' e)kli/nqh kai\ a)leu/ato k<supplied reason="lost">h=ra me/lainan.</supplied></l>
+                    <l n="361">*)atrei/+dhs d' a)/or o)cu\ e)rusa/menos <supplied reason="lost">para\ mhrou=</supplied></l>
+                    <l n="362">plh=cen e)pai/+cas k<supplied reason="lost">o/ru</supplied>qos fa/l<supplied reason="lost">on i(ppodasei/hs</supplied></l>
+                    <l n="362a">xalkei/hs: deino\n<gap reason="lost"/></l>
+                    <l n="363"><supplied reason="lost">t</supplied><unclear>r</unclear>ixqa/ te kai\ <unclear>t</unclear><supplied reason="lost">etraxqa\ diatrufe\n e)/kpese xeiro/s.</supplied></l>
+                    <gap reason="lost" unit="line" extent="?"/>
+                        </div>
+                    
+                    <div type="frag" n="Frag. N">
+                    <gap reason="lost" unit="line" extent="?"/>
+                    <l n="364">*)atrei/+<supplied reason="lost">dhs d' w)/|mwcen i)dw\n ei)s ou)rano\n eu)ru/n:</supplied></l>
+                    <l n="365">"*zeu= pa/ter, <supplied reason="lost">ou)/ tis sei=o qew=n o)low/teros a)/llos:</supplied></l>
+                    <l n="366">h)= te e)fa/mh<supplied reason="lost">n ti/sasqai *)ale/candron kako/thtos</supplied></l>
+                    <l n="366a">di=on *)ale/ca<supplied reason="lost">ndron, *(ele/nhs po/sin h)u+ko/moio.</supplied></l>
+                    <l n="367">nu=n de/ m<supplied reason="lost">oi e)n xei/ressin a)/gh ci/fos, e)k de/ moi e)/gxos</supplied></l>
+                    <l n="368">h)i/+<unclear>x</unclear><supplied reason="lost">qh</supplied> pal<supplied reason="lost">a/mhfin e)tw/sion, ou)d' e)/balo/n min."</supplied></l>
+                    <l n="369">fh= kai\ e)pai/+c<supplied reason="lost">as ko/ruqos la/ben i(ppodasei/hs,</supplied></l>
+                    <l n="370">ei(=lke d' e)pe<unclear>i</unclear><supplied reason="lost">go/menos met' e)u+knh/midas *)axaiou/s:</supplied></l>
+                    <l n="371">h)=gke de/ <supplied reason="lost">min polu/kestos i(ma\s a(palh\n u(po\ deirh/n,</supplied></l>
+                    <gap reason="lost" unit="line" extent="?"/>
+                        </div>
+                </div>
+                
+                
+                
+            </div>
+            
+            
+            
+            
+        </body>
+        
+    </text>
+</TEI.2>
+
+
+

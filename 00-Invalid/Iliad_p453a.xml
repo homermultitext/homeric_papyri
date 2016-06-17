@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" "tei-epidoc.dtd" [
+<!ENTITY % TEI.prose 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE' >
+<!ENTITY % TEI.linking 'INCLUDE' >
+<!ENTITY % TEI.certainty 'INCLUDE' >
+<!ENTITY % TEI.figures 'INCLUDE' >
+<!ENTITY % TEI.names.dates 'INCLUDE' >
+<!ENTITY % TEI.transcr 'INCLUDE' >
+<!ENTITY % TEI.textcrit 'INCLUDE' >
+<!ENTITY % TEI.XML 'INCLUDE'>
+<!ENTITY % ISOlat1 SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-lat1.ent'>
+%ISOlat1;
+<!ENTITY % ISOlat2 SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-lat2.ent'>
+%ISOlat2;
+<!ENTITY % ISOnum SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-num.ent'>
+%ISOnum;
+<!ENTITY % ISOpub SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-pub.ent'>
+%ISOpub;
+]>
+<TEI.2>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Iliad P 453a</title>
+                <editor><name id="al">Alexander Loney</name></editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>A new edition, with semantic markup, punctuation, accentuation, emendation, and notes.</edition>
+                <respStmt>
+                    <name>Alexander Loney, ed.</name>
+                    <resp>after the edition of</resp>
+                    <name id="steph">Stephens, S.<title>P. Yale 2.90.</title> pp. 13-16.</name> 
+                  
+                        
+                </respStmt>
+                
+            </editionStmt>
+            <extent>under 1Mb</extent>
+            <publicationStmt>
+                <publisher>
+                    The Center for Hellenic Studies of Harvard University
+                </publisher>
+                <authority>
+                    <name>Casey Dué and Mary Ebbott, edd.</name>
+                </authority>
+            </publicationStmt>
+            <sourceDesc>
+                <p>File created electronically.</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language id="eng">English</language>
+                <language id="lat">Latin</language>
+                <language id="grc">Greek</language>
+                <language id="xgrc">Transliterated Greek</language>
+                <language id="deu">German</language>
+                <language id="fra">French</language>
+            </langUsage>
+            </profileDesc>
+        <revisionDesc>
+            <change>
+                <date>July 14 and 20, 2009</date>
+                <respStmt>
+                    <name>Alexander Loney</name>
+                    <resp>markup</resp>
+                </respStmt>
+                <item>Initial XML markup.</item>
+                </change>
+        </revisionDesc>
+    </teiHeader>
+    <text lang="grc">
+        <body>
+            
+            <div type="description" n="date" lang="eng">
+                <head>Date</head>
+                <p>3rd cent. A.D. (<bibl>Stephens, 13</bibl>)</p>
+            </div>
+            <div type="description" n="provenance" lang="eng">
+                <head>Provenance</head>
+                <p>Unknown (<bibl>Stephens, 13</bibl>)</p>
+            </div>
+            <div type="description" n="bibliography" lang="eng">
+                <head>Bibliography</head>
+                <list >
+                    <item><bibl>van Thiel, H. 1996. <title>Homeri Ilias. </title>Hildesheim: Olms.</bibl></item>
+                    <item><bibl>Stephens, S. 1985. <title>P. Yale. 2.90. </title>New Haven: American Society of Papyrologists.</bibl></item>
+                       </list>
+            </div>
+            <div type="description" n="catalogues" lang="eng">
+                <head>Catalogue entries</head>
+                <list>
+                    <item>Mertens-Pack 561.1 </item>
+                    <item>LDAB 1863 </item>
+                    <item>Allen-Sutton-West p453a </item>
+                </list>
+            </div>
+            <div type="edition" n="text">
+                
+                
+                
+                <head lang="eng">Iliad P 453a</head>
+                
+                <div n="1" type="book">
+                    <l n="1"><supplied reason="lost">mh=nin a)/eide, qea/, *phlhia/dew *)axilh=o</supplied>s </l>
+                    <l n="2"><supplied reason="lost">ou)lome/nhn, h(\ muri/' *)axaioi=s a)/lge' e)/</supplied>qhken, </l>
+                    <l n="3"><supplied reason="lost">polla\s d' i)fqi/mous yuxa\s *)a/idi pro</supplied>i/+ayen </l>
+                    <l n="4">h(r<supplied reason="lost">w/wn, au)tou\s de\ e(lw/ria teu=xe k</supplied>u/nessin </l>
+                    <l n="5">oi)<supplied reason="lost">wnoi=si/ te pa=si, *dio\s d' e)telei/eto b</supplied>oulh/, </l>
+                    <l n="6"><supplied reason="lost">e)c ou(= d</supplied>h\ t<supplied reason="lost">a\ prw=ta diasth/thn e)ri/s</supplied>ante </l>
+                    <l n="7"><supplied reason="lost">*)atrei/d</supplied>hs te <supplied reason="lost">a)/nac a)ndrw=n kai\ di=os *)axilleu/</supplied><unclear>s.</unclear> </l>
+                    <l n="8"><supplied reason="lost">ti/s t' a)/r sf</supplied>we qew=n e)/<supplied reason="lost">ridi cune/hke ma/xesqai;</supplied> </l>
+                    <l n="9"><supplied reason="lost">*lhtou=s kai\ *dio\s ui(o/s: o(\ ga\r basilh=i+ xolwqei\</supplied><unclear>s</unclear> </l>
+                    <l n="10"><supplied reason="lost">nou=son a)na\ strato\n w)/rse kakh/n, o)le/konto</supplied> de\ laoi/, </l>
+                    <l n="11"><supplied reason="lost">ou(/neka to\n *xru/</supplied><unclear>s</unclear><supplied reason="lost">hn</supplied> h)<supplied reason="lost">ti/masen a)rhth=ra</supplied> </l>
+                    <l n="12"><supplied reason="lost">*)atrei/dhs. o(\</supplied> g<supplied reason="lost">a\</supplied>r h)=lqe q<supplied reason="lost">oa\</supplied>s e)p<supplied reason="lost">i\ nh=as *)axaiw=n</supplied> </l>
+                    <l n="13"><supplied reason="lost">luso/men</supplied>o/s te qu/ga<supplied reason="lost">t</supplied>ra <supplied reason="lost">fe/</supplied>rw<unclear>n</unclear><supplied reason="lost"> t' a)perei/si' a)/poina,</supplied> </l>
+                    <l n="14"><supplied reason="lost">ste/mma</supplied>t'<add place="inline" n="punctuation">#81</add><note lang="eng">An apostrophe is visible here.</note> e)/xwn e)n x<supplied reason="lost">er</supplied>si\n <supplied reason="lost">e(khbo/lou *)apo/llwnos</supplied> </l>
+                    <l n="15"><supplied reason="lost">xruse/w|</supplied> a)na\ skh/ptrw<sic corr="|"/>, kai\ <supplied reason="lost">e)li/sseto pa/ntas *)axaiou/s,</supplied> </l>
+                    <l n="16"><supplied reason="lost">*)atrei/</supplied>da de\ ma/lista du/w, kos<unclear>m</unclear><supplied reason="lost">h/tore law=n:</supplied> </l>
+                    <l n="17"><supplied reason="lost">"*)atrei=</supplied><unclear>d</unclear>ai te kai\ a)/lloi e)u<supplied reason="lost">knh/mides *)axaioi/,</supplied> </l>
+                    <l n="18"><supplied reason="lost">u(mi=n m</supplied>e\n qeoi\ doi=en <supplied reason="lost">*)olu/mpia dw/mat' e)/xontes</supplied> </l>
+                    <l n="19"><supplied reason="lost">e)kpe/rs</supplied>ai *pria/mo<supplied reason="lost">i</supplied>o <unclear>p</unclear><supplied reason="lost">o/lin, eu)= d' oi)/kad' i(ke/sqai:</supplied> </l>
+                    <l n="20"><supplied reason="lost">pai=da d' e)moi\ lu/sait</supplied>e f<supplied reason="lost">i/lhn, ta\ d' a)/poina de/xesqai,</supplied> </l>
+                    <l n="21"><supplied reason="lost">a(zo/menoi *dio\s ui(o\</supplied>n e(<supplied reason="lost">khbo/lon *)apo/llwna."</supplied> </l>
+                    <l n="22"><supplied reason="lost">e)/nq' a)/lloi me\n pa/n</supplied>tes e)p<supplied reason="lost">eufh/mhsan *)axaioi\</supplied> </l>
+                    <l n="23">ai)de<supplied reason="lost">i=sqai/ q' i(erh=a</supplied> kai\ a)<supplied reason="lost">glaa\ de/xqai a)/poina:</supplied> </l>
+                    <l n="24">a)ll' <supplied reason="lost">ou)k *)atrei/dh| *)agame/mnoni h(/ndane qumw=|,</supplied> </l>
+                    <l n="25">a)lla\ <supplied reason="lost">kakw=s a)fi/ei, kratero\n d' e)pi\ mu=qon e)/telle:</supplied> </l>
+                    <l n="26">"m<supplied reason="lost">h/ s</supplied>e, ge/<supplied reason="lost">ro</supplied>n, koi/lh<supplied reason="lost">|sin e)gw\ para\ nhusi\ kixei/w</supplied> </l>
+                    <l n="27"><supplied reason="lost">h)\</supplied> nu=n dhqu/nont'<add place="inline" n="punctuation">#81</add><note lang="eng">An apostrophe is visible here.</note> h)\ <supplied reason="lost">u(/steron a</supplied>u)=tis i)<add place="supralinear" n="punctuation">#80</add><note lang="eng">A diaeresis is visible here.</note> o/nta, </l>
+                    <l n="28"><supplied reason="lost">m</supplied>h/ nu/ toi ou) xrai/sm<supplied reason="lost">h|</supplied> s<supplied reason="lost">kh=</supplied>ptron kai\ ste/mma qeoi=o. </l>
+                    <l n="29"><unclear>t</unclear>h\n d' e)gw\ ou) lu/sw: pri/n min kai\ gh=ras e)/peisin </l>
+                    <l n="30">h(mete/rw<sic corr="|"/> e)ni\ oi)/kw<sic corr="|"/> e)n *)a/rgei+, thlo/qi pa/tr<unclear>h</unclear>s, </l>
+                    <l n="31">i(<add place="supralinear" n="punctuation">#80</add><note lang="eng">A diaeresis is visible here.</note>sto\n e)poixome/nhn kai\ e)mo\n le/xos a)ntio/wsan. </l>
+                    <l n="32">a)ll'<add place="inline" n="punctuation">#81</add><note lang="eng">An apostrophe is visible here.</note> i)/qi mh/ m' e)re/qize saw/teros w(/s ke ne/hai." </l>
+                    <l n="33">w(\s e)/faq'<add place="inline" n="punctuation">#81</add><note lang="eng">An apostrophe is visible here.</note>, e)/ddeisen d'<add place="inline" n="punctuation">#81</add><note lang="eng">An apostrophe is visible here.</note> o(\ ge/rwn kai\ e)pei/qeto mu/qw|: </l>
+                    <l n="34">bh= d' a)ke/wn para\ qi=na polufloi/sboio qala/ss<supplied reason="lost">h</supplied>s. </l>
+                    <l n="35">polla\ d'<add place="inline" n="punctuation">#81</add><note lang="eng">An apostrophe is visible here.</note> e)/peit'<add place="inline" n="punctuation">#81</add><note lang="eng">An apostrophe is visible here.</note> a)pa/neuqe kiw\n h)ra=q' o(\ ger<supplied reason="lost">aio\s</supplied> </l>
+                    <l n="36">*)apo/llwni a)/nakti, to\n h)<unclear>u/</unclear>komos te/k<supplied reason="lost">e</supplied> *lht<supplied reason="lost">w/:</supplied> </l>
+                    <l n="37">"klu=qi/ moi, a)rguro/toc<sic corr="'">e</sic><add place="supralinear" n="editorial sign">%94</add><note lang="eng">A dot is placed above the previous letter. Perhaps signaling a deletion.</note>, o(\s *xru/shn a)mfi<unclear>b</unclear><supplied reason="lost">e/b</supplied><unclear>hkas</unclear> </l>
+                    <l n="38">*ki/lla/n te zaqe/hn, *tene/do<supplied reason="lost">i</supplied>o/ te i)=<add place="supralinear" n="punctuation">#80</add><note lang="eng">A diaeresis is visible here.</note>fi a)na/ssei<unclear>s,</unclear> </l>
+                    <l n="39">*sminqeu=: ei)/ pote/ toi xari/ent'<add place="inline" n="punctuation">#81</add><note lang="eng">An apostrophe is visible here.</note> e)pi\ nho\n e)/re<supplied reason="lost">ya,</supplied> </l>
+                    <l n="40"><unclear>h)\</unclear> ei) dh/ pote/ toi kata\ pi/ona <unclear>mhri/'</unclear> e)/<supplied reason="lost">kha</supplied> </l>
+                    <l n="41">t<unclear>au/</unclear>rw<supplied reason="lost">n</supplied> h)d'<add place="inline" n="punctuation">#81</add><note lang="eng">An apostrophe is visible here.</note> ai)<supplied reason="lost">g</supplied><unclear>w=</unclear>n, to\ de/ m<supplied reason="lost">o</supplied>i <supplied reason="lost">krh/hnon e)e/ldwr:</supplied> </l>
+                    <l n="42">tei/<supplied reason="lost">seian</supplied> *danaoi\ e)ma\ da/krua s<supplied reason="lost">oi=si be/lessin."</supplied> </l>
+                    <l n="43"><supplied reason="lost">w(\s e)/fa</supplied>t'<add place="inline" n="punctuation">#81</add><note lang="eng">An apostrophe is visible here.</note> eu)xo/menos: tou= d' e)/kl<supplied reason="lost">ue *foi=bos *)apo/llwn.</supplied> </l>
+                    <l n="44">bh= de\ kat' *ou)lu/mpoio karh/nwn xw<supplied reason="lost">o/menos kh=r,</supplied> </l>
+                    <l n="45">to/c' w)/moisin e)/xwn a)mfhrefe/a t<supplied reason="lost">e fare/trhn:</supplied> </l>
+                    <l n="46"><unclear>e)/</unclear>klagca<supplied reason="lost">n</supplied> d' a)/r' o)istoi\ <unclear>e)p' w)/</unclear>mw<unclear>n</unclear> x<supplied reason="lost">wome/noio,</supplied> </l>
+                    <l n="47">au)tou= kin<supplied reason="lost">hq</supplied>e/nt<supplied reason="lost">os: o(\ d' h)/ie n</supplied><unclear>uk</unclear>ti\ <unclear>e)</unclear><supplied reason="lost">oikw/s.</supplied> </l>
+                    <l n="48"><unclear>e(/</unclear>z<supplied reason="lost">et' e)/peit' a)pa/neuqe new=n, meta\ d' i)o\n e(/hke:</supplied> </l>
+                    <l n="49">de<unclear>i</unclear><supplied reason="lost">nh\ de\ klaggh\ ge/net' a)rgure/oio bioi=o.</supplied> </l>
+                    <l n="50"><supplied reason="lost">o</supplied>u)<unclear>r</unclear><supplied reason="lost">h=as me\n prw=ton e)pw/|xeto kai\ ku/nas a)rgou/s,</supplied> </l>
+                    <l n="51">au)ta<supplied reason="lost">\r e)/peit' au)toi=si be/los e)xepeuke\s e)fiei\s</supplied> </l>
+                    <l n="52">ba/ll'<add place="inline" n="punctuation">#81</add><note lang="eng">An apostrophe is visible here.</note>: <supplied reason="lost">ai)ei\ de\ purai\ neku/wn kai/onto qameiai/.</supplied> </l>
+                    <l n="53"><unclear>e)</unclear><supplied reason="lost">n</supplied>n<unclear>h=</unclear><supplied reason="lost">mar me\n a)na\ strato\n w)/|xeto kh=la qeoi=o,</supplied> </l>
+                    <l n="54">th=<sic corr="|"/> de<unclear>k</unclear><supplied reason="lost">a/th| d' a)gorh\n de\ kale/ssato lao\n *)axilleu/s.</supplied> </l>
+                    <l n="55">tw=<sic corr="|"/> ga\r <supplied reason="lost">e)pi\ fresi\ qh=ke qea\ leukw/lenos *(/hr</supplied>h: </l>
+                    <l n="56">kh/d<unclear>e</unclear><supplied reason="lost">to ga\r *danaw=n, o(/ti r(a qnh/skontas</supplied> o(ra=to. </l>
+                    <l n="57">oi(\ d' e)<supplied reason="lost">pei\ ou)=n h)/gerqen o(mhgere/es te g</supplied>e/non<supplied reason="lost">to,</supplied> </l>
+                    <l n="58">toi=si d' <supplied reason="lost">a)nista/menos mete/fh po/das w)ku\s *)axilleu/s:</supplied> </l>
+                    <l n="59">"*)atr<supplied reason="lost">ei/dh nu=n a)/mme palimplagxqe/ntas o)i/w</supplied> </l>
+                    <l n="60"><unclear>a)\y a)</unclear><supplied reason="lost">ponosth/sein, ei)/ ken qa/nato/</supplied><unclear>n </unclear><supplied reason="lost">ge</supplied><unclear> f</unclear><supplied reason="lost">u/goimen,</supplied> </l>
+                    <l n="61"><supplied reason="lost">ei) dh\ o(mou= po/lemo/s te</supplied> dam<supplied reason="lost">a=|</supplied><unclear> k</unclear>ai\ lo<supplied reason="lost">i</supplied><unclear>m</unclear><supplied reason="lost">o\s *)axaiou/s.</supplied> </l>
+                    <l n="62"><supplied reason="lost">a)ll' a)/ge dh/ tina ma/ntin</supplied> e)rei/<supplied reason="lost">om</supplied>en <supplied reason="lost">h)\ i(</supplied>erh=a </l>
+                    <l n="63"><supplied reason="lost">h)\ kai\ o)neiropo/lon, kai\</supplied> ga/r t' o)/nar <unclear>e)k</unclear> *dio/s e)s<supplied reason="lost">tin,</supplied> </l>
+                    <l n="64"><supplied reason="lost">o(/s k' ei)/poi o(/ ti to/sson e)x</supplied>w/sato *foi=bos *)apo/ll<supplied reason="lost">wn:</supplied> </l>
+                    <l n="65"><supplied reason="lost">ei)/ t' a)\r o(/ g' eu)xwlh=s e)pime/</supplied><unclear>m</unclear>fetai h)d' e(k<unclear>a</unclear><supplied reason="lost">t</supplied>o/mbhs: </l>
+                    <l n="66"><supplied reason="lost">ai)/ ke/n pws a)rnw=n kni/shs ai)</supplied>gw=n te telei/wn </l>
+                    <l n="67"><supplied reason="lost">bou/letai a)ntia/sas h(mi=n a)po\</supplied> loigo\n a)mu=n<unclear>a</unclear><supplied reason="lost">i."</supplied> </l>
+                    <l n="68"><supplied reason="lost">h)/toi o(/ g' w(\s ei)pw\n kat' a)/r' e(/zeto: toi=s</supplied><unclear>i</unclear><supplied reason="lost"> d'</supplied> a)ne/s<supplied reason="lost">th</supplied> </l>
+                    <l n="69"><supplied reason="lost">*ka/lxas *qestori/dhs oi)wnopo/</supplied>lw<supplied reason="lost">n o)/x' a)/ristos,</supplied> </l>
+                    <l n="70"><supplied reason="lost">o(\s h)/|dh ta/ t' e)o/nta ta/ t' e)sso/</supplied>men<unclear>a</unclear><supplied reason="lost"> pro/ t' e)o/nta,</supplied> </l>
+                    <l n="71"><supplied reason="lost">kai\ nh/ess' h(gh/sat' *)axaiw=</supplied><unclear>n</unclear> *)/i<add place="supralinear" n="punctuation">#80</add><note lang="eng">A diaeresis is visible here.</note>lio<supplied reason="lost">n ei)/sw</supplied> </l>
+                    <l n="72">h(\n <supplied reason="lost">dia\ mantosu/nhn, th/n o</supplied>i( p<supplied reason="lost">o/re *foi=bos *)apo/</supplied>llwn: </l>
+                    <l n="73">o(/ sfi<supplied reason="lost">n e)u\ frone/wn a)gorh/sato kai\ mete/eipen:</supplied> </l>
+                    <l n="74">"w)= *)ax<supplied reason="lost">ileu=, ke/leai/ me, *dii\ fi/le, muqh/sasqai</supplied> </l>
+                    <l n="75">mh=n<unclear>i</unclear>n *)apo/llwnos <supplied reason="lost">e(kathbel</supplied>e/tao a)/naktos. </l>
+                    <l n="76">toi\ ga\r e)gw\n e)re/w: su\ de\ su/n<supplied reason="lost">qeo</supplied> kai/ moi o)/mosson </l>
+                    <l n="77">h)= me/n moi pro/frwn e)/pe<sic corr="">s</sic>sin kai\ xersi\n a)rh/cein. </l>
+                    <l n="78">h)= ga\r o)i/<add place="supralinear" n="punctuation">#80</add><note lang="eng">A diaeresis is visible here.</note>omai a)/ndra xolwse/men, o(\s me/ga pa/ntwn </l>
+                    <l n="79">*)argei/wn krate/ei kai/ oi( pei/qontai *)axaioi/. </l>
+                    <l n="80">krei/sswn ga\r<add place="supralinear" n="editorial sign">%94</add><note lang="eng">A dot is placed above the previous letter. Its significance is unclear.</note> b<add place="supralinear" n="editorial sign">%94</add><note lang="eng">A dot is placed above the previous letter. Its significance is unclear.</note>asileu\s o(/te xw/setai a)ndri\ xe/rhi:<add place="supralinear" n="punctuation">#80</add><note lang="eng">A diaeresis is visible here.</note> </l>
+                    <l n="81">ei)/ per ga/r te xo/lon ge kai\ au)th=mar katape/yh|, </l>
+                    <l n="82">a)lla/ te kai\ meto/pisqen e)/xe<unclear>i</unclear> ko/ton, o)/fra tele/ssh|, </l>
+                    <l n="83"><supplied reason="lost">e)n s</supplied>th/qessin e(oi=si. <unclear>s</unclear>u\ de\ <unclear>fr</unclear>a/sai ei)/ me saw/seis." </l>
+                    <l n="84"><supplied reason="lost">to\</supplied>n d'<add place="inline" n="punctuation">#81</add><note lang="eng">An apostrophe is visible here.</note> a)pameibo/menos prose/fh po/das w)ku\s *)axilleu/s: </l>
+                    <l n="85"><unclear>"qa</unclear>r<unclear>s</unclear>h/sas ma/la ei)pe\ qeopro/pion o(/ ti oi)=sqa: </l>
+                    <l n="86">ou) ma\ ga\r *)apo/llwna *dii\<add place="supralinear" n="punctuation">#80</add><note lang="eng">A diaeresis is visible here.</note> fi/lon, w(=<sic corr="|"/> <unclear>te</unclear> su/, *ka/lxan, </l>
+                    <l n="87"><unclear>eu)</unclear>xo/menos *danaoi=si qeopropi/as a)nafai/nei<unclear>s,</unclear> </l>
+                    <l n="88"><supplied reason="lost">o</supplied>u)/ tis <supplied reason="lost">e)m</supplied>eu= zw=ntos kai\ e)pi\ x<unclear>qo</unclear>ni\ derkome/n<supplied reason="lost">oio</supplied> </l>
+                    <l n="89"><supplied reason="lost">soi\</supplied><unclear> koi/lh|s p</unclear><supplied reason="lost">ara\ nhu</supplied>si\ <unclear>bare</unclear>i/as <supplied reason="lost">xei=</supplied><unclear>ras e)poi/sei</unclear> </l>
+                    <l n="90"><supplied reason="lost">sumpa/ntwn *dana</supplied>w=n, ou)d' h)\n *)agam<supplied reason="lost">e/mnona ei)/ph|s,</supplied> </l>
+                    <l n="91"><supplied reason="lost">o(\s nu=n pollo\</supplied>n a)/ri<supplied reason="lost">s</supplied>tos e)ni\ stratw=| eu)/xetai ei)=nai." </l>
+                    <l n="92"><supplied reason="lost">kai\ to/te dh\ qa/r</supplied>shse kai\ hu)/da ma/ntis a)mu/mwn: </l>
+                    <l n="93"><supplied reason="lost">"ou)/t' a)\r o(/ g' eu)xw</supplied><unclear>l</unclear><supplied reason="lost">h=s</supplied><unclear> e)p</unclear>ime/<unclear>m</unclear>fetai ou)d' <supplied reason="lost">e(</supplied><unclear>k</unclear>ato/mbh<unclear>s,</unclear> </l>
+                    <l n="94"><supplied reason="lost">a)ll' e(/nek' a)rht</supplied><unclear>h=ros o(\n h)ti/mhs'</unclear> *)agame/mnwn </l>
+                    
+                </div>
+            </div>
+            
+                          
+            </body>
+              
+        
+    </text>
+</TEI.2>
+    
+                    
+                    
+                   

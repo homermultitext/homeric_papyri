@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" "tei-epidoc.dtd" [
+<!ENTITY % TEI.prose 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE' >
+<!ENTITY % TEI.linking 'INCLUDE' >
+<!ENTITY % TEI.certainty 'INCLUDE' >
+<!ENTITY % TEI.figures 'INCLUDE' >
+<!ENTITY % TEI.names.dates 'INCLUDE' >
+<!ENTITY % TEI.transcr 'INCLUDE' >
+<!ENTITY % TEI.textcrit 'INCLUDE' >
+<!ENTITY % TEI.XML 'INCLUDE'>
+<!ENTITY % ISOlat1 SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-lat1.ent'>
+%ISOlat1;
+<!ENTITY % ISOlat2 SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-lat2.ent'>
+%ISOlat2;
+<!ENTITY % ISOnum SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-num.ent'>
+%ISOnum;
+<!ENTITY % ISOpub SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-pub.ent'>
+%ISOpub;
+]>
+<TEI.2>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Iliad P 515</title>
+                <editor><name id="al">Alexander Loney</name></editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>A new edition, with semantic markup, punctuation, accentuation, emendation, and notes.</edition>
+                <respStmt>
+                    <name>Alexander Loney, ed.</name>
+                    <resp>after the edition of</resp>
+                    <name id="kramer">Kramer. B. <title>P. Köln 2.68.</title> pp. 73-74.</name> 
+                  
+                        
+                </respStmt>
+                
+            </editionStmt>
+            <extent>under 1Mb</extent>
+            <publicationStmt>
+                <publisher>
+                    The Center for Hellenic Studies of Harvard University
+                </publisher>
+                <authority>
+                    <name>Casey Dué and Mary Ebbott, edd.</name>
+                </authority>
+            </publicationStmt>
+            <sourceDesc>
+                <p>File created electronically.</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language id="eng">English</language>
+                <language id="lat">Latin</language>
+                <language id="grc">Greek</language>
+                <language id="xgrc">Transliterated Greek</language>
+                <language id="deu">German</language>
+                <language id="fra">French</language>
+            </langUsage>
+            </profileDesc>
+        <revisionDesc>
+            <change>
+                <date>July 21, 2009</date>
+                <respStmt>
+                    <name>Alexander Loney</name>
+                    <resp>markup</resp>
+                </respStmt>
+                <item>Initial XML markup.</item>
+                </change>
+        </revisionDesc>
+    </teiHeader>
+    <text lang="grc">
+        <body>
+            
+            <div type="description" n="date" lang="eng">
+                <head>Date</head>
+                <p>2nd cent. A.D. (<bibl>Kramer and Hagedorn, 73</bibl>)</p>
+            </div>
+            <div type="description" n="provenance" lang="eng">
+                <head>Provenance</head>
+                <p>Uknown (<bibl>Kramer and Hagedorn, 73</bibl>)</p>
+            </div>
+            <div type="description" n="bibliography" lang="eng">
+                <head>Bibliography</head>
+                <list >
+                    <item><bibl>van Thiel, H. 1996. <title>Homeri Ilias.</title> Hildesheim: Olms.</bibl></item>
+                    <item><bibl>Kramer. B. and D. Hagedorn. 1978. <title>Kölner Papyri (P. Köln), vol. 2.68</title> Cologne: Westdeutscher Verlag. </bibl></item>
+                       </list>
+            </div>
+            <div type="description" n="catalogues" lang="eng">
+                <head>Catalogue entries</head>
+                <list>
+                    <item>Mertens-Pack 561.2 </item>
+                    <item>LDAB 1616 </item>
+                    <item>Allen-Sutton-West p515 </item>
+                </list>
+            </div>
+            <div type="edition" n="text">
+                
+                
+                
+                <head lang="eng">Iliad P 515</head>
+                
+                <div n="1" type="book">
+                    <gap reason="lost" extent="?" unit="line"/>
+                    <l n="6"><supplied reason="lost">e)c ou(= dh\ ta\ prw=ta diasth/thn</supplied> e)ri/sante </l>
+                    <l n="7"><supplied reason="lost">*)atrei/dhs te a)/nac a)ndrw=</supplied><unclear>n</unclear> kai\ d<supplied reason="lost">i=</supplied><unclear>o</unclear>s *)axilleu/s. </l>
+                    <l n="8"><supplied reason="lost">ti/s t' a)/r sfwe qew=n e)/ridi c</supplied>une/hk<supplied reason="lost">e</supplied> ma/xesqai; </l>
+                    <l n="9"><supplied reason="lost">*lhtou=s kai\ *dio\s ui(o/s: o(\ ga\</supplied><unclear>r</unclear> basil<supplied reason="lost">h=i+</supplied> xolwqei\s </l>
+                    <l n="10"><supplied reason="lost">nou=son a)</supplied><unclear>n</unclear>a\ <unclear>s</unclear><supplied reason="lost">trato\n</supplied> w)/rse kak<unclear>h/</unclear><supplied reason="lost">n,</supplied> o)l<unclear>e/</unclear>kont<supplied reason="lost">o de\ laoi/,</supplied> </l>
+                    <l n="11"><supplied reason="lost">ou(/nek</supplied>a to\n *xru/shn h)tei/masen <unclear>a)</unclear>rh<unclear>t</unclear>h=ra </l>
+                    <l n="12"><supplied reason="lost">*)atrei/dh</supplied>s. o(\ ga\r h)=lqe qoa\<supplied reason="lost">s</supplied> e)pi\ <unclear>n</unclear><supplied reason="lost">h=a</supplied>s *)axaiw=n </l>
+                    <l n="13"><supplied reason="lost">lu</supplied><unclear>s</unclear><supplied reason="lost">o/m</supplied>eno/s te qu/gatra f<unclear>e/r</unclear><supplied reason="lost">w</supplied><unclear>n</unclear><supplied reason="lost"> t' a)p</supplied><unclear>erei/si' a)/p</unclear><supplied reason="lost">oina,</supplied> </l> 
+                    <l n="14"><supplied reason="lost">ste/</supplied><unclear>mm</unclear>a<unclear>t'</unclear><supplied reason="lost"> e)/</supplied>xwn e)n xersi\n e(k<supplied reason="lost">hbo/lou *)apo/llwnos</supplied> </l>
+                    <l n="15"><supplied reason="lost">xrus</supplied>e/w| a)na\ s<supplied reason="lost">kh/pt</supplied>rw|, kai\ e)li/s<supplied reason="lost">seto pa/ntas *)axaiou/s,</supplied> </l>
+                    <l n="16"><supplied reason="lost">*)atrei/d</supplied><unclear>a de\ </unclear>m<supplied reason="lost">a/list</supplied>a du/w, kos<supplied reason="lost">mh/tore la</supplied><unclear>w=</unclear><supplied reason="lost">n:</supplied> </l>
+                    <l n="17"><supplied reason="lost">"*)atrei=</supplied><unclear>d</unclear>ai <supplied reason="lost">te kai\ a)/ll</supplied>oi e)ukn<unclear>h/</unclear>m<supplied reason="lost">ides</supplied> *)axai<supplied reason="lost">oi/,</supplied> </l>
+                    <l n="18"><supplied reason="lost">u(mi=n me\n</supplied> q<supplied reason="lost">eo</supplied><unclear>i\</unclear> doi=en *)olu/m<unclear>pi</unclear><supplied reason="lost">a dw/</supplied><unclear>m</unclear>at'<supplied reason="lost"> e)/xontes</supplied> </l>
+                    <l n="19"><supplied reason="lost">e)kpe/rsai *pria/m</supplied>oio po/lin, eu)= d' oi)/<unclear>k</unclear><supplied reason="lost">ad' i(k</supplied>e/sq<supplied reason="lost">ai:</supplied> </l>
+                    <l n="20"><supplied reason="lost">pai=da d' e)moi\ l</supplied><unclear>u</unclear>/saite fi/lhn, ta\ <unclear>d'</unclear><supplied reason="lost"> a)/p</supplied>oin<supplied reason="lost">a de/</supplied><unclear>x</unclear>es<supplied reason="lost">qai,</supplied> </l>
+                    <l n="21"><supplied reason="lost">a(zo/menoi *dio\s</supplied><unclear> ui(o\n</unclear> e(khbo/lon *)a<unclear>p</unclear><supplied reason="lost">o/l</supplied><unclear>l</unclear>wna." </l>
+                    <l n="22"><supplied reason="lost">e)/nq' a)/lloi me\n pa/ntes e)</supplied>peufh/mh<supplied reason="lost">san *)axaioi\</supplied> </l>
+                    <l n="23"><supplied reason="lost">ai)dei=sqai/ q' i(erh=a kai\</supplied><unclear> a)</unclear>gl<sic corr="aa\">a\</sic><note resp="al" lang="eng">Perhaps the final syllable in this word may was sounded as a contraction, a single long "<foreign lang="grc">a</foreign>," thus making it a spondee.</note> de/<unclear>xqai a)/p</unclear><supplied reason="lost">oina:</supplied> </l>
+                    <l n="24"><supplied reason="lost">a)ll' ou)k *)atrei/dh| *)agame/m</supplied>noni h(/<supplied reason="lost">ndane qumw=|,</supplied> </l>
+                    <l n="25"><supplied reason="lost">a)lla\ kakw=s a)fi/ei, krate</supplied>ro\<supplied reason="lost">n d' e)pi\ mu=qon e)/telle:</supplied> </l>
+                    <l n="26"><supplied reason="lost">"mh/ se, ge/ron, koi/lh|sin</supplied> e)gw\ par<unclear>a\</unclear><supplied reason="lost"> nhusi\ kixei/w</supplied> </l>
+                    <l n="27"><supplied reason="lost">h)\ nu=n dhqu/nont' h)\ u(/</supplied>steron a<supplied reason="lost">u)=</supplied><unclear>q</unclear><supplied reason="lost">is i)o/nta,</supplied> </l>
+                    <l n="28"><supplied reason="lost">mh/ nu/ toi ou) xrai/smh|</supplied> skh=ptr<supplied reason="lost">on kai\ ste/mma qeoi=o.</supplied> </l>
+                    <l n="29"><supplied reason="lost">th\n d' e)gw\ ou) lu/sw:</supplied><unclear> pri/n </unclear><supplied reason="lost">mi</supplied><unclear>n</unclear><supplied reason="lost"> kai\ gh=ras e)/peisin</supplied> </l>
+                    <gap reason="lost" extent="?" unit="line"/>
+                    
+                </div>
+            </div>
+            
+            
+        </body>
+        
+        
+    </text>
+</TEI.2>
+    
+    
+    
+    

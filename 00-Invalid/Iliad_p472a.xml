@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" "tei-epidoc.dtd" [
+<!ENTITY % TEI.prose 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE' >
+<!ENTITY % TEI.linking 'INCLUDE' >
+<!ENTITY % TEI.certainty 'INCLUDE' >
+<!ENTITY % TEI.figures 'INCLUDE' >
+<!ENTITY % TEI.names.dates 'INCLUDE' >
+<!ENTITY % TEI.transcr 'INCLUDE' >
+<!ENTITY % TEI.textcrit 'INCLUDE' >
+<!ENTITY % TEI.XML 'INCLUDE'>
+<!ENTITY % ISOlat1 SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-lat1.ent'>
+%ISOlat1;
+<!ENTITY % ISOlat2 SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-lat2.ent'>
+%ISOlat2;
+<!ENTITY % ISOnum SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-num.ent'>
+%ISOnum;
+<!ENTITY % ISOpub SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-pub.ent'>
+%ISOpub;
+]>
+<TEI.2>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Iliad Allen-Sutton-West P472a</title>
+                <editor id="bh">Bart Huelsenbeck</editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>A new edition, with semantic markup, punctuation, accentuation, emendation, and notes.</edition>
+                <respStmt>
+                    <name>Bart Huelsenbeck, ed.</name>
+                    <resp>after the edition of</resp>
+                    <name id="PJS">P. J. Sijpesteijn<title>"A Homer Papyrus in the Amsterdam Collection (Iliad IV.340-365)," Mnemosyne 4.24.2</title> pp. 162-8 </name>
+
+                </respStmt>
+            </editionStmt>
+
+            <extent>under 1Mb</extent>
+            <publicationStmt>
+                <publisher>
+                    The Center for Hellenic Studies of Harvard University
+                </publisher>
+                <authority>
+                    <name>Casey Dué and Mary Ebbott, edd.</name>
+                </authority>
+            </publicationStmt>
+            <sourceDesc>
+                <p>File created electronically.</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language id="eng">English</language>
+                <language id="lat">Latin</language>
+                <language id="grc">Greek</language>
+                <language id="xgrc">Transliterated Greek</language>
+                <language id="deu">German</language>
+                <language id="fra">French</language>
+            </langUsage>
+            <handList>
+                <hand scribe="Principal manuscript hand." id="h1" first="yes"/>
+                <hand scribe="This scribe adds some diacritics in a darker ink." id="h2"/>
+                <hand scribe="This scribe adds some diacritics in a lighter ink." id="h3"/>
+            </handList>
+
+
+        </profileDesc>
+        <revisionDesc>
+            <change>
+                <date>11 Dec 2007</date>
+                <respStmt>
+                    <name>Bart Huelsenbeck</name>
+                    <resp>markup</resp>
+                </respStmt>
+                <item>Initial XML markup.</item>
+            </change>
+            <change>
+                <date>19 Dec 2007</date>
+                <respStmt>
+                    <name>Bart Huelsenbeck</name>
+                    <resp>markup</resp>
+                </respStmt>
+                <item>general revision; comparison with edition of van Thiel; orthographical variants marked as 'sic'</item>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+
+
+
+    <text lang="grc">
+        <body>
+            <div type="description" n="date" lang="eng">
+                <head>Date</head>
+                <p>Last quarter of 1st century B.C.or first half of 1st century A.D. (<bibl>Sijpesteijn, 165</bibl>)</p>
+            </div>
+            <div type="description" n="provenance" lang="eng">
+                <head>Provenance</head>
+                <p>Egypt, otherwise unknown (perhaps Fayum) (<bibl>Sijpesteijn, 163, 163 ftn. 2</bibl>)</p>
+            </div>
+
+            <div type="description" n="bibliography" lang="eng">
+                <head>Bibliography</head>
+                <list >
+                    <item><bibl>van Thiel, H. 1996. <title>Homeri Ilias</title> Hildesheim: Olms.</bibl></item>
+                    <item><bibl>Sijpesteijn, P. J.<title>"A Homer Papyrus in the Amsterdam Collection (Iliad IV.340-365)," Mnemosyne 4.24.2</title> pp. 162-8</bibl></item>
+                </list>
+            </div>
+            <div type="description" n="catalogues" lang="eng">
+                <head>Catalogue entries</head>
+                <list>
+                    <item>Mertens-Pack 720.1 </item>
+                    <item>Allen-Sutton-West  P 472a</item>
+                    <item>P. Amst. 1.1 </item>
+                </list>
+            </div>
+
+            <div type="edition" n="text">
+                <head lang="eng">Iliad P472a</head>
+                <div n="4" type="book">                                
+                  <div n="1" type="column">
+                      <l n="340"><supplied reason="lost">ti/pte ka</supplied><unclear>t</unclear>aptw/ssontes a)fe/state<add place="inline" hand="h2" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note> mi/mne<supplied reason="lost">te d' a)/llous;</supplied> </l>
+                      <l n="341"><supplied reason="lost">sfw=in me/n</supplied> t' e)pe/oike meta\ prw/toisin e)o/nta<supplied reason="lost">s</supplied> </l>
+                      <l n="342"><supplied reason="lost">e(sta/men h)</supplied>de\ ma/xhs kausteirh=s a)ntibolh=sa<supplied reason="lost">i:</supplied> </l>
+                      <l n="343"><supplied reason="lost">prw/tw g</supplied><unclear>a\r</unclear> kai\ daito\s a)koua/zesqon e)mei=o<add place="inline" hand="h2" n="punctuation">#71</add><note resp="bh" lang="eng">A mid punctus is visible here.</note> </l>
+                      <l n="344"><supplied reason="lost">o(ppo/te</supplied> dai=ta ge/rousin e)fopli/zwmen *)axaio<unclear>i/</unclear><add place="inline" hand="h2" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note> </l>
+
+                      <l n="345"><supplied reason="lost">e)/nqa f</supplied><unclear>i/</unclear>l' o)ptale/a kre/a e)/dmenai h)de\ ku/pel<unclear>l</unclear><supplied reason="lost">a</supplied> </l>
+                      <l n="346"><supplied reason="lost">oi)/no</supplied><unclear>u</unclear> peine/menai melihde/os, o)/fr' e)qe/lhto<unclear>n:</unclear> </l>
+                      <l n="347">nu=n de\ fi/<add place="inline" hand="h3" n="punctuation">%27</add><note resp="bh" lang="eng">A breve is visible, referring to the iota.</note>lw<add place="inline" hand="h3" n="punctuation">%26</add><note resp="bh" lang="eng">A macron is visible above the omega.</note>s<add place="supralinear" hand="h3">#17</add><note lang="eng">Above the sigma there is a short stroke slanting to the right, apparently to signal word-end (<bibl>Sijpesteijn, p. 166</bibl>).</note> x' o(ro/w|te, kai\ ei) de/ka pu/rgoi *)axaiw=n </l>
+                      <l n="348"><unclear>u(me</unclear>i/wn propa/roiqe maxoi/ato nhle/i xalkw=|"<add place="inline" hand="h2" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note> </l>
+
+                      <l n="349"><add place="left" hand="h2" n="ancient editorial sign">#17</add><note resp="bh" lang="eng">An oblique stroke appears against line.</note>to\n d' a)/r' u(po/dra i)dw\n prose/fh polu/mhtis <unclear>*)odu</unclear><supplied reason="lost">sseu/s:</supplied> </l>
+                      <l n="350"><add place="left" hand="h2" n="ancient editorial sign">#17</add><note resp="bh" lang="eng">An oblique stroke appears against line.</note>"*)atrei/dh, poi=o/n se e)/pos fu/gen e(/rkos o)do/ntwn; </l>
+                      <l n="351">pw=s dh\ fh\|s<add place="supralinear" hand="h3">#532</add><note resp="bh" lang="eng">A word separator is visible above the sigma.</note> pole/moio <sic>meqeie/men</sic>, <sic>o(po/t'</sic> *)axaioi\ </l>
+                      <l n="352">*trwsi\n e)f' i(ppoda/moisin e)gei/romen o)cu\n *)a/r<supplied reason="lost">ha;</supplied> </l>
+                      <l n="353">o)/yeai, h)\n e)qe/lh|sqa kai\ ai)/ ke/n toi ta\ memh/lh|<add place="inline" hand="h2" n="punctuation">#71</add><note resp="bh" lang="eng">A mid punctus is visible here.</note> </l>
+
+                      <l n="354"><unclear>*t</unclear><supplied reason="lost">hl</supplied><unclear>em</unclear>a/xoio <del>ff</del><note resp="bh" lang="eng">The scribe has written two vertical strokes, beneath each of which he adds a single dot.  Sijpesteijn suspects that these strokes are two failed attempts to write phi (<bibl>Sijpesteijn, 168</bibl>).  </note> fi/lon pate/ra prom<unclear>a/</unclear>xoisi mige/n<unclear>t</unclear><supplied reason="lost">a</supplied> </l>
+
+                      <l n="355"><supplied reason="lost">*trw/w</supplied><unclear>n</unclear> i(ppoda/mwn<add place="inline" hand="h2" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note>  su\ de\ tau=t' a)nemw/lia ba/<unclear>z</unclear><supplied reason="lost">eis."</supplied> </l>
+
+                      <l n="356"><supplied reason="lost">to\n d'</supplied> <unclear>e)</unclear>pimeidh/sas prose/fh krei/wn *)agame/<unclear>mn</unclear><supplied reason="lost">wn,</supplied> </l>                     
+                      <l n="357"><supplied reason="lost">w(s</supplied><gap reason="lost" unit="character" extent="?"/><unclear>e</unclear> xwome/noio:  pa/lin d' o(/ ge la/zeto mu=q<unclear>o</unclear><supplied reason="lost">n:</supplied> </l>
+
+                      <l n="358"><supplied reason="lost">"diogen</supplied>e\s *laertia/dh polumh/xan' *)odusseu=, </l>
+                      <l n="359"><supplied reason="lost">ou)/te s</supplied><unclear>e</unclear> neikei/w periw/sion ou)/te keleu/w <add place="inline" hand="h2" n="punctuation">#71</add><note resp="bh" lang="eng">A mid punctus is visible here.</note></l>
+
+                      <l n="360"><supplied reason="lost">oi)=da ga\r, w(/</supplied><unclear>s</unclear> toi qumo\s e)ni\ sth/qessi fi/loisin </l>
+                      <l n="361"><supplied reason="lost">h)/pia d</supplied><unclear>h/</unclear>nea oi)=de: ta\ ga\r frone/eis<add place="supralinear" hand="h3">#532</add><note resp="bh" lang="eng">A word separator is visible above the sigma.</note> a(/ t' e)gw/ per<add place="inline" hand="h2" n="punctuation">#70</add><note resp="bh" lang="eng">A low punctus is visible here.</note> </l>
+
+                      <l n="362"><supplied reason="lost">a)ll' i)/qi,</supplied> <unclear>t</unclear>au=ta d' o)/pisqen a)resso/meq', <sic corr="ei)/">i)/</sic> ti kako\n n<supplied reason="lost">u=n</supplied> </l>
+                      <l n="363"><supplied reason="lost">ei)/rhtai:</supplied> <unclear>t</unclear>a\ de\ pa/nta <sic>qeioi\</sic> metamw/nia qei=en"<add place="inline" hand="h2" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note>" </l>
+                      <l n="364"><supplied reason="lost">w(\s ei)p</supplied><unclear>w\</unclear>n tou\s me\n li/pen au)tou=<add place="inline" hand="h2" n="punctuation">#72</add><note resp="bh" lang="eng">A high punctus is visible here.</note> bh= de\ met' <unclear>a)/l</unclear><supplied reason="lost">lous.</supplied> </l>
+                      <l n="365"><supplied reason="lost">eu(=re d</supplied>e\ *tude/os ui(o\n u(pe/rqumon *diomh/dea<add place="inline" hand="h2" n="punctuation">#71</add><note resp="bh" lang="eng">A mid punctus is visible here.</note> </l>
+                  </div>
+
+            </div>
+
+</div>
+        </body>
+
+    </text>
+</TEI.2>
+
+
+
+
+
+
+
+
+

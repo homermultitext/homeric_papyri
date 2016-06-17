@@ -1,0 +1,76 @@
+﻿body {
+	line-height: 1.5em;
+	font-size: 18px;
+}
+
+.unclear-text {
+	color: grey;
+}
+
+.supplied-text {
+	color: #bbb;
+	background-color: #eee;
+}
+
+.supplied-text:before {
+	content: "[";
+}
+
+.supplied-text:after {
+	content: "]";
+}
+
+
+.line-number {
+	margin-right: 3em;
+}
+
+.sic {
+	color: red;
+}
+
+.corr {
+	color: green;
+}
+
+.book-number {
+	font-size: 125%;
+	color: maroon;
+	margin-bottom: 0.5em;
+}
+
+.book {
+	margin: 2em;
+}
+
+.supralinear-text {
+	color: red;
+	vertical-align: super;
+}
+
+del {
+	text-decoration: line-through;
+	color: red;
+}
+
+div, p.line {
+	display: block;
+}
+
+div.frag {
+	border: 1px solid silver;
+	padding: 10px;
+	margin: 1em;
+}
+
+div.frag:before {
+	content: " Fragment " attr(data-n) ;
+}
+
+div.col {
+	padding: 1em;
+}
+
+div.col:before{
+	content: " Column " attr(data-n) ;
+	}

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" "tei-epidoc.dtd" [
+<!ENTITY % TEI.prose 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE' >
+<!ENTITY % TEI.linking 'INCLUDE' >
+<!ENTITY % TEI.certainty 'INCLUDE' >
+<!ENTITY % TEI.figures 'INCLUDE' >
+<!ENTITY % TEI.names.dates 'INCLUDE' >
+<!ENTITY % TEI.transcr 'INCLUDE' >
+<!ENTITY % TEI.textcrit 'INCLUDE' >
+<!ENTITY % TEI.XML 'INCLUDE'>
+<!ENTITY % ISOlat1 SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-lat1.ent'>
+%ISOlat1;
+<!ENTITY % ISOlat2 SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-lat2.ent'>
+%ISOlat2;
+<!ENTITY % ISOnum SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-num.ent'>
+%ISOnum;
+<!ENTITY % ISOpub SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-pub.ent'>
+%ISOpub;
+]>
+<TEI.2>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Iliad P 265 (P. Reinach inv. 2089)</title>
+                <editor><name id="al">Alexander Loney</name></editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>A new edition, with semantic markup, punctuation, accentuation, emendation, and notes.</edition>
+                <respStmt>
+                    <name>Alexander Loney, ed.</name>
+                    <resp>after the edition of</resp>
+                    <name id="colbat">Collart, P. and Bataille, A. <title>Paprus d'Homere," in Aegyptus 11</title> (1931), 169-70.</name> 
+                        
+                </respStmt>
+                
+            </editionStmt>
+            <extent>under 1Mb</extent>
+            <publicationStmt>
+                <publisher>
+                    The Center for Hellenic Studies of Harvard University
+                </publisher>
+                <authority>
+                    <name>Casey Dué and Mary Ebbott, edd.</name>
+                </authority>
+            </publicationStmt>
+            <sourceDesc>
+                <p>File created electronically.</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language id="eng">English</language>
+                <language id="lat">Latin</language>
+                <language id="grc">Greek</language>
+                <language id="xgrc">Transliterated Greek</language>
+                <language id="deu">German</language>
+                <language id="fra">French</language>
+            </langUsage>
+            </profileDesc>
+        <revisionDesc>
+            <change>
+                <date>July 8 and 13, 2009</date>
+                <respStmt>
+                    <name>Alexander Loney</name>
+                    <resp>markup</resp>
+                </respStmt>
+                <item>Initial XML markup.</item>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text lang="grc">
+        <body>
+            
+            <div type="description" n="date" lang="eng">
+                <head>Date</head>
+                <p>3rd cent. A.D. (<bibl>Collart and Bataille 1931, 169</bibl>)</p>
+            </div>
+            <div type="description" n="provenance" lang="eng">
+                <head>Provenance</head>
+                <p>Egypt</p> 
+            </div>
+            <div type="description" n="bibliography" lang="eng">
+                <head>Bibliography</head>
+                <list >
+                    <item><bibl>van Thiel, H. 1996. <title>Homeri Ilias.</title> Hildesheim: Olms.</bibl></item>
+                   <item><bibl>Collart, P. and A. Bataille. 1931. <title>"Paprus d'Homere," in Aegyptus 11:</title> 169-70.</bibl></item> 
+                    
+                    
+               </list>
+            </div>
+            <div type="description" n="catalogues" lang="eng">
+                <head>Catalogue entries</head>
+                <list>
+                    <item>Mertens-Pack 558</item>
+                    <item>LDAB 2031</item>
+                    <item>Allen-Sutton-West p265</item>
+                </list>
+            </div>
+            <div type="edition" n="text">
+                
+                
+                
+                <head lang="eng">Iliad P 265</head>
+                 
+              
+                <div n="1" type="book">
+             
+                    
+                <l n="1"><supplied reason="lost">*mh=nin a)/eide, qea/,</supplied> *ph<note lang="eng">Two dots resembling a dicolon have been written here, perhaps to seperate syllables.</note><add place="inline" n="editorial sign">#73</add><unclear>lh</unclear>i<add place="supralinear" n="punctuation">#80</add><note lang="eng">A diaeresis is visible here.</note><note lang="eng">Two dots resembling a dicolon have been written here, perhaps to seperate syllables.</note><add place="inline" n="editorial sign">#73</add><unclear>a/</unclear><supplied reason="lost">d</supplied>e<note lang="eng">Two dots resembling a dicolon have been written here.</note><add place="inline" n="editorial sign">#73</add><unclear>w</unclear> *)a<note lang="eng">Two dots resembling a dicolon have been written here, perhaps to seperate syllables.</note><add place="inline" n="editorial sign">#73</add><unclear>x</unclear>i<supplied reason="lost">lh=</supplied><unclear>o</unclear>s<note lang="eng">Two dots resembling a dicolon have been written here, perhaps to seperate syllables.</note><add place="inline" n="editorial sign">#73</add> </l>
+                <l n="2"><supplied reason="lost">ou)lome/nhn, h(\ muri/' *)a</supplied><note lang="eng">Two dots resembling a dicolon have been written here, perhaps to seperate syllables.</note><add place="inline" n="editorial sign">#73</add>xa<supplied reason="lost">i</supplied>o<unclear>i=</unclear>s<note lang="eng">Two dots resembling a dicolon have been written here, perhaps to seperate syllables.</note><add place="inline" n="editorial sign">#73</add> a)/l<note lang="eng">Two dots resembling a dicolon have been written here, perhaps to seperate syllables.</note><add place="inline" n="editorial sign">#73</add>ge'<note lang="eng">Two dots resembling a dicolon have been written here, perhaps to seperate syllables.</note><add place="inline" n="editorial sign">#73</add> e)/<note lang="eng">Two dots resembling a dicolon have been written here, perhaps to seperate syllables.</note><add place="inline" n="editorial sign">#73</add>qh<note lang="eng">Two dots resembling a dicolon have been written here, perhaps to seperate syllables.</note><add place="inline" n="editorial sign">#73</add>ken<add place="inline" n="punctuation">#70</add><note lang="eng">A high punctus is visible here.</note>  </l>
+                <l n="3"><supplied reason="lost">polla\s d' i)fqi/mous y</supplied>u<note lang="eng">Two dots resembling a dicolon have been written here, perhaps to seperate syllables.</note><add place="inline" n="editorial sign">#73</add>xa\s<note lang="eng">Two dots resembling a dicolon have been written here, perhaps to seperate syllables.</note><add place="inline" n="editorial sign">#73</add> *)a/<note lang="eng">Two dots resembling a dicolon have been written here, perhaps to seperate syllables.</note><add place="inline" n="editorial sign">#73</add>i<add place="supralinear" n="punctuation">#80</add><note lang="eng">A diaeresis is visible here.</note><note lang="eng">Two dots resembling a dicolon have been written here, perhaps to seperate syllables.</note><add place="inline" n="editorial sign">#73</add>di<note lang="eng">Two dots resembling a dicolon have been written here, perhaps to seperate syllables.</note><add place="inline" n="editorial sign">#73</add>  pro<note lang="eng">Two dots resembling a dicolon have been written here, perhaps to seperate syllables.</note><add place="inline" n="editorial sign">#73</add> i/<note lang="eng">Two dots resembling a dicolon have been written here, perhaps to seperate syllables.</note><add place="inline" n="editorial sign">#73</add>+<add place="supralinear" n="punctuation">#80</add><note lang="eng">A diaeresis is visible here.</note>a<note lang="eng">Two dots resembling a dicolon have been written here, perhaps to seperate syllables.</note><add place="inline" n="editorial sign">#73</add>yen<note lang="eng">Two dots resembling a dicolon have been written here, perhaps to seperate syllables.</note><add place="inline" n="editorial sign">#73</add> </l>
+                <l n="4"><supplied reason="lost">h(rw/wn, au)tou\s de\ e(l</supplied>w/<note lang="eng">Two dots resembling a dicolon have been written here, perhaps to seperate syllables.</note><add place="inline" n="editorial sign">#73</add>ri<note lang="eng">Two dots resembling a dicolon have been written here, perhaps to seperate syllables.</note><add place="inline" n="editorial sign">#73</add>a<note lang="eng">Two dots resembling a dicolon have been written here, perhaps to seperate syllables.</note><add place="inline" n="editorial sign">#73</add> <unclear>t</unclear>eu=<note lang="eng">Two dots resembling a dicolon have been written here, perhaps to seperate syllables.</note><add place="inline" n="editorial sign">#73</add>xe ku/<note lang="eng">Two dots resembling a dicolon have been written here, perhaps to seperate syllables.</note><add place="inline" n="editorial sign">#73</add>nes<note lang="eng">Two dots resembling a dicolon have been written here, perhaps to seperate syllables.</note><add place="inline" n="editorial sign">#73</add>sin </l>
+                <l n="5"><supplied reason="lost">oi)wnoi=si/ te pa=si, *dio</supplied><unclear>\s</unclear><note lang="eng">Two dots resembling a dicolon have been written here, perhaps to seperate syllables.</note><add place="inline" n="editorial sign">#73</add><unclear> d' e)</unclear><add place="inline" n="punctuation">#70</add><note lang="eng">A high punctus is visible here.</note><unclear>te</unclear><add place="inline" n="punctuation">#70</add><note lang="eng">A high punctus is visible here.</note>lei/<note lang="eng">Two dots resembling a dicolon have been written here, perhaps to seperate syllables.</note><add place="inline" n="editorial sign">#73</add>e<note lang="eng">Two dots resembling a dicolon have been written here, perhaps to seperate syllables.</note><add place="inline" n="editorial sign">#73</add>to<note lang="eng">Two dots resembling a dicolon have been written here, perhaps to seperate syllables.</note><add place="inline" n="editorial sign">#73</add> bou<note lang="eng">Two dots resembling a dicolon have been written here, perhaps to seperate syllables.</note><add place="inline" n="editorial sign">#73</add>lh/<note lang="eng">Two dots resembling a dicolon have been written here, perhaps to seperate syllables.</note><add place="inline" n="editorial sign">#73</add>, </l>
+                <l n="6"><supplied reason="lost">e)c ou(= dh\ ta\ prw=ta d</supplied><unclear>ia</unclear><add place="inline" n="punctuation">#70</add><note lang="eng">A high punctus is visible here.</note><unclear>st</unclear>h/<add place="inline" n="punctuation">#70</add><note lang="eng">A high punctus is visible here.</note>thn<add place="inline" n="punctuation">#70</add><note lang="eng">A high punctus is visible here.</note> e)<add place="inline" n="punctuation">#70</add><note lang="eng">A high punctus is visible here.</note><unclear>r</unclear>i/<unclear>san</unclear><add place="inline" n="punctuation">#70</add><note lang="eng">A high punctus is visible here.</note>te<note lang="eng">Two dots resembling a dicolon have been written here, perhaps to seperate syllables.</note><add place="inline" n="editorial sign">#73</add> </l>
+                <l n="7"><supplied reason="lost">*)atrei/dhs te a)/nac a)nd</supplied><unclear>r</unclear>w=n<add place="inline" n="punctuation">#70</add><note lang="eng">A high punctus is visible here.</note> kai\ di=<note lang="eng">Two dots resembling a dicolon have been written here, perhaps to seperate syllables.</note><add place="inline" n="editorial sign">#73</add>os<add place="inline" n="punctuation">#70</add><note lang="eng">A high punctus is visible here.</note> <unclear>*)a</unclear>xil<add place="inline" n="punctuation">#70</add><note lang="eng">A high punctus is visible here.</note>leu/s.<add place="inline" n="punctuation">#70</add><note lang="eng">A high punctus is visible here.</note> </l>
+                <l n="8"><supplied reason="lost">ti/s t' a)/r sfwe qew=n e)/ridi cune/</supplied>h<add place="inline" n="punctuation">#70</add><note lang="eng">A high punctus is visible here.</note>ke<add place="inline" n="punctuation">#70</add><note lang="eng">A high punctus is visible here.</note> ma/<add place="inline" n="punctuation">#70</add><note lang="eng">A high punctus is visible here.</note>xe<supplied reason="lost">sqai;</supplied> </l>
+                
+                </div>
+            </div>
+            
+        </body>
+        
+        
+    </text>
+</TEI.2>
+    
+    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                   

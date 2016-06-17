@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" "tei-epidoc.dtd" [
+<!ENTITY % TEI.prose 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE' >
+<!ENTITY % TEI.linking 'INCLUDE' >
+<!ENTITY % TEI.certainty 'INCLUDE' >
+<!ENTITY % TEI.figures 'INCLUDE' >
+<!ENTITY % TEI.names.dates 'INCLUDE' >
+<!ENTITY % TEI.transcr 'INCLUDE' >
+<!ENTITY % TEI.textcrit 'INCLUDE' >
+<!ENTITY % TEI.XML 'INCLUDE'>
+<!ENTITY % ISOlat1 SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-lat1.ent'>
+%ISOlat1;
+<!ENTITY % ISOlat2 SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-lat2.ent'>
+%ISOlat2;
+<!ENTITY % ISOnum SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-num.ent'>
+%ISOnum;
+<!ENTITY % ISOpub SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-pub.ent'>
+%ISOpub;
+]>
+<TEI.2>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Odyssey P 22: P. Tebtunis 3.696</title>
+                <editor><name id="jm">Joseph Miller</name></editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>A new edition, with semantic markup, punctuation, accentuation, emendation, and notes.</edition>
+                <respStmt>
+                    <name>Joseph Miller, ed.</name>
+                    <resp>after the edition of</resp>
+                    <name id="swest">West, S.  1967. <title>The Ptolemaic Papyri of Homer.</title> 195-197.   </name>        
+                </respStmt>
+                
+            </editionStmt>
+            <extent>under 1Mb</extent>
+            <publicationStmt>
+                <publisher>
+                    The Center for Hellenic Studies of Harvard University
+                </publisher>
+                <authority>
+                    <name>Casey Dué and Mary Ebbott, edd.</name>
+                </authority>
+            </publicationStmt>
+            <sourceDesc>
+                <p>File created electronically.</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language id="eng">English</language>
+                <language id="lat">Latin</language>
+                <language id="grc">Greek</language>
+                <language id="xgrc">Transliterated Greek</language>
+                <language id="deu">German</language>
+                <language id="fra">French</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change>
+                <date>July 5, 2007</date>
+                <respStmt>
+                    <name>Joseph Miller</name>
+                    <resp>markup</resp>
+                </respStmt>
+                <item>Initial XML markup.</item>
+            </change>
+            <change>
+                <date>July 12, 2007</date>
+                <respStmt>
+                    <name id="al">Alexander Loney</name>
+                    <resp>markup</resp>
+                </respStmt>
+                <item>review and error-check.</item>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text lang="grc">
+        <body>
+            <div type="description" n="date" lang="eng">
+                <head>Date</head>
+                <p>Early second century B.C. (<bibl>West 1967: 195</bibl>).</p>
+            </div>
+            <div type="description" n="provenance" lang="eng">
+                <head>Provenance</head>
+                <p>Tebtunis; cartonnage (<bibl>West 1967: 195</bibl>).</p>
+            </div>
+            <div type="description" n="bibliography" lang="eng">
+                <head>Bibliography</head>
+                <list >
+                    <item><bibl>Van Thiel, H. 1991. <title>Homeri Odyssea.</title> Hildesheim: Georg Olms.</bibl></item>
+                    <item><bibl>West, S. 1967. <title>The Ptolemaic Papyri of Homer, Papyrologica Coloniensia III.</title> Köln: Opladen.</bibl></item>
+                    
+                </list>
+            </div>
+            <div type="description" n="catalogues" lang="eng">
+                <head>Catalogue entries</head>
+                <list>
+                    <item>Mertens-Pack 1022</item>
+                    <item>LDAB 2338</item>
+                    <item>Allen-Sutton-West p22</item>
+                    <item></item>
+                </list>
+            </div>
+            <div type="edition" n="text">
+                
+                <head lang="eng">Odyssey P 22</head>
+                <pb n="book12"/>
+                    <div n="1" type="col">
+                    <l n="81">w)= pa/ter h(me/tere <supplied reason="lost">*kroni/dh, u(/p</supplied>ate kreio/ntw<supplied reason="lost">n,</supplied></l>
+                    <l n="82">ei) me\n dh\ nu=n tou=t<supplied reason="lost">o fi/lon</supplied> <unclear>m</unclear>aka/ressi qeoi=si<supplied reason="lost">,</supplied></l>
+                    <l n="83">nosth=sai *)odus<sic corr="h=">ei=</sic>a <supplied reason="lost">p</supplied><unclear>o</unclear>lu/<supplied reason="lost">f</supplied>rona o(/nde do/<supplied reason="lost">monde,</supplied></l>
+                    <l n="84">*(ermei/a<sic corr="n">m</sic> m<unclear>e\</unclear><supplied reason="lost">n</supplied> e)/peita, dia/ktoron a)<unclear>r</unclear><supplied reason="lost">geifo/nthn,</supplied></l>
+                    <l n="85">nh=son e)s <unclear>*)wg</unclear>u<unclear>g</unclear>i/hn o)tru/nomen o(/tti ta/<supplied reason="lost">xista</supplied></l>
+                    <l n="86">nu/mfh| e)u+<unclear>p</unclear><supplied reason="lost">lok</supplied>a/mw| ei)/ph| nhmerte/a b<supplied reason="lost">oulh/n,</supplied></l>
+                    <l n="87">no/ston *)o<supplied reason="lost">dussh=</supplied>os talasi/fronos,  w(/s ke <supplied reason="lost">ne/htai.</supplied></l>
+                    <l n="88">au)ta\r e)g<supplied reason="lost">w\n *)i</supplied>qa/khnd' e)seleu/somai, <unclear>o)/</unclear><supplied reason="lost">fra oi( ui(o\n</supplied></l>
+                    <l n="89">ma=<unclear>l</unclear>l<unclear>on</unclear> <supplied reason="lost">e)p</supplied>otru/nw kai/ oi( me/nos e)<sic corr="n">m</sic> f<supplied reason="lost">resi\ qei/w,</supplied></l>
+                    <l n="90"><supplied reason="lost">ei)s a)gorh\n kale/</supplied>santa ka/rh komo/w<unclear>nt</unclear><supplied reason="lost">as *)axaiou\s</supplied></l>
+                    <l n="91"><supplied reason="lost">pa=si mnhst</supplied>h/ressin a)pe<corr sic="">i</corr>pei=n, oi(/ t<supplied reason="lost">e/ oi( ai)ei\</supplied></l>
+                    <l n="92"><supplied reason="lost">mh=l' a)dina\ sf</supplied>a/zousi kai\ ei)li/pod<supplied reason="lost">as e(/likas bou=s,</supplied></l>
+                    <l n="92a"><supplied reason="lost">mhtro\s e(h=s m</supplied>nhsth=res <unclear>a)g</unclear><supplied reason="lost">a</supplied><unclear>k</unclear><supplied reason="lost">l</supplied><unclear>ei</unclear><supplied reason="lost">th=s basilei/hs.</supplied></l>
+                    <l n="93"><supplied reason="lost">pe/myw d' e)s *spa/r</supplied><unclear>t</unclear>hn te k<supplied reason="lost">ai\ e)s *pu/lon h)maqo/enta,</supplied></l>
+                    <l n="94"><supplied reason="lost">no/ston peuso/meno</supplied><unclear>n p</unclear><supplied reason="lost">atro\s fi/lou, h)/n pou a)kou/sh|,</supplied></l>
+                    <gap reason="lost" unit="line" extent="?"/>
+                    <pb n="fragment break"/><note lang="eng" resp="al">West thinks that there were not plus verses in this gap (<bibl>West: 197</bibl>).</note>
+                        <gap reason="lost" unit="line" extent="?"/>
+                    <l n="96"><unclear>w(\</unclear><supplied reason="lost">s ei)pou=s' u(po\ possi\n e)dh/sato kala\ pe/dila,</supplied></l>
+                    <l n="97">a)m<unclear>br</unclear>o/s<supplied reason="lost">ia xru/seia, ta/ min fe/ron h)me\n e)f' u(grh\n</supplied></l>
+                    <l n="98">h)d' e)<unclear>p' a)</unclear>pei/rona gai=<unclear>an</unclear> <supplied reason="lost">a(/ma pnoih=|s a)ne/moio.</supplied></l>
+                </div>
+                <div n="2" type="col">
+                    <l n="99"><supplied reason="lost">ei(/leto</supplied> d' a)/lkimon e)/gxos, a)kax<supplied reason="lost">me/non o)ce/i+ xalkw=|,</supplied></l>
+                    <l n="100"><supplied reason="lost">briqu\ me/</supplied>ga stibaro/n, <unclear>tw=| da/mnh</unclear><supplied reason="lost">si sti/xas a)ndrw=n</supplied></l>
+                    <l n="101">h(rw/wn, t<supplied reason="lost">o</supplied>i=si/n te kote/ssato o)brimop<supplied reason="lost">a/trh.</supplied></l>
+                    <l n="102"><supplied reason="lost">bh= de\ ka</supplied>t' *ou)lu/mpoio karh/nwn a)i/+c<supplied reason="lost">asa</supplied></l>
+                    <gap reason="lost" unit="line" extent="?"/>
+               </div>
+            </div>
+            
+        </body>
+    </text>
+</TEI.2>
+
+

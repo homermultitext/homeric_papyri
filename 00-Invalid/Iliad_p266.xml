@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" "tei-epidoc.dtd" [
+<!ENTITY % TEI.prose 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE' >
+<!ENTITY % TEI.linking 'INCLUDE' >
+<!ENTITY % TEI.certainty 'INCLUDE' >
+<!ENTITY % TEI.figures 'INCLUDE' >
+<!ENTITY % TEI.names.dates 'INCLUDE' >
+<!ENTITY % TEI.transcr 'INCLUDE' >
+<!ENTITY % TEI.textcrit 'INCLUDE' >
+<!ENTITY % TEI.XML 'INCLUDE'>
+<!ENTITY % ISOlat1 SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-lat1.ent'>
+%ISOlat1;
+<!ENTITY % ISOlat2 SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-lat2.ent'>
+%ISOlat2;
+<!ENTITY % ISOnum SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-num.ent'>
+%ISOnum;
+<!ENTITY % ISOpub SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-pub.ent'>
+%ISOpub;
+]>
+<TEI.2>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Iliad Allen-Sutton-West P266</title>
+                <editor id="bh">Bart Huelsenbeck</editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>A new edition, with semantic markup, punctuation, accentuation, emendation, and notes.</edition>
+                <respStmt>
+                    <name>Bart Huelsenbeck, ed.</name>
+                    <resp>after the edition of</resp>
+                    <name id="HC">Hélène Cadell<title>Papyrus de la Sorbonne (P. Sorb. I)</title> pp. 3-4 </name>
+
+                </respStmt>
+            </editionStmt>
+
+            <extent>under 1Mb</extent>
+            <publicationStmt>
+                <publisher>
+                    The Center for Hellenic Studies of Harvard University
+                </publisher>
+                <authority>
+                    <name>Casey Dué and Mary Ebbott, edd.</name>
+                </authority>
+            </publicationStmt>
+            <sourceDesc>
+                <p>File created electronically.</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language id="eng">English</language>
+                <language id="lat">Latin</language>
+                <language id="grc">Greek</language>
+                <language id="xgrc">Transliterated Greek</language>
+                <language id="deu">German</language>
+                <language id="fra">French</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change>
+                <date>8 Dec 2007</date>
+                <respStmt>
+                    <name>Bart Huelsenbeck</name>
+                    <resp>markup</resp>
+                </respStmt>
+                <item>Initial XML markup.</item>
+            </change>
+            <change>
+                <date>19 Dec 2007</date>
+                <respStmt>
+                    <name>Bart Huelsenbeck</name>
+                    <resp>markup</resp>
+                </respStmt>
+                <item>general revision; comparison with edition of van Thiel</item>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+
+
+
+    <text lang="grc">
+        <body>
+            <div type="description" n="date" lang="eng">
+                <head>Date</head>
+                <p>Second century B.C. (<bibl>Cadell, 3</bibl>)</p>
+            </div>
+            <div type="description" n="provenance" lang="eng">
+                <head>Provenance</head>
+                <p>Egypt (El-Lahun) (<bibl>Cadell, 3</bibl>)</p>
+            </div>
+
+            <div type="description" n="bibliography" lang="eng">
+                <head>Bibliography</head>
+                <list >
+                    <item><bibl>van Thiel, H. 1996. <title>Homeri Ilias</title> Hildesheim: Olms.</bibl></item>
+                    <item><bibl>Cadell, H.<title>Papyrus de la Sorbonne</title> vol. I pp. 3-4</bibl></item>
+                </list>
+            </div>
+            <div type="description" n="catalogues" lang="eng">
+                <head>Catalogue entries</head>
+                <list>
+                    <item>Mertens-Pack 615 </item>
+                    <item>Allen-Sutton-West  P 266</item>
+                    <item>P. Sorb. 1.1 </item>
+                </list>
+            </div>
+
+
+            <div type="edition" n="text">
+                <head lang="eng">Iliad P266</head>
+                <div n="1" type="book">                                
+                  <div n="1" type="column">
+                      <l n="485"><supplied reason="lost">nh=a me\n oi(/ ge me/laina</supplied>n e)p' <unclear>h)</unclear>pei/roio e)/<unclear>russan</unclear> </l>
+                      <l n="486"><supplied reason="lost">u(you= e)pi\ yama/qois,</supplied> <gap reason="lost" unit="character" extent="?"/><gap reason="illegible" unit="character" extent="1"/> <note lang="eng">The traces seem irreconcilable with <foreign lang="grc">o\</foreign> (<bibl>Caldell, 4</bibl>), which would support the vulgate reading <foreign lang="grc">u(po\</foreign>.</note> d' e(/r<unclear>m</unclear>ata <unclear>makra\ ta/nu</unclear><supplied reason="lost">ssan,</supplied> </l>
+                      <l n="487"><supplied reason="lost">au)toi\ d' e)ski/dnanto k</supplied>ata\ klisi/as <unclear>t</unclear>e n<unclear>e/as te.</unclear> </l>
+                      <l n="488"><supplied reason="lost">au)ta\r o(\ mh/nie nhusi\</supplied> <unclear>p</unclear>arh/meno<unclear>s</unclear> w)<unclear>kupo/ro</unclear><supplied reason="lost">isi,</supplied> </l>
+                      <l n="489"><supplied reason="lost">diogenh\s *phle/ws u</supplied><unclear>i(</unclear>o\s p<unclear>o/</unclear>das w)<unclear>ku\s *)ax</unclear><supplied reason="lost">illeu/s:</supplied> </l>  
+
+                      <l n="490"><supplied reason="lost">ou)/te/ pot' ei)s a)gorh\n</supplied> <unclear>p</unclear>wl<unclear>e/sk</unclear>eto <unclear>ku</unclear>di<unclear>a/n</unclear><supplied reason="lost">ei</supplied><unclear>ra</unclear><supplied reason="lost">n</supplied> </l>    
+                      <l n="491"><supplied reason="lost">ou)/te/ pot' e)s po/lemon, a)</supplied><unclear>lla\</unclear> <supplied reason="lost">fqinu/qe</supplied><unclear>sk</unclear><supplied reason="lost">e</supplied> fi/<unclear>lo</unclear><supplied reason="lost">n kh=r</supplied> </l>
+                      <l n="492"><supplied reason="lost">au)=qi me/nwn, poqe/eske d' a)uth/n te pto/</supplied><unclear>lem</unclear><supplied reason="lost">o/n te.</supplied> </l>
+                      <gap reason="lost" extent="?"/>
+                  </div>
+
+            </div>
+
+</div>
+        </body>
+
+    </text>
+</TEI.2>
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" "tei-epidoc.dtd" [
+<!ENTITY % TEI.prose 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE' >
+<!ENTITY % TEI.linking 'INCLUDE' >
+<!ENTITY % TEI.certainty 'INCLUDE' >
+<!ENTITY % TEI.figures 'INCLUDE' >
+<!ENTITY % TEI.names.dates 'INCLUDE' >
+<!ENTITY % TEI.transcr 'INCLUDE' >
+<!ENTITY % TEI.textcrit 'INCLUDE' >
+<!ENTITY % TEI.XML 'INCLUDE'>
+<!ENTITY % ISOlat1 SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-lat1.ent'>
+%ISOlat1;
+<!ENTITY % ISOlat2 SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-lat2.ent'>
+%ISOlat2;
+<!ENTITY % ISOnum SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-num.ent'>
+%ISOnum;
+<!ENTITY % ISOpub SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-pub.ent'>
+%ISOpub;
+]>
+<TEI.2>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Iliad P 219 (P.Bour. 5 = P.Sorbonne inv. 830)</title>
+                <editor><name id="al">Alexander Loney</name></editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>A new edition, with semantic markup, punctuation, accentuation, emendation, and notes.</edition>
+                <respStmt>
+                    <name>Alexander Loney, ed.</name>
+                    <resp>after the edition of</resp>
+                    <name id="col">Collart, P.<title>Les Papyrus Bouriant</title>(1926), 42-43.</name> 
+                        
+                </respStmt>
+                
+            </editionStmt>
+            <extent>under 1Mb</extent>
+            <publicationStmt>
+                <publisher>
+                    The Center for Hellenic Studies of Harvard University
+                </publisher>
+                <authority>
+                    <name>Casey Dué and Mary Ebbott, edd.</name>
+                </authority>
+            </publicationStmt>
+            <sourceDesc>
+                <p>File created electronically.</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language id="eng">English</language>
+                <language id="lat">Latin</language>
+                <language id="grc">Greek</language>
+                <language id="xgrc">Transliterated Greek</language>
+                <language id="deu">German</language>
+                <language id="fra">French</language>
+            </langUsage>
+            <handList>
+                <hand scribe="Principal manuscript hand" id="h1" first="yes"/>
+                <hand scribe="A second hand, with a more pale ink" id="h2"/>
+                </handList>
+            </profileDesc>
+        <revisionDesc>
+            <change>
+                <date>July 27, August 1 2007</date>
+                <respStmt>
+                    <name>Alexander Loney</name>
+                    <resp>markup</resp>
+                </respStmt>
+                <item>Initial XML markup.</item>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text lang="grc">
+        <body>
+            
+            <div type="description" n="date" lang="eng">
+                <head>Date</head>
+                <p>5th century AD (<bibl>Collart, 42</bibl>)</p>
+            </div>
+            <div type="description" n="provenance" lang="eng">
+                <head>Provenance</head>
+                <p>unknown (<bibl>Collart, 42</bibl>)</p>
+            </div>
+            <div type="description" n="bibliography" lang="eng">
+                <head>Bibliography</head>
+                <list >
+                    <item><bibl>van Thiel, H. 1996. <title>Homeri Ilias.</title> Hildesheim: Olms.</bibl></item>
+                    <item><bibl>Collart, P. 1926.<title>Les Papyrus Bouriant.</title> Paris.</bibl></item>
+                    <item><bibl>Photograph from Institut de Papyrologie de la Sorbonne: http://www.papyrologie.paris4.sorbonne.fr/photos/1020830.jpg</bibl></item>
+                </list>
+            </div>
+            <div type="description" n="catalogues" lang="eng">
+                <head>Catalogue entries</head>
+                <list>
+                    <item>Mertens-Pack 902</item>
+                    <item>LDAB 2188</item>
+                    <item>Allen-Sutton-West p219</item>
+                </list>
+            </div>
+            <div type="edition" n="text">
+                
+                
+                
+                <head lang="eng">Iliad P 219</head>
+                
+                <div n="13" type="book">
+                      <div n="1" type="frag"><note lang="eng" resp="al">There is an approximately 4cm margin at the top of the fragment.</note>
+                          <l n="100"><supplied reason="lost">deino/</supplied><unclear>n, o(\ ou)/ p</unclear>ot' e)/gwge tel<supplied reason="lost">eu</supplied>t<unclear>h/</unclear>sesqai e)/faskon, </l>
+                          <l n="101"><supplied reason="lost">*trw=as e)</supplied>f' <supplied reason="lost">h(m</supplied>ete/ras i)<add n="diactrical mark">#80</add><note lang="eng" resp="al">The scribe has added a diaeresis over the preceding "<foreign lang="grc">i</foreign>."</note>e/nai ne/as, oi(\ to\ pa/ros per </l>
+                          <l n="102"><supplied reason="lost">fuzaki</supplied><unclear>nh=|s</unclear> e)l<unclear>a/</unclear>foisin e)oi/kesan, ai(/ te kaq' u(/lhn </l>
+                          <l n="103"><supplied reason="lost">qw/wn p</supplied><unclear>ar</unclear>dali/w<unclear>n te</unclear> lu/kwn t'<add n="punctuation">#81</add><note lang="eng" resp="al">The scribe has added an apostrophe after the preceding "<foreign lang="grc">t</foreign>."</note> h)/i+<add n="diactrical mark">#80</add><note lang="eng" resp="al">The scribe has added a diaeresis over the preceding "<foreign lang="grc">i</foreign>."</note>a <unclear>pe/lo</unclear>ntai </l>
+                          <l n="104"><supplied reason="lost">au)/tws h)la/</supplied>sk<supplied reason="lost">o</supplied>u<supplied reason="lost">s</supplied><unclear>ai</unclear> a)<unclear>n</unclear>a/lkid<unclear>e</unclear>s, ou)d' e)pi\ xa/<supplied reason="lost">r</supplied>mh|: </l>
+                          <l n="105"><supplied reason="lost">w(\s *trw=e</supplied>s to\ <supplied reason="lost">pri/</supplied>n <supplied reason="lost">ge m</supplied>e/nos kai\ xei=ras *)axaiw=n </l>
+                          <l n="106"><supplied reason="lost">mi/mnei</supplied><unclear>n o</unclear><supplied reason="lost">u)k e)q</supplied>e/leskon e)nanti/on, ou)d' h)baio/<supplied reason="lost">n: </supplied></l>
+                          <l n="107"><supplied reason="lost">nu=n de\ e(ka\s po/</supplied>lios koi/lh|s e)pi\ nhu<add n="diactrical mark">#80</add><note lang="eng" resp="al">The scribe has added a diaeresis over the preceding "<foreign lang="grc">u</foreign>."</note>si\ ma/xont<supplied reason="lost">ai </supplied></l>
+                          <l n="108"><supplied reason="lost">h(gemo/nos kako/t</supplied><unclear>hti</unclear> meqhmosu/nh|si/ <unclear>t</unclear>e law=<unclear>n, </unclear><add n="punctuation">#72</add><note lang="eng" resp="al">The scribe has added a high punctus at the end of this line.</note></l>
+                          <l n="109"><supplied reason="lost">oi(\ kei/nw| e)ri/san</supplied><unclear>tes a)</unclear>mu/nein ou)k e)qe/lousi </l>
+                          <l n="110"><supplied reason="lost">nhw=n w)kupo/rwn, a)</supplied><unclear>lla\</unclear> ktei/non<unclear>t</unclear>ai a)n' au)ta/s. <add n="punctuation">#71</add><note lang="eng" resp="al">The scribe has added a mid punctus at the end of this line.</note></l>
+                          <l n="111"><supplied reason="lost">a)ll' ei) dh\ kai\ pa/mpan e)t</supplied><unclear>h/</unclear>tumon ai)/tio/<sic/><add place="supralinear" hand="h2" n="correction">s</add> e)st<supplied reason="lost">i</supplied><unclear>n </unclear><add n="punctuation">#72</add><note lang="eng" resp="al">The scribe has added a high punctus at the end of this line.</note></l>
+                          <l n="112"><supplied reason="lost">h(/rws *)atrei/dhs eu)ru\ kre</supplied>i/<unclear>w</unclear>n *)agame/mnwn </l>
+                          <l n="113"><supplied reason="lost">ou(/nek' a)phti/mhse po</supplied><unclear>dw/</unclear>kea *ph<unclear>l</unclear>ei/wna, </l>
+                          <l n="114"><supplied reason="lost">h(me/as g' ou)/ pws e)/sti</supplied> meq<sic corr="">e</sic>ie/me<unclear>n</unclear>ai pole/moio. </l>
+                          <l n="115"><supplied reason="lost">a)ll' a)kew/meqa qa=sson: a)</supplied><unclear>ke</unclear><supplied reason="lost">st</supplied>ai/ <unclear>to</unclear><supplied reason="lost">i f</supplied><unclear>r</unclear>e/nes <unclear>e)sqlw=n. </unclear></l>
+                          <l n="116"><supplied reason="lost">u(mei=s d' ou)k e)/ti kala\ meqi/ete <note lang="eng" resp="al">The ed. princ. has an error here. All of this line up to "<foreign lang="grc">ur</foreign>" has been lost.</note>qo</supplied>u/r<supplied reason="lost">i</supplied>dos <supplied reason="lost">a)l</supplied>kh=s </l>
+                          <l n="117"><supplied reason="lost">pa/ntes a)/ristoi e)o/ntes a)na\</supplied> st<unclear>r</unclear><supplied reason="lost">at</supplied>o/n. ou)<supplied reason="lost">d' a)\n e)/</supplied>gw<unclear>ge </unclear></l>
+                          <l n="118"><supplied reason="lost">a)ndri\ maxessai/mhn o(/s tis p</supplied>ole/<supplied reason="lost">moio meq</supplied>ei/h </l>
+                          <l n="119"><supplied reason="lost">lugro\s e)w/n: u(mi=n de\ nemessw=mai</supplied><unclear> p</unclear><supplied reason="lost">eri\ k</supplied><unclear>h=</unclear><supplied reason="lost">ri. </supplied></l>
+                          <l n="120"><supplied reason="lost">w)= pe/pones ta/xa dh/ ti kako\n</supplied><unclear> p</unclear><supplied reason="lost">oih/set</supplied><unclear>e</unclear><supplied reason="lost"> mei=zon </supplied></l>
+                          <l n="121"><supplied reason="lost">th=|de meqhmosu/nh|: a)ll' e)n fresi\ qe/sqe</supplied> e(/<supplied reason="lost">ka</supplied><unclear>s</unclear><supplied reason="lost">tos </supplied></l>
+                          <l n="122"><supplied reason="lost">ai)dw= kai\ ne/mesin: dh\ ga\r me/ga nei=kos o)/r</supplied><unclear>wren. </unclear></l>
+                          <l n="123"><supplied reason="lost">*(/ektwr dh\ para\ nhusi\ boh\n a)ga</supplied><unclear>qo\s </unclear><supplied reason="lost">polemi/</supplied><unclear>zei </unclear></l>
+                          <l n="124"><supplied reason="lost">kartero/s, e)/rrhcen de\ pu/las kai\ m</supplied>a<unclear>kr</unclear><supplied reason="lost">o\n o)xh=a. </supplied></l>
+                          <l n="125"><supplied reason="lost">(/ws r(a keleutio/wn gaih/oxos w)=</supplied><unclear>rse</unclear><supplied reason="lost">n *)axaiou/</supplied>s. </l>
+                          <l n="126"><supplied reason="lost">a)mfi\ d' a)/r' *ai)/antas doiou\s</supplied><unclear> i(/st</unclear>an<unclear>to</unclear> f<supplied reason="lost">a/lagges </supplied></l>
+                          <l n="127"><supplied reason="lost">karterai/, a(\s ou)/t' a)/n ken *)a/rhs o)</supplied>no/<supplied reason="lost">saito me</supplied><unclear>t</unclear><supplied reason="lost">elqw\</supplied>n </l>
+                        </div>
+                </div>
+                </div>
+            </body>
+              
+        
+    </text>
+</TEI.2>
+    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                   

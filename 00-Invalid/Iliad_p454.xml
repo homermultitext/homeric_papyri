@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" "tei-epidoc.dtd" [
+<!ENTITY % TEI.prose 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE' >
+<!ENTITY % TEI.linking 'INCLUDE' >
+<!ENTITY % TEI.certainty 'INCLUDE' >
+<!ENTITY % TEI.figures 'INCLUDE' >
+<!ENTITY % TEI.names.dates 'INCLUDE' >
+<!ENTITY % TEI.transcr 'INCLUDE' >
+<!ENTITY % TEI.textcrit 'INCLUDE' >
+<!ENTITY % TEI.XML 'INCLUDE'>
+<!ENTITY % ISOlat1 SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-lat1.ent'>
+%ISOlat1;
+<!ENTITY % ISOlat2 SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-lat2.ent'>
+%ISOlat2;
+<!ENTITY % ISOnum SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-num.ent'>
+%ISOnum;
+<!ENTITY % ISOpub SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-pub.ent'>
+%ISOpub;
+]>
+<TEI.2>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Iliad P 454</title>
+                <editor><name id="al">Alexander Loney</name></editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>A new edition, with semantic markup, punctuation, accentuation, emendation, and notes.</edition>
+                <respStmt>
+                    <name>Alexander Loney, ed.</name>
+                    <resp>after the edition of</resp>
+                    <name id="van">Vandoni, Mariangela. <title>P. Mil. Vogl. 2 29. </title>pp.3-4.</name> 
+                  
+                        
+                </respStmt>
+                
+            </editionStmt>
+            <extent>under 1Mb</extent>
+            <publicationStmt>
+                <publisher>
+                    The Center for Hellenic Studies of Harvard University
+                </publisher>
+                <authority>
+                    <name>Casey Dué and Mary Ebbott, edd.</name>
+                </authority>
+            </publicationStmt>
+            <sourceDesc>
+                <p>File created electronically.</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language id="eng">English</language>
+                <language id="lat">Latin</language>
+                <language id="grc">Greek</language>
+                <language id="xgrc">Transliterated Greek</language>
+                <language id="deu">German</language>
+                <language id="fra">French</language>
+            </langUsage>
+            </profileDesc>
+        <revisionDesc>
+            <change>
+                <date>July 22, 2009</date>
+                <respStmt>
+                    <name>Alexander Loney</name>
+                    <resp>markup</resp>
+                </respStmt>
+                <item>Initial XML markup.</item>
+                </change>
+        </revisionDesc>
+    </teiHeader>
+    <text lang="grc">
+        <body>
+            
+            <div type="description" n="date" lang="eng">
+                <head>Date</head>
+                <p>3rd cent. A.D. (<bibl>Vandoni, 3</bibl>)</p>
+                <p>2nd half of 1st cent. A.D. (<bibl>Moretti</bibl>)</p>
+            </div>
+            <div type="description" n="provenance" lang="eng">
+                <head>Provenance</head>
+                <p>Tebtynis (<bibl>Vandoni, 3</bibl>)</p>
+            </div>
+            <div type="description" n="bibliography" lang="eng">
+                <head>Bibliography</head>
+                <list >
+                    <item><bibl>van Thiel, H. 1996. <title>Homeri Ilias.</title> Hildesheim: Olms.</bibl></item>
+                    <item><bibl>Vandoni, Mariangela. 1961. <title>P. Mil. Vogl. 2 29.</title>Milan: Instituto Editoriale Cisalpino.</bibl></item>
+                    <item><bibl>Moretti, A.F. 1993. <title>Tyche 8:</title> 87-97.</bibl></item>     
+                </list>
+            </div>
+            <div type="description" n="catalogues" lang="eng">
+                <head>Catalogue entries</head>
+                <list>
+                    <item>Mertens-Pack 562 </item>
+                    <item>LDAB 1392 </item>
+                    <item>Allen-Sutton-West p454 </item>
+                </list>
+            </div>
+            <div type="edition" n="text">
+                
+                
+                
+                <head lang="eng">Iliad P 454</head>
+                
+                <div n="1" type="book">
+                    <div n="1" type="col">
+                        <gap reason="lost" extent="?" unit="line"/>
+                        <l n="7"><gap reason="lost" extent="?" unit="character"/><gap reason="illegible" extent="2" unit="character"/><gap reason="lost" extent="?" unit="character"/></l>
+                        <l n="8"><supplied reason="lost">ti/s t' a)/r sfwe qew=n e)/ridi cune/hke ma/xe</supplied><unclear>sq</unclear><supplied reason="lost">ai;</supplied> </l>
+                        <l n="9"><supplied reason="lost">*lhtou=s kai\ *dio\s ui(o/s: o(\ ga\r basilh=i+ xol</supplied>w<supplied reason="lost">qei\s</supplied> </l>
+                        <l n="10"><supplied reason="lost">nou=son a)na\ strato\n w)/rse kakh/n, o)l</supplied><unclear>e/k</unclear><supplied reason="lost">onto de\ laoi/,</supplied> </l>
+                        <l n="11"><supplied reason="lost">ou(/neka to\n *xru/shn h)ti/masen a)rhth=r</supplied>a </l>
+                        <l n="12"><supplied reason="lost">*)atrei/dhs. o(\ ga\r h)=lqe qoa\s e)pi\ nh=as *)ax</supplied><unclear>a</unclear>i<unclear>w=</unclear><supplied reason="lost">n</supplied> </l>
+                        <l n="13"><supplied reason="lost">luso/meno/s te qu/gatra fe/rwn t' a)perei/si' a)/</supplied>poi<unclear>n</unclear><supplied reason="lost">a,</supplied> </l>
+                        <l n="14"><supplied reason="lost">ste/mmat' e)/xwn e)n xersi\n e(khbo/lou *)ap</supplied>o/ll<supplied reason="lost">wnos</supplied> </l>
+                        <l n="15"><supplied reason="lost">xruse/w| a)na\ skh/ptrw|, kai\ e)li/sseto pa/n</supplied>tas *)ax<unclear>a</unclear><supplied reason="lost">iou/s,</supplied> </l>
+                        <l n="16"><supplied reason="lost">*)atrei/da de\ ma/lista du/w, kosmh/tore l</supplied>aw=n:<add place="inline" n="punctuation">#70</add><note lang="eng">A high punctus is visible here.</note> </l>
+                        <l n="17"><supplied reason="lost">"*)atrei=dai te kai\ a)/lloi e)uknh/mides *)ax</supplied>aioi/,<add place="inline" n="punctuation">#70</add><note lang="eng">A high punctus is visible here.</note> </l>
+                        <l n="18"><supplied reason="lost">u(mi=n me\n qeoi\ doi=en *)olu/mpia dw/ma</supplied>t'<add place="inline" n="punctuation">#81</add><note lang="eng">An apostrophe is visible here.</note> e)/xont<unclear>e</unclear><supplied reason="lost">s</supplied> </l>
+                        <l n="19"><supplied reason="lost">e)kpe/rsai *pria/moio po/lin, eu)= d' oi)/kad' i(k</supplied>e/sqai:<add place="inline" n="punctuation">#70</add><note lang="eng">A high punctus is visible here.</note> </l>
+                        <l n="20"><supplied reason="lost">pai=da d' e)moi\ lu/saite fi/lhn, ta\ d' a)/poin</supplied>a de/xes<supplied reason="lost">qai,</supplied> </l>
+                        <l n="21"><supplied reason="lost">a(zo/menoi *dio\s ui(o\n e(khbo/lon *)apo/l</supplied>lwna.<add place="inline" n="punctuation">#70</add><note lang="eng">A high punctus is visible here.</note>" </l>
+                        <l n="22"><supplied reason="lost">e)/nq' a)/lloi me\n pa/ntes e)peufh/mhsa</supplied>n *)axaioi\ </l>
+                        <l n="23"><supplied reason="lost">ai)dei=sqai/ q' i(erh=a kai\ a)glaa\ de/xqai a)/po</supplied>ina:<add place="inline" n="punctuation">#72</add><note lang="eng">A low punctus is visible here.</note> </l>
+                        <l n="24"><supplied reason="lost">a)ll' ou)k *)atrei/dh| *)agame/mnoni h(/ndan</supplied>e qumw=<sic corr="|"/>, </l>
+                        <l n="25"><supplied reason="lost">a)lla\ kakw=s a)fi/ei, kratero\n d' e)pi\ mu=q</supplied>on e)/tel<unclear>l</unclear><supplied reason="lost">e:</supplied> </l>
+                        <l n="26"><supplied reason="lost">"mh/ se, ge/ron, koi/lh|sin e)gw\ para\ nhu</supplied>s<supplied reason="lost">i\ kixei/w</supplied> </l>
+                        <gap reason="lost" extent="?" unit="line"/>
+                    </div>
+                    <div n="2" type="col">
+                        <l n="31"><gap reason="illegible" extent="?" unit="character"/><note resp="al" lang="eng">Vandoni observes that "traces" of line 31 are visible.</note></l>
+                        <l n="32">a)l<add place="infralinear" n="editorial sign">#6</add><note lang="eng">A paragraphos dash is inserted beneath the beginning of this verse.</note>l' i)/<supplied reason="lost">qi mh/ m' e)re/qize saw/teros w(/s ke ne/hai."</supplied> </l>
+                        <l n="33">w(\s e)/<supplied reason="lost">fat', e)/ddeisen d' o(\ ge/rwn kai\ e)pei/qeto mu/qw|:</supplied> </l>
+                        <l n="34">bh= d'<supplied reason="lost"> a)ke/wn para\ qi=na polufloi/sboio qala/sshs.</supplied> </l>
+                        <l n="35">poll<supplied reason="lost">a\ d' e)/peit' a)pa/neuqe kiw\n h)ra=q' o(\ geraio\s</supplied> </l>
+                        <l n="36">*)apo/l<supplied reason="lost">lwni a)/nakti, to\n h)u/komos te/ke *lhtw/:</supplied> </l>
+                        <l n="37">"klu=<unclear>q</unclear><supplied reason="lost">i/ meu, a)rguro/toc', o(\s *xru/shn a)mfibe/bhkas</supplied> </l>
+                        <l n="38">*ki/ll<supplied reason="lost">a/n te zaqe/hn, *tene/doio/ te i)=fi a)na/sseis,</supplied> </l>
+                        <l n="39"><supplied reason="lost">*s</supplied>min<supplied reason="lost">qeu=: ei)/ pote/ toi xari/ent' e)pi\ nho\n e)/reya,</supplied> </l>
+                        <gap reason="lost" extent="?" unit="line"/>
+                    </div>
+                    
+                </div>
+            </div>
+            
+            
+        </body>
+        
+        
+    </text>
+</TEI.2>
+    
+    
+    
+    

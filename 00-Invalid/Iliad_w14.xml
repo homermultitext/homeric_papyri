@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main Document Type//EN" "tei-epidoc.dtd" [
+<!ENTITY % TEI.prose 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE' >
+<!ENTITY % TEI.linking 'INCLUDE' >
+<!ENTITY % TEI.certainty 'INCLUDE' >
+<!ENTITY % TEI.figures 'INCLUDE' >
+<!ENTITY % TEI.names.dates 'INCLUDE' >
+<!ENTITY % TEI.transcr 'INCLUDE' >
+<!ENTITY % TEI.textcrit 'INCLUDE' >
+<!ENTITY % TEI.XML 'INCLUDE'>
+<!ENTITY % ISOlat1 SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-lat1.ent'>
+%ISOlat1;
+<!ENTITY % ISOlat2 SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-lat2.ent'>
+%ISOlat2;
+<!ENTITY % ISOnum SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-num.ent'>
+%ISOnum;
+<!ENTITY % ISOpub SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-pub.ent'>
+%ISOpub;
+]>
+<TEI.2>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Iliad w14</title>
+                <editor id="bh">Bart Huelsenbeck</editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>A new edition, with semantic markup, punctuation, accentuation, emendation, and notes.</edition>
+                <respStmt>
+                    <name>Bart Huelsenbeck, ed.</name>
+                    <resp>after the edition of</resp>
+                    <name id="swest">West, S.<title>The Ptolemaic Papyri of Homer, Papyrologica Coloniensia III</title> pp. 59-62</name>
+                </respStmt>
+            </editionStmt>
+           
+            <extent>under 1Mb</extent>
+            <publicationStmt>
+                <publisher>
+                    The Center for Hellenic Studies of Harvard University
+                </publisher>
+                <authority>
+                    <name>Casey Dué and Mary Ebbott, edd.</name>
+                </authority>
+            </publicationStmt>
+            <sourceDesc>
+                <p>File created electronically.</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language id="eng">English</language>
+                <language id="lat">Latin</language>
+                <language id="grc">Greek</language>
+                <language id="xgrc">Transliterated Greek</language>
+                <language id="deu">German</language>
+                <language id="fra">French</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change>
+                <date>July 25, 2007</date>
+                <respStmt>
+                    <name>Bart Huelsenbeck</name>
+                    <resp>markup</resp>
+                </respStmt>
+                <item>Initial XML markup.</item>
+            </change>
+            <change>
+                <date>July 27, 2007</date>
+                <respStmt>
+                    <name id="al">Alexander Loney</name>
+                    <resp>markup</resp>
+                </respStmt>
+                <item>review and error-check</item>
+            </change>
+        </revisionDesc>
+               
+    </teiHeader>
+    <text lang="grc">
+        <body>
+            <div type="description" n="date" lang="eng">
+                <head>Date</head>
+                <p>Circa 250 B.C. (<bibl>West, 59</bibl>)</p>
+            </div>
+            <div type="description" n="provenance" lang="eng">
+                <head>Provenance</head>
+                <p>unknown (<bibl>West, 59</bibl>)</p>
+            </div>
+            <div type="description" n="context" lang="eng">
+                <head>Context</head>
+                <p>The prose fragment contains explanations of various words illustrated through quotations of Homer and another, unknown poet (<bibl>West, 59</bibl>)</p>
+            </div>
+            
+            <div type="description" n="bibliography" lang="eng">
+                <head>Bibliography</head>
+                <list >
+                    <item><bibl>van Thiel, H. 1996. <title>Homeri Ilias</title> Hildesheim: Olms.</bibl></item>
+                    <item><bibl>West, S. 1967. <title>The Ptolemaic Papyri of Homer, Papyrologica Coloniensia III</title> Köln and Opladen.</bibl></item>
+                </list>
+            </div>
+            
+            <div type="description" n="catalogues" lang="eng">
+                <head>Catalogue entries</head>
+                <list>
+                    <item>Mertens-Pack 1221 </item>
+                    <item>LDAB 2344 </item>
+                    <item>Allen-Sutton-West  w14</item>
+                    <item>P.Hamburg 2.137 (inventory: Hamburg, Bibliothek gr. 657)</item>
+                </list>
+            </div>
+
+            <div type="edition" n="text">    
+                <head lang="eng">Iliad w14</head>
+        <gap reason="lost" unit="line" extent="?"/>
+                <div n="14" type="book">
+                    <l n="349"><gap reason="lost" unit="character" extent="?"/><unclear>a)</unclear>po\ x<supplied reason="lost">qono\s u(yo/s' e)/erge.</supplied> </l>
+                    <l n="350"><supplied reason="lost">tw=| e)/</supplied>p<unclear>i</unclear>leca/sqh<supplied reason="lost">n, e)pi\ de\ nefe/lhn e(/ssa</supplied>nto </l>
+                </div>
+            
+                <div n="2" type="book">
+                    <l n="848a"><supplied reason="omitted">*phlego/nos q' ui(os</supplied> <supplied reason="lost">peride/ci</supplied>os *)asteropai=os <note lang="eng">This plus-verse is observed also in Scholia T at Iliad 21.140 and is attributed to the Euripidean edition by h94 col. vi.17ff. (<bibl>S.West, 61</bibl>)</note></l>             
+                </div>         
+            
+                <div n="9" type="book">
+                    <l n="230"><supplied reason="omitted">dei/dimen:</supplied> e)n doih=| de\ s<supplied reason="lost">awse/men h)\ a)pol</supplied><unclear>e/</unclear>sqai </l>            
+                    <l n="231">nh=a<unclear>s</unclear> <supplied reason="lost">e)usse/lmous, ei) mh\ su/</supplied> ge du/seai a)<unclear>l</unclear>kh/n. </l>
+                </div>          
+            
+                <div n="5" type="book">
+                    <l n="746"><supplied reason="lost">briq</supplied>u\ me/ga stib<unclear>a</unclear><supplied reason="lost">ro/n</supplied><gap reason="omitted"/><note resp="bh">This is a common formula.  In addition to its appearance at Iliad 5.746, it can be found at Iliad 8.390, 16.141, 802, 19.388, and Odyssey 1.100.</note></l>                
+                </div>            
+            
+                <div n="13" type="book">
+                    <l n="505"><supplied reason="omitted">w)/|xet', e)pei/ r(' a(/lion</supplied> <supplied reason="lost">stibarh=s a)po\</supplied> xeiro\s o)/lisq<unclear>e</unclear>n. <note resp="bh">For this phrase, cf. also Iliad 16.615.  For the use of <foreign lang="grc">o)/lisqen</foreign> with a weapon S.West (<bibl>West, 62</bibl>) cites Theoc. 25.230.</note></l>                                  
+                </div>             
+            
+            
+       <gap reason="lost" unit="line" extent="?"/>         
+                            
+                
+                
+                
+                
+            </div>
+        </body>
+        
+    </text>
+</TEI.2>
